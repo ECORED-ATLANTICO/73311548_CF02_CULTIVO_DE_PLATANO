@@ -29,9 +29,9 @@
                   a.boton.color-acento-botones(href="https://docs.google.com/document/d/1jVBfOd5V9GKLcxlabgO5ugooc6IHyGn5-JTTdtEkPMo/edit?usp=sharing" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
-    
+
     separador
-    
+
     #t_2_1.titulo-segundo
       .h2(data-aos="fade-right") 2.1 Cosecha
     .mb-3
@@ -153,7 +153,7 @@
       .h2(data-aos="fade-right") 2.2	Poscosecha
     .mb-3
       p.mb-5 La poscosecha tiene como objetivo preservar la calidad e integridad de los plátanos para su comercialización o consumo. Este proceso abarca diversas actividades esenciales:
-      .row.mb-5
+      .row.justify-content-center.align-items-center.mb-5
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
           .tarjeta--boton.p-5
             .row.justify-content-center.mb-3
@@ -189,13 +189,12 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10.mb-4
           .cajon.bg-4.g_18.mb-3
-            .row.mb-4
+            .row.justify-content-center.align-items-center.mb-4
               .col-lg-12.p-4.ps-5 
                 p Durante esta etapa, los plátanos experimentan cambios en su composición físico-química: aumenta la acidez titulable y los grados Brix (indicadores de dulzura), mientras que el pH disminuye. Un manejo adecuado en la poscosecha garantiza la conservación de la frescura, presentación y valor comercial del producto, cumpliendo con las expectativas del consumidor y reduciendo pérdidas a lo largo de la cadena de distribución.
         .col-lg-10.mb-4
           div.metodo.mb-4.mb-md-5
             span.texto Proceso de poscosecha
-          
           p.mb-3 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
         .col-lg-10.mb-4
           .row
@@ -235,75 +234,86 @@
                   b Empaque:
                 p Organización y protección del producto para su distribución.
       .titulo-sexto.bg-11.mb-4
-        h5 Tabla 2: 
-        span.text-dark Principales plagas del plátano
+        h5 Tabla 5:
+        span.text-dark Guía de operación para lavado de plátano
 
-      .tabla-a.mb-5 
+      .tabla-a2.mb-5 
         table
           thead
             tr
-              th Factor de control
-              th Frecuencia
-              th Procedimiento
-              th Imagen
-              th Instrumentos
+              th(style="width: 7%") Factor de control
+              th(style="width: 15%") Frecuencia
+              th(style="width: 22%") Procedimiento
+              th(style="width: 40%") Imagen
+              th(style="width: 15%") Instrumentos
           tbody
             tr
-              td Frutos
-              td Después del desmane y desdede
-              td 
-                p Realizar lavado superficial de los frutos para remover suciedad (residuos de tierra, agroquímicos y otros) y patógenos.
-                p Se debe usar una mezcla de agua con alumbre en una proporción de 100 g por cada 10 litros de agua o utilizar jabones industriales para ayudar a remover el látex y destruir microorganismos, como hongos, que atacan el pedúnculo y la corona de los dedos. Los frutos se dejan 5 a 10 minutos en el tanque. Esta solución también sirve como cicatrizante en las zonas de la corona donde se han hecho cortes.
-                p Finalmente, realizar secado o escurrido de los frutos para evitar el crecimiento de hongos.
-              td
+              td(rowspan="3") Frutos
+              td(rowspan="3") Después del desmane y desde
+              td(rowspan="3")
+                p.p-2 Realizar lavado superficial de los frutos para remover suciedad (residuos de tierra, agroquímicos y otros) y patógenos.
+                p.p-2 Se debe usar una mezcla de agua con alumbre en una proporción de 100 g por cada 10 litros de agua o utilizar jabones industriales para ayudar a remover el látex y destruir microorganismos, como hongos, que atacan el pedúnculo y la corona de los dedos. Los frutos se dejan 5 a 10 minutos en el tanque. Esta solución también sirve como cicatrizante en las zonas de la corona donde se han hecho cortes.
+                p.p-2 Finalmente, realizar secado o escurrido de los frutos para evitar el crecimiento de hongos.
+              td.imagen
                 .img-container
                   figure
-                    img(src="@/assets/curso/temas/tema2/img_22.svg", alt="Desde")
                     figcaption Desde
-                  figure
-                    img(src="@/assets/curso/temas/tema2/img_23.svg", alt="Lavado y desinfección")
-                    figcaption Lavado y desinfección
-                  figure
-                    img(src="@/assets/curso/temas/tema2/img_24.svg", alt="Secado o escurrido")
-                    figcaption Secado o escurrido 
-              td
+                    img(src="@/assets/curso/temas/tema2/img_22.svg", alt="Desde")
+                    p.etiqueta www.agricultura.gob.ec
+              td(rowspan="3")
                 ul
-                  li • Toalla
-                  li • Cepillo
-                  li • Jabón
-                  li • Alumbre como cicatrizante (100 g/100Lt)
-                  li • Balde
-                  li • Aspersores
+                  li.mb-4 • Toalla
+                  li.mb-4 • Cepillo
+                  li.mb-4 • Jabón
+                  li.mb-4 • Alumbre como cicatrizante (100 g/100Lt)
+                  li.mb-4 • Balde
+                  li.mb-4 • Aspersores
+            tr
+              td.imagen
+                .img-container
+                  figure
+                    figcaption Lavado y desinfección
+                    img(src="@/assets/curso/temas/tema2/img_23.png", alt="Lavado y desinfección")
+                    p.etiqueta www.agricultura.gob.ec
+              tr
+                td.imagen
+                  .img-container
+                    figure
+                      figcaption Secado o escurrido 
+                      img(src="@/assets/curso/temas/tema2/img_24.svg", alt="Secado o escurrido")
+                      p.etiqueta www.agricultura.gob.ec
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10.mb-4
-          div.metodo.mb-4.mb-md-5
+          div.metodo2.mb-4.mb-md-5
             span.texto Guía para selección y clasificación del plátano
         .col-lg-10.mb-4 
-          .row 
+          .row.justify-content-center.align-items-center
             .col-md-2.col-lg-3.mb-3
-              figure(data-aos="zoom-in")
+              figure
                 img(src="@/assets/curso/temas/tema2/img_25.svg", alt="alt").mx-auto
             .col-lg-9.mb-3
-              AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA").color-primario
-                .row(titulo="Daño por plagas")
-                  .col-md-12.mb-4.mb-md-0
-                    p Después del secado, seleccione para la comercialización los frutos que se encuentren libres de: 
-                    ul
-                      li • Frutos dañados por pájaros o insectos
-                      li • Ablandamientos
-                      li • Manchas, mordeduras, cicatrices o mordiscos ovalados en la cáscara, trips
-                    .row 
-                      .col-lg-6
-                        figure
-                          img(src="@/assets/curso/temas/tema2/img_26.svg", alt="alt").mx-auto
-                      .col-lg-6
-                        .tarjeta_bg-06.p-4.mb-2
-                          ul
-                            li • Percepción visual
-                            li • Recipiente colector
-                            li • Canastilla para producto dañado
-                            li • Canastilla para comercialización
-                        p https://oggisioggino.wordpress.com/
+              AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+                .row(titulo="Daño por plagas").justify-content-center.align-items-center
+                  .col-md-10.mb-4.mb-md-0
+                    .row.justify-content-center.align-items-center
+                      .col-lg-10
+                        p Después del secado, seleccione para la comercialización los frutos que se encuentren libres de: 
+                        p.mb-0 • Frutos dañados por pájaros o insectos
+                        p.mb-0 • Ablandamientos
+                        p.mb-2 • Manchas, mordeduras, cicatrices o mordiscos ovalados en la cáscara, trips
+                      .col-lg-11
+                        .row.justify-content-center.align-items-center
+                          .col-lg-8
+                            figure
+                              figcaption Plátanos con cicactrices en la cáscara
+                              img(src="@/assets/curso/temas/tema2/img_26.svg", alt="alt").mx-auto
+                          .col-lg-4
+                            .tarjeta_bg-06.p-4.mb-2
+                              p.mb-0 • Percepción visual
+                              p.mb-0 • Recipiente colector
+                              p.mb-0 • Canastilla para producto dañado
+                              p.mb-0 • Canastilla para comercialización
+                            p https://oggisioggino.wordpress.com/
                 .row(titulo="Enfermedades por hongos")
                   .col-md-12.mb-4.mb-md-0
                     p También, seleccione para comercialización los frutos que se encuentren libres de:
@@ -318,6 +328,7 @@
                     .row 
                       .col-lg-6
                         figure
+                          figcaption Mal de la corona
                           img(src="@/assets/curso/temas/tema2/img_26.svg", alt="alt").mx-auto
                       .col-lg-6
                         .tarjeta_bg-06.p-4.mb-2
@@ -326,6 +337,7 @@
                             li • Recipiente colector
                             li • Canastilla para producto dañado
                             li • Canastilla para comercialización
+                        p https://oggisioggino.wordpress.com/
                 .row(titulo="Daño mecánico")
                   .col-md-12.mb-4.mb-md-0
                     p Seleccione para terceras o realice unas adecuada disposición final en los frutos que presenten daños, como:
@@ -337,6 +349,7 @@
                     .row 
                       .col-lg-6
                         figure
+                          figcaption Daño mecánico por rajaduras
                           img(src="@/assets/curso/temas/tema2/img_27.svg", alt="alt").mx-auto
                       .col-lg-6
                         .tarjeta_bg-06.p-4.mb-2
@@ -344,6 +357,7 @@
                             li • Percepción visual
                             li • Canastilla para producto dañado
                             li • Canastilla para comercialización
+                        p https://oggisioggino.wordpress.com/
                 .row(titulo="Categorías de calidad")
                   .col-md-12.mb-4.mb-md-0
                     p Los plátanos deben estar enteros y duros, exteriormente secos, Limpios, sin manchas ni grietas, no deben presentar indicios de pudrición ni magulladuras o heridas no cicatrizadas, ni tener el cuello roto.
@@ -376,7 +390,7 @@
             span.texto Preparación para la poscosecha 
           p.mb-2 A continuación, algunas condiciones de la poscosecha:
         .col-lg-10.mb-4
-          div.metodo.mb-4.mb-md-5
+          div.metodo2.mb-4.mb-md-5
             span.texto Herramientas e insumos
         .col-lg-10.mb-4
           .row.mb-3
@@ -385,15 +399,15 @@
             .col-lg-4
               .tarjeta_bg-06.p-4.mb-2
                 ul
-                  li • Agua limpia.
-                  li • Alumbre.
-                  li • Estibas.
-                  li • Talonario de registro.
-                  li • Tanques.
-                  li • Baldes.
-                  li • Mesa de escurrido.
-                  li • Mesa de empaque.
-            .col-lg-4
+                  li ✔ Agua limpia.
+                  li ✔ Alumbre.
+                  li ✔ Estibas.
+                  li ✔ Talonario de registro.
+                  li ✔ Tanques.
+                  li ✔ Baldes.
+                  li ✔ Mesa de escurrido.
+                  li ✔ Mesa de empaque.
+            .col-lg-3
               img(src="@/assets/curso/temas/tema2/img_34.svg", alt="Imagen de balde o cubeta" class="img-fluid")
         .col-lg-10.mb-4
           div.metodo.mb-4.mb-md-5
@@ -418,8 +432,8 @@
           ImagenInfograficaB.color-primario
             template(v-slot:imagen)
             figure
-                img(src='@/assets/curso/temas/tema2/img_38.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
+              img(src='@/assets/curso/temas/tema2/img_38.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
 
             div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
             h5 titulo
@@ -442,18 +456,18 @@
           div.metodo.mb-4.mb-md-5
             span.texto Defectos del plátano más comunes
       div.metodo.mb-4.mb-md-5
-        span.texto Defectos del plátano más comunes
+        span.texto Empacado:
       .row.mb-3
         .col-lg-3
-          img(src="@/assets/curso/temas/tema2/img_1.svg", alt="Imagen de unos platanos" class="img-fluid")
-        .col-lg-9
+          img(src="@/assets/curso/temas/tema2/img_44.svg", alt="Imagen de unos platanos" class="img-fluid")
+        .col-lg-8
           p.mb-2 El empacado se hace posterior al lavado y al escurrido, se realiza en cajas y requiere de mucho cuidado, las cajas de exportación deben empacarse en dos hileras, de tal manera que las coronas queden contra las paredes de la caja y las puntas tocando las hileras de las otras. Los dedos se deben etiquetar según las exigencias de la empresa exportadora, algunas exigen etiquetar sólo las dos últimas líneas, luego se cubre con un plástico para luego ponerle la tapa. 
           p.mb-2 Las cajas más usadas por algunas exportadoras en Colombia son de cartón y tienen una dimensión de 50 centímetros de ancho por 24 centímetros de alto. Se debe tener cuidado y buen criterio para no empacar plátanos pintones, defectuosos o que no reúnan las condiciones de calibre.
-          p.mb-2 Cada caja debe llevar un número correspondiente a la fecha y el código del exportador.
+          p.mb-0 Cada caja debe llevar un número correspondiente a la fecha y el código del exportador.
       .titulo-sexto.bg-11.mb-4
         h5 Tabla 6:
         span.text-dark Guía de operación para lavado de plátano
-      .tabla-a.mb-5 
+      .tabla-a2.mb-5 
         table
           caption Nota.    Este estudio, Con base en Moreno, Candanoaza, & Olarte, 2009; Sena, 2004.
           thead
@@ -465,14 +479,41 @@
           tbody
             tr
               td Empaque intra-finca
-              td Para el traslado intra-finca de los racimos se recomienda transportar en el hombro, guaduas, carretillas, cable aéreo u otro medio, evitando maltrato entre ellos o que sufran daños o golpes.
               td 
+                p Para el traslado intra-finca de los racimos se recomienda transportar en el hombro, guaduas, carretillas, cable aéreo u otro medio, evitando maltrato entre ellos o que sufran daños o golpes.
               td 
+                .img-container
+                  figure
+                    figcaption Traslado en carretilla
+                    img(src="@/assets/curso/temas/tema2/img_45.svg", alt="Traslado en carretilla")
+              td 
+                ul
+                  li.mb-4 • Hombro
+                  li.mb-4 • Guadua
+                  li.mb-4 • Carretilla
+                  li.mb-4 • Cable aéreo
             tr
               td Empaque para comercialización
+              td
+                p.mb-4 Empacar los frutos de acuerdo con las especificaciones del mercado:
+                p.mb-3 • Para el mercado nacional, el empaque más utilizado es la canastilla plástica, con capicidad de 18 a 22 kg, resistente al trasporte, reutilizable, lavable y permite el estibamiento del producto. También se utilizan las bolsas con perforaciones.
+                p.mb-3 • Para el mercado de exportación, se utilizan cajas de cartón rígidas y perforadas, con envolturas de polietileno con envolturas de polietileno con huecos de ventilación de 0.05 milésimas de pulgada y el uso de bolsas de polietileno microperforada que permite un envasado en atmósferas modificadas (EAM) y aumenta el tiempo de vida del producto.
+                p.mb-3 En ambos casos, para evitar los daños por roce, los dedos grandes se colocan en la parte inferior los rectos en la parte de arriba (aproximadamente 55 a 60 dedos por caja) y llenas de una capicidad de 80% del empaque para evitar daños por compresión.        
               td 
+                .img-container
+                  figure
+                    figcaption Canastillas
+                    img(src="@/assets/curso/temas/tema2/img_46.svg", alt="Canastillas")
+                  figure
+                    figcaption Cajas de cartón y envase en atmósfera modificada (EAM)
+                    img(src="@/assets/curso/temas/tema2/img_47.svg", alt="Cajas de cartón y envase en atmósfera modificada (EAM)")
+                  figure
+                    figcaption Bolsa 
+                    img(src="@/assets/curso/temas/tema2/img_48.svg", alt="Bolsa")
               td 
-              td 
+                ul
+                  li.mb-4 • Empaque de acuerdo con la comercialización.
+                  li.mb-4 • Es importante que el contenido de cada empaque sea homogéneo y contenga únicamente plátanos de la misma variedad, grado de madurez, calidad, color y calibre.
       div.metodo.mb-4.mb-md-5
         span.texto Transporte:
       p.mb-2 El traslado desde la finca a la bodega o centro de acopio se hace en vehículos convencionales; mientras el traslado del centro de acopio al puerto se hace en camiones con refrigeración a una temperatura de 8 °C a 9 °C.

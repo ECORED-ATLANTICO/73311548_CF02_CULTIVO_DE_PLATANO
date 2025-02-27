@@ -38,14 +38,20 @@
 
 ///// Custom acordeon A tipo A -------------------------------------- 
 .tarjeta.acordeonA
-  background-color: #F8F3DC
+  background-color: #F7FEE7
 
 .acordion__accion__btn--a
-  background-color: #F9A545 !important
+  background-color: #D4F989 !important
 
 .acordion__activo
-  background-color: #E6F1E8 !important
-
+  background-color: #FAFEF2 !important
+.tarjeta.acordeonA figcaption
+  background-color: #D4F989
+  color: #12263F
+  font-weight: bold
+  text-align: center
+  padding: 8px
+  width: 100%
 // Colores tabla
 .tabla-b table
     min-width: 100% !important
@@ -182,7 +188,7 @@
 .fondo_1_1_1
   background-size: cover
 
-// lou
+// metodo
 
 $icono: '../assets/curso/platano.svg'
 $fondo: '../assets/curso/fondo-platano.svg'
@@ -196,6 +202,39 @@ $fondo: '../assets/curso/fondo-platano.svg'
   overflow: hidden
   padding-left: 55px 
   height: 47px 
+  background: url($fondo) left center / auto 100% no-repeat
+  border-radius: 0 20px 20px 0 
+  
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: -3px 
+    transform: translateY(-50%)
+    width: 55px
+    height: 100%
+    background: url($icono) center / contain no-repeat
+
+  .texto
+    color: #1D3557
+    padding: 12px 20px
+    position: relative
+    z-index: 1
+
+// metodo2
+
+$icono: '../assets/curso/platano2.svg'
+$fondo: '../assets/curso/fondo-platano2.svg'
+
+.metodo2
+  display: inline-flex
+  align-items: center
+  position: relative
+  font-weight: bold
+  font-size: 18px
+  overflow: hidden
+  padding-left: 60px 
+  height: 50px 
   background: url($fondo) left center / auto 100% no-repeat
   border-radius: 0 20px 20px 0 
   
@@ -460,13 +499,13 @@ $fondo: '../assets/curso/fondo-platano.svg'
   background-color: #EDF1E9
 .tarjeta_bg-05
   background-color: $color-terciario-T10
+  border-radius: 20px
 .tarjeta_bg-06
   background-color: $color-acento-A10
+  border-radius: 20px
 .text-gris
   .lista-ul--color li > i:first-of-type
     color: #748578 !important
-
-
 .lista-ul--color li > i:first-of-type
   color: #748578 !important
     
@@ -864,15 +903,15 @@ $fondo: '../assets/curso/fondo-platano.svg'
 
 // Tabla a 
 .tabla-a thead
-  border: 3px #166340 solid
+  border: 2px #166340 solid
   color: #12263F
-  background-color: #98E465
+  background-color: #D4F989
 
 .tabla-a th 
-  border: 3px #166340  solid
+  border: 2px #166340  solid
 
 .tabla-a td 
-  border: 3px #166340  solid
+  border: 2px #166340  solid
 td p 
     text-align: justify
     margin: 5px 0
@@ -919,7 +958,56 @@ ul
 
 .bg-table-03
   background-color: #7D9FFB
-  color: #111e61  
+  color: #111e61 
+// tabla a2
+.tabla-a2
+  thead
+    border: 2px #166340 solid
+    color: #12263F
+    background-color: #D4F989
+
+  th, td
+    border: 2px #166340 solid
+    text-align: center
+    vertical-align: middle
+
+  td p
+    text-align: justify
+
+.tabla-a2
+  width: 100%
+  border-collapse: collapse
+  td.imagen
+    padding: 0 !important
+    height: 100% 
+    position: relative
+  figure
+    width: 100%
+    height: 100%
+    margin: 0
+    padding: 0
+    position: relative
+    display: flex
+    flex-direction: column
+  figcaption
+    background-color: #7D9FFB
+    color: #12263F
+    font-weight: bold
+    text-align: center
+    padding: 8px
+    width: 100%
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover 
+    display: block
+  .etiqueta
+    position: absolute
+    bottom: 5px
+    right: 10px
+    font-size: 12px
+    color: white
+    background: none
 ///////// -------
 .card-custom
   border-radius: 0

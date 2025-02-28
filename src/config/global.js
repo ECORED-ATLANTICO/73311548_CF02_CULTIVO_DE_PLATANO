@@ -4,8 +4,8 @@ export default {
     Name: 'Buenas prácticas agrícolas y competitividad productiva del cultivo del plátano',
     // eslint-disable-next-line prettier/prettier
     Description: 'A nivel internacional el comercio del plátano es muy amplio puesto que existen muchos países que compran este producto en grandes cantidades, por lo tanto, para todos los productores de plátano del país es una gran oportunidad de negocio acceder a los mercados internacionales en donde se obtienen buenos márgenes de utilidad que le permitirán la expansión, crecimiento y desarrollo a nivel empresarial.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-contenidos.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-contenidos.svg'),
     imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
@@ -54,6 +54,42 @@ export default {
             numero: '2.2',
             titulo: 'Poscosecha.',
             hash: 't_2_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        numero: '3',
+        titulo: 'Bienestar laboral y seguridad de los trabajadores.',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Plan de saneamiento.',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Plan de limpieza y desinfección.',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Seguridad y bienestar social.',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'La salud de los trabajadores.',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Identificación, trazabilidad y procedimiento de retiro .',
+            hash: 't_4_2',
           },
         ],
       },

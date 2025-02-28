@@ -306,7 +306,7 @@
                           .col-lg-8
                             figure
                               figcaption Plátanos con cicactrices en la cáscara
-                              img(src="@/assets/curso/temas/tema2/img_26.svg", alt="alt").mx-auto
+                              img(src="@/assets/curso/temas/tema2/img_26.svg", alt="Plátanos con cicactrices en la cáscara").mx-auto
                           .col-lg-4
                             .tarjeta_bg-06.p-4.mb-2
                               p.mb-0 • Percepción visual
@@ -329,7 +329,7 @@
                       .col-lg-6
                         figure
                           figcaption Mal de la corona
-                          img(src="@/assets/curso/temas/tema2/img_26.svg", alt="alt").mx-auto
+                          img(src="@/assets/curso/temas/tema2/img_27.svg", alt="Mal de la corona").mx-auto
                       .col-lg-6
                         .tarjeta_bg-06.p-4.mb-2
                           ul
@@ -350,7 +350,7 @@
                       .col-lg-6
                         figure
                           figcaption Daño mecánico por rajaduras
-                          img(src="@/assets/curso/temas/tema2/img_27.svg", alt="alt").mx-auto
+                          img(src="@/assets/curso/temas/tema2/img_28.svg", alt="Daño mecánico por rajaduras").mx-auto
                       .col-lg-6
                         .tarjeta_bg-06.p-4.mb-2
                           ul
@@ -385,15 +385,31 @@
                             li • Paleta de color
                             li • Canastilla por color
                             li • Empaque para comercialización
-        .col-lg-10.mb-4
-          div.metodo.mb-4.mb-md-5
+        .col-lg-10.mb-5
+          div.metodo.mb-5.mb-md-5
             span.texto Preparación para la poscosecha 
-          p.mb-2 A continuación, algunas condiciones de la poscosecha:
-        .col-lg-10.mb-4
-          div.metodo2.mb-4.mb-md-5
+          p.mb-5 A continuación, algunas condiciones de la poscosecha:
+        .col-lg-10.mb-5
+          mixin proceso-card(icono, texto)
+            .proceso-card
+              .proceso-icono
+                img(src=icono, alt="Icono")
+              p.proceso-texto= texto
+          .container
+            .row.justify-content-center.align-items-center
+              .col-md-6.col-lg-4
+                +proceso-card("@/assets/curso/temas/tema2/img_29.svg", "Realice a la planta procesadora limpieza y desinfección de tanques, mesas, bandejas y alrededores. Esta operación debe realizarse una vez por semana; además dentro de la limpieza también se deben eliminar aguas usadas en el proceso y los residuos de la cosecha como vástagos, coronas y flores.")
+              .col-md-4.col-lg-3
+                +proceso-card("@/assets/curso/temas/tema2/img_30.svg", "Se debe alistar con antelación los insumos utilizados en el proceso como: alumbre (piedralumbre), chuchillos para el desdede (gurbias), báscula y empaque.")
+              .col-md-4.col-lg-3
+                +proceso-card("@/assets/curso/temas/tema2/img_31.svg", "La solución de agua más alumbre se debe preparar un día antes del embarque en una relación de un 1 kg por 100 L de agua.")
+              .col-md-3.col-lg-2
+                +proceso-card("@/assets/curso/temas/tema2/img_32.svg", "Afilar las herramientas como las gurbias que son utilizadas en desdede.")
+        .col-lg-10
+          div.metodo2.mb-md-5
             span.texto Herramientas e insumos
         .col-lg-10.mb-4
-          .row.mb-3
+          .row.justify-content-center.align-items-center.mb-3
             .col-lg-4
               img(src="@/assets/curso/temas/tema2/img_33.svg", alt="Imagen de montacargas" class="img-fluid")
             .col-lg-4
@@ -429,25 +445,11 @@
                     p.mb-0 4. Corregir cortes defectuosos de dedos y coronas.
                     p.mb-0 5. El personal debe estar capacitado en el manejo de la gurbia.
         .col-lg-10.mb-4
-          ImagenInfograficaB.color-primario
-            template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/temas/tema2/img_38.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
+          .titulo-sexto.bg-11.mb-4
+            h5 Figura 5: 
+            span.text-dark Procedimiento
+        .col-lg-10.mb-4
 
-            div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
-            h5 titulo
-            p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-            p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-            p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-            div(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-            div(x="70%" y="70%" tooltip="tooltip de max 35 caracteres")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
         .col-lg-10.mb-4
           div.metodo.mb-4.mb-md-5
             span.texto Presentación de los dedos
@@ -455,65 +457,67 @@
         .col-lg-10.mb-4
           div.metodo.mb-4.mb-md-5
             span.texto Defectos del plátano más comunes
-      div.metodo.mb-4.mb-md-5
-        span.texto Empacado:
-      .row.mb-3
-        .col-lg-3
-          img(src="@/assets/curso/temas/tema2/img_44.svg", alt="Imagen de unos platanos" class="img-fluid")
-        .col-lg-8
-          p.mb-2 El empacado se hace posterior al lavado y al escurrido, se realiza en cajas y requiere de mucho cuidado, las cajas de exportación deben empacarse en dos hileras, de tal manera que las coronas queden contra las paredes de la caja y las puntas tocando las hileras de las otras. Los dedos se deben etiquetar según las exigencias de la empresa exportadora, algunas exigen etiquetar sólo las dos últimas líneas, luego se cubre con un plástico para luego ponerle la tapa. 
-          p.mb-2 Las cajas más usadas por algunas exportadoras en Colombia son de cartón y tienen una dimensión de 50 centímetros de ancho por 24 centímetros de alto. Se debe tener cuidado y buen criterio para no empacar plátanos pintones, defectuosos o que no reúnan las condiciones de calibre.
-          p.mb-0 Cada caja debe llevar un número correspondiente a la fecha y el código del exportador.
+        .col-lg-10.mb-4
+          .titulo-sexto.bg-11.mb-4
+            h5 Figura 6:
+            span.text-dark Defectos del plátano más comunes:
+        .col-lg-10.mb-4
+      
       .titulo-sexto.bg-11.mb-4
         h5 Tabla 6:
         span.text-dark Guía de operación para lavado de plátano
-      .tabla-a2.mb-5 
+      .tabla-a3.mb-5 
         table
           caption Nota.    Este estudio, Con base en Moreno, Candanoaza, & Olarte, 2009; Sena, 2004.
           thead
             tr
-              th Operación postcosecha
-              th Detalle
-              th Imagen
-              th Instrumento
+              th(style="width: 15%") Operación postcosecha
+              th(style="width: 30%; color: white;") Detalle
+              th(style="width: 40%; color: white;") Imagen
+              th(style="width: 20%; color: white;") Instrumento
           tbody
             tr
               td Empaque intra-finca
               td 
                 p Para el traslado intra-finca de los racimos se recomienda transportar en el hombro, guaduas, carretillas, cable aéreo u otro medio, evitando maltrato entre ellos o que sufran daños o golpes.
-              td 
+              td.imagen 
                 .img-container
                   figure
                     figcaption Traslado en carretilla
                     img(src="@/assets/curso/temas/tema2/img_45.svg", alt="Traslado en carretilla")
               td 
-                ul
-                  li.mb-4 • Hombro
-                  li.mb-4 • Guadua
-                  li.mb-4 • Carretilla
-                  li.mb-4 • Cable aéreo
+                p.mb-4 • Hombro
+                p.mb-4 • Guadua
+                p.mb-4 • Carretilla
+                p.mb-4 • Cable aéreo
             tr
-              td Empaque para comercialización
-              td
+              td(rowspan="3")  Empaque para comercialización
+              td(rowspan="3") 
                 p.mb-4 Empacar los frutos de acuerdo con las especificaciones del mercado:
                 p.mb-3 • Para el mercado nacional, el empaque más utilizado es la canastilla plástica, con capicidad de 18 a 22 kg, resistente al trasporte, reutilizable, lavable y permite el estibamiento del producto. También se utilizan las bolsas con perforaciones.
                 p.mb-3 • Para el mercado de exportación, se utilizan cajas de cartón rígidas y perforadas, con envolturas de polietileno con envolturas de polietileno con huecos de ventilación de 0.05 milésimas de pulgada y el uso de bolsas de polietileno microperforada que permite un envasado en atmósferas modificadas (EAM) y aumenta el tiempo de vida del producto.
                 p.mb-3 En ambos casos, para evitar los daños por roce, los dedos grandes se colocan en la parte inferior los rectos en la parte de arriba (aproximadamente 55 a 60 dedos por caja) y llenas de una capicidad de 80% del empaque para evitar daños por compresión.        
-              td 
+              td.imagen
                 .img-container
                   figure
                     figcaption Canastillas
-                    img(src="@/assets/curso/temas/tema2/img_46.svg", alt="Canastillas")
+                      img(src="@/assets/curso/temas/tema2/img_46.svg", alt="Canastillas")
+                      p.etiqueta www.agricultura.gob.ec
+              td(rowspan="3")  
+                p.mb-4 • Empaque de acuerdo con la comercialización.
+                p.mb-4 • Es importante que el contenido de cada empaque sea homogéneo y contenga únicamente plátanos de la misma variedad, grado de madurez, calidad, color y calibre.
+            tr
+              td.imagen
+                .img-container
                   figure
-                    figcaption Cajas de cartón y envase en atmósfera modificada (EAM)
-                    img(src="@/assets/curso/temas/tema2/img_47.svg", alt="Cajas de cartón y envase en atmósfera modificada (EAM)")
-                  figure
-                    figcaption Bolsa 
-                    img(src="@/assets/curso/temas/tema2/img_48.svg", alt="Bolsa")
-              td 
-                ul
-                  li.mb-4 • Empaque de acuerdo con la comercialización.
-                  li.mb-4 • Es importante que el contenido de cada empaque sea homogéneo y contenga únicamente plátanos de la misma variedad, grado de madurez, calidad, color y calibre.
+                      figcaption Cajas de cartón y envase en atmósfera modificada (EAM)
+                      img(src="@/assets/curso/temas/tema2/img_47.svg", alt="Cajas de cartón y envase en atmósfera modificada (EAM)")
+            tr
+              td.imagen
+                figure
+                      figcaption Bolsa 
+                      img(src="@/assets/curso/temas/tema2/img_48.svg", alt="Bolsa")
+                      p.etiqueta www.agricultura.gob.ec
       div.metodo.mb-4.mb-md-5
         span.texto Transporte:
       p.mb-2 El traslado desde la finca a la bodega o centro de acopio se hace en vehículos convencionales; mientras el traslado del centro de acopio al puerto se hace en camiones con refrigeración a una temperatura de 8 °C a 9 °C.

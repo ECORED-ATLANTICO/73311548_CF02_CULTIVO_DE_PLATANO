@@ -764,7 +764,31 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       height: 90%
       background: #ABC093
       background-repeat: no-repeat
-
+//// targetas procesos
+.proceso-card
+  background: #F1FAD6
+  border-radius: 15px
+  padding: 60px 20px 20px
+  text-align: center
+  position: relative
+  height: 300px
+.proceso-icono
+  width: 240px
+  height: 240px
+  border-radius: 50%
+  position: absolute
+  top: -120px
+  left: 50%
+  transform: translateX(-50%)
+  display: flex
+  align-items: center
+  justify-content: center
+.proceso-icono img
+  width: 50%
+.proceso-texto
+  color: #1D3557
+  font-size: 16px
+  line-height: 1.5
 //// Tarjetas --------------------------------------
 .img90
   width: 90px
@@ -991,6 +1015,55 @@ ul
     flex-direction: column
   figcaption
     background-color: #7D9FFB
+    color: #12263F
+    font-weight: bold
+    text-align: center
+    padding: 8px
+    width: 100%
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover 
+    display: block
+  .etiqueta
+    position: absolute
+    bottom: 5px
+    right: 10px
+    font-size: 12px
+    color: white
+    background: none
+// tabla a3
+.tabla-a3
+  thead
+    border: 2px #12263F solid
+    color: #12263F
+    background-color: #7D9FFB
+
+  th, td
+    border: 2px #12263F solid
+    text-align: center
+    vertical-align: middle
+
+  td p
+    text-align: justify
+
+.tabla-a3
+  width: 100%
+  border-collapse: collapse
+  td.imagen
+    padding: 0 !important
+    height: 100% 
+    position: relative
+  figure
+    width: 100%
+    height: 100%
+    margin: 0
+    padding: 0
+    position: relative
+    display: flex
+    flex-direction: column
+  figcaption
+    background-color: #E4EBFE
     color: #12263F
     font-weight: bold
     text-align: center

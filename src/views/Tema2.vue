@@ -35,7 +35,7 @@
     #t_2_1.titulo-segundo
       .h2(data-aos="fade-right") 2.1 Cosecha
     .mb-3
-    .row.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
         p.mb-2 La cosecha del plátano es un proceso que exige precisión y cuidado para garantizar la calidad del producto final. La madurez óptima se alcanza entre las 9 y 13 semanas posteriores a la floración, aunque en sistemas de riego tecnificado puede lograrse a los nueve meses de la siembra. Su determinación se basa en diversos métodos, como el uso de cintas o tablas de colores que indican el grado de madurez según el color y el contenido de azúcar del fruto. Este último puede medirse con un refractómetro, complementando el análisis con el registro de los días transcurridos desde la floración y la observación del llenado del fruto. Durante esta evaluación, se descartan racimos con daños por plagas, enfermedades o golpes, asegurando la calidad y uniformidad del producto.
         .tarjeta_bg-06.p-4.mb-2
@@ -448,9 +448,6 @@
           .titulo-sexto.bg-11.mb-4
             h5 Figura 5: 
             span.text-dark Procedimiento
-        .col-lg-10.mb-4
-
-        .col-lg-10.mb-4
           div.metodo.mb-4.mb-md-5
             span.texto Presentación de los dedos
           p.mb-2 El dedo (plátano) de exportación no debe presentar defectos, sólo se admiten 5 defectos por caja, estos deben tener un calibre mínimo de 22 y máximo 28 (1/16 pulgadas).

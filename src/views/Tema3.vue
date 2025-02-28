@@ -30,7 +30,7 @@
       .col-lg-10
         div.metodo.mb-4.mb-md-5
           span.texto Peligros biológicos
-        .row.mb-5
+        .row.justify-content-center.align-items-center.mb-5
           .col-lg-3
             img(src="@/assets/curso/temas/tema3/img_3.svg", alt="Imagen de unos platanos" class="img-fluid")
           .col-lg-9
@@ -65,62 +65,186 @@
                 .col-lg-4
                   img(src="@/assets/curso/temas/tema3/img_6.svg", alt="Imagen de unos platanos" class="img-fluid")
         p.mb-5 Para evaluar y gestionar los peligros en la unidad productiva, se deben considerar los siguientes aspectos:
-        .slyder-f.custom
-          .slyder-f__btn.pe-3
-            i.fas.fa-chevron-left
-          #slyder-f-126267136.slyder-f__main
-            .horizontal-scroll__wrapper(data-v-2a6e7c66="")
-              .horizontal-scroll.row(data-v-2a6e7c66="" style="transform: translate(0px, 0px);")
-                .slyder-f__slyde.col-md-6.col-lg-6.col-xl-6(data-v-2a6e7c66="" id="sl-126267137")
-                  .tarjeta.tarjeta--slyder.p-4.bg-white
-                    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-down" class="aos-init aos-animate")
-                      .col-4.mb-3
-                        img(src="@/assets/curso/temas/tema3/img_7.svg" alt="alt" class="img100 m-auto")
-                      h4.text-center Bióxido de azufre
-                      p.text-center.mb-0
-                        | Este compuesto ayuda a eliminar microorganismos como hongos, bloquea la acción de las enzimas de las frutas y verduras que hacen que estas obtengan una coloración oscura cuando son peladas y también disminuye la pérdida de vitaminas; este conservante es adicionado al alimento antes de ser secado.
-                .slyder-f__slyde.col-md-6.col-lg-6.col-xl-6(data-v-2a6e7c66="" id="sl-126267138")
-                  .tarjeta.tarjeta--slyder.p-4.bg-white
-                    .row.justify-content-center.mb-3
-                      .col-4.mb-3
-                        img(src="@/assets/curso/temas/tema3/img_8.svg" alt="alt" class="img100 m-auto")
-                      h4.text-center Ácido benzoico
-                      p.text-center.mb-0
-                        | Por su contenido de sales ayuda a inhibir microorganismos como levaduras, mohos y bacterias, la concentración que se utiliza por lo general es de 0.1 % y es más eficaz en presencia de ácido, este producto es utilizado en muchos alimentos como los encurtidos.
-                .slyder-f__slyde.col-md-6.col-lg-6.col-xl-6(data-v-2a6e7c66="" id="sl-126267139")
-                  .tarjeta.tarjeta--slyder.p-4.bg-white
-                    .row.justify-content-center.mb-3
-                      .col-4.mb-3
-                        img(src="@/assets/curso/temas/tema3/img_9.svg" alt="alt" class="img100 m-auto")
-                      h4.text-center El ácido ascórbico o vitamina C
-                      p.text-center.mb-0
-                        | Este compuesto previene el pardiamiento enzimático de las frutas que han sido cortadas o molidas, también es adicionado a néctares y jugos para que mantengan el color característico de cada fruto. La combinación de ácido ascórbico y ácido cítrico previenen el oscurecimiento de frutas y verduras.
-                .slyder-f__slyde.col-md-6.col-lg-6.col-xl-6(data-v-2a6e7c66="" id="sl-126267139")
-                  .tarjeta.tarjeta--slyder.p-4.bg-white
-                    .row.justify-content-center.mb-3
-                      .col-4.mb-3
-                        img(src="@/assets/curso/temas/tema3/img_10.svg" alt="alt" class="img100 m-auto")
-                      h4.text-center El ácido ascórbico o vitamina C
-                      p.text-center.mb-0
-                .slyder-f__slyde.col-md-6.col-lg-6.col-xl-6(data-v-2a6e7c66="" id="sl-126267139")
-                  .tarjeta.tarjeta--slyder.p-4.bg-white
-                    .row.justify-content-center.mb-3
-                      .col-4.mb-3
-                        img(src="@/assets/curso/temas/tema3/img_11.svg" alt="alt" class="img100 m-auto")
-                      h4.text-center El ácido ascórbico o vitamina C
-                      p.text-center.mb-0
-          .slyder-f__btn.ps-3
-            i.fas.fa-chevron-right
-          .hidden-slot
+        SlyderF.custom(columnas="col-md-4 col-lg-4 col-xl-4")
+          .tarjeta.tarjeta--slyder.tarjeta_bg-06.p-2
+            .row.mb-3
+              .col-4.mb-3
+                img(src="@/assets/curso/temas/tema3/img_7.svg" alt="alt" class="img100 m-auto")
+                h4.text-center Identificación de peligros
+                p.text-center.mb-0 Evaluar la posibilidad de que surjan riesgos con efectos perjudiciales para la salud.
+          .tarjeta.tarjeta--slyder.tarjeta_bg-06.p-2
+            .row.mb-3
+              .col-4.mb-3
+                img(src="@/assets/curso/temas/tema3/img_8.svg" alt="alt" class="img100 m-auto")
+                h4.text-center Evaluación cualitativa y cuantitativa
+                p.mb-0 la presencia y nivel de peligros en el proceso productivo.
+          .tarjeta.tarjeta--slyder.tarjeta_bg-06.p-2
+            .row.mb-3
+              .col-4.mb-3
+                img(src="@/assets/curso/temas/tema3/img_9.svg" alt="alt" class="img100 m-auto")
+                h4.text-center Resistencia y proliferación de microorganismos
+                p.mb-0Analizar el comportamiento de agentes biológicos que puedan comprometer la inocuidad del plátano.
+          .tarjeta.tarjeta--slyder.tarjeta_bg-06.p-2
+            .row.mb-3
+              .col-4.mb-3
+                img(src="@/assets/curso/temas/tema3/img_10.svg" alt="alt" class="img100 m-auto")
+                h4.text-center Persistencia de toxinas y sustancias nocivas
+                p.mb-0 Evaluar la acumulación de compuestos químicos o físicos que representen un riesgo para el consumidor.
+          .tarjeta.tarjeta--slyder.tarjeta_bg-06.p-2
+            .row.mb-3
+              .col-4.mb-3
+                img(src="@/assets/curso/temas/tema3/img_11.svg" alt="alt" class="img100 m-auto")
+                h4.text-center Gestión de múltiples peligros
+                p.mb-0 En caso de que se presenten varios riesgos simultáneamente, implementar medidas que minimicen su impacto y garanticen la calidad del producto.
         div.metodo.mb-4.mb-md-4
           span.texto Prácticas en los procesos de limpieza y desinfección
-        .tarjeta_bg-06.p-4.mb-2
+        .tarjeta_bg-05.p-4.mb-2
           .row.mb-3.justify-content-center.align-items-center
             .col-lg-11
-              p.mb-0 Este plan permite identificar los puntos de control críticos, así como las condiciones que los generan. Con esta información, el equipo encargado puede evaluar cuáles representan un riesgo para la inocuidad del plátano y aplicar las medidas de control pertinentes.
+              p.mb-0 El saneamiento en el cultivo requiere que todos los empleados conozcan y apliquen el plan de limpieza y desinfección en las áreas donde se manipulan los alimentos. Este proceso es fundamental para garantizar la inocuidad del plátano y prevenir la contaminación en cualquier etapa de su manejo.
             .col-lg-1
               img(src="@/assets/curso/temas/tema3/img_12.svg", alt="Imagen de unos platanos" class="img-fluid")
-        p.mb-2
+        p.mb-2 Es necesario que las instalaciones, equipos y superficies utilizadas en la adecuación y almacenamiento del plátano sean sometidas a protocolos de limpieza regulares. Esto incluye la eliminación de residuos orgánicos, la desinfección con productos adecuados y la implementación de medidas para evitar la proliferación de microorganismos que puedan comprometer la calidad del producto.
+
+    separador
+
+    #t_3_2.titulo-segundo
+      .h2(data-aos="fade-right") 3.2	 Plan de limpieza y desinfección
+    .mb-3 
+    div.metodo.mb-4.mb-md-4
+      span.texto Herramientas y utensilios
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3
+        img(src="@/assets/curso/temas/tema3/img_13.svg", alt="Imagen de unos platanos" class="img-fluid")
+      .col-lg-9
+        p.mb-2 Es indispensable el buen uso y cuidado de las herramientas con las que se realizan todas las prácticas culturales y de poscosecha del cultivo, porque se puede generar contaminación cruzada del equipo al fruto, es indispensable después de cada labor realizar limpieza y desinfección.
+        h6.mb-2 Para sacar la suciedad más difícil en equipos y herramientas tenga en cuenta lo siguiente:
+    .titulo-sexto.bg-11.mb-4
+      h5 Tabla 7: 
+      span.text-dark Guía para limpieza y desinfección de herramientas
+    .tabla-a2.mb-5 
+      table
+        thead
+          tr
+            th(style="width: 13%") Factor de control
+            th(style="width: 13%") Frecuencia
+            th(style="width: 18%") Procedimiento
+            th(style="width: 40%") Imagen
+            th(style="width: 18%") Instrumentos
+        tbody
+          tr
+            td Indumentaria de trabajo (guantes de algodón, botas, overol)
+            td Al finalizar actividades y operaciones poscosecha
+            td(rowspan="4")
+              h6.p-2 Limpieza:
+              p.p-2 Realizar limpieza con una toalla o cepillo humedecido con jabón y,  posteriormente, enjuagar con  abundante agua.
+              h6.p-2 Desinfección:
+              p.p-2 Desinfectar con hipoclorito de sodio diluido en agua (agregar 4ml por cada litro de agua) en un tiempo  de acción de 5-10 minutos.
+              h6.p-2 Secado:
+              p.p-2 Secar todos los implementos para evitar crecimiento de hongos y oxidación.
+            td.imagen
+              .img-container
+                figure
+                  figcaption Pediluvio
+                  img(src="@/assets/curso/temas/tema3/img_14.png", alt="Pediluvio")
+                  p.etiqueta www.agricultura.gob.ec
+            td(rowspan="4")
+              h6.p-2 Instrumentos para limpieza y desinfección:
+              p.p-2 • Toalla
+              p.p-2 • Cepillo
+              p.p-2 • Jabón
+              p.p-2 • Hipoclorito
+              p.p-2 • Balde
+              p.p-2 • Aspersores
+              p.p-2 • *Pediluvio
+              p.p-2 (*Antes de entrar al lote y a la zona de acopio temporal, realizar desinfección de botas con cal)
+          tr
+            td Herramientas de corte (Machete, demanadora)
+            td
+              p.p-2 Al menos tres (3) veces al dia: 
+              p.p-2 -Al iniciar la recolección
+              p.p-2 -Al medio día
+              p.p-2 -Tras finalizar la jornada
+            td.imagen
+              .img-container
+                figure
+                  figcaption Desinfección de herramienta para corte de racimo
+                  img(src="@/assets/curso/temas/tema3/img_15.svg", alt="Desinfección de herramienta para corte de racimo")
+                  p.etiqueta www.agricultura.gob.ec
+          tr
+            td Recipientes de recolección (bolsas o canastillas)
+            td Antes de la recolección
+            td(rowspan="2").imagen
+              .img-container
+                figure
+                  figcaption Desinfección de canastilla
+                  img(src="@/assets/curso/temas/tema3/img_16.png", alt="Desinfección de canastilla")
+                  p.etiqueta www.agricultura.gob.ec
+          tr
+            td Empaque final (Canastillas)
+            td Antes de la comercialización
+    div.metodo.mb-4.mb-md-4
+      span.texto Tinas o tanques
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-9
+        p.mb-2 Los tanques o tinas desempeñan un papel fundamental en la producción de plátano, ya que permiten la limpieza del fruto tras la cosecha, eliminando impurezas como tierra y residuos. Además, se utilizan en el proceso de desdede y desmanche del producto.
+        .tarjeta_bg-06.p-4.mb-2
+          h6.p-2 Para garantizar su adecuado uso y mantenimiento, es necesario considerar lo siguiente:
+          p.mb-2 a. Después de cada uso, los tanques deben vaciarse completamente.
+          p.mb-2 b. Se debe añadir detergente y restregar las superficies para eliminar la suciedad acumulada.
+          p.mb-2 c. Añadir una solución desinfectante, como cloro diluido, para eliminar microorganismos potencialmente dañinos.
+          p.mb-2 d. Una vez desinfectados, los tanques deben enjuagarse adecuadamente y llenarse con agua limpia para reiniciar el proceso.
+      .col-lg-3
+        img(src="@/assets/curso/temas/tema3/img_17.svg", alt="Imagen de unos platanos" class="img-fluid")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        div.metodo.mb-4.mb-md-4
+          span.texto Pisos 
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-3
+            img(src="@/assets/curso/temas/tema3/img_18.svg", alt="Imagen de unos platanos" class="img-fluid")
+          .col-lg-9
+            p.mb-2 Los pisos del área de adecuación y de los espacios donde se encuentran los tanques deben mantenerse en óptimas condiciones de higiene. Para ello, se recomienda:
+            p.mb-2 Lavarlos a fondo con cepillo y jabón, asegurando la eliminación de residuos y suciedad adherida.
+            p.mb-2 Aplicar una solución desinfectante de agua y cloro, dejándola actuar durante aproximadamente 10 minutos para garantizar su efectividad.
+            p.mb-2 Enjuagar bien las superficies y dejarlas secar completamente antes de retomar las actividades.
+        div.metodo.mb-4.mb-md-4
+          span.texto Mesones para adecuación de materia prima
+        p.mb-2 Los mesones donde se manipula el plátano deben contar con superficies lisas, no porosas y de fácil limpieza y desinfección, evitando la acumulación de suciedad y microorganismos patógenos.
+        p.mb-2 Después de cada uso, es fundamental:
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-4
+            .tarjeta_bg-05.p-4.mb-2
+              .row
+                .col-lg-3
+                  img(src="@/assets/curso/temas/tema3/img_19.svg", alt="Lavar los mesones con un cepillo y jabón para eliminar residuos." class="img-fluid")
+                .col-lg-9
+                  p.mb-2 Lavar los mesones con un cepillo y jabón para eliminar residuos.
+          .col-lg-2
+            img(src="@/assets/curso/temas/tema3/img_20.svg", alt="Imagen de unos platanos" class="img-fluid")
+          .col-lg-6
+            .tarjeta_bg-05.p-4.mb-2
+              .row
+                .col-lg-9
+                  p.mb-2 Desinfectarlos con una solución de agua y cloro, dejándola actuar por un período de 10 minutos para eliminar cualquier agente contaminante.
+                .col-lg-3
+                  img(src="@/assets/curso/temas/tema3/img_21.svg", alt="Desinfectarlos con una solución de agua y cloro, dejándola actuar por un período de 10 minutos para eliminar cualquier agente contaminante." class="img-fluid")
+        div.metodo.mb-4.mb-md-4
+          span.texto Control de plagas en las instalaciones
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-3
+            img(src="@/assets/curso/temas/tema3/img_22.svg", alt="Control de plagas en las instalaciones" class="img-fluid")
+          .col-lg-9
+            p.mb-2 Las plagas representan un riesgo significativo para la inocuidad del producto, ya que son vectores de enfermedades que pueden contaminar los alimentos y poner en peligro la salud del consumidor. Por esta razón, se requiere implementar un plan riguroso de control de plagas y roedores en todas las instalaciones donde se manipulan los alimentos.
+            h6.mb-2 Los principales patógenos y enfermedades que pueden transmitir las plagas incluyen:
+        .titulo-sexto.bg-11.mb-4
+          h5 Figura 6: 
+          span.text-dark Plagas
+        img.mb-5(src="@/assets/curso/temas/tema3/img_23.svg", alt="Plagas" class="img-fluid")
+        figcaption Nota.  SENA (2024).
+        .tarjeta_bg-07.p-4.mb-2
+          p.mb-2 Las plagas y los roedores comparten los mismos requerimientos básicos que los seres humanos, ya que necesitan agua, alimento y un refugio para sobrevivir. Por esta razón, se debe eliminar cualquier factor que favorezca su reproducción y permanencia en el entorno.
+          p.mb-0 Para prevenir su presencia, se deben mantener los establecimientos y sus alrededores libres de residuos de alimentos y acumulaciones de agua que puedan atraerlas. A continuación, se presentan algunas recomendaciones importantes para evitar la contaminación de los alimentos:
 </template>
 
 <script>

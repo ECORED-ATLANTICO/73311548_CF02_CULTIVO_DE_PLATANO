@@ -430,7 +430,7 @@
             span.texto Desdede y desleche
           p.mb-2 Una vez realizado el desdede con la gurbia o el cuchillo, los dedos (plátanos) se sumergen en una solución de agua y alumbre al 1%, es decir 10 gr de alumbre por cada litro de agua, los dedos deben permanecer sumergidos por 10 minutos.
         .col-lg-10.mb-4 
-          .row.mb-3
+          .row.justify-content-center.align-items-center.mb-3
             .col-lg-3
               img(src="@/assets/curso/temas/tema2/img_36.svg", alt="Imagen de unos platanos" class="img-fluid")
             .col-lg-9

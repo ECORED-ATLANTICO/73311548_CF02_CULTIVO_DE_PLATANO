@@ -242,9 +242,44 @@
           span.text-dark Plagas
         img.mb-5(src="@/assets/curso/temas/tema3/img_23.svg", alt="Plagas" class="img-fluid")
         figcaption Nota.  SENA (2024).
-        .tarjeta_bg-07.p-4.mb-2
-          p.mb-2 Las plagas y los roedores comparten los mismos requerimientos básicos que los seres humanos, ya que necesitan agua, alimento y un refugio para sobrevivir. Por esta razón, se debe eliminar cualquier factor que favorezca su reproducción y permanencia en el entorno.
-          p.mb-0 Para prevenir su presencia, se deben mantener los establecimientos y sus alrededores libres de residuos de alimentos y acumulaciones de agua que puedan atraerlas. A continuación, se presentan algunas recomendaciones importantes para evitar la contaminación de los alimentos:
+        .tarjeta_bg-07
+          .contenido
+            p.mb-2 Las plagas y los roedores comparten los mismos requerimientos básicos que los seres humanos, ya que necesitan agua, alimento y un refugio para sobrevivir. Por esta razón, se debe eliminar cualquier factor que favorezca su reproducción y permanencia en el entorno.
+            p.mb-0 Para prevenir su presencia, se deben mantener los establecimientos y sus alrededores libres de residuos de alimentos y acumulaciones de agua que puedan atraerlas. A continuación, se presentan algunas recomendaciones importantes para evitar la contaminación de los alimentos:
+        .tarjeta.fondo_1_2.p-4.slyder_1.bg-01
+          SlyderA(tipo="b")
+            .tarjeta.bg-01.p-2
+              .row.justify-content-center.align-items-center.p-3
+                .col-md-6.col-xl-6.mb-4
+                  h3.mb-2 Manejo de residuos y desechos
+                  p Evitar la acumulación de residuos sólidos de cualquier tipo y mantener las canecas de basura siempre tapadas para prevenir la proliferación de plagas. Las cañerías y desagües deben permanecer cerrados y protegidos con sus respectivas rejillas.
+                .col-md-6.col-xl-6.mb-3
+                  figure
+                    img(src='@/assets/curso/temas/tema3/img_25.svg', alt='Manejo de residuos y desechos').mx-auto
+            .tarjeta.bg-01.p-2
+              .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                .col-md-6.col-xl-6.mb-4
+                  h3.mb-2 Limpieza y desinfección
+                  p Garantizar la limpieza y desinfección de todas las áreas, desde la recepción de materias primas hasta el almacenamiento. Almacenar los insumos en anaqueles limpios, con una altura mínima de 15 cm del piso, para facilitar su mantenimiento.
+                .col-md-6.col-xl-6.mb-3
+                  figure
+                    img(src='@/assets/curso/temas/tema3/img_26.svg', alt='Limpieza y desinfección').mx-auto
+            .tarjeta.bg-01.p-2
+              .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                .col-md-6.col-xl-6.mb-4
+                  h3.mb-2 Control de plagas
+                  p Implementar un plan de control de plagas que incluya fumigaciones periódicas con la asesoría de expertos, así como un registro detallado de los productos utilizados para su erradicación. Proteger las ventanas con mosquiteros para evitar la entrada de insectos.
+                .col-md-6.col-xl-6.mb-3
+                  figure
+                    img(src='@/assets/curso/temas/tema3/img_27.svg', alt='Control de plagas').mx-auto
+            .tarjeta.bg-01.p-2
+              .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                .col-md-6.col-xl-6.mb-4
+                  h3.mb-2 Manejo de materias primas
+                  p Inspeccionar minuciosamente la calidad de los productos al momento de su recepción, asegurando que estén libres de plagas y roedores. Cubrir adecuadamente los alimentos para prevenir su contaminación.
+                .col-md-6.col-xl-6.mb-3
+                  figure
+                    img(src='@/assets/curso/temas/tema3/img_28.svg', alt='Manejo de materias primas').mx-auto
 </template>
 
 <script>

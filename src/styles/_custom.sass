@@ -505,6 +505,25 @@ $fondo: '../assets/curso/fondo-platano2.svg'
   border-radius: 20px
 .tarjeta_bg-07
   background-image: url("../assets/curso/temas/tema3/img_24.svg")
+  background-size: contain
+  background-position: center
+  background-repeat: no-repeat
+  width: 100%
+  min-height: 200px 
+  display: grid
+  grid-template-columns: 10fr 2fr 
+  padding: 20px
+
+  .contenido
+    display: flex
+    align-self: start
+    padding-left: 10px
+    padding-top: 30px
+    flex-direction: column
+    justify-content: center
+    background: transparent 
+    grid-column: 1 / 2 
+
 .text-gris
   .lista-ul--color li > i:first-of-type
     color: #748578 !important
@@ -1192,3 +1211,37 @@ ul
   .col-xxl-5
     flex: 0 0 auto
     width: 51%
+
+// check
+.check-green
+  position: relative
+  display: flex
+  align-items: flex-start
+  gap: 0.4em 
+
+  &::before
+    content: ""
+    flex-shrink: 0
+    width: 1em 
+    height: 1em
+    margin-top: 0.2em
+    background-image: url('../assets/curso/temas/check_green.svg');
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center
+.check-blue
+  position: relative
+  display: flex
+  align-items: flex-start
+  gap: 0.4em 
+
+  &::before
+    content: ""
+    flex-shrink: 0
+    width: 1em 
+    height: 1em
+    margin-top: 0.2em
+    background-image: url('../assets/curso/temas/check_blue.svg');
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center

@@ -155,88 +155,50 @@
       p.mb-5 La poscosecha tiene como objetivo preservar la calidad e integridad de los plátanos para su comercialización o consumo. Este proceso abarca diversas actividades esenciales:
       .row.justify-content-center.align-items-center.mb-5
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.p-5
-            .row.justify-content-center.mb-3
+          .tarjeta--boton.p-4
+            .row.justify-content-center.align-items-center
               .col-7
                 figure
                   img(src='@/assets/curso/temas/tema2/img_18.svg', alt='Texto que describa la imagen')
-            h3.text-center Lavado
+            h3.text-center.mb-4 Lavado
             p.text-small Eliminación de residuos e impurezas.
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
           .tarjeta--boton.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.align-items-center
               .col-7
                 figure
                   img(src='@/assets/curso/temas/tema2/img_19.svg', alt='Texto que describa la imagen')
-            h3.text-center Clasificación
+            h3.text-center.mb-2 Clasificación
             p.text-small Selección de los frutos según estándares de mercado.
         .col-sm-6.col-lg-3.mb-4.mb-sm-0
           .tarjeta--boton.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.align-items-center
               .col-7
                 figure
                   img(src='@/assets/curso/temas/tema2/img_20.svg', alt='Texto que describa la imagen')
-            h3.text-center Desmanado
+            h3.text-center.mb-2 Desmanado
             p.text-small Separación de los plátanos en unidades individuales.
         .col-sm-6.col-lg-3
           .tarjeta--boton.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.align-items-center
               .col-7
                 figure
                   img(src='@/assets/curso/temas/tema2/img_21.svg', alt='Texto que describa la imagen')
-            h3.text-center Empaque
+            h3.text-center.mb-2 Empaque
             p.text-small  Protección de los frutos para evitar daños durante el transporte.
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10.mb-4
-          .cajon.bg-4.g_18.mb-3
-            .row.justify-content-center.align-items-center.mb-4
+          .cajon.bg-4.g_18.mb-5
+            .row.justify-content-center.align-items-center
               .col-lg-12.p-4.ps-5 
                 p Durante esta etapa, los plátanos experimentan cambios en su composición físico-química: aumenta la acidez titulable y los grados Brix (indicadores de dulzura), mientras que el pH disminuye. Un manejo adecuado en la poscosecha garantiza la conservación de la frescura, presentación y valor comercial del producto, cumpliendo con las expectativas del consumidor y reduciendo pérdidas a lo largo de la cadena de distribución.
-        .col-lg-10.mb-4
-          div.metodo.mb-4.mb-md-5
+          div.metodo.mb-3.mb-md-5
             span.texto Proceso de poscosecha
-          p.mb-3 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
-        .col-lg-10.mb-4
-          .row
-            .col-md-2.col-xl.mb-4.mb-xl-0
-              .tarjeta-numerada.color-acento-contenido.p-5
-                .tarjeta-numerada__numero
-                  .h2 1
-                p 
-                  b Recepción de materia prima:  
-                p Inspección y preparación del producto.
-            .col-md-2.col-xl.mb-4.mb-xl-0
-              .tarjeta-numerada.color-primario.p-5
-                .tarjeta-numerada__numero
-                  .h2 2
-                p 
-                  b Adecuación del fruto:
-                p Retiro de la bolsa protectora y separación de los racimos.
-            .col-md-2.col-xl.mb-4.mb-xl-0
-              .tarjeta-numerada.color-secundario.p-5
-                .tarjeta-numerada__numero
-                  .h2 3
-                p 
-                  b Selección y clasificación: 
-                p  Evaluación de calidad según parámetros comerciales.
-            .col-md-2.col-xl.mb-4.mb-xl-0
-              .tarjeta-numerada.color-terciario.p-5
-                .tarjeta-numerada__numero
-                  .h2 4
-                p 
-                  b Lavado: 
-                p Eliminación de impurezas y posibles residuos de plaguicidas.
-            .col-md-2.col-xl.mb-4.mb-xl-0
-              .tarjeta-numerada.color-acento-botones.p-5
-                .tarjeta-numerada__numero
-                  .h2 5
-                p 
-                  b Empaque:
-                p Organización y protección del producto para su distribución.
+          p.mb-5 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
+          embed.mb-3(type="image/svg+xml", src="/assets/Proceso_ poscosecha.svg", class="img-fluid")
       .titulo-sexto.bg-11.mb-4
         h5 Tabla 5:
         span.text-dark Guía de operación para lavado de plátano
-
       .tabla-a2.mb-5 
         table
           thead
@@ -410,20 +372,19 @@
             span.texto Herramientas e insumos
         .col-lg-10.mb-4
           .row.justify-content-center.align-items-center.mb-3
-            .col-lg-4
+            .col-lg-5.justify-content-center.align-items-center
               img(src="@/assets/curso/temas/tema2/img_33.svg", alt="Imagen de montacargas" class="img-fluid")
-            .col-lg-4
-              .tarjeta_bg-06.p-4.mb-2
-                ul
-                  li ✔ Agua limpia.
-                  li ✔ Alumbre.
-                  li ✔ Estibas.
-                  li ✔ Talonario de registro.
-                  li ✔ Tanques.
-                  li ✔ Baldes.
-                  li ✔ Mesa de escurrido.
-                  li ✔ Mesa de empaque.
-            .col-lg-3
+            .col-lg-4.justify-content-center.align-items-center
+              .tarjeta_bg-06.p-4.mb-0
+                p.mb-2.check-blue Agua limpia.
+                p.mb-2.check-blue Alumbre.
+                p.mb-2.check-blue Estibas.
+                p.mb-2.check-blue Talonario de registro.
+                p.mb-2.check-blue Tanques.
+                p.mb-2.check-blue Baldes.
+                p.mb-2.check-blue Mesa de escurrido.
+                p.mb-2.check-blue Mesa de empaque.
+            .col-lg-3.justify-content-center.align-items-center
               img(src="@/assets/curso/temas/tema2/img_34.svg", alt="Imagen de balde o cubeta" class="img-fluid")
         .col-lg-10.mb-4
           div.metodo.mb-4.mb-md-5
@@ -454,10 +415,11 @@
         .col-lg-10.mb-4
           div.metodo.mb-4.mb-md-5
             span.texto Defectos del plátano más comunes
-        .col-lg-10.mb-4
           .titulo-sexto.bg-11.mb-4
             h5 Figura 6:
             span.text-dark Defectos del plátano más comunes:
+          embed.mb-3(type="image/svg+xml", src="/assets/figuras/figura6.svg", class="img-fluid")
+          figcaption Nota.  SENA
         .col-lg-10.mb-4
       
       .titulo-sexto.bg-11.mb-4

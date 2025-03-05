@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Sintesis")
+        embed.mb-5(type="image/svg+xml", src="/assets/sintesis.svg", class="img-fluid")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -6,15 +6,14 @@
       .titulo-principal__numero
         span 1
       h1 Manejo del cultivo
-    .bg_img_9
-      .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-up")
-        .col-lg-12.mb-4
-          .bloque-texto-g.bloque-texto-g--inverso.bg-09.p-3.p-sm-4.p-md-5
-            .bloque-texto-g__img(
-              :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img_1.svg')})`}"
-            )
-            .bloque-texto-g__texto.p-4
-              p.mb-0 El cultivo de plátano requiere la implementación de diversas prácticas culturales para prevenir problemas fitosanitarios. Aplicarlas a tiempo mejora las condiciones de desarrollo del cultivo y facilita el control de plagas y enfermedades. Esto impacta directamente en el rendimiento, la calidad y el peso del racimo, favoreciendo una producción más saludable y sostenible.
+    .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-up")
+      .col-lg-12.mb-4
+        .bloque-texto-g.bloque-texto-g--inverso.bg-09.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img_1.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 El cultivo de plátano requiere la implementación de diversas prácticas culturales para prevenir problemas fitosanitarios. Aplicarlas a tiempo mejora las condiciones de desarrollo del cultivo y facilita el control de plagas y enfermedades. Esto impacta directamente en el rendimiento, la calidad y el peso del racimo, favoreciendo una producción más saludable y sostenible.
 
     separador
 
@@ -99,16 +98,7 @@
           .titulo-sexto.bg-11.mb-2
             h5 Figura 3: 
             span.text-dark Plateo
-        .col-lg-10.mt-3
-          .plateo-container
-            .plateo-card.plateo-left
-              .plateo-title Plateo manual
-                figure
-                  img(src="@/assets/curso/temas/tema1/img_13.svg", alt="Plateo manual")
-            .plateo-card.plateo-right
-              .plateo-title Después del plateo
-                figure
-                  img(src="@/assets/curso/temas/tema1/img_14.svg", alt="Después del plateo")
+          embed.mb-5(type="image/svg+xml", src="/assets/figuras/figura3.svg", class="img-fluid")
           figcaption Nota.  SENA
       div.metodo.mb-4.mb-md-5
         span.texto Desmanche o regulación de la población

@@ -98,7 +98,7 @@
           .titulo-sexto.bg-11.mb-2
             h5 Figura 3: 
             span.text-dark Plateo
-          embed.mb-5(type="image/svg+xml", src="/assets/figuras/figura3.svg", class="img-fluid")
+          embed.mb-5(type="image/svg+xml", src="../assets/figuras/figura3.svg", class="img-fluid")
           figcaption Nota.  SENA
       div.metodo.mb-4.mb-md-5
         span.texto Desmanche o regulación de la población
@@ -155,64 +155,64 @@
         .col-lg-5
             img(src="@/assets/curso/temas/tema1/img_20.svg", alt="Imagen de unas ondas o olas" class="img-fluid")
         .col-lg-7
-          .tarjeta.fondo_1_2.p-4.slyder_1.bg-01
+          .tarjeta.fondo_1_2.p-4.slyder_1.bg-01.fondo-slyder
               SlyderA(tipo="a")
                 .tarjeta.bg-01.p-2
                   .row.justify-content-center.align-items-center.p-3
-                    .col-md-12.col-xl-7.mb-4
+                    .col-md-3.col-xl-3.mb-0
+                      figure
+                        img(src='@/assets/curso/temas/tema1/img_21.svg', alt='las semillas sean jóvenes').mx-auto
+                    .col-md-7.col-xl-7.mb-0
                       h3.mb-2 01
                       p Que las semillas sean jóvenes, vigorosas y su procedencia y características fenotípicas sean óptimas.
-                    .col-md-8.col-xl-5.mb-3
-                      figure
-                        img(src='@/assets/curso/temas/tema1/img_21.svg', alt='Texto que describa la imagen').mx-auto
                 .tarjeta.bg-01.p-2
                   .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-                    .col-md-12.col-xl-7.mb-4
+                    .col-md-3.col-xl-3.mb-0
+                      figure
+                        img(src='@/assets/curso/temas/tema1/img_22.svg', alt='Determinar la dirección').mx-auto
+                    .col-md-7.col-xl-7.mb-0
                       h3.mb-2 02
                       p Determinar la dirección de inclinación para orientar correctamente las líneas o cuerdas.
-                    .col-md-8.col-xl-5.mb-3
-                      figure
-                        img(src='@/assets/curso/temas/tema1/img_22.svg', alt='Texto que describa la imagen').mx-auto
                 .tarjeta.bg-01.p-2
                   .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-                    .col-md-12.col-xl-7.mb-4
-                      h3.mb-2 03
-                      p Calcular la longitud de cuerda necesaria para el amarre.
-                    .col-md-8.col-xl-5.mb-3
+                    .col-md-3.col-xl-3.mb-0
                       figure
                         img(src='@/assets/curso/temas/tema1/img_23.svg', alt='Texto que describa la imagen').mx-auto
+                    .col-md-7.col-xl-7.mb-0
+                      h3.mb-2 03
+                      p Calcular la longitud de cuerda necesaria para el amarre.
                 .tarjeta.bg-01.p-2
                   .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-                    .col-md-12.col-xl-7.mb-4
-                      h3.mb-2 04
-                      p Asegurar la escalera en una posición firme para facilitar la labor.	
-                    .col-md-8.col-xl-5.mb-3
+                    .col-md-3.col-xl-3.mb-0
                       figure
                         img(src='@/assets/curso/temas/tema1/img_24.svg', alt='Texto que describa la imagen').mx-auto
+                    .col-md-7.col-xl-7.mb-0
+                      h3.mb-2 04
+                      p Asegurar la escalera en una posición firme para facilitar la labor.	
                 .tarjeta.bg-01.p-2
                   .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-                    .col-md-12.col-xl-7.mb-4
-                      h3.mb-2 05
-                      p Amarrar en sentido contrario a la inclinación con un nudo holgado, firme y fácil de soltar.
-                    .col-md-8.col-xl-5.mb-3
+                    .col-md-3.col-xl-3.mb-0
                       figure
                         img(src='@/assets/curso/temas/tema1/img_25.svg', alt='Texto que describa la imagen').mx-auto
-                .tarjeta.bg-01.p-2
+                    .col-md-7.col-xl-7.mb-0
+                      h3.mb-2 05
+                      p Amarrar en sentido contrario a la inclinación con un nudo holgado, firme y fácil de soltar.
+                .tarjeta.bg-01.p-4
                   .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-                    .col-md-12.col-xl-7.mb-4
-                      h3.mb-2 06
-                      p Seleccionar las plantas de anclaje en este orden: paridas, bien desarrolladas sin parir y pseudotallos recién cosechados (menos de una semana).	
-                    .col-md-8.col-xl-5.mb-3
+                    .col-md-3.col-xl-3.mb-0
                       figure
                         img(src='@/assets/curso/temas/tema1/img_26.svg', alt='Texto que describa la imagen').mx-auto
-                .tarjeta.bg-01.p-2
-                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-                    .col-md-12.col-xl-7.mb-4
-                      h3.mb-2 07
+                    .col-md-7.col-xl-7.mb-0
+                      h3.mb-2 06
                       p Seleccionar las plantas de anclaje en este orden: paridas, bien desarrolladas sin parir y pseudotallos recién cosechados (menos de una semana).	
-                    .col-md-8.col-xl-5.mb-3
+                .tarjeta.bg-01.p-4
+                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                    .col-md-3.col-xl-3.mb-0
                       figure
                         img(src='@/assets/curso/temas/tema1/img_27.svg', alt='Texto que describa la imagen').mx-auto
+                    .col-md-7.col-xl-7.mb-0
+                      h3.mb-2 07
+                      p Seleccionar las plantas de anclaje en este orden: paridas, bien desarrolladas sin parir y pseudotallos recién cosechados (menos de una semana).	
       div.metodo.mb-4.mb-md-5
         span.texto Embolse y encinte
       .row.d-flex.align-items-center.mb-5

@@ -195,7 +195,7 @@
           div.metodo.mb-3.mb-md-5
             span.texto Proceso de poscosecha
           p.mb-5 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
-          embed.mb-3(type="image/svg+xml", src="/assets/Proceso_ poscosecha.svg", class="img-fluid")
+          embed.mb-3(type="image/svg+xml", src="../assets/Proceso_ poscosecha.svg", class="img-fluid")
       .titulo-sexto.bg-11.mb-4
         h5 Tabla 5:
         span.text-dark Guía de operación para lavado de plátano
@@ -418,7 +418,7 @@
           .titulo-sexto.bg-11.mb-4
             h5 Figura 6:
             span.text-dark Defectos del plátano más comunes:
-          embed.mb-3(type="image/svg+xml", src="/assets/figuras/figura6.svg", class="img-fluid")
+          embed.mb-3(type="image/svg+xml", src="../assets/figuras/figura6.svg", class="img-fluid")
           figcaption Nota.  SENA
         .col-lg-10.mb-4
       

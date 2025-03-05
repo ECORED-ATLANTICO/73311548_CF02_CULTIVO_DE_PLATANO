@@ -1,12 +1,10 @@
 <template lang="pug">
-  .curso-main-container.pb-3
-    BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-  
-      #Actividad                
-        <Actividad :cuestionario="cuestionario"/>
-  
-  </template>
+.curso-main-container.pb-3
+  BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    #Actividad                
+      <Actividad :cuestionario="cuestionario"/>
+</template>
 
 <script>
 import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
@@ -17,336 +15,246 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Tipos de forrajes',
       titulo:
-        '¿Qué tanto sabes sobre las generalidades, ingredientes y aspectos higiénicos en la preparación de conservas?',
+        'Identificar los principales elementos de los forrajes y la planificación ganadera.',
       introduccion:
-        '<b> Objetivo:</b> Apropiar los conceptos básicos <b>en la preparación de conservas.</b>',
+        'Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál de las siguientes opciones NO es una ventaja de elaborar conservas de frutas y verduras??',
-          imagen: require('@//assets/actividad/imagen1.png'),
+            'La planificación ganadera es importante para la gestión ganadera',
+          imagen: require('@//assets/actividad/imagen1.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Permite tener alimentos disponibles todo el año.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Se pueden evitar las pérdidas de frutas y verduras en época de abundancia.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto:
-                'Los alimentos en conserva siempre son más nutritivos que los frescos.',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'd',
-              texto: 'Permite tener alimentos de uso inmediato.',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto: '¿Qué es el almíbar?',
-          imagen: require('@//assets/actividad/imagen2.png'),
+          texto: 'Maximizar la producción no es clave para los ganaderos',
+          imagen: require('@//assets/actividad/imagen2.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Un líquido que se utiliza para freír las frutas y verduras.',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Una mezcla de agua y azúcar que se utiliza para conservar los alimentos.',
+              texto: 'Falso',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto:
-                'Un producto químico que se añade a las conservas para evitar que se deterioren.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Un tipo de vinagre que se utiliza para encurtir los alimentos.',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
           texto:
-            '¿Cuál de los siguientes NO es un conservante comúnmente utilizado en la elaboración de conservas?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'El tapizado de los bovinos se realiza para extraer los cuernos de los bovinos',
+          imagen: require('@/assets/actividad/imagen3.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Bióxido de azufre.',
-              esCorrecta: false,
+              texto: 'Verdadero',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Ácido benzoico.',
+              texto: 'Falso',
               esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Ácido cítrico.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Vinagre.',
-              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Cuál de los siguientes es un ejemplo de un antioxidante presente en las frutas y verduras?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'La ganadería en colombia trata el concepto del bienestar animal',
+          imagen: require('@/assets/actividad/imagen4.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Pectina.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Carotenoides.',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto: 'Almidón',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Sal.',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto:
-            '¿Qué se entiende por "cambios fisiológicos" en las frutas y verduras?',
-          imagen: require('@/assets/actividad/imagen5.png'),
+          texto: 'Los forrajes son parte fundamental de la aviación ',
+          imagen: require('@/assets/actividad/imagen5.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Los cambios en la composición química del producto.',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Los cambios en la forma y textura del producto.',
+              texto: 'Falso',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'Los cambios en el sabor y aroma del producto.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Los cambios en la cantidad de nutrientes del producto.',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto: '¿Qué es la clorofila?',
-          imagen: require('@/assets/actividad/imagen6.png'),
+          texto:
+            'Los forrajes que están producidos en el banco son cortados y luego son suministrados a los bovinos.',
+          imagen: require('@/assets/actividad/imagen1.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Un pigmento que le da color rojo a las frutas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Un pigmento que le da color azul a las frutas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Un pigmento que le da color verde a las frutas.',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'd',
-              texto: 'Un pigmento que le da color amarillo a las frutas.',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál de los siguientes es un ejemplo de un fruto climatérico?',
-          imagen: require('@/assets/actividad/imagen7.png'),
+            'La correcta gestión de forrajes es crucial para asegurar la salud y productividad de los animales.',
+          imagen: require('@/assets/actividad/imagen2.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Limón.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Manzana.',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto: 'Uva.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Piña.',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes es una función de la fibra soluble presente en las frutas y verduras?',
-          imagen: require('@/assets/actividad/imagen8.png'),
+            'El tipo de cerca viva multiestrato No la técnica más usada, pues al combinarse diferentes especies arbóreas garantiza la variedad de productos para el consumo',
+          imagen: require('@/assets/actividad/imagen3.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Acelerar el tránsito intestinal.',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Reducir los niveles de colesterol en sangre.',
+              texto: 'Falso',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'Aumentar el peso de la materia fecal.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Prevenir el cáncer.',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto: '¿Qué es la "inocuidad alimentaria"?',
-          imagen: require('@/assets/actividad/imagen9.png'),
+          texto:
+            'Las barreras vivas son cultivos que se siembran en las laderas para evitar la erosión.',
+          imagen: require('@/assets/actividad/imagen4.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'La capacidad de un alimento para ser almacenado por largos periodos de tiempo.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'La garantía de que un alimento no causará enfermedades ni daños a la salud cuando se consume.',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto:
-                'La capacidad de un alimento para ser transportado sin deteriorarse.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'La capacidad de un alimento para ser procesado sin perder sus propiedades nutricionales.',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
           texto:
-            '¿Cuál de los siguientes NO es un requisito importante para los envases que se utilizan en la elaboración de conservas?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'Se les dice bancos proteicos cuando los forrajes cultivados tienen un contenido de proteína mayor a un 15%',
+          imagen: require('@/assets/actividad/imagen5.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Que sean de vidrio o metal.',
-              esCorrecta: false,
+              texto: 'Verdadero',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Que sean de un material que no sea corrosivo.',
+              texto: 'Falso',
               esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Que sean fáciles de limpiar y desinfectar.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Que sean de un material transparente para poder ver el producto.',
-              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Felicidades! Has superado el 70% de las respuestas correctas en este cuestionario.  Demuestras un gran conocimiento sobre la preparación de conservas de frutas y verduras. Has comprendido los aspectos importantes relacionados con la higiene, los ingredientes, los métodos de conservación y la seguridad alimentaria. ¡Sigue aprendiendo y compartiendo tus conocimientos!',
+        '¡Excelente! Lo felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        '¡Buen trabajo por completar el cuestionario! Recuerda que la preparación de conservas requiere atención a los detalles para garantizar la calidad y la seguridad alimentaria. Te recomendamos que revises nuevamente el material de estudio para fortalecer tus conocimientos. No dudes en consultar con tu instructor si tienes alguna duda. ¡Sigue practicando y pronto lograrás excelentes resultados!',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

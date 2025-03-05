@@ -212,7 +212,7 @@
             span.texto Mesones para adecuación de materia prima
           p.mb-2 Los mesones donde se manipula el plátano deben contar con superficies lisas, no porosas y de fácil limpieza y desinfección, evitando la acumulación de suciedad y microorganismos patógenos.
           p.mb-4 Después de cada uso, es fundamental:
-          embed.mb-5(type="image/svg+xml", src="/assets/tema3_img_19.svg", class="img-fluid")
+          embed.mb-5(type="image/svg+xml", src="../assets/tema3_img_19.svg", class="img-fluid")
           div.metodo.mb-4.mb-md-4
             span.texto Control de plagas en las instalaciones
           .row.justify-content-center.align-items-center.mb-5
@@ -224,13 +224,10 @@
           .titulo-sexto.bg-11.mb-4
             h5 Figura 7: 
             span.text-dark Plagas
-          embed.mb-5(type="image/svg+xml", src="/assets/figuras/figura7.svg", class="img-fluid")
+          embed.mb-5(type="image/svg+xml", src="../assets/figuras/figura7.svg", class="img-fluid")
           figcaption Nota.  SENA (2024).
-          .tarjeta_bg-07
-            .contenido
-              p.mb-2 Las plagas y los roedores comparten los mismos requerimientos básicos que los seres humanos, ya que necesitan agua, alimento y un refugio para sobrevivir. Por esta razón, se debe eliminar cualquier factor que favorezca su reproducción y permanencia en el entorno.
-              p.mb-0 Para prevenir su presencia, se deben mantener los establecimientos y sus alrededores libres de residuos de alimentos y acumulaciones de agua que puedan atraerlas. A continuación, se presentan algunas recomendaciones importantes para evitar la contaminación de los alimentos:
-          .tarjeta.fondo_1_2.p-4.slyder_1.bg-01
+          embed.mb-5(type="image/svg+xml", src="../assets/plagas.svg", class="img-fluid")
+          .tarjeta.fondo_1_2.p-4.slyder_1.bg-01.fondo-slyder-b
             SlyderA(tipo="b")
               .tarjeta.bg-01.p-2
                 .row.justify-content-center.align-items-center.p-3

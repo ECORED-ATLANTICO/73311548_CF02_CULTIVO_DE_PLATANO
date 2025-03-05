@@ -115,7 +115,7 @@
         .titulo-sexto.bg-11.mb-2
           h5 Figura 9:
           span.text-dark Recomendaciones del lavado.
-        embed.mb-5(type="image/svg+xml", src="/assets/figuras/figura9.svg", class="img-fluid")
+        embed.mb-5(type="image/svg+xml", src="../assets/figuras/figura9.svg", class="img-fluid")
         div.metodo.mb-4.mb-md-3
           span.texto Prácticas higiénico-sanitarias
         p.mb-3 El cumplimiento de normas de higiene dentro de la producción de plátano es de gran importancia para garantizar la inocuidad del producto y la seguridad de los trabajadores. La implementación de buenas prácticas higiénico-sanitarias contribuye a la prevención de contaminaciones que pueden afectar la calidad del cultivo y la salud de los consumidores.
@@ -215,13 +215,73 @@
           p.mb-2.check-blue Visibilidad: toda la información debe estar impresa en un mismo lado del empaque, asegurando su fácil lectura.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-4
-        embed.mb-5(type="image/svg+xml", src="/assets/ejemplo_etiquetas.svg", class="img-fluid")
+        embed.mb-5(type="image/svg+xml", src="../assets/ejemplo_etiquetas.svg", class="img-fluid")
         div.metodo.mb-4.mb-md-3
           span.texto Trazabilidad o rastreabilidad
         p.mb-3 La trazabilidad es un aspecto muy importante dentro de la unidad productiva, ya que permite realizar un seguimiento detallado del producto a lo largo de toda la cadena de producción. Implementar un sistema documental adecuado facilita el registro de información relevante sobre cada lote, permitiendo analizar y solucionar de manera efectiva cualquier problema de seguridad alimentaria.
         h5.mb-3 Algunos parámetros fundamentales para la identificación y trazabilidad del producto incluyen:
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-4.justify-content-center.align-items-center
+            img(src="@/assets/curso/temas/tema4/img_14.svg", alt="Trazabilidad o rastreabilidad" class="img-fluid")
+          .col-lg-8.justify-content-center.align-items-center
+            .fondo-slyder
+              .tarjeta.fondo_1_2.p-4.slyder_1.bg-01
+                SlyderA(tipo="a")
+                  .tarjeta.bg-01.p-2
+                    .row.justify-content-center.align-items-center.p-3
+                      .col-md-3.col-xl-3.mb-0
+                        figure
+                          img(src='@/assets/curso/temas/tema4/img_15.svg', alt='Registro de insumos y proveedores').mx-auto
+                      .col-md-7.col-xl-7.mb-0
+                        h3.mb-2 Registro de insumos y proveedores
+                        p Es necesario documentar los insumos utilizados durante el proceso productivo, así como los proveedores de cada uno, asegurando un control riguroso sobre su calidad y origen.      
+                  .tarjeta.bg-01.p-2
+                    .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                      .col-md-3.col-xl-3.mb-0
+                        figure
+                          img(src='@/assets/curso/temas/tema4/img_16.svg', alt='Información del área de cultivo').mx-auto
+                      .col-md-7.col-xl-7.mb-0
+                        h3.mb-2 Información del área de cultivo	
+                        p Se debe contar con un registro detallado de las condiciones del terreno donde se estableció el cultivo, incluyendo sus características y manejo agronómico.
+                  .tarjeta.bg-01.p-2
+                    .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                      .col-md-3.col-xl-3.mb-0
+                        figure
+                          img(src='@/assets/curso/temas/tema4/img_17.svg', alt='Fuentes de agua').mx-auto
+                      .col-md-7.col-xl-7.mb-0
+                        h3.mb-2 Fuentes de agua
+                        p Se deben identificar y documentar las fuentes de suministro de agua utilizadas en el proceso (ríos, arroyos, depósitos, entre otros), para evaluar la calidad del recurso y su impacto en el cultivo.
+                  .tarjeta.bg-01.p-2
+                    .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                      .col-md-3.col-xl-3.mb-0
 
-
+                      .col-md-7.col-xl-7.mb-4 
+                        h3.mb-2 Acción correctiva ante problemas en lotes
+                        p En caso de incidentes con un lote específico, el sistema de trazabilidad permite identificar su destino y retirar del mercado aquellos productos que compartan el mismo código, evitando riesgos para el consumidor.	
+                  .tarjeta.bg-01.p-2
+                    .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                      .col-md-3.col-xl-3.mb-0
+                        figure
+                          img(src='@/assets/curso/temas/tema4/img_18.svg', alt='Sistemas de identificación del producto').mx-auto  
+                      .col-md-7.col-xl-7.mb-0
+                        h3.mb-2 Sistemas de identificación del producto	
+                        p Se requiere disponer de documentos que registren el origen del producto y el mecanismo utilizado para su marcación o identificación, facilitando su rastreo a lo largo de la cadena de suministro.	
+                  .tarjeta.bg-01.p-2
+                    .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                      .col-md-3.col-xl-3.mb-0
+                        figure
+                          img(src='@/assets/curso/temas/tema4/img_19.svg', alt='Acción correctiva ante problemas en lotes').mx-auto  
+                      .col-md-7.col-xl-7.mb-0 
+                        h3.mb-2 Condiciones de procesamiento
+                        p Se deben especificar las condiciones en las que fue procesado cada lote, así como las características de las materias primas empleadas. Esta información resulta necesaria para evaluar posibles fallas en caso de reclamaciones y determinar si el problema se originó durante la producción o por un mal manejo posterior.
+                  .tarjeta.bg-01.p-2
+                    .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                      .col-md-3.col-xl-3.mb-0
+                        figure
+                          img(src='@/assets/curso/temas/tema4/img_20.svg', alt='Acción correctiva ante problemas en lotes').mx-auto  
+                      .col-md-7.col-xl-7.mb-0
+                        h3.mb-2 Plan de retiro de productos
+                        p La central de poscosecha debe contar con un plan eficiente para retirar productos en mal estado. Además, es importante que los productores mantengan comunicación directa con distribuidores y comercializadores de plátano, con el fin de monitorear las condiciones en las que llega el producto al mercado y corregir cualquier deficiencia de manera rápida y efectiva.	           
 </template>
 
 <script>

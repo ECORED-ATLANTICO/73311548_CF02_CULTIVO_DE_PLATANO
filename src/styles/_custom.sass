@@ -180,11 +180,61 @@
   .my-lg-4 
     margin-top: 1.5rem !important
     /* margin-bottom: 1.5rem !important;
-
+.slyder_2
+  p 
+    margin-bottom: 0
+  .slyder-a__bullets__item--active
+    display: none
+  .slyder-a__bullets__item
+    display: none
+  .slyder-a__btn--atrs
+    background-color: #D4F989
+    border-color: #D4F989
+    color: #12263F
+  .slyder-a__btn--sigt
+    background-color: #D4F989
+    border-color: #D4F989
+    color: #12263F
+  .tarjeta--blanca
+    border-radius: 25px
+  .my-lg-4 
+    margin-top: 1.5rem !important
+    /* margin-bottom: 1.5rem !important;
   
 .fondo_1_2
   background-size: cover
 
+.fondo-slyder
+  position: relative
+  overflow: hidden
+
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 100%
+    height: 100%
+    background: url('../assets/curso/fondos/fondo_1_3.svg') no-repeat center center
+    background-size: contain
+
+.fondo-slyder-b
+  position: relative
+  overflow: hidden
+
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 100%
+    height: 100%
+    background: url('../assets/curso/fondos/fondo_b.svg') no-repeat center center
+    background-size: contain
 .fondo_1_1_1
   background-size: cover
 
@@ -556,9 +606,6 @@ $fondo: '../assets/curso/fondo-platano2.svg'
 .lista-ol--cuadro__vineta
   background-color: #8C492A
 
-.lista-ol--separador li, .lista-ul--separador li
-  border-bottom: dashed 1px #b0c0d2
-
 // Fondos de tarjetas
 .bg_img
   &_1
@@ -573,7 +620,6 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background-image: url(../assets/curso/fondos/img_1.png) !important
       background-repeat: no-repeat
   &_2
     position: relative
@@ -587,7 +633,6 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background-image: url(../assets/curso/fondos/img_2.png) !important
       background-repeat: no-repeat
   &_3
     position: relative
@@ -614,7 +659,6 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 50%
-      background-image: url(../assets/curso/fondos/img_3.png) !important
       background-repeat: no-repeat
   &_5
     position: relative
@@ -671,7 +715,6 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background-image: url(../assets/curso/fondos/img_4.png) !important
       background-repeat: no-repeat
   &_9
     position: relative
@@ -685,7 +728,6 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 60%
-      background-image: url(../assets/curso/fondos/img_5.png) !important
       background-repeat: no-repeat
   &_10
     position: relative
@@ -699,7 +741,6 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background-image: url(../assets/curso/fondos/img_6.png) !important
       background-repeat: no-repeat
   &_11
     position: relative
@@ -713,7 +754,7 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background-image: url(../assets/curso/fondos/img_7.png) !important
+     
       background-repeat: no-repeat
   &_12
     position: relative
@@ -727,7 +768,6 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background-image: url(../assets/curso/fondos/img_9.png) !important
       background-repeat: no-repeat
   &_13
     position: relative
@@ -741,7 +781,6 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background-image: url(../assets/curso/fondos/img_10.png) !important
       background-repeat: no-repeat
   &_14
     position: relative
@@ -755,7 +794,7 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background-image: url(../assets/curso/fondos/img_11.png) !important
+      
       background-repeat: no-repeat
   &_15
     position: relative
@@ -769,7 +808,7 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background-image: url(../assets/curso/fondos/img_12.png) !important
+      background-image: url(../assets/curso/fondos/fondo_1_3.svg) !important
       background-repeat: no-repeat
   &_16
     position: relative

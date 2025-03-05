@@ -98,7 +98,7 @@
           .titulo-sexto.bg-11.mb-2
             h5 Figura 3: 
             span.text-dark Plateo
-          object(type="image/svg+xml" data="/assets/figuras/figura3.svg")
+          object(type="image/svg+xml" data="@/assets/figuras/figura3.svg")
           figcaption Nota.  SENA
       div.metodo.mb-4.mb-md-5
         span.texto Desmanche o regulación de la población

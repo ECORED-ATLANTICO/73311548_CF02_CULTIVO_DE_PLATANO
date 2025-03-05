@@ -186,8 +186,8 @@
                   img(src='@/assets/curso/temas/tema2/img_21.svg', alt='Texto que describa la imagen')
             h3.text-center.mb-2 Empaque
             p.text-small  Protección de los frutos para evitar daños durante el transporte.
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-10.mb-4
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-10.mb-2
           .cajon.bg-4.g_18.mb-5
             .row.justify-content-center.align-items-center
               .col-lg-12.p-4.ps-5 
@@ -195,7 +195,7 @@
           div.metodo.mb-3.mb-md-5
             span.texto Proceso de poscosecha
           p.mb-5 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
-          embed.mb-3(type="image/svg+xml", src="../assets/Proceso_ poscosecha.svg", class="img-fluid")
+          object(type="image/svg+xml" data="/assets/Proceso_poscosecha.svg").mb-0
       .titulo-sexto.bg-11.mb-4
         h5 Tabla 5:
         span.text-dark Guía de operación para lavado de plátano
@@ -418,7 +418,7 @@
           .titulo-sexto.bg-11.mb-4
             h5 Figura 6:
             span.text-dark Defectos del plátano más comunes:
-          embed.mb-3(type="image/svg+xml", src="../assets/figuras/figura6.svg", class="img-fluid")
+          object(type="image/svg+xml" data="/assets/figuras/figura6.svg").mb-3
           figcaption Nota.  SENA
         .col-lg-10.mb-4
       

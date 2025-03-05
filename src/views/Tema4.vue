@@ -115,7 +115,7 @@
         .titulo-sexto.bg-11.mb-2
           h5 Figura 9:
           span.text-dark Recomendaciones del lavado.
-        embed.mb-5(type="image/svg+xml", src="../assets/figuras/figura9.svg", class="img-fluid")
+        object.mb-5(type="image/svg+xml", src="./assets/figuras/figura9.svg", class="img-fluid")
         div.metodo.mb-4.mb-md-3
           span.texto Prácticas higiénico-sanitarias
         p.mb-3 El cumplimiento de normas de higiene dentro de la producción de plátano es de gran importancia para garantizar la inocuidad del producto y la seguridad de los trabajadores. La implementación de buenas prácticas higiénico-sanitarias contribuye a la prevención de contaminaciones que pueden afectar la calidad del cultivo y la salud de los consumidores.
@@ -215,7 +215,7 @@
           p.mb-2.check-blue Visibilidad: toda la información debe estar impresa en un mismo lado del empaque, asegurando su fácil lectura.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-4
-        embed.mb-5(type="image/svg+xml", src="../assets/ejemplo_etiquetas.svg", class="img-fluid")
+        object.mb-5(type="image/svg+xml", src="./assets/ejemplo_etiquetas.svg", class="img-fluid")
         div.metodo.mb-4.mb-md-3
           span.texto Trazabilidad o rastreabilidad
         p.mb-3 La trazabilidad es un aspecto muy importante dentro de la unidad productiva, ya que permite realizar un seguimiento detallado del producto a lo largo de toda la cadena de producción. Implementar un sistema documental adecuado facilita el registro de información relevante sobre cada lote, permitiendo analizar y solucionar de manera efectiva cualquier problema de seguridad alimentaria.

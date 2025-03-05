@@ -98,7 +98,7 @@
           .titulo-sexto.bg-11.mb-2
             h5 Figura 3: 
             span.text-dark Plateo
-          embed.mb-5(type="image/svg+xml", src="../assets/figuras/figura3.svg", class="img-fluid")
+          object(type="image/svg+xml" data="/assets/figuras/figura3.svg")
           figcaption Nota.  SENA
       div.metodo.mb-4.mb-md-5
         span.texto Desmanche o regulación de la población
@@ -182,15 +182,15 @@
                       h3.mb-2 03
                       p Calcular la longitud de cuerda necesaria para el amarre.
                 .tarjeta.bg-01.p-2
-                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-4
                     .col-md-3.col-xl-3.mb-0
                       figure
                         img(src='@/assets/curso/temas/tema1/img_24.svg', alt='Texto que describa la imagen').mx-auto
                     .col-md-7.col-xl-7.mb-0
                       h3.mb-2 04
                       p Asegurar la escalera en una posición firme para facilitar la labor.	
-                .tarjeta.bg-01.p-2
-                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                .tarjeta.bg-01.p-4
+                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-4
                     .col-md-3.col-xl-3.mb-0
                       figure
                         img(src='@/assets/curso/temas/tema1/img_25.svg', alt='Texto que describa la imagen').mx-auto
@@ -198,7 +198,7 @@
                       h3.mb-2 05
                       p Amarrar en sentido contrario a la inclinación con un nudo holgado, firme y fácil de soltar.
                 .tarjeta.bg-01.p-4
-                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-4
                     .col-md-3.col-xl-3.mb-0
                       figure
                         img(src='@/assets/curso/temas/tema1/img_26.svg', alt='Texto que describa la imagen').mx-auto
@@ -206,7 +206,7 @@
                       h3.mb-2 06
                       p Seleccionar las plantas de anclaje en este orden: paridas, bien desarrolladas sin parir y pseudotallos recién cosechados (menos de una semana).	
                 .tarjeta.bg-01.p-4
-                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-4
                     .col-md-3.col-xl-3.mb-0
                       figure
                         img(src='@/assets/curso/temas/tema1/img_27.svg', alt='Texto que describa la imagen').mx-auto

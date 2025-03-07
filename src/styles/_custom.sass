@@ -135,6 +135,9 @@
   font-weight: bold
   text-align: center
 
+.bg-21
+  background-color: #98E465 !important
+
 .bg-transparente
   background-color: transparent
 
@@ -456,13 +459,13 @@ $fondo: '../assets/curso/fondo-platano2.svg'
   background-color: #8C492A
 
 .cajon.bg-4::before
-  background-color: #98E465
+  background-color: $color-secundario-S20
 .cajon.bg-4
-  background-color: #CEF0B6
+  background-color: $color-secundario-S20
   p
     margin-bottom: 0
 .cajon.bg-4::before
-  background-color: #98E465
+  background-color: $color-secundario
 
 
 ///////// Linea tiempo --------------------------------------
@@ -892,7 +895,8 @@ $fondo: '../assets/curso/fondo-platano2.svg'
 
 .crd--avatarHorizontal
   position: relative
-  padding-right: 12rem
+  padding-right: clamp(2rem, 9vw, 10rem)
+  min-width: 260px
   & > *
     position: relative
   h5
@@ -903,13 +907,36 @@ $fondo: '../assets/curso/fondo-platano2.svg'
     position: absolute
     content: ''
     top: 0
-    right: 7rem
-    width: calc( 100% - 60px)
+    right: 5vw
+    width: calc(100% - 4rem)
     height: 100%
     background-color: #F6F6F6
-
-  @media (max-width: 1000px)
-    padding-right: 2rem
+  .col-auto
+    position: relative
+    width: clamp(60px, 8vw, 90px)
+    height: auto
+  .col-auto figure img
+    position: absolute
+    left: 5vw
+    width: 100%
+    max-width: 90px
+    transform: translateY(-50%)
+  @media (max-width: 2560px)
+    .col-auto figure img
+      left: -6rem
+  @media (max-width: 1440px)
+    .col-auto figure img
+      left: -2.5rem
+  @media (max-width: 1024px)
+    padding-right: 3rem
+    .col-auto
+      width: 70px
+    .col-auto figure img
+      left: -0.5rem
+  @media (max-width: 768px)
+    padding-right: 3rem
+    .col-auto figure img
+      left: 0.2rem
 
 .crd--first,.crd--middle, .crd--last
   &::before
@@ -928,9 +955,9 @@ $fondo: '../assets/curso/fondo-platano2.svg'
   right: -4rem
   z-index: 1
   img
-    width: 295px
+    width: clamp(150px, 20vw, 275px)
     height: auto
-  @media (max-width: 1000px)
+  @media (max-width: 1024px)
     display: none
 
 .bloque_fondo
@@ -942,7 +969,7 @@ $fondo: '../assets/curso/fondo-platano2.svg'
   color: #fff
 
 .tabs-a__tab
-  background-color: #AED139
+  background-color: $color-secundario-S10
   color: #12263F
 .tabs-a.color-primario .tabs-a__tab__selected
   background-color: #56681C

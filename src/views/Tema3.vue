@@ -212,7 +212,7 @@
             span.texto Mesones para adecuación de materia prima
           p.mb-2 Los mesones donde se manipula el plátano deben contar con superficies lisas, no porosas y de fácil limpieza y desinfección, evitando la acumulación de suciedad y microorganismos patógenos.
           p.mb-4 Después de cada uso, es fundamental:
-          object(type="image/svg+xml" data="/assets/tema3_img_19.svg").mb-3
+          object(type="image/svg+xml" data="/assets/tema3_img_19.svg" class="img-fluid").mb-3
           div.metodo.mb-4.mb-md-4
             span.texto Control de plagas en las instalaciones
           .row.justify-content-center.align-items-center.mb-5
@@ -224,9 +224,9 @@
           .titulo-sexto.bg-11.mb-4
             h5 Figura 7: 
             span.text-dark Plagas
-          object(type="image/svg+xml" data="/assets/figuras/figura7.svg").mb-3
+          object(type="image/svg+xml" data="/assets/figuras/figura7.svg" class="img-fluid").mb-3
           figcaption Nota.  SENA (2024).
-          object(type="image/svg+xml" data="/assets/plagas.svg").mb-3
+          object(type="image/svg+xml" data="/assets/plagas.svg" class="img-fluid").mb-3
           .tarjeta.fondo_1_2.p-4.slyder_1.bg-01.fondo-slyder-b
             SlyderA(tipo="b")
               .tarjeta.bg-01.p-2

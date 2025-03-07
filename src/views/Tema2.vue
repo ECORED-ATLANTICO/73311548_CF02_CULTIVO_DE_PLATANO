@@ -8,7 +8,7 @@
       h1 Cosecha y poscosecha
     .row.mb-3
       .col-lg-3
-        img(src="@/assets/curso/temas/tema2/img_1.svg", alt="Imagen de unos platanos" class="img-fluid")
+        img(src="@/assets/curso/temas/tema2/img_1.svg", alt="Cosecha y poscosecha" class="img-fluid")
       .col-lg-9
         p.mb-2 El desguasque se encuentra dentro de las prácticas culturales recomendadas para favorecer la sanidad y vigor de las plantas. Esta labor consiste en eliminar la guasca seca que hay en el pseudotallo, se puede realizar cada vez que lo requiera el cultivo, procurando no hacer daño a la planta; el no realizar esta labor en la platanera puede generar plagas como el Picudo, el Rayado, la Palomilla y algunas enfermedades como el virus en el pseudotallo.
         p.mb-2 Cuando los frutos alcanzan su punto de madurez, inicia la etapa de cosecha, en la cual los racimos son recolectados con cuidado para evitar daños mecánicos. Posteriormente, el proceso de poscosecha se encarga de preservar la calidad del producto mediante actividades como limpieza, clasificación y embalaje, asegurando su adecuada presentación y conservación para la distribución.
@@ -26,7 +26,7 @@
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Descargar diagrama de operaciones para poscosecha de plátano.
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://docs.google.com/document/d/1jVBfOd5V9GKLcxlabgO5ugooc6IHyGn5-JTTdtEkPMo/edit?usp=sharing" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -36,17 +36,17 @@
       .h2(data-aos="fade-right") 2.1 Cosecha
     .mb-3
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9
+      .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-9.col-xxl-9
         p.mb-2 La cosecha del plátano es un proceso que exige precisión y cuidado para garantizar la calidad del producto final. La madurez óptima se alcanza entre las 9 y 13 semanas posteriores a la floración, aunque en sistemas de riego tecnificado puede lograrse a los nueve meses de la siembra. Su determinación se basa en diversos métodos, como el uso de cintas o tablas de colores que indican el grado de madurez según el color y el contenido de azúcar del fruto. Este último puede medirse con un refractómetro, complementando el análisis con el registro de los días transcurridos desde la floración y la observación del llenado del fruto. Durante esta evaluación, se descartan racimos con daños por plagas, enfermedades o golpes, asegurando la calidad y uniformidad del producto.
         .tarjeta_bg-06.p-4.mb-2
           .row.mb-3.justify-content-center.align-items-center
-            .col-lg-1
-              img(src="@/assets/curso/temas/tema2/img_3.svg", alt="Imagen de unos platanos" class="img-fluid")
-            .col-lg-11
+            .col-3.col-sm-2.col-md-2.col-lg-2.col-xl-1.col-xxl-1
+              img(src="@/assets/curso/temas/tema2/img_3.svg", alt="Cosecha" class="img-fluid")
+            .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-11.col-xxl-11
               p.mb-0 Una vez seleccionado el racimo, el corte debe realizarse con precisión para evitar daños. Se practica un corte parcial en forma de cruz, aproximadamente a dos tercios de la altura del pseudotallo, lo que minimiza cualquier impacto negativo en la integridad del racimo. En esta fase, es esencial un manejo delicado para evitar golpes que puedan afectar la calidad del fruto.
         p.mb-2 El transporte hasta el área de procesamiento es determinante para preservar la calidad del racimo. Para minimizar golpes y rozaduras, se emplean distintos métodos según la distancia y las condiciones del terreno, como:
-      .col-lg-3
-        img(src="@/assets/curso/temas/tema2/img_4.svg", alt="Imagen de unos platanos" class="img-fluid")
+      .col-12.col-sm-12.col-md-12.col-lg-4.col-xl-3.col-xxl-3
+        img(src="@/assets/curso/temas/tema2/img_4.svg", alt="Cosecha" class="img-fluid")
     .row.mb-3.justify-content-center.align-items-center
       .col-lg-10
         .container
@@ -155,35 +155,35 @@
       p.mb-5 La poscosecha tiene como objetivo preservar la calidad e integridad de los plátanos para su comercialización o consumo. Este proceso abarca diversas actividades esenciales:
       .row.justify-content-center.align-items-center.mb-5
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.p-4
+          .tarjeta--boton.color-acento-A10.p-4
             .row.justify-content-center.align-items-center
               .col-7
                 figure
-                  img(src='@/assets/curso/temas/tema2/img_18.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema2/img_18.svg', alt='Lavado' class="img-fluid")
             h3.text-center.mb-4 Lavado
             p.text-small Eliminación de residuos e impurezas.
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.p-4
+          .tarjeta--boton.color-acento-A10.p-4
             .row.justify-content-center.align-items-center
               .col-7
                 figure
-                  img(src='@/assets/curso/temas/tema2/img_19.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema2/img_19.svg', alt='Clasificación' class="img-fluid")
             h3.text-center.mb-2 Clasificación
             p.text-small Selección de los frutos según estándares de mercado.
         .col-sm-6.col-lg-3.mb-4.mb-sm-0
-          .tarjeta--boton.p-4
+          .tarjeta--boton.color-acento-A10.p-4
             .row.justify-content-center.align-items-center
               .col-7
                 figure
-                  img(src='@/assets/curso/temas/tema2/img_20.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema2/img_20.svg', alt='Desmanado' class="img-fluid")
             h3.text-center.mb-2 Desmanado
             p.text-small Separación de los plátanos en unidades individuales.
         .col-sm-6.col-lg-3
-          .tarjeta--boton.p-4
+          .tarjeta--boton.color-acento-A10.p-4
             .row.justify-content-center.align-items-center
               .col-7
                 figure
-                  img(src='@/assets/curso/temas/tema2/img_21.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema2/img_21.svg', alt='Empaque' class="img-fluid")
             h3.text-center.mb-2 Empaque
             p.text-small  Protección de los frutos para evitar daños durante el transporte.
       .row.justify-content-center.align-items-center.mb-4
@@ -195,7 +195,7 @@
           div.metodo.mb-3.mb-md-5
             span.texto Proceso de poscosecha
           p.mb-5 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
-          object(:data="Proceso_poscosecha" type="image/svg+xml").mb-0
+          object(:data="Proceso_poscosecha" type="image/svg+xml" class="img-fluid").mb-0
       .titulo-sexto.bg-11.mb-4
         h5 Tabla 5:
         span.text-dark Guía de operación para lavado de plátano
@@ -397,9 +397,9 @@
             .col-lg-9
               .tarjeta_bg-06.p-4.mb-2
                 .row.mb-3.justify-content-center.align-items-center
-                  .col-lg-1
+                  .col-3.col-sm-2.col-md-2.col-lg-2.col-xl-1.col-xxl-1
                     img(src="@/assets/curso/temas/tema2/img_37.svg", alt="Imagen de unos platanos" class="img-fluid")
-                  .col-lg-11
+                  .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-11.col-xxl-11
                     p.mb-0 1. Las gurbias deben estar bien afiliadas para que haya un buen corte y así evitar el rasgado en el cuello de la fruta.
                     p.mb-0 2. Hacer el desleche utilizando los tanques.
                     p.mb-0 3. Realizar el desleche por 10 minutos para no tener problemas posteriores como el manchado de la fruta.
@@ -418,7 +418,7 @@
           .titulo-sexto.bg-11.mb-4
             h5 Figura 6:
             span.text-dark Defectos del plátano más comunes:
-          object(:data="figura6" type="image/svg+xml").mb-3
+          object(:data="figura6" type="image/svg+xml" class="img-fluid").mb-3
           figcaption Nota.  SENA
         .col-lg-10.mb-4
       

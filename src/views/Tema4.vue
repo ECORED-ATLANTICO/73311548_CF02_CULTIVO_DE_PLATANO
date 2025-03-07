@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-up")
       .col-lg-12.mb-5
-        .bloque-texto-g.bloque-texto-g--inverso.bg-09.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.bloque-texto-g--inverso.bg-21.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img_1.svg')})`}"
           )

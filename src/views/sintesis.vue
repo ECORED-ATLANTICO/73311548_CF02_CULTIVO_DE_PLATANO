@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure
-        embed.mb-5(type="image/svg+xml", src="/assets/sintesis.svg", class="img-fluid")
+        object(:data="Sintesis" type="image/svg+xml").mb-0
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
@@ -20,9 +20,11 @@
 <script>
 export default {
   name: 'Sintesis',
-  data: () => ({
-    // variables de vue
-  }),
+  data() {
+    return {
+      Sintesis: require('@/assets/curso/sintesis.svg'),
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

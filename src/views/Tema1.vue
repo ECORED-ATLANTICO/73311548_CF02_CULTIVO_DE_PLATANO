@@ -7,7 +7,7 @@
         span 1
       h1 Manejo del cultivo
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-up")
-      .col-lg-12.mb-4
+      .col-lg-12.mb-0
         .bloque-texto-g.bloque-texto-g--inverso.bg-21.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img_1.svg')})`}"
@@ -20,10 +20,10 @@
     #t_1_1.titulo-segundo
       .h2(data-aos="fade-right") 1.1 Control de malezas
     .mb-3
-      .row.justify-content-center.align-items-center.mb-0
-        .col-lg-4.p-2
+      .row.justify-content-center.align-items-center.mb-1
+        .col-lg-4.mb-2
           p.mb-5 El manejo adecuado de las malezas es esencial para garantizar el crecimiento saludable del plátano y prevenir la propagación de enfermedades. Estas plantas además de competir por nutrientes, agua y luz, también, pueden actuar como vectores de plagas y patógenos que afectan el cultivo.
-        .col-lg-6
+        .col-lg-6.mb-2
           figure
             img.mb-5(src="@/assets/curso/temas/tema1/img_2.svg", alt="El manejo adecuado de las malezas es esencial para garantizar el crecimiento saludable del plátano y prevenir la propagación de enfermedades. Estas plantas además de competir por nutrientes, agua y luz, también, pueden actuar como vectores de plagas y patógenos que afectan el cultivo." class="img-fluid")
       TabsB.color-acento-contenido.mb-5
@@ -90,12 +90,11 @@
               .col
                 h5 Control manual	
                 p Se realiza mediante el plateo con machete o manualmente. Este último es el método más recomendado para evitar daños a la planta.
- 
       div.metodo.mb-4.mb-md-5
         span.texto Plateo
       p.mb-5 El plateo es una técnica esencial en el cultivo de plátano que consiste en mantener libre de malezas la base de la planta. Su correcta aplicación facilita la fertilización y el manejo de plagas y enfermedades, favoreciendo así un desarrollo óptimo del cultivo y aumentando su productividad. Se recomienda realizar esta labor de forma manual para evitar daños a la planta y mejorar la eficacia del control de arvenses.
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-10.mb-2
+        .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-2
           .titulo-sexto.bg-11.mb-2
             h5 Figura 3: 
             span.text-dark Plateo
@@ -106,178 +105,170 @@
       p.mb-3 El desmanche es una técnica fundamental en el cultivo de plátano, cuyo propósito es eliminar los colinos que emergen alrededor de la planta madre. Estos brotes generan competencia por luz, agua y nutrientes, afectando el desarrollo del cultivo. La aplicación adecuada de esta práctica permite establecer una descendencia equilibrada, compuesta por madre, hijo y nieto, optimizando la producción y garantizando una densidad adecuada de plantas por hectárea.
       p.mb-5 A continuación, se describen algunos métodos de eliminación de colinos:
       .row.justify-content-center.align-items-center.mb-3
-        .col-lg-10.mb-3
-          .row.justify-content-center.mb-3
-            .col-xl-3.col-lg-6.col-md-8.col-10.mb-4.mb-xl-4
-              .crd_hover_txt(data-aos="flip-left")
-                .crd_hover_txt--img
-                  figure
-                    img(src="@/assets/curso/temas/tema1/img_15.svg", alt="Arranque de colino" class="img-fluid")
-                .crd_hover_txt--body
-                  h4.mb-3.text-center Arranque de colino
-                  p.mb-0 Consiste en separar el brote de la planta madre utilizando herramientas como barretón o palín.
-            .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-5
-              .crd_hover_txt(data-aos="flip-left")
-                .crd_hover_txt--img
-                  figure
-                    img(src="@/assets/curso/temas/tema1/img_16.svg", alt="Muerte de la yema apical" class="img-fluid")
-                .crd_hover_txt--body
-                  h4.mb-3.text-center Muerte de la yema apical
-                  p.mb-0 Se realiza un corte basal al colino y, posteriormente, se elimina su punto de crecimiento mediante una incisión en forma de cruz. Para este procedimiento se emplean machetes o rulas.	
-            .col-xl-3.col-lg-6.col-md-8.col-10.mb-xl-4.mb-4
-              .crd_hover_txt(data-aos="flip-left")
-                .crd_hover_txt--img
-                  figure
-                    img(src="@/assets/curso/temas/tema1/img_17.svg", alt="Extracción del punto de crecimiento" class="img-fluid")
-                .crd_hover_txt--body
-                  h4.mb-3.text-center Extracción del punto de crecimiento
-                  p.mb-0 Mediante un sacabocados, se retira la yema sin afectar el sistema radicular de la planta madre ni de los colinos restantes.
-          div.metodo.mb-4.mb-md-5
+        .col-10.col-sm-10.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-5
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/temas/tema1/img_15.svg", alt="Arranque de colino" class="img-fluid")
+            .crd_hover_txt--body
+              h4.mb-3.text-center Arranque de colino
+              p.mb-0 Consiste en separar el brote de la planta madre utilizando herramientas como barretón o palín.
+        .col-10.col-sm-10.col-md-8.col-lg-4.col-xl-4.col-xxl-4.mb-5
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/temas/tema1/img_16.svg", alt="Muerte de la yema apical" class="img-fluid")
+            .crd_hover_txt--body
+              h4.mb-3.text-center Muerte de la yema apical
+              p.mb-0 Se realiza un corte basal al colino y, posteriormente, se elimina su punto de crecimiento mediante una incisión en forma de cruz. Para este procedimiento se emplean machetes o rulas.	
+        .col-10.col-sm-10.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-5
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/temas/tema1/img_17.svg", alt="Extracción del punto de crecimiento" class="img-fluid")
+            .crd_hover_txt--body
+              h4.mb-3.text-center Extracción del punto de crecimiento
+              p.mb-0 Mediante un sacabocados, se retira la yema sin afectar el sistema radicular de la planta madre ni de los colinos restantes.
+        .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
+          div.metodo
             span.texto Desguasque
-          .row.justify-content-center.align-items-center.mb-3
-            .col-lg-3.col-xl-3.col-md-10.col-10.mb-3
-              img(src="@/assets/curso/temas/tema1/img_18.svg", alt="Desguasque" class="img-fluid")
-            .col-lg-9.col-xl-9.col-md-10.col-10
-              p.mb-3 El desguasque se encuentra dentro de las prácticas culturales recomendadas para favorecer la sanidad y vigor de las plantas. Esta labor consiste en eliminar la guasca seca que hay en el pseudotallo, se puede realizar cada vez que lo requiera el cultivo, procurando no hacer daño a la planta; el no realizar esta labor en la platanera puede generar plagas como el Picudo, el Rayado, la Palomilla y algunas enfermedades como el virus en el pseudotallo.
-          div.metodo.mb-4.mb-md-5
+        .row.justify-content-center.align-items-center.mb-5
+          .col-10.col-sm-10.col-md-10.col-lg-2.col-xl-2.col-xxl-2.mb-3.mb-lg-0
+            img(src="@/assets/curso/temas/tema1/img_18.svg", alt="Desguasque" class="img-fluid")
+          .col-10.col-sm-10.col-md-10.col-lg-8.col-xl-8.col-xxl-8.mb-3.mb-lg-0
+            p.mb-3 El desguasque se encuentra dentro de las prácticas culturales recomendadas para favorecer la sanidad y vigor de las plantas. Esta labor consiste en eliminar la guasca seca que hay en el pseudotallo, se puede realizar cada vez que lo requiera el cultivo, procurando no hacer daño a la planta; el no realizar esta labor en la platanera puede generar plagas como el Picudo, el Rayado, la Palomilla y algunas enfermedades como el virus en el pseudotallo.
+        .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
+          div.metodo
             span.texto Deshoje
-          .row.justify-content-center.align-items-center.mb-0
-            .col-lg-8.col-xl-9.col-md-10.col-10.mb-3
-              p.mb-3 Implica la eliminación de hojas secas, dobladas o ubicadas en la parte inferior de la planta, con el propósito de mejorar la circulación del aire y la penetración de la luz solar, reduciendo así el riesgo de plagas y enfermedades. Se recomienda retirar también hojas con manchas o con tejidos verdes afectados, siempre asegurando que al menos el 50% del área foliar permanezca intacta para no comprometer la fotosíntesis. Esta práctica es clave en el manejo de la Sigatoca negra.
-              p.mb-0 El corte de las hojas debe realizarse a una altura de 20 a 30 cm del pecíolo y puede efectuarse en cualquier momento del día, según lo requiera el cultivo.
-            .col-lg-4.col-xl-3.col-md-10.col-10
-              img(src="@/assets/curso/temas/tema1/img_19.svg", alt="Deshoje" class="img-fluid")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-10.col-sm-10.col-md-10.col-lg-7.col-xl-7.col-xxl-7.mb-3.mb-lg-0
+            p.mb-3 Implica la eliminación de hojas secas, dobladas o ubicadas en la parte inferior de la planta, con el propósito de mejorar la circulación del aire y la penetración de la luz solar, reduciendo así el riesgo de plagas y enfermedades. Se recomienda retirar también hojas con manchas o con tejidos verdes afectados, siempre asegurando que al menos el 50% del área foliar permanezca intacta para no comprometer la fotosíntesis. Esta práctica es clave en el manejo de la Sigatoca negra.
+            p.mb-0 El corte de las hojas debe realizarse a una altura de 20 a 30 cm del pecíolo y puede efectuarse en cualquier momento del día, según lo requiera el cultivo.
+          .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-0
+            img(src="@/assets/curso/temas/tema1/img_19.svg", alt="Deshoje" class="img-fluid")
       div.metodo.mb-4.mb-md-4
         span.texto Amarre
       p.mb-3 El amarre es una práctica fundamental para garantizar la estabilidad de las plantas durante su etapa de reproducción. Su propósito es prevenir la caída de los pseudotallos debido a factores como la acción del viento, deficiencias en el sistema radicular, embalconamiento o el peso del racimo.
       p.mb-5 Para obtener mejores resultados, esta labor debe realizarse con una frecuencia semanal, utilizando cabuya biodegradable, lo que contribuye a la sostenibilidad del cultivo y reduce el impacto ambiental.
       .row.d-flex.align-items-center.mb-5
-        .col-lg-5
+        .col-lg-5.mb-3.mb-lg-0
             img(src="@/assets/curso/temas/tema1/img_20.svg", alt="Amarre" class="img-fluid")
-        .col-lg-7
-          .tarjeta.fondo_1_2.p-4.slyder_1.bg-01.fondo-slyder
-              SlyderA(tipo="a")
-                .tarjeta.bg-01.p-2
-                  .row.justify-content-center.align-items-center.p-3
-                    .col-md-3.col-xl-3.mb-0
-                      figure
-                        img(src='@/assets/curso/temas/tema1/img_21.svg', alt='las semillas sean jóvenes').mx-auto
-                    .col-md-7.col-xl-7.mb-0
-                      h3.mb-2 01
-                      p Que las semillas sean jóvenes, vigorosas y su procedencia y características fenotípicas sean óptimas.
-                .tarjeta.bg-01.p-2
-                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-                    .col-md-3.col-xl-3.mb-0
-                      figure
-                        img(src='@/assets/curso/temas/tema1/img_22.svg', alt='Determinar la dirección').mx-auto
-                    .col-md-7.col-xl-7.mb-0
-                      h3.mb-2 02
-                      p Determinar la dirección de inclinación para orientar correctamente las líneas o cuerdas.
-                .tarjeta.bg-01.p-2
-                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-                    .col-md-3.col-xl-3.mb-0
-                      figure
-                        img(src='@/assets/curso/temas/tema1/img_23.svg', alt='Calcular la longitud de cuerda necesaria para el amarre.').mx-auto
-                    .col-md-7.col-xl-7.mb-0
-                      h3.mb-2 03
-                      p Calcular la longitud de cuerda necesaria para el amarre.
-                .tarjeta.bg-01.p-2
-                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-4
-                    .col-md-3.col-xl-3.mb-0
-                      figure
-                        img(src='@/assets/curso/temas/tema1/img_24.svg', alt='Asegurar la escalera en una posición firme para facilitar la labor.').mx-auto
-                    .col-md-7.col-xl-7.mb-0
-                      h3.mb-2 04
-                      p Asegurar la escalera en una posición firme para facilitar la labor.	
-                .tarjeta.bg-01.p-4
-                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-4
-                    .col-md-3.col-xl-3.mb-0
-                      figure
-                        img(src='@/assets/curso/temas/tema1/img_25.svg', alt='Amarrar en sentido contrario a la inclinación con un nudo holgado, firme y fácil de soltar.').mx-auto
-                    .col-md-7.col-xl-7.mb-0
-                      h3.mb-2 05
-                      p Amarrar en sentido contrario a la inclinación con un nudo holgado, firme y fácil de soltar.
-                .tarjeta.bg-01.p-4
-                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-4
-                    .col-md-3.col-xl-3.mb-0
-                      figure
-                        img(src='@/assets/curso/temas/tema1/img_26.svg', alt='Seleccionar las plantas de anclaje en este orden: paridas, bien desarrolladas sin parir y pseudotallos recién cosechados (menos de una semana).').mx-auto
-                    .col-md-7.col-xl-7.mb-0
-                      h3.mb-2 06
-                      p Seleccionar las plantas de anclaje en este orden: paridas, bien desarrolladas sin parir y pseudotallos recién cosechados (menos de una semana).	
-                .tarjeta.bg-01.p-4
-                  .row.ordenar_tarjeta.justify-content-center.align-items-center.p-4
-                    .col-md-3.col-xl-3.mb-0
-                      figure
-                        img(src='@/assets/curso/temas/tema1/img_27.svg', alt='Las cuerdas deben formar una "V" opuesta a la inclinación, con un ángulo de 45° a 60°.	').mx-auto
-                    .col-md-7.col-xl-7.mb-0
-                      h3.mb-2 07
-                      p Las cuerdas deben formar una "V" opuesta a la inclinación, con un ángulo de 45° a 60°.	
+        .col-12.col-sm-12.col-md-12.col-lg-7.col-xl-7.col-xxl-7.mb-3.mb-lg-0.slyder_1.bg-01.fondo-slyder
+          SlyderA(tipo="a").p-5
+            .row.justify-content-center.align-items-center
+              .col-3.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_21.svg', alt='las semillas sean jóvenes').mx-auto
+              .col-9.col-sm-8.col-md-8.col-lg-7.col-xl-8.col-xxl-8.p-1.p-xl-5
+                h3.mb-2.h-a 01
+                p Que las semillas sean jóvenes, vigorosas y su procedencia y características fenotípicas sean óptimas.
+            .row.ordenar_tarjeta.justify-content-center.align-items-center
+              .col-3.col-sm-3.col-md-2.col-lg-3.col-xl-2.col-xxl-2
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_22.svg', alt='Determinar la dirección').mx-auto
+              .col-9.col-sm-8.col-md-8.col-lg-7.col-xl-8.col-xxl-7.p-1.p-xl-5
+                h3.mb-2.h-a 02
+                p Determinar la dirección de inclinación para orientar correctamente las líneas o cuerdas.
+            .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+              .col-3.col-sm-2.col-md-2.col-lg-3.col-xl-2.col-xxl-2
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_23.svg', alt='Calcular la longitud de cuerda necesaria para el amarre.').mx-auto
+              .col-9.col-sm-8.col-md-8.col-lg-7.col-xl-8.col-xxl-8.p-1.p-xl-5
+                h3.mb-2.h-a 03
+                p Calcular la longitud de cuerda necesaria para el amarre.
+            .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+              .col-3.col-sm-2.col-md-2.col-lg-3.col-xl-2.col-xxl-2
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_24.svg', alt='Asegurar la escalera en una posición firme para facilitar la labor.').mx-auto
+              .col-9.col-sm-8.col-md-8.col-lg-7.col-xl-8.col-xxl-8.p-1.p-xl-5
+                h3.mb-2.h-a 04
+                p Asegurar la escalera en una posición firme para facilitar la labor.	
+            .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+              .col-3.col-sm-2.col-md-2.col-lg-3.col-xl-2.col-xxl-2
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_25.svg', alt='Amarrar en sentido contrario a la inclinación con un nudo holgado, firme y fácil de soltar.').mx-auto
+              .col-9.col-sm-8.col-md-8.col-lg-7.col-xl-8.col-xxl-8.p-1.p-xl-5
+                h3.mb-2.h-a 05
+                p Amarrar en sentido contrario a la inclinación con un nudo holgado, firme y fácil de soltar.
+            .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+              .col-3.col-sm-2.col-md-2.col-lg-4.col-xl-2.col-xxl-2
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_26.svg', alt='Seleccionar las plantas de anclaje en este orden: paridas, bien desarrolladas sin parir y pseudotallos recién cosechados (menos de una semana).').mx-auto
+              .col-9.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.p-xl-5
+                h3.mb-2.h-a 06
+                p Seleccionar las plantas de anclaje en este orden: paridas, bien desarrolladas sin parir y pseudotallos recién cosechados (menos de una semana).	
+            .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
+              .col-3.col-sm-2.col-md-2.col-lg-3.col-xl-2.col-xxl-2
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_27.svg', alt='Las cuerdas deben formar una "V" opuesta a la inclinación, con un ángulo de 45° a 60°.	').mx-auto
+              .col-9.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.p-xl-5
+                h3.mb-2.h-a 07
+                p Las cuerdas deben formar una "V" opuesta a la inclinación, con un ángulo de 45° a 60°.	
       div.metodo.mb-4.mb-md-5
         span.texto Embolse y encinte
-      .row.mb-5
-        .col-xl-4.col-lg-4
-            img(src="@/assets/curso/temas/tema1/img_28.svg", alt="Embolse y encinte" class="img-fluid")
-        .col-xl-8.col-lg-8.col-md-8.col-10.mb-xl-4.mb-4
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-sm-12.col-md-3.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-xl-0.d-flex.align-items-stretch
+            img(src="@/assets/curso/temas/tema1/img_28.svg", alt="Embolse y encinte" class="img-fluid").mx-auto
+        .col-12.col-sm-12.col-md-9.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
           p.mb-3 El embolse y el encinte son prácticas esenciales para garantizar la calidad del fruto en el cultivo de plátano. El embolse favorece el crecimiento de los racimos al reducir el tiempo entre su aparición y la cosecha, además de mantener una temperatura adecuada que optimiza su desarrollo. También protege los frutos contra plagas y daños durante su crecimiento y recolección, mejorando su presentación y calidad.
           p.mb-3 Por su parte, el encinte complementa el embolse y permite identificar la edad de los racimos, facilitando el control de la cosecha y el registro de la producción disponible.
           TabsA.color-secundario
             .tarjeta.ordenar_tarjeta.color-secundario-S5.p-4(titulo="Tratamiento de bolsas")
               .row.justify-content-center.align-items-center
-                .col-lg-6.col-xl-6
+                .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-xl-0
                   p Las bolsas utilizadas deben estar impregnadas con agroquímicos permitidos para garantizar su efectividad.
-                .col-lg-3.col-xl-3
+                .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2.p-1.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema1/img_29.svg', alt='Tratamiento de bolsas'  class="img-fluid")
             .tarjeta.ordenar_tarjeta.color-secundario-S5.p-4(titulo="Procedimiento de embolse")
               .row.justify-content-center.align-items-center
-                .col-lg-6.col-xl-6
+                .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-xl-0
                   p Se debe realizar con la indumentaria y vestuario de trabajo adecuado, y la protección necesaria.
-                .col-lg-3.col-xl-3
+                .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2.p-1.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema1/img_30.svg', alt='Procedimiento de embolse'  class="img-fluid")
             .tarjeta.ordenar_tarjeta.color-secundario-S5.p-4(titulo="Manejo de residuos")
               .row.justify-content-center.align-items-center
-                .col-lg-6.col-xl-6
+                .ol-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-xl-0
                   p Se recomienda el uso de bolsas lechosas tratadas con clorpirifós al 1%. En condiciones de alta radiación solar, este tipo de bolsa ofrece protección adicional contra plagas.
-                .col-lg-3.col-xl-3
+                .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2.p-1.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema1/img_31.svg', alt='Manejo de residuos'  class="img-fluid")
             .tarjeta.ordenar_tarjeta.color-secundario-S5.p-4(titulo="Selección de bolsa")
               .row.justify-content-center.align-items-center
-                .col-lg-6.col-xl-6
+                .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-xl-0
                   p Es fundamental recoger y gestionar correctamente las bolsas utilizadas para evitar impactos ambientales negativos.
-                .col-lg-2.col-xl-2
+                .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2.p-1.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema1/img_32.svg', alt='Selección de bolsa'  class="img-fluid")
       div.metodo.mb-4.mb-md-5
         span.texto Desflore, desdede y desbacote
       p.mb-5 Estas prácticas agrícolas en el cultivo de plátano, contribuyen a optimizar el desarrollo del racimo, favoreciendo su crecimiento y calidad. Su aplicación adecuada permite una mejor distribución de nutrientes y reduce la incidencia de plagas y enfermedades.
       .row.justify-content-center.align-items-center.mb-3
-        .col-lg-3.mb-4.mb-lg-0
+        .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
           .tarjeta--boton.color-terciario-claro.p-4
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-7
+              .col-4.col-sm-4.col-md-4.col-lg-9.col-xl-7.col-xxl-7.mb-2
                 figure
                   img(src='@/assets/curso/temas/tema1/img_33.svg', alt='Desflore'  class="img-fluid")
             h3.text-center Desflore
-            p.text-small Consiste en la eliminación de las flores de los racimos para mejorar la calidad del fruto y reducir el riesgo de enfermedades que pueden afectar su desarrollo.
-        .col-lg-3.mb-4.mb-sm-0
+            p.text-small.p-4 Consiste en la eliminación de las flores de los racimos para mejorar la calidad del fruto y reducir el riesgo de enfermedades que pueden afectar su desarrollo.
+        .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
           .tarjeta--boton.color-terciario-claro.p-4
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-6
+              .col-4.col-sm-4.col-md-4.col-lg-8.col-xl-7.col-xxl-7.mb-2
                 figure
-                  img(src='@/assets/curso/temas/tema1/img_34.svg', alt='Desdede')
+                  img(src='@/assets/curso/temas/tema1/img_34.svg', alt='Desdede' class="img-fluid")
             h3.text-center Desdede
-            p.text-small Se eliminan dos o más dedos de la última mano del racimo para garantizar una mejor distribución de nutrientes, lo que favorece el crecimiento y el peso del resto del fruto.
-        .col-lg-4.mb-4.mb-sm-0
-          .tarjeta--boton.color-terciario-claro.p-4
+            p.text-small.p-4 Se eliminan dos o más dedos de la última mano del racimo para garantizar una mejor distribución de nutrientes, lo que favorece el crecimiento y el peso del resto del fruto.
+        .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-xl-0
+          .tarjeta--boton.color-terciario-claro.p-2
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-5
+              .col-4.col-sm-4.col-md-4.col-lg-7.col-xl-5.col-xxl-5.mb-2
                 figure
-                  img(src='@/assets/curso/temas/tema1/img_35.svg', alt='Desbacote')
+                  img(src='@/assets/curso/temas/tema1/img_35.svg', alt='Desbacote' class="img-fluid")
             h3.text-center Desbacote
-            p.text-small  Se retira la bacota con el objetivo de potenciar el crecimiento de los dedos y aumentar el peso de los racimos, además de disminuir la incidencia de plagas y enfermedades.
+            p.text-small.p-4.p-md-5 Se retira la bacota con el objetivo de potenciar el crecimiento de los dedos y aumentar el peso de los racimos, además de disminuir la incidencia de plagas y enfermedades.
 
       separador
 
@@ -291,12 +282,12 @@
         .col-lg-4
             figure
               img.mb-5(src="@/assets/curso/temas/tema1/img_36.svg", alt="Plagas y enfermedades" class="img-fluid")
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-10.mb-4
+      .row.justify-content-center.align-items-center.mb-3
+        .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
           .titulo-sexto.bg-11.mb-4
             h5 Tabla 1: 
             span.text-dark Enfermedades del Plátano
-          .tabla-a.mb-3
+          .tabla-a.mb-5
             table
               caption Nota.  SENA (2024).
               thead
@@ -326,7 +317,6 @@
                   td Mycosphaerella fijiensis var. difformis
                   td Estrías y manchas necróticas en hojas, desde el envés hasta el haz, defoliación, reducción de rendimiento.
                   td Fungicidas, manejo de la humedad, deshoje de hojas afectadas, variedades resistentes.
-        .col-lg-10.mb-3
           .titulo-sexto.bg-11.mb-4
             h5 Tabla 2: 
             span.text-dark Principales plagas del plátano
@@ -355,56 +345,55 @@
                   td Varios géneros
                   td Daños en raíces, reducción del vigor, amarillamiento, reducción de rendimiento.
                   td Análisis de suelo, rotación de cultivos, uso de material vegetativo sano, control químico (nematicidas, si es necesario).
-        .col-lg-11.p-4.ps-5.color-acento-contenido
-          .cajon.bg-1.g_18.mb-3
-            .row.mb-4
+          .cajon.bg-1.g_18.color-acento-contenido.mb-3
+            .row.mb-3
               .col-lg-12.p-4.ps-5 
                 p El manejo integrado de plagas y enfermedades combina estrategias que minimizan su impacto en los cultivos, priorizando métodos sostenibles y amigables con el medio ambiente. Incluye el uso de variedades resistentes, control biológico, monitoreo constante y prácticas agrícolas como la rotación de cultivos y el manejo eficiente del suelo y la humedad, reduciendo así la dependencia de productos químicos y fomentando la sanidad vegetal.
       div.metodo.mb-4.mb-md-5
         span.texto Manejo fitosanitario
       p.mb-5 La implementación de estrategias de control biológico y mecánico contribuye a la prevención de plagas y reduce la necesidad de plaguicidas químicos, minimizando así el impacto ambiental y los riesgos para la salud humana. A continuación, se presentan las principales prácticas recomendadas:
       .row.justify-content-center.align-items-center
-        LineaTiempoD.color-terciario.col-lg-9
+        LineaTiempoD.color-terciario.col-9.col-sm-9.col-md-9.col-lg-9.col-xl-9.col-xxl-9
           .row(numero="1" titulo="Control de plagas y malezas")
-            .col-md-9.mb-4.mb-md-0
+            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
               p.text-small La correcta ejecución de prácticas como el control de malezas, deshoje, destronque y fertilización es esencial en el manejo integrado de plagas. El uso adecuado de trampas y la recolección manual de plagas caídas ayuda a disminuir la aplicación de plaguicidas y a mantener un equilibrio natural en el cultivo.
-            .col-md-3
+            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
               figure
                 img(src='@/assets/curso/temas/tema1/img_37.svg', alt='Control de plagas y malezas' class="img-fluid")
           .row(numero="2" titulo="Protección del producto")
-            .col-md-9.mb-4.mb-md-0
+            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
               p.text-small Es recomendable utilizar mallas protectoras para evitar el ataque de pájaros y murciélagos, ya que estos pueden ser vectores de microorganismos que afectan la calidad del fruto y representan un riesgo para el consumidor final.
-            .col-md-3
+            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
               figure
                 img(src='@/assets/curso/temas/tema1/img_38.svg', alt='Protección del producto' class="img-fluid")
           .row(numero="3" titulo="Uso responsable de plaguicidas")
-            .col-md-9.mb-4.mb-md-0
+            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
               p.text-small La aplicación de plaguicidas debe realizarse en las cantidades estrictamente necesarias, asegurando un manejo adecuado para evitar contaminación ambiental y toxicidad. Además, necesario considerar las condiciones climáticas, como la velocidad del viento y la temperatura, para evitar riesgos tanto para el cultivo como para los trabajadores.
-            .col-md-3
+            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
               figure
                 img(src='@/assets/curso/temas/tema1/img_39.svg', alt='Uso responsable de plaguicidas' class="img-fluid")
           .row(numero="4" titulo="Calibración de equipos")
-            .col-md-9.mb-4.mb-md-0
+            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
               p.text-small Los equipos de aplicación deben estar correctamente calibrados para garantizar una dosificación precisa y evitar el uso excesivo de productos químicos. Asimismo, se debe evitar la reutilización de envases de plaguicidas para almacenar alimentos u otros insumos.
-            .col-md-3
+            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
               figure
                 img(src='@/assets/curso/temas/tema1/img_40.svg', alt='Calibración de equipos' class="img-fluid")
           .row(numero="5" titulo="Capacitación del personal")
-            .col-md-9.mb-4.mb-md-0
+            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
               p.text-small Brindar formación continua a los trabajadores sobre el manejo de plagas, enfermedades y la correcta aplicación de plaguicidas y abonos orgánicos contribuye a reducir los riesgos de contaminación e intoxicación, mejorando la eficiencia de las prácticas agrícolas.	 
-            .col-md-3
+            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
               figure
                 img(src='@/assets/curso/temas/tema1/img_41.svg', alt='Capacitación del personal' class="img-fluid")
           .row(numero="6" titulo="Supervisión y cumplimiento normativo")
-            .col-md-9.mb-4.mb-md-0
+            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
               p.text-small Es necesario revisar periódicamente que los productos utilizados para el control de plagas y enfermedades cumplan con las normativas nacionales e internacionales, garantizando así su eficacia y seguridad.	 
-            .col-md-3
+            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
               figure
                 img(src='@/assets/curso/temas/tema1/img_42.svg', alt='Supervisión y cumplimiento normativo' class="img-fluid")
           .row(numero="7" titulo="Sistema de rotación de plaguicidas")
-            .col-md-9.mb-4.mb-md-0
+            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
               p.text-small Implementar un sistema de rotación de plaguicidas en la finca permite evitar la resistencia de las plagas y asegurar la efectividad de los tratamientos aplicados. Además, se debe verificar que los productos estén en buen estado y se utilicen conforme a las regulaciones vigentes.	 
-            .col-md-3
+            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
               figure
                 img(src='@/assets/curso/temas/tema1/img_43.svg', alt='Sistema de rotación de plaguicidas' class="img-fluid")
         .col-lg-3
@@ -418,7 +407,7 @@ export default {
   data() {
     return {
       mostrarIndicadorTarjetaAudio: true,
-      figura3: require('@/assets/curso/figuras/figura3.svg'), // ✅ Forma correcta
+      figura3: require('@/assets/curso/figuras/figura3.svg'),
     }
   },
 }

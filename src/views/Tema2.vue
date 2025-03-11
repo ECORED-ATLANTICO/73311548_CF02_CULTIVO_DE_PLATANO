@@ -409,6 +409,32 @@
           .titulo-sexto.bg-11.mb-4
             h5 Figura 5: 
             span.text-dark Procedimiento
+          .infografia.position-relative
+            img.img-fluid(src="@/assets/curso/figuras/figura5.svg" alt="Infografía de proceso del banano")
+            div(
+              v-for="(item, index) in positions" 
+              :key="index"
+              class="infografia__item position-absolute"
+              :style="{ top: item.top + '%', left: item.left + '%' }"
+            )
+              .infografia__item__dot.d-flex.align-items-center.justify-content-center(@click="openModal(index)")
+                span {{ index + 1 }}
+              .infografia__item__tooltip
+                span Proceso {{ index + 1 }}
+
+                b-modal#modal-process(
+                  v-model="showModal" 
+                  hide-footer 
+                  hide-header 
+                  centered 
+                  modal-class="custom-modal"
+                  no-backdrop
+                  @click-outside="showModal = false"
+                )
+                  .modal-body
+                    p {{ descripciones[selectedProcess] }}
+                  span.process-number  {{ (selectedProcess + 1).toString().padStart(2, '0') }}
+
           div.metodo.mb-4.mb-md-5
             span.texto Presentación de los dedos
           p.mb-2 El dedo (plátano) de exportación no debe presentar defectos, sólo se admiten 5 defectos por caja, estos deben tener un calibre mínimo de 22 y máximo 28 (1/16 pulgadas).
@@ -489,6 +515,22 @@ export default {
     return {
       Proceso_poscosecha: require('@/assets/curso/Proceso_poscosecha.svg'),
       figura6: require('@/assets/curso/figuras/figura6.svg'),
+      positions: [
+        { top: 39, left: 25 },
+        { top: 39, left: 50 },
+        { top: 39, left: 76 },
+        { top: 79, left: 67 },
+        { top: 77, left: 38 },
+      ],
+      showModal: false,
+      selectedProcess: 0,
+      descripciones: [
+        'Llevar los racimos cosechados al tanque con la solución de alumbre.',
+        'Separar los dedos de cada mano de los racimos.',
+        'Si después del corte los dedos no quedaron separados o presentan cortes defectuosos, corregir en otro repaso.',
+        'Luego del desdede la fruta debe permanecer en el tanque 10 minutos para garantizar el adecuado desleche.',
+        'La zona de empacado debe contar con dos tanques con el fin de asegurar la calidad de desleche y clasificación de la fruta.',
+      ],
     }
   },
   mounted() {
@@ -498,6 +540,15 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    openModal(index) {
+      this.selectedProcess = index
+      this.showModal = true
+    },
+    closeModal() {
+      this.showModal = false
+    },
   },
 }
 </script>

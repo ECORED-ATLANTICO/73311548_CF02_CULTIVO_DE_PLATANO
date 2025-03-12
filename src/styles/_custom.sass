@@ -836,31 +836,41 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       height: 90%
       background: #ABC093
       background-repeat: no-repeat
-//// targetas procesos
+//// Tarjetas de procesos
 .proceso-card
   background: #F1FAD6
   border-radius: 15px
-  padding: 60px 20px 20px
+  padding: 50px 10px 10px
   text-align: center
   position: relative
-  height: 300px
+  height: 320px 
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  overflow: visible
+  transition: all 0.3s ease-in-out
 .proceso-icono
-  width: 240px
-  height: 240px
+  width: 120px
+  height: 120px
   border-radius: 50%
   position: absolute
-  top: -120px
+  top: -60px
   left: 50%
   transform: translateX(-50%)
   display: flex
   align-items: center
   justify-content: center
-.proceso-icono img
-  width: 50%
 .proceso-texto
   color: #1D3557
   font-size: 16px
   line-height: 1.5
+  max-width: 90%
+  overflow-wrap: break-word
+  overflow-y: auto
+  padding: 10px
+  text-align: center
+  min-height: 200px
 //// Tarjetas --------------------------------------
 .img90
   width: 90px

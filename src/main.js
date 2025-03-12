@@ -9,12 +9,12 @@ const packageJson = require('../package.json')
 
 Vue.use(ecored, { config, packageJson })
 
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import BootstrapVue from "bootstrap-vue"
+import "bootstrap/dist/css/bootstrap.css"
+import "bootstrap-vue/dist/bootstrap-vue.css"
 
 Vue.use(BootstrapVue)
-Vue.use(IconsPlugin)
+
 
 import './styles/_styles.sass'
 

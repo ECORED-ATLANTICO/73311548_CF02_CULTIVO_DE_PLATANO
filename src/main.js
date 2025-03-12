@@ -9,12 +9,11 @@ const packageJson = require('../package.json')
 
 Vue.use(ecored, { config, packageJson })
 
-import BootstrapVue from "bootstrap-vue"
-import "bootstrap/dist/css/bootstrap.css"
-import "bootstrap-vue/dist/bootstrap-vue.css"
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.use(BootstrapVue)
-
 
 import './styles/_styles.sass'
 

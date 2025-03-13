@@ -6,7 +6,7 @@
         .titulo-principal__numero
           span 3
         h1 Bienestar laboral y seguridad de los trabajadores
-      p.mb-2 Dentro de los aspectos que representan gran relevancia para garantizar la calidad en las prácticas agrícolas, se encuentran la salud y seguridad de los trabajadores, el plan de saneamiento, los programas de higiene personal, el control de plagas, la trazabilidad y la rastreabilidad, que se abordarán a continuación.
+      p.mb-0 Dentro de los aspectos que representan gran relevancia para garantizar la calidad en las prácticas agrícolas, se encuentran la salud y seguridad de los trabajadores, el plan de saneamiento, los programas de higiene personal, el control de plagas, la trazabilidad y la rastreabilidad, que se abordarán a continuación.
   
       separador
   
@@ -26,7 +26,7 @@
               .col-lg-11
                 p.mb-0 Este plan permite identificar los puntos de control críticos, así como las condiciones que los generan. Con esta información, el equipo encargado puede evaluar cuáles representan un riesgo para la inocuidad del plátano y aplicar las medidas de control pertinentes.
           p.mb-2 Los peligros presentes en la cosecha y poscosecha pueden clasificarse en tres categorías principales: biológicos, químicos y físicos.
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-0
         .col-lg-10
           div.metodo.mb-4.mb-md-5
             span.texto Peligros biológicos

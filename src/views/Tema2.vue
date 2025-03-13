@@ -8,19 +8,19 @@
       h1 Cosecha y poscosecha
     .row.justify-content-center.align-items-center.mb-3
       .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-3.col-xxl-3.mb-3.mb-lg-0
-        img(src="@/assets/curso/temas/tema2/img_1.svg", alt="Cosecha y poscosecha" class="img-fluid")
+        img(src="@/assets/curso/temas/tema2/img_1.png", alt="Cosecha y poscosecha" class="img-fluid")
       .col-12.col-sm-12.col-md-12.col-lg-7.col-xl-9.col-xxl-9.mb-3.mb-lg-0
         p.mb-2 El desguasque se encuentra dentro de las prácticas culturales recomendadas para favorecer la sanidad y vigor de las plantas. Esta labor consiste en eliminar la guasca seca que hay en el pseudotallo, se puede realizar cada vez que lo requiera el cultivo, procurando no hacer daño a la planta; el no realizar esta labor en la platanera puede generar plagas como el Picudo, el Rayado, la Palomilla y algunas enfermedades como el virus en el pseudotallo.
         p.mb-4 Cuando los frutos alcanzan su punto de madurez, inicia la etapa de cosecha, en la cual los racimos son recolectados con cuidado para evitar daños mecánicos. Posteriormente, el proceso de poscosecha se encarga de preservar la calidad del producto mediante actividades como limpieza, clasificación y embalaje, asegurando su adecuada presentación y conservación para la distribución.
         .tarjeta_bg-05.p-4.mb-2
           p.mb-2 Estas dos etapas finales son determinantes para mantener la integridad del fruto y optimizar su valor en el mercado, cerrando así el ciclo productivo del plátano con estándares de calidad que favorecen su competitividad comercial.
           p.mb-0 Le invitamos a consultar el siguiente recurso, que describe a través de un diagrama, el proceso de operaciones para la poscosecha de plátano:
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-0
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-0
-        .div.tarjeta.color-primario.p-3
+        .div.tarjeta.color-acento-A10.p-3
           .row.justify-content-around.align-items-center
             .col-auto
-              img.img65(src="@/assets/curso/temas/tema2/img_2.svg")
+              img.img65(src="@/assets/curso/temas/tema2/img_2.png")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -46,24 +46,24 @@
               p.mb-0 Una vez seleccionado el racimo, el corte debe realizarse con precisión para evitar daños. Se practica un corte parcial en forma de cruz, aproximadamente a dos tercios de la altura del pseudotallo, lo que minimiza cualquier impacto negativo en la integridad del racimo. En esta fase, es esencial un manejo delicado para evitar golpes que puedan afectar la calidad del fruto.
         p.mb-2 El transporte hasta el área de procesamiento es determinante para preservar la calidad del racimo. Para minimizar golpes y rozaduras, se emplean distintos métodos según la distancia y las condiciones del terreno, como:
       .col-11.col-sm-11.col-md-11.col-lg-4.col-xl-3.col-xxl-3
-        img(src="@/assets/curso/temas/tema2/img_4.svg", alt="Cosecha" class="img-fluid")
-    .row.mb-3.justify-content-center.align-items-center
+        img(src="@/assets/curso/temas/tema2/img_4.png", alt="Cosecha" class="img-fluid")
+    .row.justify-content-center.align-items-center.mb-0
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10
         .container
           .row.g-0.mb-5
             .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
               .card.card-custom.bg-left
-                img.img-fluid(src="@/assets/curso/temas/tema2/img_5.svg", alt="Transporte sobre el hombro")
+                img.img-fluid(src="@/assets/curso/temas/tema2/img_5.png", alt="Transporte sobre el hombro")
                 .card-body
                   p El transporte sobre el hombro.
             .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
               .card.card-custom.bg-center
-                img.img-fluid(src="@/assets/curso/temas/tema2/img_6.svg", alt="Uso de carretillas")
+                img.img-fluid(src="@/assets/curso/temas/tema2/img_6.png", alt="Uso de carretillas")
                 .card-body
                   p El uso de carretillas.
             .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
               .card.card-custom.bg-right
-                img.img-fluid(src="@/assets/curso/temas/tema2/img_7.svg", alt="Sistema de cable aéreo")
+                img.img-fluid(src="@/assets/curso/temas/tema2/img_7.png", alt="Sistema de cable aéreo")
                 .card-body
                   p Sistemas de cable aéreo.
         p.mb-2 La elección del sistema debe priorizar siempre la integridad del producto, asegurando que llegue en óptimas condiciones a la siguiente etapa del proceso.
@@ -138,11 +138,11 @@
                 td: img(src="@/assets/curso/temas/tema2/img_12.png", alt="GM5")
               tr
                 td Color de referencia
-                td: img(src="@/assets/curso/temas/tema2/img_13.svg", alt="GM1")
-                td: img(src="@/assets/curso/temas/tema2/img_14.svg", alt="GM2")
-                td: img(src="@/assets/curso/temas/tema2/img_15.svg", alt="GM3")
-                td: img(src="@/assets/curso/temas/tema2/img_16.svg", alt="GM4")
-                td: img(src="@/assets/curso/temas/tema2/img_17.svg", alt="GM5")
+                td: img(src="@/assets/curso/temas/tema2/img_13.png", alt="GM1")
+                td: img(src="@/assets/curso/temas/tema2/img_14.png", alt="GM2")
+                td: img(src="@/assets/curso/temas/tema2/img_15.png", alt="GM3")
+                td: img(src="@/assets/curso/temas/tema2/img_16.png", alt="GM4")
+                td: img(src="@/assets/curso/temas/tema2/img_17.png", alt="GM5")
 
     separador
 
@@ -192,7 +192,42 @@
         div.metodo.mb-3.mb-md-5
           span.texto Proceso de poscosecha
         p.mb-5 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
-        object(:data="Proceso_poscosecha" type="image/svg+xml" class="img-fluid").mb-0
+      .row.justify-content-center.align-items-center
+        .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+          .tarjeta-numerada.color-acento-contenido
+            .tarjeta-numerada__numero
+              .h2 1
+            p 
+              b Recepción de materia prima: 
+              | inspección y preparación del producto.
+        .col-10.col-sm-10.col-md-4.col-lg-4.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+          .tarjeta-numerada.color-primario
+            .tarjeta-numerada__numero
+              .h2 2
+            p 
+              b Adecuación del fruto: 
+              | retiro de la bolsa protectora y separación de los racimos.
+        .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+          .tarjeta-numerada.color-secundario
+            .tarjeta-numerada__numero
+              .h2 3
+            p 
+              b Selección y clasificación: 
+              | evaluación de calidad según parámetros comerciales.
+        .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+          .tarjeta-numerada.color-terciario
+            .tarjeta-numerada__numero
+              .h2 4
+            p
+              b Lavado: 
+            p eliminación de impurezas y posibles residuos de plaguicidas.
+        .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+          .tarjeta-numerada.color-acento-botones
+            .tarjeta-numerada__numero
+              .h2 5
+            p 
+              b Empaque:
+            p organización y protección del producto para su distribución.
     .titulo-sexto.bg-11.mb-4
       h5 Tabla 5:
       span.text-dark Guía de operación para lavado de plátano
@@ -493,11 +528,11 @@ export default {
       img_27: require('@/assets/curso/temas/tema2/img_27.svg'),
       img_28: require('@/assets/curso/temas/tema2/img_28.svg'),
       positions: [
-        { top: 39, left: 25 },
-        { top: 39, left: 50 },
-        { top: 39, left: 76 },
-        { top: 79, left: 67 },
-        { top: 77, left: 38 },
+        { top: 35, left: 25 },
+        { top: 35, left: 50 },
+        { top: 35, left: 76 },
+        { top: 73, left: 67 },
+        { top: 70, left: 38 },
       ],
       showModal: false,
       selectedProcess: 0,

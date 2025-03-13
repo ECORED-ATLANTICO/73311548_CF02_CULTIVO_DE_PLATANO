@@ -1,10 +1,10 @@
 export default {
   global: {
-    // eslint-disable-next-line prettier/prettier
-    Name: 'Buenas prácticas agrícolas y competitividad productiva del cultivo del plátano',
-    // eslint-disable-next-line prettier/prettier
-    Description: 'A nivel internacional el comercio del plátano es muy amplio puesto que existen muchos países que compran este producto en grandes cantidades, por lo tanto, para todos los productores de plátano del país es una gran oportunidad de negocio acceder a los mercados internacionales en donde se obtienen buenos márgenes de utilidad que le permitirán la expansión, crecimiento y desarrollo a nivel empresarial.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name:
+      'Buenas prácticas agrícolas y competitividad productiva del cultivo del plátano',
+    Description:
+      'A nivel internacional el comercio del plátano es muy amplio puesto que existen muchos países que compran este producto en grandes cantidades, por lo tanto, para todos los productores de plátano del país es una gran oportunidad de negocio acceder a los mercados internacionales en donde se obtienen buenos márgenes de utilidad que le permitirán la expansión, crecimiento y desarrollo a nivel empresarial.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-contenidos.svg'),
     imagenesDecorativasBanner: [],
   },

@@ -51,7 +51,11 @@
         background-color: $color-acento-botones
         *
           color: textColor($color-acento-botones)
-
+    &.color-acento-A10
+      &:active, &:focus, &:hover
+        background-color: $color-acento-A10
+        *
+          color: textColor($color-acento-A10)
   &--tabla
     background-color: $color-sistema-e
     &:nth-child(even)
@@ -89,6 +93,14 @@
       background-color: lighten($color-acento-botones, 50%)
       color: textColor(lighten($color-acento-botones, 50%))
       border: solid 4px $color-acento-botones
+  &.color-acento-A10
+    background-color: $color-acento-A10
+    *
+      color: textColor($color-acento-A10)
+    &--borde
+      background-color: lighten($color-acento-A10, 50%)
+      color: textColor(lighten($color-acento-A10, 50%))
+      border: solid 4px $color-acento-A10
 // TARJETAS CON AVATAR
 .tarjeta--boton
   background-color: $color-terciario-claro
@@ -132,7 +144,8 @@
   border: solid 2px
   border-radius: 20px
   position: relative
-  margin-left: 30px
+  margin-left: 9px
+  padding: 20px 20px 20px 30px!important
   &__numero
     border-radius: 60px
     width: 70px

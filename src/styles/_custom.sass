@@ -525,10 +525,10 @@ $fondo: '../assets/curso/fondo-platano2.svg'
   color: #ffffff
 
 .tarjeta-numerada__numero
-  top: 50%
-  width: 75px
-  height: 75px
-  transform: translate(-50%, -50%)
+  top: 45%
+  width: 50px
+  height: 50px
+  transform: translate(-50%, -100%)
 
 .enumearada-bg-01
   background: linear-gradient(90deg, rgba(242,233,199,1) 0%, rgba(234,219,163,1) 100%)
@@ -542,8 +542,8 @@ $fondo: '../assets/curso/fondo-platano2.svg'
   height: auto
 
 .tarjeta-numerada p
-  left: 40px
-  max-width: 85%
+  left: 70px
+  max-width: 80%
   margin-bottom: 0
 
 .tarjeta_bg-01
@@ -632,6 +632,7 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 100%
+      background-image: url(../assets/curso/fondos/fondo_Embolse-encinte.png) !important
       background-repeat: no-repeat
   &_2
     position: relative
@@ -645,6 +646,7 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 100%
+      background-image: url(../assets/curso/fondos/fondo_Embolse-encinte.png) !important
       background-repeat: no-repeat
   &_3
     position: relative
@@ -658,7 +660,7 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       left: -48px
       width: calc(100% + 96px)
       height: 100%
-      background: #E4EBFE
+      background-image: url(../assets/curso/fondos/fondo_Embolse-encinte.png) !important
   &_4
     position: relative
     p, figure, .slyder-d, .tarjeta, .slyder-f, .div, .row
@@ -838,7 +840,7 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       background-repeat: no-repeat
 //// Tarjetas de procesos
 .proceso-card
-  background: #F1FAD6
+  background: #EEFDD0
   border-radius: 15px
   padding: 50px 10px 10px
   text-align: center
@@ -1231,34 +1233,60 @@ ul
 .crd_hover_txt
   position: relative  
   padding: 0 !important
-  overflow: hidden !important 
-  border-radius: 0 0 15px 15px;
-  &:hover    
-    .crd_hover_txt--body   
-      background-color: #E4EBFE
-      // color: #12263F
-      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
-      transform: translateY(0)
-    h4
-      color: #12263F !important
+  overflow: hidden !important
+  border-radius: 0 0 15px 15px
+  display: flex
+  flex-direction: column
+
+  .crd_hover_txt--img
+    img
+      width: 100%
+      object-fit: cover
+      border-top-left-radius: 15px
+      border-top-right-radius: 15px
 
   .crd_hover_txt--body
     position: absolute
+    width: 100%
     padding: 1.5rem
     bottom: 0    
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
-    transform: translateY(calc( 100% - 3.85rem ))
     background-color: #E4EBFE
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc(100% - 3.85rem)) // Ajuste para mostrar completo el h4 en una o dos líneas
+
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    min-height: 3.85rem
 
     h4
       color: #12263F
       font-style: italic
+      text-align: center
+      transition: all 0.3s ease-in-out
+      margin: 0
+      padding: 0 1rem
+      white-space: normal // Permite saltos de línea sin cortar
 
-  @media (min-width:1200px) and (max-width:1400px)  
-    .crd_hover_txt--body
-      p
-        font-size: 0.85em
+    p
+      text-align: center
+      margin: 0
+      opacity: 0
+      max-height: 0
+      overflow: hidden
+      transition: all 0.3s ease-in-out
+
+  &:hover 
+    .crd_hover_txt--body 
+      min-height: auto
+      transform: translateY(0)
+      
+      h4, p
+        opacity: 1
+        text-align: justify
+        max-height: 100%
 
 // LInea de tiempo
 

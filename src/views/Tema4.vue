@@ -16,7 +16,7 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 La implementación de un sistema de producción basado en los lineamientos de las Buenas Prácticas Agrícolas (BPA) debe garantizar la sostenibilidad desde una perspectiva social. Por ello, el desarrollo agrícola no debe comprometer las condiciones de bienestar social, salud y seguridad de las personas vinculadas a la actividad productiva ni de las comunidades cercanas o en contacto con la cadena agroalimentaria.
     h6.mb-5 Para alcanzar este objetivo, se deben considerar los siguientes aspectos:
-    TabsC.color-acento-contenido.mb-5
+    TabsC.color-acento-contenido.mb-0
       .py-4.py-md-5(titulo="Cobertura de seguridad social")
         .row.justify-content-center.align-items-center
           .col-md-5.mb-4.mb-md-0
@@ -173,27 +173,26 @@
     div.metodo.mb-4.mb-md-3
       span.texto Aspectos técnico
     p.mb-3 Para optimizar la producción de plátano y garantizar su calidad, es necesario que los agricultores y operarios reciban capacitación en aspectos clave del cultivo y manejo poscosecha. A continuación, se presentan los puntos más importantes a considerar:
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-10.mb-4
-
-          p.mb-3 Es fundamental que los programas de capacitación incluyan mecanismos de retroalimentación con los empleados para evaluar su efectividad y, de ser necesario, implementar medidas correctivas que fortalezcan una cultura de higiene entre los operarios.
-          div.metodo.mb-4.mb-md-3
-            span.texto Manejo de registro
-          .row.justify-content-center.align-items-center.mb-4
-            .col-lg-3.justify-content-center.align-items-center
-              img(src="@/assets/curso/temas/tema4/img_13.svg", alt="Manejo de registro" class="img-fluid")
-            .col-lg-4.justify-content-center.align-items-center
-              p.mb-2 Los registros dentro de las Buenas Prácticas Agrícolas en el cultivo de plátano son muy importantes, porque permiten plasmar los resultados de casi todos los procesos para después controlar de manera sistemática cómo se realizan todas las labores de la unidad productiva.
-              h5.mb-0 Los registros deben tener los siguientes datos:
-            .col-lg-5.justify-content-center.align-items-center
-              .tarjeta_bg-05.p-4.mb-0
-                p.mb-2.check-green Nombre de la empresa.
-                p.mb-2.check-green Nombre del registro.
-                p.mb-2.check-green Número del registro.
-                p.mb-2.check-green Fecha.
-                p.mb-2.check-green Datos específicos: es donde pone el nombre del proceso y su descripción.
-                p.mb-2.check-green Nombre del encargado de realizar la verificación.
-                p.mb-2.check-green Firmas correspondientes.
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-10.mb-0
+        p.mb-3 Es fundamental que los programas de capacitación incluyan mecanismos de retroalimentación con los empleados para evaluar su efectividad y, de ser necesario, implementar medidas correctivas que fortalezcan una cultura de higiene entre los operarios.
+        div.metodo.mb-4.mb-md-3
+          span.texto Manejo de registro
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-3.justify-content-center.align-items-center
+            img(src="@/assets/curso/temas/tema4/img_13.svg", alt="Manejo de registro" class="img-fluid")
+          .col-lg-4.justify-content-center.align-items-center
+            p.mb-2 Los registros dentro de las Buenas Prácticas Agrícolas en el cultivo de plátano son muy importantes, porque permiten plasmar los resultados de casi todos los procesos para después controlar de manera sistemática cómo se realizan todas las labores de la unidad productiva.
+            h5.mb-0 Los registros deben tener los siguientes datos:
+          .col-lg-5.justify-content-center.align-items-center
+            .tarjeta_bg-05.p-4.mb-0
+              p.mb-2.check-green Nombre de la empresa.
+              p.mb-2.check-green Nombre del registro.
+              p.mb-2.check-green Número del registro.
+              p.mb-2.check-green Fecha.
+              p.mb-2.check-green Datos específicos: es donde pone el nombre del proceso y su descripción.
+              p.mb-2.check-green Nombre del encargado de realizar la verificación.
+              p.mb-2.check-green Firmas correspondientes.
 
     separador
 

@@ -7,15 +7,13 @@
         span
           i.fas.fa-info
       h1 Introducción
-
-    .row.d-flex.align-items-center.mb-5         
-      .col-lg-2
+    .row.d-flex.justify-content-center.align-items-center.mb-5         
+      .col-lg-2.d-none.d-lg-block.mb-0
         img(src="../assets/curso/introduccion/img_1.svg", alt="Imagen de unos platanos" class="img-fluid")
-      .col-lg-8
+      .col-12.col-lg-8.mb-0
         p.mb-0 El componente formativo buenas prácticas agrícolas y competitividad productiva del cultivo del plátano, se enfoca en orientar al aprendiz en el cultivo y las labores culturales como control de malezas, platero, deshoje, desdede y amarre; además se habla de la cosecha, la poscosecha en el cultivo de plátano y bienestar laboral. Bienvenido a este componente formativo:
-      .col-lg-2
+      .col-lg-2.d-none.d-lg-block.mb-0
         img(src="../assets/curso/introduccion/img_2.svg", alt="Imagen de unas ondas o olas" class="img-fluid")
-
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/pFJsNN5ZufE?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

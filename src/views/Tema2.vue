@@ -49,23 +49,28 @@
         img(src="@/assets/curso/temas/tema2/img_4.png", alt="Cosecha" class="img-fluid")
     .row.justify-content-center.align-items-center.mb-0
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10
-        .container
-          .row.g-0.mb-5
-            .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
-              .card.card-custom.bg-left
-                img.img-fluid(src="@/assets/curso/temas/tema2/img_5.png", alt="Transporte sobre el hombro")
-                .card-body
-                  p El transporte sobre el hombro.
-            .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
-              .card.card-custom.bg-center
-                img.img-fluid(src="@/assets/curso/temas/tema2/img_6.png", alt="Uso de carretillas")
-                .card-body
-                  p El uso de carretillas.
-            .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
-              .card.card-custom.bg-right
-                img.img-fluid(src="@/assets/curso/temas/tema2/img_7.png", alt="Sistema de cable aéreo")
-                .card-body
-                  p Sistemas de cable aéreo.
+        .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5.g-0
+          .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-lg-0
+            .tarjeta-con-image-header.bg-color-terciario-claro.h-100.left-corner(data-aos='zoom-out-up')
+              .tarjeta-con-image-header__header
+                figure
+                  img.img-fluid(src="@/assets/curso/temas/tema2/img_5.png", alt="Transporte sobre el hombro")
+              .tarjeta-con-image-header__contenido
+                h4.text-center El transporte sobre el hombro.
+          .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-lg-0
+            .tarjeta-con-image-header.bg-21.h-100(data-aos='zoom-out-up')
+              .tarjeta-con-image-header__header
+                figure
+                  img.img-fluid(src="@/assets/curso/temas/tema2/img_6.png", alt="Uso de carretillas")
+              .tarjeta-con-image-header__contenido
+                h4.text-center El uso de carretillas.
+          .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-lg-0
+            .tarjeta-con-image-header.bg-color-terciario-claro.h-100.right-corner(data-aos='zoom-out-up')
+              .tarjeta-con-image-header__header
+                figure
+                  img.img-fluid(src="@/assets/curso/temas/tema2/img_7.png", alt="Sistema de cable aéreo")
+              .tarjeta-con-image-header__contenido
+                h4.text-center Sistemas de cable aéreo.
         p.mb-2 La elección del sistema debe priorizar siempre la integridad del producto, asegurando que llegue en óptimas condiciones a la siguiente etapa del proceso.
         p.mb-4 A continuación, se presenta una guía para la selección del fruto en su momento óptimo. 
         .titulo-sexto.bg-11.mb-4
@@ -357,30 +362,23 @@
                   p.mb-0 • Paleta de color
                   p.mb-0 • Canastilla por color
                   p.mb-0 • Empaque para comercialización
-      .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
-        div.metodo.mb-5.mb-md-5
-          span.texto Preparación para la poscosecha 
-        p.mb-5 A continuación, algunas condiciones de la poscosecha:
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-5
-        mixin proceso-card(icono, texto)
-          .proceso-card
-            .proceso-icono
-              img(src=icono, alt="Icono")
-            p.proceso-texto= texto
-        .container
-          .row.justify-content-center.align-items-center
-            .col-6.col-sm-6.col-md-6.col-lg-4.col-xl-4.col-xxl-4.mb-md-5
-              +proceso-card("@/assets/curso/temas/tema2/img_29.svg", "Realice a la planta procesadora limpieza y desinfección de tanques, mesas, bandejas y alrededores. Esta operación debe realizarse una vez por semana; además dentro de la limpieza también se deben eliminar aguas usadas en el proceso y los residuos de la cosecha como vástagos, coronas y flores.")
-              .mb-md-5
-            .col-5.col-sm-4.col-md-5.col-lg-3.col-xl-3.col-xxl-3.mb-md-5
-              +proceso-card("@/assets/curso/temas/tema2/img_30.svg", "Se debe alistar con antelación los insumos utilizados en el proceso como: alumbre (piedralumbre), chuchillos para el desdede (gurbias), báscula y empaque.")
-              .mb-md-5
-            .col-5.col-sm-5.col-md-5.col-lg-3.col-xl-3.col-xxl-3.mb-md-5
-              +proceso-card("@/assets/curso/temas/tema2/img_31.svg", "La solución de agua más alumbre se debe preparar un día antes del embarque en una relación de un 1 kg por 100 L de agua.")
-              .mb-md-5
-            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2.mb-md-5
-              +proceso-card("@/assets/curso/temas/tema2/img_32.svg", "Afilar las herramientas como las gurbias que son utilizadas en desdede.")
-              .mb-md-5
+        h3(data-aos='zoom-in-right').mb-4
+          span.label-title.label-title--1 Preparación para la poscosecha 
+        p.mb-5 A continuación, algunas condiciones de la poscosecha:
+      .row.justify-content-center.align-items-center
+        .col-4.col-sm-4.col-md-4.col-lg-5.col-xl-4.col-xxl-4.mb-5
+          .tarjeta.tarjeta--color-terciario-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--1
+            p.text-center.mt-5 Realice a la planta procesadora limpieza y desinfección de tanques, mesas, bandejas y alrededores. Esta operación debe realizarse una vez por semana; además dentro de la limpieza también se deben eliminar aguas usadas en el proceso y los residuos de la cosecha como vástagos, coronas y flores.
+        .col-2.col-sm-2.col-md-2.col-lg-4.col-xl-2.col-xxl-2.mb-5
+          .tarjeta.tarjeta--color-terciario-claro.p-3.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--2
+            p.text-center.mt-5 Se debe alistar con antelación los insumos utilizados en el proceso como: alumbre (piedralumbre), chuchillos para el desdede (gurbias), báscula y empaque.
+        .col-2.col-sm-2.col-md-2.col-lg-4.col-xl-2.col-xxl-2.mb-5
+          .tarjeta.tarjeta--color-terciario-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--3
+            p.text-center.mt-5 La solución de agua más alumbre se debe preparar un día antes del embarque en una relación de un 1 kg por 100 L de agua.
+        .col-2.col-sm-2.col-md-2.col-lg-3.col-xl-2.col-xxl-2.mb-5
+          .tarjeta.tarjeta--color-terciario-claro.p-5.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--4
+            p.text-center.mt-5 Afilar las herramientas como las gurbias que son utilizadas en desdede.
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
         div.metodo2.mb-4
           span.texto Herramientas e insumos

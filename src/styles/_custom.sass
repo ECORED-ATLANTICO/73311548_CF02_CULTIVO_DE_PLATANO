@@ -45,6 +45,23 @@ figcaption
   color: #fff
 .titulo-sexto
   color: #7D9FFB !important
+//tarjeta-con-image-header
+.tarjeta-con-image-header
+  border-radius: 0 
+  overflow: hidden
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25)
+  &.left-corner
+    border-top-left-radius: 23px
+    border-bottom-left-radius: 23px
+  &.right-corner
+    border-top-right-radius: 23px
+    border-bottom-right-radius: 23px
+  @media (max-width: 768px)
+    border-radius: 23px
+
+.tarjeta-con-image-header__contenido
+  padding: 20px 25px
+
 ///// slyder --------------------------------------
 .tarjeta--slyder  
   height: 100%
@@ -153,6 +170,9 @@ figcaption
 .bg-21
   background-color: #98E465 !important
 
+.bg-color-terciario-claro
+  background-color: $color-terciario-claro
+
 .bg-transparente
   background-color: transparent
 
@@ -257,7 +277,7 @@ figcaption
   align-items: center
   margin-bottom: 1rem
   &__img
-    width: 172px
+    width: 100px
 
 .fondo-slyder
   position: relative
@@ -290,71 +310,19 @@ figcaption
   height: 100%
   width: auto
   object-fit: contain
-// metodo
-
-$icono: '../assets/curso/platano.svg'
-$fondo: '../assets/curso/fondo-platano.svg'
-
-.metodo
-  display: inline-flex
-  align-items: center
+// label-title
+.label-title
+  font-size: 1.25rem
   position: relative
-  font-weight: bold
-  font-size: 18px
-  overflow: hidden
-  padding-left: 55px 
-  height: 47px 
-  background: url($fondo) left center / auto 100% no-repeat
-  border-radius: 0 20px 20px 0 
-  
-  &::before
-    content: ""
-    position: absolute
-    top: 50%
-    left: -3px 
-    transform: translateY(-50%)
-    width: 55px
-    height: 100%
-    background: url($icono) center / contain no-repeat
+  display: inline-block
+  padding: 13px 20px 11px 54px
+  background-repeat: no-repeat
+  background-position: left center
+  &--1
+    background-image: url('../assets/curso/platano.svg')
+  &--2
+    background-image: url('../assets/curso/platano2.svg')
 
-  .texto
-    color: #1D3557
-    padding: 12px 20px
-    position: relative
-    z-index: 1
-
-// metodo2
-
-$icono: '../assets/curso/platano2.svg'
-$fondo: '../assets/curso/fondo-platano2.svg'
-
-.metodo2
-  display: inline-flex
-  align-items: center
-  position: relative
-  font-weight: bold
-  font-size: 18px
-  overflow: hidden
-  padding-left: 60px 
-  height: 50px 
-  background: url($fondo) left center / auto 100% no-repeat
-  border-radius: 0 20px 20px 0 
-  
-  &::before
-    content: ""
-    position: absolute
-    top: 50%
-    left: -3px 
-    transform: translateY(-50%)
-    width: 55px
-    height: 100%
-    background: url($icono) center / contain no-repeat
-
-  .texto
-    color: #1D3557
-    padding: 12px 20px
-    position: relative
-    z-index: 1
 
 // Titulos
 .bgr_1
@@ -709,25 +677,25 @@ $fondo: '../assets/curso/fondo-platano2.svg'
     overflow: visible
     &--1::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema2/img_29.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--2::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema2/img_30.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--3::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema2/img_31.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--4::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema2/img_32.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
@@ -745,7 +713,7 @@ $fondo: '../assets/curso/fondo-platano2.svg'
       transform: translateX(-50%)
     &--6::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema2/img_29.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)

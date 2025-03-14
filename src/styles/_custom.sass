@@ -300,9 +300,6 @@ figcaption
     background-size: contain
 .fondo_1_1_1
   background-size: cover
-// H-color-acento-contenido
-.h-a
-  color: $color-acento-contenido
 
 // img-height
 .img-height
@@ -566,7 +563,8 @@ figcaption
   background-color: #FFF5E4
 
 .tarjeta_bg-04
-  background-color: #EDF1E9
+  background-color: $color-secundario-S10
+  border-radius: 20px
 .tarjeta_bg-05
   background-color: $color-terciario-T10
   border-radius: 20px
@@ -701,43 +699,37 @@ figcaption
       transform: translateX(-50%)
     &--5::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
-      top: -80px
-      left: 50%
-      transform: translateX(-50%)
-    &--14::before
-      position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema3/img_7.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--6::before
       position: absolute
-      content: url('../assets/curso/temas/tema2/img_29.svg')
+      content: url('../assets/curso/temas/tema3/img_8.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--7::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema3/img_9.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--8::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema3/img_10.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--9::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema3/img_11.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--10::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema3/img_12.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
@@ -759,12 +751,14 @@ figcaption
       top: -80px
       left: 50%
       transform: translateX(-50%)
-    
-
+    &--14::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
   .slyder-f__slyde
     padding-top: 80px
-
-
 @media (min-width: 1025px)
   .factores-slider
     .slyder-f

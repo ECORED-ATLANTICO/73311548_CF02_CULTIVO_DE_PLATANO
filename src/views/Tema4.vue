@@ -97,16 +97,16 @@
                 td Diarrea y vómito
                 td Rotavirus
                 td Diarreas 
-        div.metodo.mb-4.mb-md-3
-          span.texto Prácticas higiénicas
+        h3(data-aos='zoom-in-right').mb-3
+          span.label-title.label-title--1 Prácticas higiénicas
         .row.justify-content-center.align-items-center.mb-3
           .col-lg-9
             p.mb-3 Un manipulador de alimentos es cualquier persona que tiene contacto directo con el cultivo, los procesos de alistamiento de materia prima y la calidad final del producto. Si se siguen adecuadamente los procedimientos de higiene, se garantiza la inocuidad del alimento.
             p.mb-0 Todos los manipuladores de alimentos deben mantener una higiene personal rigurosa y aplicar las buenas prácticas higiénicas en cada una de sus labores para evitar el deterioro y contaminación de los productos.
           .col-lg-3
             img(src="@/assets/curso/temas/tema4/img_6.svg", alt="Prácticas higiénicas" class="img-fluid")
-        div.metodo.mb-4.mb-md-3
-          span.texto Higiene personal
+        h3(data-aos='zoom-in-right').mb-3
+          span.label-title.label-title--1 Higiene personal
         p.mb-3 Los manipuladores de alimentos desempeñan un papel fundamental que permite garantizar la inocuidad del producto, ya que están en contacto con el cultivo, los procesos de alistamiento de materia prima y la calidad final de los alimentos. Para garantizar la seguridad alimentaria, es necesario que cumplan con estrictas normas de higiene personal y prácticas adecuadas en todas sus labores.
         p.mb-3 Algunas de las medidas más importantes incluyen:
         .titulo-sexto.bg-11.mb-2
@@ -116,8 +116,8 @@
           h5 Figura 9:
           span.text-dark Recomendaciones del lavado.
         object(:data="figura9" type="image/svg+xml" class="img-fluid").mb-0
-        div.metodo.mb-4.mb-md-3
-          span.texto Prácticas higiénico-sanitarias
+        h3(data-aos='zoom-in-right').mb-3
+          span.label-title.label-title--1 Prácticas higiénico-sanitarias
         p.mb-3 El cumplimiento de normas de higiene dentro de la producción de plátano es de gran importancia para garantizar la inocuidad del producto y la seguridad de los trabajadores. La implementación de buenas prácticas higiénico-sanitarias contribuye a la prevención de contaminaciones que pueden afectar la calidad del cultivo y la salud de los consumidores.
         p.mb-3 Dentro de las más importantes a considerar, están las siguientes:
         .row.justify-content-center.align-items-center.mb-4
@@ -137,8 +137,8 @@
               p.mb-3.check-blue Hacer uso racional del agua y monitorear sus características fisicoquímicas para determinar la posible contaminación de la fuente.
               p.mb-3.check-blue Conocer los aspectos biológicos del plátano para darle una adecuada manipulación.
               p.mb-3.check-blue Capacitar al personal sobre las operaciones de adecuación y limpieza de la fruta.
-        div.metodo.mb-4.mb-md-3
-          span.texto Aspectos higiénicos en la poscosecha
+        h3(data-aos='zoom-in-right').mb-3
+          span.label-title.label-title--1 Aspectos higiénicos en la poscosecha
         p.mb-3 La etapa de poscosecha es determinante en la calidad del plátano destinado al consumo. Durante este proceso, la aplicación de medidas higiénicas rigurosas reduce el riesgo de contaminación y preserva la seguridad del producto.
         p.mb-3 Las acciones requeridas incluyen:
         .row.justify-content-center.align-items-center.mb-4
@@ -154,8 +154,8 @@
               p.mb-2.check-green Capacitación sobre el manejo integral de plagas (MIP).
           .col-lg-5.justify-content-center.align-items-center
             img(src="@/assets/curso/temas/tema4/img_7.svg", alt="Aspectos higiénicos en la poscosecha" class="img-fluid")
-    div.metodo.mb-4.mb-md-3
-      span.texto Manejo de sustancias agroquímicas
+    h3(data-aos='zoom-in-right').mb-3
+      span.label-title.label-title--1 Manejo de sustancias agroquímicas
     p.mb-3 El uso de agroquímicos en la producción de plátano debe realizarse bajo estrictos controles que minimicen su impacto en la salud humana y el medio ambiente. Para ello, se requiere  la aplicación protocolos adecuados y capacitar al personal en su manejo seguro.
     p.mb-3 Dentro de los aspectos fundamentales se destacan:
     .row.justify-content-center.align-items-center.mb-4
@@ -170,14 +170,14 @@
         p.mb-2.check-green.border-bottom Análisis de la residualidad de los agroquímicos para evitar la acumulación de sustancias nocivas en el producto final.
         p.mb-2.check-green.border-bottom Capacitación específica para conductores y operarios responsables del manejo y transporte de productos químicos.
         p.mb-2.check-green.border-bottom Formación en estrategias de Manejo Integrado de Plagas (MIP), promoviendo alternativas sostenibles y reduciendo la dependencia de agroquímicos.
-    div.metodo.mb-4.mb-md-3
-      span.texto Aspectos técnico
+    h3(data-aos='zoom-in-right').mb-3
+      span.label-title.label-title--1 Aspectos técnico
     p.mb-3 Para optimizar la producción de plátano y garantizar su calidad, es necesario que los agricultores y operarios reciban capacitación en aspectos clave del cultivo y manejo poscosecha. A continuación, se presentan los puntos más importantes a considerar:
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-10.mb-0
         p.mb-3 Es fundamental que los programas de capacitación incluyan mecanismos de retroalimentación con los empleados para evaluar su efectividad y, de ser necesario, implementar medidas correctivas que fortalezcan una cultura de higiene entre los operarios.
-        div.metodo.mb-4.mb-md-3
-          span.texto Manejo de registro
+        h3(data-aos='zoom-in-right').mb-3
+          span.label-title.label-title--1 Manejo de registro
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-3.justify-content-center.align-items-center
             img(src="@/assets/curso/temas/tema4/img_13.svg", alt="Manejo de registro" class="img-fluid")
@@ -200,8 +200,8 @@
       .h2(data-aos="fade-right") 4.2	Identificación, trazabilidad y procedimiento de retiro 
     .mb-3
     p.mb-3 Garantizar la correcta identificación y trazabilidad de los productos permite dar cumplimiento a los estándares internacionales de calidad, facilitar su seguimiento en la cadena de suministro y responder de manera eficiente ante posibles incidentes de seguridad alimentaria
-    div.metodo.mb-4.mb-md-3
-      span.texto Identificación
+    h3(data-aos='zoom-in-right').mb-3
+      span.label-title.label-title--1 Identificación
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6.justify-content-center.align-items-center
         p.mb-3 La identificación de los productos es un requisito indispensable en los mercados internacionales, ya que permite conocer información clave sobre su origen y procesamiento. A través de las etiquetas, se especifican detalles como la fecha de elaboración y empaque, el número de lote y otros datos relevantes.
@@ -215,8 +215,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-4
         object(:data="ejemplo_etiquetas" type="image/svg+xml" class="img-fluid").mb-0
-        div.metodo.mb-4.mb-md-3
-          span.texto Trazabilidad o rastreabilidad
+        h3(data-aos='zoom-in-right').mb-3
+          span.label-title.label-title--1 Trazabilidad o rastreabilidad
         p.mb-3 La trazabilidad es un aspecto muy importante dentro de la unidad productiva, ya que permite realizar un seguimiento detallado del producto a lo largo de toda la cadena de producción. Implementar un sistema documental adecuado facilita el registro de información relevante sobre cada lote, permitiendo analizar y solucionar de manera efectiva cualquier problema de seguridad alimentaria.
         h5.mb-3 Algunos parámetros fundamentales para la identificación y trazabilidad del producto incluyen:
         .row.justify-content-center.align-items-center.mb-4

@@ -194,43 +194,43 @@
           .row.justify-content-center.align-items-center
             .col-lg-12.p-4.ps-5 
               p Durante esta etapa, los plátanos experimentan cambios en su composición físico-química: aumenta la acidez titulable y los grados Brix (indicadores de dulzura), mientras que el pH disminuye. Un manejo adecuado en la poscosecha garantiza la conservación de la frescura, presentación y valor comercial del producto, cumpliendo con las expectativas del consumidor y reduciendo pérdidas a lo largo de la cadena de distribución.
-        div.metodo.mb-3.mb-md-5
-          span.texto Proceso de poscosecha
-        p.mb-5 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
+      h3(data-aos='zoom-in-right').mb-3
+        span.label-title.label-title--1 Proceso de poscosecha
+      p.mb-5 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
       .row.justify-content-center.align-items-center
         .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
           .tarjeta-numerada.color-acento-contenido
             .tarjeta-numerada__numero
-              .h2 1
-            p 
+              .h3 1
+            p.text-center 
               b Recepción de materia prima: 
               | inspección y preparación del producto.
         .col-10.col-sm-10.col-md-4.col-lg-4.col-xl-2.col-xxl-2.mb-4.mb-xl-0
           .tarjeta-numerada.color-primario
             .tarjeta-numerada__numero
-              .h2 2
-            p 
+              .h3 2
+            p.text-center 
               b Adecuación del fruto: 
               | retiro de la bolsa protectora y separación de los racimos.
         .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
           .tarjeta-numerada.color-secundario
             .tarjeta-numerada__numero
-              .h2 3
-            p 
+              .h3 3
+            p.text-center 
               b Selección y clasificación: 
               | evaluación de calidad según parámetros comerciales.
         .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
           .tarjeta-numerada.color-terciario
             .tarjeta-numerada__numero
-              .h2 4
-            p
+              .h3 4
+            p.text-center
               b Lavado: 
             p eliminación de impurezas y posibles residuos de plaguicidas.
         .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
           .tarjeta-numerada.color-acento-botones
             .tarjeta-numerada__numero
-              .h2 5
-            p 
+              .h3 5
+            p.text-center
               b Empaque:
             p organización y protección del producto para su distribución.
     .titulo-sexto.bg-11.mb-4
@@ -281,24 +281,42 @@
                     figcaption Secado o escurrido 
                     img(src="@/assets/curso/temas/tema2/img_24.svg", alt="Secado o escurrido" class="img-fluid")
                     p.etiqueta www.agricultura.gob.ec
-    .row.justify-content-center.align-items-center.mb-4
-      .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
-        div.metodo2.mb-4.mb-md-5
-          span.texto Guía para selección y clasificación del plátano
-      .row.justify-content-center.align-items-center
-        .col-10.col-sm-10.col-md-10.col-lg-2.col-xl-2.col-xxl-2.mb-4.mb-3
-          figure
-            img(src="@/assets/curso/temas/tema2/img_25.svg", alt="Guía para selección y clasificación del plátano" class="img-fluid")
-        .col-10.col-sm-10.col-md-10.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-3
-          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
-            .row(titulo="Daño por plagas").justify-content-center.align-items-center
-              .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
-                p.mb-0 Después del secado, seleccione para la comercialización los frutos que se encuentren libres de: 
-                p.mb-0 • Frutos dañados por pájaros o insectos
-                p.mb-0 • Ablandamientos
-                p.mb-4 • Manchas, mordeduras, cicatrices o mordiscos ovalados en la cáscara, trips
+    h3(data-aos='zoom-in-right').mb-5
+      span.label-title.label-title--2 Guía para selección y clasificación del plátano
+    .row.justify-content-center.align-items-center
+      .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-3
+        figure
+          img(src="@/assets/curso/temas/tema2/img_25.svg", alt="Guía para selección y clasificación del plátano" class="img-fluid")
+      .col-10.col-sm-10.col-md-10.col-lg-9.col-xl-9.col-xxl-9.mb-4.mb-3
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          .row(titulo="Daño por plagas").justify-content-center.align-items-center
+            .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
+              p.mb-0 Después del secado, seleccione para la comercialización los frutos que se encuentren libres de: 
+              p.mb-0 • Frutos dañados por pájaros o insectos
+              p.mb-0 • Ablandamientos
+              p.mb-4 • Manchas, mordeduras, cicatrices o mordiscos ovalados en la cáscara, trips
+            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
+              object(:data="img_26" type="image/svg+xml" class="img-fluid")
+            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
+              .tarjeta_bg-06.p-4.mb-2
+                p.mb-0 • Percepción visual
+                p.mb-0 • Recipiente colector
+                p.mb-0 • Canastilla para producto dañado
+                p.mb-0 • Canastilla para comercialización
+              p https://oggisioggino.wordpress.com/
+          .row(titulo="Enfermedades por hongos").justify-content-center.align-items-center
+            .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
+              p.mb-0 También, seleccione para comercialización los frutos que se encuentren libres de:
+              p.mb-0 • Mal del cigarro
+              p.mb-0 • Pudrición seca
+              p.mb-0 • Ablandamiento y ennegrecimiento de los tejidos de la corona
+              p.mb-0 • Formación de colonias de color blanco, gris o rosado
+              p.mb-0 • Malformaciones
+              p.mb-0 • Antracnosis o lesiones de color café oscuro o negro
+              p.mb-4 Para disminuir las enfermedades en la corona se deben realizar los cortes con las herramientas desinfectadas y, después de lavado, secar bien los frutos.
+            .row.justify-content-center.align-items-center
               .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
-                object(:data="img_26" type="image/svg+xml" class="img-fluid")
+                object(:data="img_27" type="image/svg+xml" class="img-fluid")
               .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
                 .tarjeta_bg-06.p-4.mb-2
                   p.mb-0 • Percepción visual
@@ -306,82 +324,67 @@
                   p.mb-0 • Canastilla para producto dañado
                   p.mb-0 • Canastilla para comercialización
                 p https://oggisioggino.wordpress.com/
-            .row(titulo="Enfermedades por hongos").justify-content-center.align-items-center
-              .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
-                p.mb-0 También, seleccione para comercialización los frutos que se encuentren libres de:
-                p.mb-0 • Mal del cigarro
-                p.mb-0 • Pudrición seca
-                p.mb-0 • Ablandamiento y ennegrecimiento de los tejidos de la corona
-                p.mb-0 • Formación de colonias de color blanco, gris o rosado
-                p.mb-0 • Malformaciones
-                p.mb-0 • Antracnosis o lesiones de color café oscuro o negro
-                p.mb-4 Para disminuir las enfermedades en la corona se deben realizar los cortes con las herramientas desinfectadas y, después de lavado, secar bien los frutos.
-              .row.justify-content-center.align-items-center
-                .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
-                  object(:data="img_27" type="image/svg+xml" class="img-fluid")
-                .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
-                  .tarjeta_bg-06.p-4.mb-2
-                    p.mb-0 • Percepción visual
-                    p.mb-0 • Recipiente colector
-                    p.mb-0 • Canastilla para producto dañado
-                    p.mb-0 • Canastilla para comercialización
-                  p https://oggisioggino.wordpress.com/
-            .row(titulo="Daño mecánico").justify-content-center.align-items-center
-              .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
-                p.mb-0 Seleccione para terceras o realice unas adecuada disposición final en los frutos que presenten daños, como:
-                p.mb-0 • Frutos partidos, con golpes, cicatrices frescas, rajados, cuello roto y magulladuras
-                p.mb-0 • Frutos con manchas de sol
-                p.mb-0 • Frutos con manchas de latex
-                p.mb-3 Clasificar los frutos, según lo demande el mercado de comercialización, teniendo en cuenta las características de calidad que se indican en la NTC 1190:
-              .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
-                object(:data="img_28" type="image/svg+xml" class="img-fluid")
-              .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
-                .tarjeta_bg-06.p-4.mb-2
-                  p.mb-0 • Percepción visual
-                  p.mb-0 • Canastilla para producto dañado
-                  p.mb-0 • Canastilla para comercialización
-                p https://oggisioggino.wordpress.com/
-            .row(titulo="Categorías de calidad").justify-content-center.align-items-center
-              .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
-                p.mb-0 Los plátanos deben estar enteros y duros, exteriormente secos, Limpios, sin manchas ni grietas, no deben presentar indicios de pudrición ni magulladuras o heridas no cicatrizadas, ni tener el cuello roto.
-                p.mb-0 Adicionalmente, tenga en cuenta los requisitos de calidad por categoría Extra, Primera y segunda.
-              .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
-                p.mb-0 Extra: Bien formados, 3/4 de lleno, con color uniforme y pedúnculo bien cortado.
-                p.mb-0 Primera: A diferencia del Extra, pueden presentar daños superficiales sin manchas en las aristas.
-                p.mb-0 Segunda: Puede presentar daños superficiales y 1/3 de manchas en las aristas.
-              .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
-                .tarjeta_bg-06.p-4.mb-2
-                  p.mb-0 • Calibrador
-                  p.mb-0 • Canastilla para producto dañado
-                  p.mb-0 • Empaque para comercialización
-            .row(titulo="Color").justify-content-center.align-items-center
-              .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
-                p Seleccionar y clasificar los frutos de acuerdo con el estado de maduración y el mercado de comercialización:
-              .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
-                .tarjeta_bg-06.p-4.mb-2
-                  p.mb-0 • Paleta de color
-                  p.mb-0 • Canastilla por color
-                  p.mb-0 • Empaque para comercialización
+          .row(titulo="Daño mecánico").justify-content-center.align-items-center
+            .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
+              p.mb-0 Seleccione para terceras o realice unas adecuada disposición final en los frutos que presenten daños, como:
+              p.mb-0 • Frutos partidos, con golpes, cicatrices frescas, rajados, cuello roto y magulladuras
+              p.mb-0 • Frutos con manchas de sol
+              p.mb-0 • Frutos con manchas de latex
+              p.mb-3 Clasificar los frutos, según lo demande el mercado de comercialización, teniendo en cuenta las características de calidad que se indican en la NTC 1190:
+            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
+              object(:data="img_28" type="image/svg+xml" class="img-fluid")
+            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
+              .tarjeta_bg-06.p-4.mb-2
+                p.mb-0 • Percepción visual
+                p.mb-0 • Canastilla para producto dañado
+                p.mb-0 • Canastilla para comercialización
+              p https://oggisioggino.wordpress.com/
+          .row(titulo="Categorías de calidad").justify-content-center.align-items-center
+            .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
+              p.mb-0 Los plátanos deben estar enteros y duros, exteriormente secos, Limpios, sin manchas ni grietas, no deben presentar indicios de pudrición ni magulladuras o heridas no cicatrizadas, ni tener el cuello roto.
+              p.mb-0 Adicionalmente, tenga en cuenta los requisitos de calidad por categoría Extra, Primera y segunda.
+            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
+              p.mb-0 Extra: Bien formados, 3/4 de lleno, con color uniforme y pedúnculo bien cortado.
+              p.mb-0 Primera: A diferencia del Extra, pueden presentar daños superficiales sin manchas en las aristas.
+              p.mb-0 Segunda: Puede presentar daños superficiales y 1/3 de manchas en las aristas.
+            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
+              .tarjeta_bg-06.p-4.mb-2
+                p.mb-0 • Calibrador
+                p.mb-0 • Canastilla para producto dañado
+                p.mb-0 • Empaque para comercialización
+          .row(titulo="Color").justify-content-center.align-items-center
+            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
+              p Seleccionar y clasificar los frutos de acuerdo con el estado de maduración y el mercado de comercialización:
+            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
+              .tarjeta_bg-06.p-4.mb-2
+                ul
+                  li
+                    i.fa-solid.fa-circle-check
+                  
+                p.mb-0 • Paleta de color
+                p.mb-0 • Canastilla por color
+                p.mb-0 • Empaque para comercialización
+    .row.justify-content-center.align-items-center.mb-4
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-5
         h3(data-aos='zoom-in-right').mb-4
           span.label-title.label-title--1 Preparación para la poscosecha 
         p.mb-5 A continuación, algunas condiciones de la poscosecha:
       .row.justify-content-center.align-items-center
         .col-4.col-sm-4.col-md-4.col-lg-5.col-xl-4.col-xxl-4.mb-5
-          .tarjeta.tarjeta--color-terciario-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--1
-            p.text-center.mt-5 Realice a la planta procesadora limpieza y desinfección de tanques, mesas, bandejas y alrededores. Esta operación debe realizarse una vez por semana; además dentro de la limpieza también se deben eliminar aguas usadas en el proceso y los residuos de la cosecha como vástagos, coronas y flores.
+          .tarjeta.tarjeta--color-terciario-claro.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--1
+            p.text-center.mt-2.p-5 Realice a la planta procesadora limpieza y desinfección de tanques, mesas, bandejas y alrededores. Esta operación debe realizarse una vez por semana; además dentro de la limpieza también se deben eliminar aguas usadas en el proceso y los residuos de la cosecha como vástagos, coronas y flores.
         .col-2.col-sm-2.col-md-2.col-lg-4.col-xl-2.col-xxl-2.mb-5
           .tarjeta.tarjeta--color-terciario-claro.p-3.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--2
-            p.text-center.mt-5 Se debe alistar con antelación los insumos utilizados en el proceso como: alumbre (piedralumbre), chuchillos para el desdede (gurbias), báscula y empaque.
+            p.text-center.mt-4.p-1 Se debe alistar con antelación los insumos utilizados en el proceso como: alumbre (piedralumbre), chuchillos para el desdede (gurbias), báscula y empaque.
         .col-2.col-sm-2.col-md-2.col-lg-4.col-xl-2.col-xxl-2.mb-5
           .tarjeta.tarjeta--color-terciario-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--3
-            p.text-center.mt-5 La solución de agua más alumbre se debe preparar un día antes del embarque en una relación de un 1 kg por 100 L de agua.
+            p.text-center.mt-4.p-1 La solución de agua más alumbre se debe preparar un día antes del embarque en una relación de un 1 kg por 100 L de agua.
         .col-2.col-sm-2.col-md-2.col-lg-3.col-xl-2.col-xxl-2.mb-5
           .tarjeta.tarjeta--color-terciario-claro.p-5.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--4
-            p.text-center.mt-5 Afilar las herramientas como las gurbias que son utilizadas en desdede.
+            p.text-center.p-2 Afilar las herramientas como las gurbias que son utilizadas en desdede.
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
-        div.metodo2.mb-4
-          span.texto Herramientas e insumos
+        h3(data-aos='zoom-in-right').mb-3
+        span.label-title.label-title--2 Herramientas e insumos
       .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-lg-5
         img(src="@/assets/curso/temas/tema2/img_33.svg", alt="Imagen de montacargas" class="img-fluid")
       .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-lg-5
@@ -397,8 +400,8 @@
       .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-lg-5
         img(src="@/assets/curso/temas/tema2/img_34.svg", alt="Imagen de balde o cubeta" class="img-fluid")
       .col-lg-10.mb-4
-        div.metodo.mb-4.mb-md-5
-          span.texto Desdede y desleche
+        h3(data-aos='zoom-in-right').mb-3
+          span.label-title.label-title--1 Desdede y desleche
         p.mb-2 Una vez realizado el desdede con la gurbia o el cuchillo, los dedos (plátanos) se sumergen en una solución de agua y alumbre al 1%, es decir 10 gr de alumbre por cada litro de agua, los dedos deben permanecer sumergidos por 10 minutos.
       .col-lg-10.mb-4 
         .row.justify-content-center.align-items-center.mb-3
@@ -442,18 +445,18 @@
                 .modal-body
                   p {{ descripciones[selectedProcess] }}
                 span.process-number  {{ (selectedProcess + 1).toString().padStart(2, '0') }}
-        div.metodo.mb-5
-          span.texto Presentación de los dedos
+        h3(data-aos='zoom-in-right').mb-3
+          span.label-title.label-title--1 Presentación de los dedos
         p.mb-5 El dedo (plátano) de exportación no debe presentar defectos, sólo se admiten 5 defectos por caja, estos deben tener un calibre mínimo de 22 y máximo 28 (1/16 pulgadas).
-        div.metodo.mb-4.mb-md-4
-          span.texto Defectos del plátano más comunes
+      h3(data-aos='zoom-in-right').mb-3
+        span.label-title.label-title--1 Defectos del plátano más comunes
         .titulo-sexto.bg-11.mb-3
           h5 Figura 6:
           span.text-dark Defectos del plátano más comunes:
         object(:data="figura6" type="image/svg+xml" class="img-fluid").mb-2
         figcaption Nota.  SENA
-    div.metodo.mb-5
-      span.texto Empacado:
+    h3(data-aos='zoom-in-right').mb-3
+      span.label-title.label-title--1 Empacado:
     
     .titulo-sexto.bg-11.mb-4
       h5 Tabla 6:
@@ -510,8 +513,8 @@
                     figcaption Bolsa 
                     img(src="@/assets/curso/temas/tema2/img_48.svg", alt="Bolsa")
                     p.etiqueta www.agricultura.gob.ec
-    div.metodo.mb-4.mb-md-5
-      span.texto Transporte:
+    h3(data-aos='zoom-in-right').mb-3
+      span.label-title.label-title--1 Transporte:
     p.mb-2 El traslado desde la finca a la bodega o centro de acopio se hace en vehículos convencionales; mientras el traslado del centro de acopio al puerto se hace en camiones con refrigeración a una temperatura de 8 °C a 9 °C.
 </template>
 

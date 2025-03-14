@@ -28,18 +28,18 @@
           p.mb-2 Los peligros presentes en la cosecha y poscosecha pueden clasificarse en tres categorías principales: biológicos, químicos y físicos.
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-10
-          div.metodo.mb-4.mb-md-5
-            span.texto Peligros biológicos
+          h3(data-aos='zoom-in-right').mb-3
+            span.label-title.label-title--1 Peligros biológicos
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-3
               img(src="@/assets/curso/temas/tema3/img_3.svg", alt="Imagen de unos platanos" class="img-fluid")
             .col-lg-9
               p.mb-2 Son aquellos relacionados con la presencia de organismos vivos en los alimentos. Los microorganismos, que solo pueden observarse a través de un microscopio, incluyen bacterias, levaduras, hongos, parásitos y virus. Estos pueden encontrarse en cualquier parte del medio ambiente y representar un riesgo para la inocuidad del producto.
-          div.metodo.mb-4.mb-md-4
-            span.texto Peligros químicos
+          h3(data-aos='zoom-in-right').mb-3
+            span.label-title.label-title--1 Peligros químicos
           p.mb-4 Provienen de la contaminación con compuestos químicos nocivos, tales como residuos de insumos agrícolas, restos de detergentes y desinfectantes empleados en la limpieza, plaguicidas y metales pesados.
-          div.metodo.mb-4.mb-md-4
-            span.texto Peligros físicos
+          h3(data-aos='zoom-in-right').mb-3
+            span.label-title.label-title--1 Peligros físicos
           p.mb-4 Están asociados a daños en el producto debido a una manipulación inadecuada durante la cosecha y la poscosecha, lo que puede afectar su calidad y aptitud para el consumo.
           .tarjeta_bg-06.p-3.mb-5
             .row.mb-3.justify-content-center.align-items-center
@@ -49,7 +49,7 @@
                 img(src="@/assets/curso/temas/tema3/img_4.svg", alt="Imagen de unos platanos" class="img-fluid")
           .row.justify-content-center.align-items-center.mb-3
             .col-lg-6
-              .tarjeta_bg-06.p-3.mb-2
+              .tarjeta_bg-04.p-3.mb-2
                 .row.mb-3.justify-content-center.align-items-center
                   .col-lg-6
                     h4.mb-2 Peligros químicos
@@ -57,7 +57,7 @@
                   .col-lg-4
                     img(src="@/assets/curso/temas/tema3/img_5.svg", alt="Imagen de unos platanos" class="img-fluid")
             .col-lg-6
-              .tarjeta_bg-06.p-5.mb-2
+              .tarjeta_bg-05.p-5.mb-2
                 .row.justify-content-center.align-items-center.mb-3
                   .col-lg-6
                     h4.mb-2 Peligros físicos
@@ -65,39 +65,25 @@
                   .col-lg-4
                     img(src="@/assets/curso/temas/tema3/img_6.svg", alt="Imagen de unos platanos" class="img-fluid")
           p.mb-5 Para evaluar y gestionar los peligros en la unidad productiva, se deben considerar los siguientes aspectos:
-          SlyderF.custom(columnas="col-md-4 col-lg-4 col-xl-4")
-            .tarjeta.tarjeta--slyder.tarjeta_bg-06.p-2
-              .row.mb-3
-                .col-4.mb-3
-                  img(src="@/assets/curso/temas/tema3/img_7.svg" alt="alt" class="img100 m-auto")
-                  h4.text-center Identificación de peligros
-                  p.text-center.mb-0 Evaluar la posibilidad de que surjan riesgos con efectos perjudiciales para la salud.
-            .tarjeta.tarjeta--slyder.tarjeta_bg-06.p-2
-              .row.mb-3
-                .col-4.mb-3
-                  img(src="@/assets/curso/temas/tema3/img_8.svg" alt="alt" class="img100 m-auto")
-                  h4.text-center Evaluación cualitativa y cuantitativa
-                  p.mb-0 la presencia y nivel de peligros en el proceso productivo.
-            .tarjeta.tarjeta--slyder.tarjeta_bg-06.p-2
-              .row.mb-3
-                .col-4.mb-3
-                  img(src="@/assets/curso/temas/tema3/img_9.svg" alt="alt" class="img100 m-auto")
-                  h4.text-center Resistencia y proliferación de microorganismos
-                  p.mb-0Analizar el comportamiento de agentes biológicos que puedan comprometer la inocuidad del plátano.
-            .tarjeta.tarjeta--slyder.tarjeta_bg-06.p-2
-              .row.mb-3
-                .col-4.mb-3
-                  img(src="@/assets/curso/temas/tema3/img_10.svg" alt="alt" class="img100 m-auto")
-                  h4.text-center Persistencia de toxinas y sustancias nocivas
-                  p.mb-0 Evaluar la acumulación de compuestos químicos o físicos que representen un riesgo para el consumidor.
-            .tarjeta.tarjeta--slyder.tarjeta_bg-06.p-2
-              .row.mb-3
-                .col-4.mb-3
-                  img(src="@/assets/curso/temas/tema3/img_11.svg" alt="alt" class="img100 m-auto")
-                  h4.text-center Gestión de múltiples peligros
-                  p.mb-0 En caso de que se presenten varios riesgos simultáneamente, implementar medidas que minimicen su impacto y garanticen la calidad del producto.
-          div.metodo.mb-4.mb-md-4
-            span.texto Prácticas en los procesos de limpieza y desinfección
+          .mt-5.custom-slider
+            SlyderF(columnas="col-md-4 col-lg-4 col-xl-4")
+              .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--5
+                h3.text-center.mt-5 Identificación de peligros
+                p.mb-0.text-center Evaluar la posibilidad de que surjan riesgos con efectos perjudiciales para la salud.
+              .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--6
+                h3.text-center.mt-5 Evaluación cualitativa y cuantitativa
+                p.mb-0.text-center la presencia y nivel de peligros en el proceso productivo.
+              .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--7
+                h3.text-center.mt-5 Resistencia y proliferación de microorganismos
+                p.mb-0.text-center el comportamiento de agentes biológicos que puedan comprometer la inocuidad del plátano.
+              .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--8
+                h3.text-center.mt-5 Persistencia de toxinas y sustancias nocivas
+                p.mb-0.text-center Evaluar la acumulación de compuestos químicos o físicos que representen un riesgo para el consumidor.
+              .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--9
+                h3.text-center.mt-5 Gestión de múltiples peligros
+                p.mb-0.text-center En caso de que se presenten varios riesgos simultáneamente, implementar medidas que minimicen su impacto y garanticen la calidad del producto.
+          h3(data-aos='zoom-in-right').mb-3
+            span.label-title.label-title--1 Prácticas en los procesos de limpieza y desinfección
           .tarjeta_bg-05.p-4.mb-2
             .row.mb-3.justify-content-center.align-items-center
               .col-lg-11
@@ -111,8 +97,8 @@
       #t_3_2.titulo-segundo
         .h2(data-aos="fade-right") 3.2	 Plan de limpieza y desinfección
       .mb-3 
-      div.metodo.mb-4.mb-md-4
-        span.texto Herramientas y utensilios
+      h3(data-aos='zoom-in-right').mb-3
+        span.label-title.label-title--1 Herramientas y utensilios
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-3
           img(src="@/assets/curso/temas/tema3/img_13.svg", alt="Imagen de unos platanos" class="img-fluid")
@@ -183,8 +169,8 @@
             tr
               td Empaque final (Canastillas)
               td Antes de la comercialización
-      div.metodo.mb-4.mb-md-4
-        span.texto Tinas o tanques
+      h3(data-aos='zoom-in-right').mb-3
+        span.label-title.label-title--1 Tinas o tanques
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-9
           p.mb-2 Los tanques o tinas desempeñan un papel fundamental en la producción de plátano, ya que permiten la limpieza del fruto tras la cosecha, eliminando impurezas como tierra y residuos. Además, se utilizan en el proceso de desdede y desmanche del producto.
@@ -198,8 +184,8 @@
           img(src="@/assets/curso/temas/tema3/img_17.svg", alt="Imagen de unos platanos" class="img-fluid")
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
-          div.metodo.mb-4.mb-md-4
-            span.texto Pisos 
+          h3(data-aos='zoom-in-right').mb-3
+            span.label-title.label-title--1 Pisos 
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-3
               img(src="@/assets/curso/temas/tema3/img_18.svg", alt="Imagen de unos platanos" class="img-fluid")
@@ -208,13 +194,13 @@
               p.check-green.mb-3.border-bottom Lavarlos a fondo con cepillo y jabón, asegurando la eliminación de residuos y suciedad adherida.
               p.check-green.mb-3.border-bottom Aplicar una solución desinfectante de agua y cloro, dejándola actuar durante aproximadamente 10 minutos para garantizar su efectividad.
               p.check-green.mb-3.border-bottom Enjuagar bien las superficies y dejarlas secar completamente antes de retomar las actividades.
-          div.metodo.mb-4.mb-md-4
-            span.texto Mesones para adecuación de materia prima
+          h3(data-aos='zoom-in-right').mb-3
+            span.label-title.label-title--1 Mesones para adecuación de materia prima
           p.mb-2 Los mesones donde se manipula el plátano deben contar con superficies lisas, no porosas y de fácil limpieza y desinfección, evitando la acumulación de suciedad y microorganismos patógenos.
           p.mb-4 Después de cada uso, es fundamental:
           object(type="image/svg+xml" data="/assets/tema3_img_19.svg" class="img-fluid").mb-3
-          div.metodo.mb-4.mb-md-4
-            span.texto Control de plagas en las instalaciones
+          h3(data-aos='zoom-in-right').mb-3
+            span.label-title.label-title--1 Control de plagas en las instalaciones
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-3
               img(src="@/assets/curso/temas/tema3/img_22.svg", alt="Control de plagas en las instalaciones" class="img-fluid")

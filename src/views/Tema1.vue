@@ -47,7 +47,7 @@
               .col-md-6
                 figure
                     img(src='@/assets/curso/temas/tema1/img_6.png', alt='Imagen de un suelo con césped' class="img-fluid")
-      h3(data-aos='zoom-in-right').mb-4.mb-lg-5
+      h3(data-aos='zoom-in-right').mb-4
         span.label-title.label-title--1 Métodos de control de arvenses
       p.mb-5 Existen diferentes métodos de control que pueden aplicarse según las condiciones del cultivo y los recursos disponibles.
       .row.justify-content-center.mb-5
@@ -96,7 +96,7 @@
               .col
                 h5 Control manual	
                 p Se realiza mediante el plateo con machete o manualmente. Este último es el método más recomendado para evitar daños a la planta.
-      h3(data-aos='zoom-in-right').mb-4.mb-lg-5
+      h3(data-aos='zoom-in-right').mb-4
         span.label-title.label-title--1 Plateo
       p.mb-5 El plateo es una técnica esencial en el cultivo de plátano que consiste en mantener libre de malezas la base de la planta. Su correcta aplicación facilita la fertilización y el manejo de plagas y enfermedades, favoreciendo así un desarrollo óptimo del cultivo y aumentando su productividad. Se recomienda realizar esta labor de forma manual para evitar daños a la planta y mejorar la eficacia del control de arvenses.
       .row.justify-content-center.align-items-center.mb-5
@@ -107,7 +107,7 @@
           figure
             img.img100(src="@/assets/curso/temas/tema1/img_13.png", alt="Control manual" class="img-fluid")
           figcaption Nota.  SENA
-      h3(data-aos='zoom-in-right').mb-4.mb-lg-5
+      h3(data-aos='zoom-in-right').mb-4
         span.label-title.label-title--1 Desmanche o regulación de la población
       p.mb-3 El desmanche es una técnica fundamental en el cultivo de plátano, cuyo propósito es eliminar los colinos que emergen alrededor de la planta madre. Estos brotes generan competencia por luz, agua y nutrientes, afectando el desarrollo del cultivo. La aplicación adecuada de esta práctica permite establecer una descendencia equilibrada, compuesta por madre, hijo y nieto, optimizando la producción y garantizando una densidad adecuada de plantas por hectárea.
       p.mb-5 A continuación, se describen algunos métodos de eliminación de colinos:
@@ -136,24 +136,24 @@
             .crd_hover_txt--body
               h4.mb-3.text-center Extracción del punto de crecimiento        
               p.mb-0 Mediante un sacabocados, se retira la yema sin afectar el sistema radicular de la planta madre ni de los colinos restantes.
-        .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
+        .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-0
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Desguasque
-        .row.justify-content-center.align-items-center.mb-5
+        .row.justify-content-center.align-items-center.mb-4
           .col-10.col-sm-10.col-md-10.col-lg-2.col-xl-2.col-xxl-2.mb-3.mb-lg-0
             img(src="@/assets/curso/temas/tema1/img_17.png", alt="Desguasque" class="img-fluid")
           .col-10.col-sm-10.col-md-10.col-lg-8.col-xl-8.col-xxl-8.mb-3.mb-lg-0
             p.mb-3 El desguasque se encuentra dentro de las prácticas culturales recomendadas para favorecer la sanidad y vigor de las plantas. Esta labor consiste en eliminar la guasca seca que hay en el pseudotallo, se puede realizar cada vez que lo requiera el cultivo, procurando no hacer daño a la planta; el no realizar esta labor en la platanera puede generar plagas como el Picudo, el Rayado, la Palomilla y algunas enfermedades como el virus en el pseudotallo.
-        .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
+        .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-0
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Deshoje
-        .row.justify-content-center.align-items-center.mb-5
+        .row.justify-content-center.align-items-center.mb-4
           .col-10.col-sm-10.col-md-10.col-lg-7.col-xl-7.col-xxl-7.mb-3.mb-lg-0
             p.mb-3 Implica la eliminación de hojas secas, dobladas o ubicadas en la parte inferior de la planta, con el propósito de mejorar la circulación del aire y la penetración de la luz solar, reduciendo así el riesgo de plagas y enfermedades. Se recomienda retirar también hojas con manchas o con tejidos verdes afectados, siempre asegurando que al menos el 50% del área foliar permanezca intacta para no comprometer la fotosíntesis. Esta práctica es clave en el manejo de la Sigatoca negra.
             p.mb-0 El corte de las hojas debe realizarse a una altura de 20 a 30 cm del pecíolo y puede efectuarse en cualquier momento del día, según lo requiera el cultivo.
           .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-0
             img(src="@/assets/curso/temas/tema1/img_18.png", alt="Deshoje" class="img-fluid")
-      h3(data-aos='zoom-in-right').mb-3
+      h3(data-aos='zoom-in-right').mb-4
         span.label-title.label-title--1 Amarre
       p.mb-3 El amarre es una práctica fundamental para garantizar la estabilidad de las plantas durante su etapa de reproducción. Su propósito es prevenir la caída de los pseudotallos debido a factores como la acción del viento, deficiencias en el sistema radicular, embalconamiento o el peso del racimo.
       p.mb-5 Para obtener mejores resultados, esta labor debe realizarse con una frecuencia semanal, utilizando cabuya biodegradable, lo que contribuye a la sostenibilidad del cultivo y reduce el impacto ambiental.
@@ -262,7 +262,7 @@
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Desflore, desdede y desbacote
         p.mb-5 Estas prácticas agrícolas en el cultivo de plátano, contribuyen a optimizar el desarrollo del racimo, favoreciendo su crecimiento y calidad. Su aplicación adecuada permite una mejor distribución de nutrientes y reduce la incidencia de plagas y enfermedades.
-        .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
+        .row.justify-content-center.align-items-stretch.mb-0
           .col-10.col-sm-10.col-md-5.col-lg-5.col-xl-3.col-xxl-3.mb-4.mb-xl-0
             .square-card.bg-color-terciario-claro
               .square-card__img
@@ -279,7 +279,7 @@
               .square-card__text
                 h3.text-center Desdede
                 p.text-small Se eliminan dos o más dedos de la última mano del racimo para garantizar una mejor distribución de nutrientes, lo que favorece el crecimiento y el peso del resto del fruto.
-          .col-10.col-sm-10.col-md-6.col-lg-6.col-xl-4.col-xxl-4.mb-4.mb-xl-0
+          .col-10.col-sm-10.col-md-6.col-lg-6.col-xl-4.col-xxl-4.mb-0
             .square-card.bg-color-terciario-claro
               .square-card__img
                   figure
@@ -367,7 +367,7 @@
             .row.mb-3
               .col-lg-12.p-4.ps-5 
                 p El manejo integrado de plagas y enfermedades combina estrategias que minimizan su impacto en los cultivos, priorizando métodos sostenibles y amigables con el medio ambiente. Incluye el uso de variedades resistentes, control biológico, monitoreo constante y prácticas agrícolas como la rotación de cultivos y el manejo eficiente del suelo y la humedad, reduciendo así la dependencia de productos químicos y fomentando la sanidad vegetal.
-      h3(data-aos='zoom-in-right').mb-4.mb-lg-5
+      h3(data-aos='zoom-in-right').mb-4
         span.label-title.label-title--1 Manejo fitosanitario
       p.mb-5 La implementación de estrategias de control biológico y mecánico contribuye a la prevención de plagas y reduce la necesidad de plaguicidas químicos, minimizando así el impacto ambiental y los riesgos para la salud humana. A continuación, se presentan las principales prácticas recomendadas:
       .row.justify-content-center.align-items-center

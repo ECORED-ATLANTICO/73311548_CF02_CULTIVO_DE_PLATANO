@@ -157,98 +157,108 @@
         span.texto Amarre
       p.mb-3 El amarre es una práctica fundamental para garantizar la estabilidad de las plantas durante su etapa de reproducción. Su propósito es prevenir la caída de los pseudotallos debido a factores como la acción del viento, deficiencias en el sistema radicular, embalconamiento o el peso del racimo.
       p.mb-5 Para obtener mejores resultados, esta labor debe realizarse con una frecuencia semanal, utilizando cabuya biodegradable, lo que contribuye a la sostenibilidad del cultivo y reduce el impacto ambiental.
-      .row.d-flex.align-items-center.mb-5
-        .col-lg-5.mb-3.mb-lg-0
-            img(src="@/assets/curso/temas/tema1/img_19.png", alt="Amarre" class="img-fluid")
-        .col-12.col-sm-12.col-md-12.col-lg-7.col-xl-7.col-xxl-7.mb-3.mb-lg-0.slyder_1.bg-01.fondo-slyder
-          SlyderA(tipo="a").p-5
-            .row.justify-content-center.align-items-center
-              .col-3.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/img_20.png', alt='las semillas sean jóvenes').mx-auto
-              .col-9.col-sm-8.col-md-8.col-lg-7.col-xl-8.col-xxl-8.p-1.p-xl-5
-                h3.mb-2.h-a 01
-                p Que las semillas sean jóvenes, vigorosas y su procedencia y características fenotípicas sean óptimas.
-            .row.ordenar_tarjeta.justify-content-center.align-items-center
-              .col-3.col-sm-3.col-md-2.col-lg-3.col-xl-2.col-xxl-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/img_21.png', alt='Determinar la dirección').mx-auto
-              .col-9.col-sm-8.col-md-8.col-lg-7.col-xl-8.col-xxl-7.p-1.p-xl-5
-                h3.mb-2.h-a 02
-                p Determinar la dirección de inclinación para orientar correctamente las líneas o cuerdas.
-            .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-              .col-3.col-sm-2.col-md-2.col-lg-3.col-xl-2.col-xxl-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/img_22.png', alt='Calcular la longitud de cuerda necesaria para el amarre.').mx-auto
-              .col-9.col-sm-8.col-md-8.col-lg-7.col-xl-8.col-xxl-8.p-1.p-xl-5
-                h3.mb-2.h-a 03
-                p Calcular la longitud de cuerda necesaria para el amarre.
-            .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-              .col-3.col-sm-2.col-md-2.col-lg-3.col-xl-2.col-xxl-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/img_23.png', alt='Asegurar la escalera en una posición firme para facilitar la labor.').mx-auto
-              .col-9.col-sm-8.col-md-8.col-lg-7.col-xl-8.col-xxl-8.p-1.p-xl-5
-                h3.mb-2.h-a 04
-                p Asegurar la escalera en una posición firme para facilitar la labor.	
-            .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-              .col-3.col-sm-2.col-md-2.col-lg-3.col-xl-2.col-xxl-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/img_24.png', alt='Amarrar en sentido contrario a la inclinación con un nudo holgado, firme y fácil de soltar.').mx-auto
-              .col-9.col-sm-8.col-md-8.col-lg-7.col-xl-8.col-xxl-8.p-1.p-xl-5
-                h3.mb-2.h-a 05
-                p Amarrar en sentido contrario a la inclinación con un nudo holgado, firme y fácil de soltar.
-            .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-              .col-3.col-sm-2.col-md-2.col-lg-4.col-xl-2.col-xxl-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/img_25.png', alt='Seleccionar las plantas de anclaje en este orden: paridas, bien desarrolladas sin parir y pseudotallos recién cosechados (menos de una semana).').mx-auto
-              .col-9.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.p-xl-5
-                h3.mb-2.h-a 06
-                p Seleccionar las plantas de anclaje en este orden: paridas, bien desarrolladas sin parir y pseudotallos recién cosechados (menos de una semana).	
-            .row.ordenar_tarjeta.justify-content-center.align-items-center.p-3
-              .col-3.col-sm-2.col-md-2.col-lg-3.col-xl-2.col-xxl-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/img_26.png', alt='Las cuerdas deben formar una "V" opuesta a la inclinación, con un ángulo de 45° a 60°.	').mx-auto
-              .col-9.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.p-xl-5
-                h3.mb-2.h-a 07
-                p Las cuerdas deben formar una "V" opuesta a la inclinación, con un ángulo de 45° a 60°.	
+      .row.justify-content-center.align-items-center.mb-4.mb-lg-5.factores-slider
+        .d-none.d-xl-block.col-xl-5
+          figure
+            img(src='@/assets/curso/temas/tema1/img_19.png', alt="Amarre")(data-aos="fade-up")
+        .col-xl-7.bg-platanos-image.p-4.rounded-3
+          SlyderF().bg-white.p-3.rounded-3
+            .tarjeta.p-3.rounded-3.d-flex
+              .row.align-items-center
+                .col-3.d-none.d-md-block
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/img_20.png', alt='01')(data-aos="fade-up")
+                .col-md-9
+                  h3.factores-slider__number.color-acento-contenido 01
+                  p.mb-0 Que las semillas sean jóvenes, vigorosas y su procedencia y características fenotípicas sean óptimas.
+            .tarjeta.p-3.rounded-3.d-flex
+              .row.align-items-center
+                .col-3.d-none.d-md-block
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/img_21.png', alt='02')(data-aos="fade-up")
+                .col-md-9
+                  h3.factores-slider__number.color-acento-contenido 02
+                  p.mb-0 Determinar la dirección de inclinación para orientar correctamente las líneas o cuerdas.
+            .tarjeta.p-3.rounded-3.d-flex  
+              .row.align-items-center
+                .col-3.d-none.d-md-block
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/img_22.png', alt='Ilustración decorativa')(data-aos="fade-up")
+                .col-md-9
+                  h3.factores-slider__number.color-acento-contenido 03
+                  p.mb-0 Calcular la longitud de cuerda necesaria para el amarre.
+
+            .tarjeta.p-3.rounded-3.d-flex  
+              .row.align-items-center
+                .col-3.d-none.d-md-block
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/img_23.png', alt='Ilustración decorativa')(data-aos="fade-up")
+                .col-md-9
+                  h3.factores-slider__number.color-acento-contenido 04
+                  p.mb-0 Asegurar la escalera en una posición firme para facilitar la labor.
+
+            .tarjeta.p-3.rounded-3.d-flex  
+              .row.align-items-center
+                .col-3.d-none.d-md-block
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/img_24.png', alt='Ilustración decorativa')(data-aos="fade-up")
+                .col-md-9
+                  h3.factores-slider__number.color-acento-contenido 05
+                  p.mb-0 Amarrar en sentido contrario a la inclinación con un nudo holgado, firme y fácil de soltar.
+            .tarjeta.p-3.rounded-3.d-flex  
+              .row.align-items-center
+                .col-3.d-none.d-md-block
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/img_25.png', alt='Ilustración decorativa')(data-aos="fade-up")
+                .col-md-9
+                  h3.factores-slider__number.color-acento-contenido 06
+                  p.mb-0 Seleccionar las plantas de anclaje en este orden: paridas, bien desarrolladas sin parir y pseudotallos recién cosechados (menos de una semana).
+            .tarjeta.p-3.rounded-3.d-flex  
+              .row.align-items-center
+                .col-3.d-none.d-md-block
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/img_26.png', alt='Ilustración decorativa')(data-aos="fade-up")
+                .col-md-9
+                  h3.factores-slider__number.color-acento-contenido 07
+                  p.mb-0 Las cuerdas deben formar una "V" opuesta a la inclinación, con un ángulo de 45° a 60°.	
       div.metodo.mb-4.mb-md-5
         span.texto Embolse y encinte
       .bg_img_3
-        .row.justify-content-center.align-items-center.mb-5
-          .col-12.col-sm-12.col-md-3.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-xl-0.d-flex.align-items-stretch
-              img(src="@/assets/curso/temas/tema1/img_27.png", alt="Embolse y encinte" class="img-fluid").mx-auto
+        .row.align-items-center.mb-4.mb-lg-5
+          .d-none.d-lg-block.col-lg-3
+            img(src="@/assets/curso/temas/tema1/img_27.png", alt="Embolse y encinte")(data-aos="fade-up")
           .col-12.col-sm-12.col-md-9.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
             p.mb-3 El embolse y el encinte son prácticas esenciales para garantizar la calidad del fruto en el cultivo de plátano. El embolse favorece el crecimiento de los racimos al reducir el tiempo entre su aparición y la cosecha, además de mantener una temperatura adecuada que optimiza su desarrollo. También protege los frutos contra plagas y daños durante su crecimiento y recolección, mejorando su presentación y calidad.
             p.mb-3 Por su parte, el encinte complementa el embolse y permite identificar la edad de los racimos, facilitando el control de la cosecha y el registro de la producción disponible.
-            TabsA.color-secundario
-              .tarjeta.ordenar_tarjeta.color-secundario-S5.p-4(titulo="Tratamiento de bolsas")
-                .row.justify-content-center.align-items-center
-                  .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+            TabsA.mb-5.banana-tabs-a.color-secundario
+              .tarjeta.bg-color-terciario.p-4.h-100.banana-tabs-a__tarjeta(titulo="Tratamiento de bolsas")
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                     p Las bolsas utilizadas deben estar impregnadas con agroquímicos permitidos para garantizar su efectividad.
-                  .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2.p-1.mb-4.mb-xl-0
+                  .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                     figure
-                      img(src='@/assets/curso/temas/tema1/img_28.png', alt='Tratamiento de bolsas'  class="img-fluid")
-              .tarjeta.ordenar_tarjeta.color-secundario-S5.p-4(titulo="Procedimiento de embolse")
-                .row.justify-content-center.align-items-center
-                  .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                      img(src='@/assets/curso/temas/tema1/img_28.png', alt='Procedimiento de embolse')(data-aos="fade-up")
+              .tarjeta.bg-color-terciario.p-4.h-100.banana-tabs-a__tarjeta(titulo="Tanques de lavado")
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                     p Se debe realizar con la indumentaria y vestuario de trabajo adecuado, y la protección necesaria.
-                  .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2.p-1.mb-4.mb-xl-0
+                  .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                     figure
-                      img(src='@/assets/curso/temas/tema1/img_29.png', alt='Procedimiento de embolse'  class="img-fluid")
-              .tarjeta.ordenar_tarjeta.color-secundario-S5.p-4(titulo="Manejo de residuos")
-                .row.justify-content-center.align-items-center
-                  .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                      img(src='@/assets/curso/temas/tema1/img_29.png', alt='Tanques de lavado')
+              .tarjeta.bg-color-terciario.p-4.h-100.banana-tabs-a__tarjeta(titulo="Zona de secado")
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                     p Se recomienda el uso de bolsas lechosas tratadas con clorpirifós al 1%. En condiciones de alta radiación solar, este tipo de bolsa ofrece protección adicional contra plagas.
-                  .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2.p-1.mb-4.mb-xl-0
+                  .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                     figure
-                      img(src='@/assets/curso/temas/tema1/img_30.png', alt='Manejo de residuos'  class="img-fluid")
-              .tarjeta.ordenar_tarjeta.color-secundario-S5.p-4(titulo="Selección de bolsa")
-                .row.justify-content-center.align-items-center
-                  .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                      img(src='@/assets/curso/temas/tema1/img_30.png', alt='Manejo de residuos')
+              .tarjeta.bg-color-terciario.p-4.h-100.banana-tabs-a__tarjeta(titulo="Almacenamiento")
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                     p Es fundamental recoger y gestionar correctamente las bolsas utilizadas para evitar impactos ambientales negativos.
-                  .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2.p-1.mb-4.mb-xl-0
+                  .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                     figure
-                      img(src='@/assets/curso/temas/tema1/img_31.png', alt='Selección de bolsa'  class="img-fluid")
+                      img(src='@/assets/curso/temas/tema1/img_31.png', alt='Almacenamiento')
         div.metodo.mb-4.mb-md-5
           span.texto Desflore, desdede y desbacote
         p.mb-5 Estas prácticas agrícolas en el cultivo de plátano, contribuyen a optimizar el desarrollo del racimo, favoreciendo su crecimiento y calidad. Su aplicación adecuada permite una mejor distribución de nutrientes y reduce la incidencia de plagas y enfermedades.
@@ -404,20 +414,17 @@
             .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
               figure
                 img(src='@/assets/curso/temas/tema1/img_42.png', alt='Sistema de rotación de plaguicidas' class="img-fluid")
-        .col-8.col-sm-8.col-md-3.col-lg-3.col-xl-3.col-xxl-3
+        .d-none.d-lg-block.col-lg-3
           figure
-            img.mb-5(src="@/assets/curso/temas/tema1/img_43.png", alt="Manejo fitosanitario" class="img-fluid")
+            img.mb-5(src="@/assets/curso/temas/tema1/img_43.png", alt="Manejo fitosanitario")(data-aos="fade-up")
 </template>
 
 <script>
 export default {
   name: 'Tema1',
-  data() {
-    return {
-      mostrarIndicadorTarjetaAudio: true,
-      figura3: require('@/assets/curso/figuras/figura3.svg'),
-    }
-  },
+  data: () => ({
+    // variables de vue
+  }),
 }
 </script>
 

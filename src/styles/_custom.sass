@@ -1,36 +1,51 @@
-@keyframes float1
-  0%
-    transform: translateY(20px)
-
-  100%
-    transform: translateY(0px)
-
-.banner-interno__fondo
-  background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
-  background-repeat: no-repeat
-
 .banner-principal .tarjeta
-  background-color: #465B12
-  background-repeat: no-repeat
-
+  background-image: url('../assets/curso/portada/fondo-banner-principal-mobile.png') !important
+@media (min-width: 426px)
+  .banner-principal .tarjeta
+    background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.png') !important
+    padding-right: 130px
+@media (min-width: 769px)
+  .banner-principal .tarjeta
+    padding-right: 0
+    overflow: hidden
+@media (min-width: 1023px)
+  .banner-principal .tarjeta
+    background-image: url('../assets/curso/portada/fondo-banner-principal.png') !important
+.banner-principal-decorativo
+  &-1
+    position: absolute
+    top: 80%
+    left: -23%
+    width: 250px
+.banner-principal__row 
+  .banner-principal__img
+    width: 400px
+    padding-bottom: 0 !important
+@media (min-width: 1025px)
+  .banner-principal__row .banner-principal__img
+    width: 470px
 .titulo-principal__numero
   min-width: 45px
   height: 45px
   margin-right: 15px
   position: relative
   background-color: $color-acento-contenido !important
-
-.titulo-principal__numero span
-  color: #000 !important
-
+@keyframes float1
+  0%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0px)
+.banner-interno__fondo 
+  background-image: url('../assets/curso/portada/banner-interno.png') !important
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: white !important   
+figcaption
+  font-weight: normal
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: #fff
-
 .titulo-sexto
   color: #7D9FFB !important
-
-  
-  ///// slyder --------------------------------------
+///// slyder --------------------------------------
 .tarjeta--slyder  
   height: 100%
   background-color: #F6FAEA
@@ -207,21 +222,46 @@
 .fondo_1_2
   background-size: cover
 
+.bg-platanos-image
+  background-image: url('../assets/curso/fondos/fondo_1_3.svg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+.banana-tabs-a
+  margin-bottom: 0 !important
+  .tabs-a__tab
+    margin-bottom: 10px !important
+    background-color: #F2FAEB
+    &:hover
+      background-color: $color-terciario
+    &::before
+      background-color: $color-terciario
+    &__selected
+      background-color: $color-terciario
+  .tabs-a__content-item
+    height: 100%
+  &__tarjeta
+    display: flex
+    flex-direction: column
+    gap: 3px
+    justify-content: center
+.square-card
+  padding: 2rem
+  border-radius: 21px
+  width: 100%
+  display: flex
+  flex-direction: column
+  gap: 21px
+  justify-content: center
+  align-items: center
+  margin-bottom: 1rem
+  &__img
+    width: 172px
+
 .fondo-slyder
   position: relative
   overflow: hidden
-
-  &::before
-    content: ""
-    position: absolute
-    top: 0
-    left: 0
-    right: 0
-    bottom: 0
-    width: 100%
-    height: 100%
-    background: url('../assets/curso/fondos/fondo_1_3.svg') no-repeat center center
-    background-size: contain
 
 .fondo-slyder-b
   position: relative
@@ -617,6 +657,152 @@ $fondo: '../assets/curso/fondo-platano2.svg'
 
 .lista-ol--cuadro__vineta
   background-color: #8C492A
+// factores-slider
+.factores-slider, .custom-slider
+  &__icon 
+    max-height: 93px
+  
+  &__title-wrapper
+    text-align: center
+
+  &__title
+    background-color: #93AD5F
+    color: white
+    display: inline-block
+    padding: 2px 60px
+    margin: 1rem auto
+
+  &__number
+    color: $color-secundario
+    font-size: 30px
+    
+    &.color-acento-contenido
+      color: $color-acento-contenido
+      margin-bottom: 10px
+
+  .slyder-f
+    align-items: center
+    justify-content: center
+
+  .slyder-f__main
+    width: 80%
+
+  .slyder-f__btn
+    height: 42px
+    width: 42px
+    min-width: 42px
+    background-color: $color-terciario
+    border-radius: 50%
+    padding: 0 !important
+    .fa-chevron-left
+      font-size: 1.5rem
+    .fa-chevron-right
+      font-size: 1.5rem
+    &.ps-3
+      margin-left: 7px
+    &.pe-3
+      margin-right: 7px
+
+.custom-slider
+  &__tarjeta
+    position: relative
+    overflow: visible
+    &--1::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--2::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--3::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--4::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--5::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--14::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--6::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--7::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--8::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--9::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--10::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--11::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--12::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--13::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/img_1.png')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    
+
+  .slyder-f__slyde
+    padding-top: 80px
+
+
+@media (min-width: 1025px)
+  .factores-slider
+    .slyder-f
+      justify-content: space-between
+    .slyder-f__main
+      width: 84%
 
 // Fondos de tarjetas
 .bg_img

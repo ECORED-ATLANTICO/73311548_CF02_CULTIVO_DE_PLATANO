@@ -32,9 +32,9 @@
           :icono="require('@/assets/curso/temas/tema1/img_3.svg')"
           )
             .row.justify-content-center.align-items-center
-              .col-md-6.mb-4.mb-md-0
+              .col-10.col-sm-10.col-md-10.col-lg-6.col-xl-6.col-xxl-6.order-2.order-lg-1.mb-3.mb-lg-0
                 p Algunas malezas representan un riesgo significativo, ya que albergan virus, bacterias e insectos perjudiciales. Entre las más problemáticas se encuentran la Siempre viva, transmisora de virus, así como la Emilia, el Cadillo y el Lulo de perro, que pueden hospedar bacterias como el Moko.
-              .col-md-6
+              .col-10.col-sm-10.col-md-10.col-lg-6.col-xl-6.col-xxl-6.order-1.order-lg-2.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img_4.png', alt='Algunas malezas representan un riesgo significativo, ya que albergan virus, bacterias e insectos perjudiciales. Entre las más problemáticas se encuentran la Siempre viva, transmisora de virus, así como la Emilia, el Cadillo y el Lulo de perro, que pueden hospedar bacterias como el Moko.' class="img-fluid")
         .py-4.py-md-5(
@@ -42,9 +42,9 @@
           :icono="require('@/assets/curso/temas/tema1/img_5.svg')"
           )
             .row.justify-content-center.align-items-center
-              .col-md-6.mb-4.mb-md-0
+              .col-10.col-sm-10.col-md-10.col-lg-6.col-xl-6.col-xxl-6.order-1.order-md-2.mb-0.mb-md-3
                   p Las plantas jóvenes de plátano son especialmente vulnerables, ya que las malezas pueden proliferar con facilidad en los espacios libres a su alrededor. Durante el primer año del cultivo, es fundamental mantener la zona despejada para evitar la competencia por recursos esenciales y promover un desarrollo vigoroso.
-              .col-md-6
+              .col-10.col-sm-10.col-md-10.col-lg-6.col-xl-6.col-xxl-6.order-2.order-md-1.mb-0.mb-md-3
                 figure
                     img(src='@/assets/curso/temas/tema1/img_6.png', alt='Imagen de un suelo con césped' class="img-fluid")
       h3(data-aos='zoom-in-right').mb-4
@@ -62,7 +62,7 @@
                   img.img100(src="@/assets/curso/temas/tema1/img_8.svg", alt="Control químico" class="img-fluid")
               .col
                 h5 Control químico
-                p Se utiliza de manera selectiva en plantaciones comerciales. En monocultivos, se aplican herbicidas emergentes en la base de la planta durante los primeros cinco meses del cultivo, periodo crítico en el que la competencia con las malezas es más intensa.
+                p.p-2 Se utiliza de manera selectiva en plantaciones comerciales. En monocultivos, se aplican herbicidas emergentes en la base de la planta durante los primeros cinco meses del cultivo, periodo crítico en el que la competencia con las malezas es más intensa.
           .crd.crd--avatarHorizontal.py-4
             .row.align-items-center
               .col-auto.position-relative
@@ -70,7 +70,7 @@
                   img.img100(src="@/assets/curso/temas/tema1/img_9.svg", alt="Control mecánico" class="img-fluid")
               .col
                 h5 Control mecánico	
-                p Consiste en el uso de guadañas para eliminar las malezas, contribuyendo además a la conservación de la cobertura del suelo.
+                p.p-2 Consiste en el uso de guadañas para eliminar las malezas, contribuyendo además a la conservación de la cobertura del suelo.
           .crd.crd--avatarHorizontal.crd--middle.py-4
             .row.align-items-center
               .col-auto.position-relative
@@ -78,7 +78,7 @@
                   img.img100(src="@/assets/curso/temas/tema1/img_10.svg", alt="Control manual" class="img-fluid")
               .col
                 h5 Control manual	
-                p Se realiza mediante el plateo con machete o manualmente. Este último es el método más recomendado para evitar daños a la planta.
+                p.p-2 Se realiza mediante el plateo con machete o manualmente. Este último es el método más recomendado para evitar daños a la planta.
           .crd.crd--avatarHorizontal.py-4
             .row.align-items-center
               .col-auto.position-relative
@@ -86,7 +86,7 @@
                   img.img100(src="@/assets/curso/temas/tema1/img_11.svg", alt="Control biológico" class="img-fluid")
               .col
                 h5 Control biológico	
-                p Emplea organismos como insectos, hongos y bacterias para regular poblaciones de plagas y enfermedades, reduciendo la necesidad de agroquímicos.
+                p.p-2 Emplea organismos como insectos, hongos y bacterias para regular poblaciones de plagas y enfermedades, reduciendo la necesidad de agroquímicos.
                 span Conservar del recurso anterior
           .crd.crd--avatarHorizontal.crd--last.py-4
             .row.align-items-center
@@ -95,7 +95,7 @@
                   img.img100(src="@/assets/curso/temas/tema1/img_12.svg", alt="Control manual" class="img-fluid")
               .col
                 h5 Control manual	
-                p Se realiza mediante el plateo con machete o manualmente. Este último es el método más recomendado para evitar daños a la planta.
+                p.p-2 Se realiza mediante el plateo con machete o manualmente. Este último es el método más recomendado para evitar daños a la planta.
       h3(data-aos='zoom-in-right').mb-4
         span.label-title.label-title--1 Plateo
       p.mb-5 El plateo es una técnica esencial en el cultivo de plátano que consiste en mantener libre de malezas la base de la planta. Su correcta aplicación facilita la fertilización y el manejo de plagas y enfermedades, favoreciendo así un desarrollo óptimo del cultivo y aumentando su productividad. Se recomienda realizar esta labor de forma manual para evitar daños a la planta y mejorar la eficacia del control de arvenses.
@@ -142,13 +142,13 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-10.col-sm-10.col-md-10.col-lg-2.col-xl-2.col-xxl-2.mb-3.mb-lg-0
             img(src="@/assets/curso/temas/tema1/img_17.png", alt="Desguasque" class="img-fluid")
-          .col-10.col-sm-10.col-md-10.col-lg-8.col-xl-8.col-xxl-8.mb-3.mb-lg-0
+          .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.col-xxl-8.mb-3.mb-lg-0
             p.mb-3 El desguasque se encuentra dentro de las prácticas culturales recomendadas para favorecer la sanidad y vigor de las plantas. Esta labor consiste en eliminar la guasca seca que hay en el pseudotallo, se puede realizar cada vez que lo requiera el cultivo, procurando no hacer daño a la planta; el no realizar esta labor en la platanera puede generar plagas como el Picudo, el Rayado, la Palomilla y algunas enfermedades como el virus en el pseudotallo.
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-0
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Deshoje
         .row.justify-content-center.align-items-center.mb-4
-          .col-10.col-sm-10.col-md-10.col-lg-7.col-xl-7.col-xxl-7.mb-3.mb-lg-0
+          .col-12.col-sm-12.col-md-12.col-lg-7.col-xl-7.col-xxl-7.mb-3.mb-lg-0
             p.mb-3 Implica la eliminación de hojas secas, dobladas o ubicadas en la parte inferior de la planta, con el propósito de mejorar la circulación del aire y la penetración de la luz solar, reduciendo así el riesgo de plagas y enfermedades. Se recomienda retirar también hojas con manchas o con tejidos verdes afectados, siempre asegurando que al menos el 50% del área foliar permanezca intacta para no comprometer la fotosíntesis. Esta práctica es clave en el manejo de la Sigatoca negra.
             p.mb-0 El corte de las hojas debe realizarse a una altura de 20 a 30 cm del pecíolo y puede efectuarse en cualquier momento del día, según lo requiera el cultivo.
           .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-0
@@ -226,8 +226,8 @@
       .bg_img_3
         .row.align-items-center.mb-4.mb-lg-5
           .d-none.d-lg-block.col-lg-3
-            img(src="@/assets/curso/temas/tema1/img_27.png", alt="Embolse y encinte")(data-aos="fade-up")
-          .col-12.col-sm-12.col-md-9.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+            img.width-110(src="@/assets/curso/temas/tema1/img_27.png", alt="Embolse y encinte")(data-aos="fade-up")
+          .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
             p.mb-3 El embolse y el encinte son prácticas esenciales para garantizar la calidad del fruto en el cultivo de plátano. El embolse favorece el crecimiento de los racimos al reducir el tiempo entre su aparición y la cosecha, además de mantener una temperatura adecuada que optimiza su desarrollo. También protege los frutos contra plagas y daños durante su crecimiento y recolección, mejorando su presentación y calidad.
             p.mb-3 Por su parte, el encinte complementa el embolse y permite identificar la edad de los racimos, facilitando el control de la cosecha y el registro de la producción disponible.
             TabsA.mb-5.banana-tabs-a.color-secundario
@@ -371,52 +371,53 @@
         span.label-title.label-title--1 Manejo fitosanitario
       p.mb-5 La implementación de estrategias de control biológico y mecánico contribuye a la prevención de plagas y reduce la necesidad de plaguicidas químicos, minimizando así el impacto ambiental y los riesgos para la salud humana. A continuación, se presentan las principales prácticas recomendadas:
       .row.justify-content-center.align-items-center
-        LineaTiempoD.color-terciario.col-12.col-sm-12.col-md-12.col-lg-12.col-xl-9.col-xxl-9
-          .row(numero="1" titulo="Control de plagas y malezas")
-            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
-              p.text-small La correcta ejecución de prácticas como el control de malezas, deshoje, destronque y fertilización es esencial en el manejo integrado de plagas. El uso adecuado de trampas y la recolección manual de plagas caídas ayuda a disminuir la aplicación de plaguicidas y a mantener un equilibrio natural en el cultivo.
-            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
-              figure
-                img(src='@/assets/curso/temas/tema1/img_36.png', alt='Control de plagas y malezas' class="img-fluid")
-          .row(numero="2" titulo="Protección del producto")
-            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
-              p.text-small Es recomendable utilizar mallas protectoras para evitar el ataque de pájaros y murciélagos, ya que estos pueden ser vectores de microorganismos que afectan la calidad del fruto y representan un riesgo para el consumidor final.
-            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
-              figure
-                img(src='@/assets/curso/temas/tema1/img_37.png', alt='Protección del producto' class="img-fluid")
-          .row(numero="3" titulo="Uso responsable de plaguicidas")
-            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
-              p.text-small La aplicación de plaguicidas debe realizarse en las cantidades estrictamente necesarias, asegurando un manejo adecuado para evitar contaminación ambiental y toxicidad. Además, necesario considerar las condiciones climáticas, como la velocidad del viento y la temperatura, para evitar riesgos tanto para el cultivo como para los trabajadores.
-            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
-              figure
-                img(src='@/assets/curso/temas/tema1/img_38.png', alt='Uso responsable de plaguicidas' class="img-fluid")
-          .row(numero="4" titulo="Calibración de equipos")
-            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
-              p.text-small Los equipos de aplicación deben estar correctamente calibrados para garantizar una dosificación precisa y evitar el uso excesivo de productos químicos. Asimismo, se debe evitar la reutilización de envases de plaguicidas para almacenar alimentos u otros insumos.
-            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
-              figure
-                img(src='@/assets/curso/temas/tema1/img_39.png', alt='Calibración de equipos' class="img-fluid")
-          .row(numero="5" titulo="Capacitación del personal")
-            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
-              p.text-small Brindar formación continua a los trabajadores sobre el manejo de plagas, enfermedades y la correcta aplicación de plaguicidas y abonos orgánicos contribuye a reducir los riesgos de contaminación e intoxicación, mejorando la eficiencia de las prácticas agrícolas.	 
-            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
-              figure
-                img(src='@/assets/curso/temas/tema1/img_40.png', alt='Capacitación del personal' class="img-fluid")
-          .row(numero="6" titulo="Supervisión y cumplimiento normativo")
-            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
-              p.text-small Es necesario revisar periódicamente que los productos utilizados para el control de plagas y enfermedades cumplan con las normativas nacionales e internacionales, garantizando así su eficacia y seguridad.	 
-            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
-              figure
-                img(src='@/assets/curso/temas/tema1/img_41.png', alt='Supervisión y cumplimiento normativo' class="img-fluid")
-          .row(numero="7" titulo="Sistema de rotación de plaguicidas")
-            .col-8.col-sm-8.col-md-8.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
-              p.text-small Implementar un sistema de rotación de plaguicidas en la finca permite evitar la resistencia de las plagas y asegurar la efectividad de los tratamientos aplicados. Además, se debe verificar que los productos estén en buen estado y se utilicen conforme a las regulaciones vigentes.	 
-            .col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2
-              figure
-                img(src='@/assets/curso/temas/tema1/img_42.png', alt='Sistema de rotación de plaguicidas' class="img-fluid")
-        .d-none.d-xl-block.col-xl-2
+        .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.order-2.order-lg-1.mb-0.mb-lg-3
+          LineaTiempoD.color-terciario
+            .row(numero="1" titulo="Control de plagas y malezas").justify-content-center.align-items-center
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+                p.text-small La correcta ejecución de prácticas como el control de malezas, deshoje, destronque y fertilización es esencial en el manejo integrado de plagas. El uso adecuado de trampas y la recolección manual de plagas caídas ayuda a disminuir la aplicación de plaguicidas y a mantener un equilibrio natural en el cultivo.
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_36.png', alt='Control de plagas y malezas' class="img-fluid")
+            .row(numero="2" titulo="Protección del producto").justify-content-center.align-items-center
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+                p.text-small Es recomendable utilizar mallas protectoras para evitar el ataque de pájaros y murciélagos, ya que estos pueden ser vectores de microorganismos que afectan la calidad del fruto y representan un riesgo para el consumidor final.
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_37.png', alt='Protección del producto' class="img-fluid")
+            .row(numero="3" titulo="Uso responsable de plaguicidas").justify-content-center.align-items-center
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+                p.text-small La aplicación de plaguicidas debe realizarse en las cantidades estrictamente necesarias, asegurando un manejo adecuado para evitar contaminación ambiental y toxicidad. Además, necesario considerar las condiciones climáticas, como la velocidad del viento y la temperatura, para evitar riesgos tanto para el cultivo como para los trabajadores.
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_38.png', alt='Uso responsable de plaguicidas' class="img-fluid")
+            .row(numero="4" titulo="Calibración de equipos").justify-content-center.align-items-center
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+                p.text-small Los equipos de aplicación deben estar correctamente calibrados para garantizar una dosificación precisa y evitar el uso excesivo de productos químicos. Asimismo, se debe evitar la reutilización de envases de plaguicidas para almacenar alimentos u otros insumos.
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_39.png', alt='Calibración de equipos' class="img-fluid")
+            .row(numero="5" titulo="Capacitación del personal").justify-content-center.align-items-center
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+                p.text-small Brindar formación continua a los trabajadores sobre el manejo de plagas, enfermedades y la correcta aplicación de plaguicidas y abonos orgánicos contribuye a reducir los riesgos de contaminación e intoxicación, mejorando la eficiencia de las prácticas agrícolas.	 
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_40.png', alt='Capacitación del personal' class="img-fluid")
+            .row(numero="6" titulo="Supervisión y cumplimiento normativo").justify-content-center.align-items-center
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+                p.text-small Es necesario revisar periódicamente que los productos utilizados para el control de plagas y enfermedades cumplan con las normativas nacionales e internacionales, garantizando así su eficacia y seguridad.	 
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_41.png', alt='Supervisión y cumplimiento normativo' class="img-fluid")
+            .row(numero="7" titulo="Sistema de rotación de plaguicidas").justify-content-center.align-items-center
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+                p.text-small Implementar un sistema de rotación de plaguicidas en la finca permite evitar la resistencia de las plagas y asegurar la efectividad de los tratamientos aplicados. Además, se debe verificar que los productos estén en buen estado y se utilicen conforme a las regulaciones vigentes.	 
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+                figure
+                  img(src='@/assets/curso/temas/tema1/img_42.png', alt='Sistema de rotación de plaguicidas' class="img-fluid")
+        .col-6.col-sm-6.col-md-6.col-lg-3.col-xl-3.col-xxl-3.order-2.order-md-1.mb-0.mb-md-3
           figure
-            img.mb-5(src="@/assets/curso/temas/tema1/img_43.png", alt="Manejo fitosanitario")(data-aos="fade-up")
+            img.width-110(src="@/assets/curso/temas/tema1/img_43.png", alt="Manejo fitosanitario")(data-aos="fade-up")
 </template>
 
 <script>

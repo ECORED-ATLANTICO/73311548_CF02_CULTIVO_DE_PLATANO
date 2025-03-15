@@ -283,21 +283,6 @@ figcaption
   position: relative
   overflow: hidden
 
-.fondo-slyder-b
-  position: relative
-  overflow: hidden
-
-  &::before
-    content: ""
-    position: absolute
-    top: 0
-    left: 0
-    right: 0
-    bottom: 0
-    width: 100%
-    height: 100%
-    background: url('../assets/curso/fondos/fondo_b.svg') no-repeat center center
-    background-size: contain
 .fondo_1_1_1
   background-size: cover
 
@@ -572,13 +557,12 @@ figcaption
   background-color: $color-acento-A10
   border-radius: 20px
 .tarjeta_bg-07
-  background-image: url("../assets/curso/temas/tema3/img_24.svg")
+  background-image: url("../assets/curso/fondos/fondo-verde.png")
   background-size: contain
   background-position: center
   background-repeat: no-repeat
   width: 100%
-  min-height: 200px 
-  display: grid
+  min-height: 200px
   grid-template-columns: 10fr 2fr 
   padding: 20px
 
@@ -729,31 +713,25 @@ figcaption
       transform: translateX(-50%)
     &--10::before
       position: absolute
-      content: url('../assets/curso/temas/tema3/img_12.svg')
+      content: url('../assets/curso/temas/tema4/img_9.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--11::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema4/img_10.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--12::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema4/img_11.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--13::before
       position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
-      top: -80px
-      left: 50%
-      transform: translateX(-50%)
-    &--14::before
-      position: absolute
-      content: url('../assets/curso/temas/tema1/img_1.png')
+      content: url('../assets/curso/temas/tema4/img_12.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
@@ -765,6 +743,42 @@ figcaption
       justify-content: space-between
     .slyder-f__main
       width: 84%
+
+.custom-slider-a-b
+  background-image: url('../assets/curso/fondos/slider-a-b.svg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  padding: 10px 15px
+
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-terciario
+
+  .slyder-a__bullets
+    .slyder-a__bullets__item
+      background-color: #A1C0B2
+      border-color: #A1C0B2
+
+      &--active
+        background-color: $color-primario
+        border-color: $color-primario
+
+@media (min-width: 770px)
+  .custom-slider-a-b
+    padding: 20px 30px 0px
+
+  .custom-slider-a-b__item
+    padding: 10px 20px 5px
+
+@media (min-width: 1025px)
+  .custom-slider-a-b
+    padding-bottom: 20px
+  .custom-slider-a-b__item
+    padding: 50px 84px 30px
+
+
+.acordion__accion__btn--a
+  background-color: $color-terciario
 
 // Fondos de tarjetas
 .bg_img
@@ -1231,7 +1245,12 @@ ul
 .bg-table-GM
   background-color: #E4EBFE
   color: #111e61
-
+.bg-table-GM-th
+  background-color: #7D9FFB
+  color: #FFF
+.bg-table-GM-th-b
+  background-color: #7D9FFB
+  color: #000
 .bg-table-02
   background-color: #7D9FFB
   color: #111e61
@@ -1396,7 +1415,7 @@ ul
   .crd_hover_txt--body
     position: absolute
     width: 100%
-    padding: 1.5rem
+    padding: 0.5rem
     bottom: 0    
     background-color: #E4EBFE
     border-radius: 0 0 15px 15px
@@ -1472,37 +1491,3 @@ ul
   .col-xxl-5
     flex: 0 0 auto
     width: 51%
-
-// check
-.check-green
-  position: relative
-  display: flex
-  align-items: flex-start
-  gap: 0.4em 
-
-  &::before
-    content: ""
-    flex-shrink: 0
-    width: 1em 
-    height: 1em
-    margin-top: 0.2em
-    background-image: url('../assets/curso/temas/check_green.svg')
-    background-size: contain
-    background-repeat: no-repeat
-    background-position: center
-.check-blue
-  position: relative
-  display: flex
-  align-items: flex-start
-  gap: 0.4em 
-
-  &::before
-    content: ""
-    flex-shrink: 0
-    width: 1em 
-    height: 1em
-    margin-top: 0.2em
-    background-image: url('../assets/curso/temas/check_blue.svg');
-    background-size: contain
-    background-repeat: no-repeat
-    background-position: center

@@ -120,12 +120,12 @@
             caption Nota.   Este estudio, con base en Mejía, 2013, Sena, 2004; NTC 1190. 
             thead
               tr
-                th Grado de madurez (GM)
-                th GM 1
-                th GM 2
-                th GM 3
-                th GM 4
-                th GM 5
+                th.bg-table-GM-th Grado de madurez (GM)
+                th.bg-table-GM-th GM 1
+                th.bg-table-GM-th GM 2
+                th.bg-table-GM-th GM 3
+                th.bg-table-GM-th GM 4
+                th.bg-table-GM-th GM 5
             tbody
               tr
                 td Detalle
@@ -188,7 +188,7 @@
                 img(src='@/assets/curso/temas/tema2/img_21.svg', alt='Empaque' class="img-fluid")
           h3.text-center.mb-2 Empaque
           p.text-small.text-center  Protección de los frutos para evitar daños durante el transporte.
-    .row.justify-content-center.align-items-center.mb-4.mb-4.mb-sm-0
+    .row.justify-content-center.align-items-center.mb-4.mb-4
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-2
         .cajon.bg-4.g_18.mb-5
           .row.justify-content-center.align-items-center
@@ -443,18 +443,18 @@
                   |   Establecer la capacidad volumétrica de los tanques para así garantizar la dosificación adecuada de alumbre y agua.
             .col-3.col-sm-3.col-md-3.col-lg-1.col-xl-1.col-xxl-1.mb-3.mb-lg-0
               img(src="@/assets/curso/temas/tema2/img_35.svg", alt="Recomendaciones" class="img-fluid")
-      .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-5
+      .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.mb-5
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Desdede y desleche
         p.mb-2 Una vez realizado el desdede con la gurbia o el cuchillo, los dedos (plátanos) se sumergen en una solución de agua y alumbre al 1%, es decir 10 gr de alumbre por cada litro de agua, los dedos deben permanecer sumergidos por 10 minutos.
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4 
         .row.justify-content-center.align-items-center.mb-3
-          .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-0
+          .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-3.col-xxl-3.mb-3.mb-lg-3
             img(src="@/assets/curso/temas/tema2/img_36.png", alt="Imagen de unos platanos" class="img-fluid")
-          .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-9.col-xxl-9.mb-3.mb-lg-0
+          .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-9.col-xxl-9.mb-3.mb-lg-3
             .tarjeta_bg-06.p-4.mb-2
               .row.mb-3.justify-content-center.align-items-center
-                .col-3.col-sm-3.col-md-3.col-lg-2.col-xl-1.col-xxl-1.mb-3.mb-lg-0
+                .col-3.col-sm-3.col-md-3.col-lg-2.col-xl-1.col-xxl-1.mb-3.mb-lg-3
                   img(src="@/assets/curso/temas/tema2/img_37.svg", alt="Imagen de unos platanos" class="img-fluid")
                 .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-11.col-xxl-11
                   ul.p-0 
@@ -470,16 +470,42 @@
         ImagenInfografica.time-line-info
           template(v-slot:imagen)
             figure
-              img.mb-4(src='@/assets/curso/temas/tema2/img_44.svg', alt='Imagen de ayuda')
+              img.mb-4(src='@/assets/curso/temas/tema2/img_38.png', alt='Imagen de ayuda')
+          .tarjeta.p-4(x="26.5%" y="38%" numero="")
+            p <strong>Definición de objetivos y recolección de datos:</strong> se debe definir el propósito del mapeo (planificación de siembra, drenaje, riego) y recopilar información básica como dimensiones del terreno, coordenadas, tipo de suelo y uso previo.
+            .time-line-info__number
+              span 01
+          .tarjeta.p-4(x="52%" y="38%" numero="")
+            p <strong>Delimitación de la finca:</strong> se realiza un recorrido por el perímetro utilizando GPS o cinta métrica para marcar linderos, accesos, fuentes de agua y otros puntos clave que definirán el área de cultivo.
+            .time-line-info__number
+              span 02
+          .tarjeta.p-4(x="77.5%" y="38%" numero="")
+            p <strong>Levantamiento topográfico:</strong> se miden las pendientes, la altitud y las características del terreno para identificar zonas con riesgo de erosión o problemas de drenaje, fundamentales para el diseño agronómico.
+            .time-line-info__number
+              span 03
+          .tarjeta.p-4(x="26.5%" y="87%" numero="")
+            p <strong>Identificación de recursos y uso actual del suelo:</strong> se localizan las fuentes de agua, caminos, infraestructuras existentes y la vegetación actual, permitiendo planificar el riego, el manejo del suelo y la distribución de los cultivos.
+            .time-line-info__number
+              span 06
+          .tarjeta.p-4(x="52%" y="87%" numero="")
+            p <strong>Diseño del plano base y zonificación:</strong> con la información recolectada, se elabora un plano que muestra los límites de la finca, las pendientes, las fuentes de agua y los accesos, dividiendo el terreno en zonas específicas.
+            .time-line-info__number
+              span 05
+          .tarjeta.p-4(x="77.5%" y="87%" numero="")
+            p <strong>Verificación en campo y documentación final:</strong> se verifica en terreno que el plano coincida con la realidad, se ajustan detalles si es necesario y se elabora el mapa definitivo, incluyendo leyenda, escala y coordenadas para su uso técnico.
+            .time-line-info__number
+              span 04
+        figcaption.mb-3 Nota.  SENA
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Presentación de los dedos
         p.mb-5 El dedo (plátano) de exportación no debe presentar defectos, sólo se admiten 5 defectos por caja, estos deben tener un calibre mínimo de 22 y máximo 28 (1/16 pulgadas).
-      h3(data-aos='zoom-in-right').mb-3
-        span.label-title.label-title--1 Defectos del plátano más comunes
+        h3(data-aos='zoom-in-right').mb-5
+          span.label-title.label-title--1 Defectos del plátano más comunes
         .titulo-sexto.bg-11.mb-3
           h5 Figura 6:
           span.text-dark Defectos del plátano más comunes:
-        object(:data="figura6" type="image/svg+xml" class="img-fluid").mb-2
+        figure
+          img.mb-4(src='@/assets/curso/temas/tema2/img_39.png', alt='Imagen de ayuda')
         figcaption Nota.  SENA
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Empacado:
@@ -492,10 +518,10 @@
         caption Nota.    Este estudio, Con base en Moreno, Candanoaza, & Olarte, 2009; Sena, 2004.
         thead.color-acento-contenido
           tr
-            th(style="width: 15%") Operación postcosecha
-            th(style="width: 30%; color: white;") Detalle
-            th(style="width: 40%; color: white;") Imagen
-            th(style="width: 20%; color: white;") Instrumento
+            th.bg-table-GM-th-b(style="width: 15%") Operación postcosecha
+            th.bg-table-GM-th(style="width: 30%; color: white;") Detalle
+            th.bg-table-GM-th(style="width: 40%; color: white;") Imagen
+            th.bg-table-GM-th(style="width: 20%; color: white;") Instrumento
         tbody
           tr
             td Empaque intra-finca

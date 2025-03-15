@@ -31,7 +31,7 @@
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Peligros biológicos
           .row.justify-content-center.align-items-center.mb-5
-            .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3.mb-0.mb-md-3
+            .col-6.col-sm-6.col-md-6.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-md-0
               img(src="@/assets/curso/temas/tema3/img_3.svg", alt="Imagen de unos platanos" class="img-fluid")
             .col-lg-9
               p.mb-2 Son aquellos relacionados con la presencia de organismos vivos en los alimentos. Los microorganismos, que solo pueden observarse a través de un microscopio, incluyen bacterias, levaduras, hongos, parásitos y virus. Estos pueden encontrarse en cualquier parte del medio ambiente y representar un riesgo para la inocuidad del producto.
@@ -45,7 +45,7 @@
             .row.mb-3.justify-content-center.align-items-center
               .col-lg-9.order-2.order-lg-1
                 p.mb-0 Este plan permite identificar los puntos de control críticos, así como las condiciones que los generan. Con esta información, el equipo encargado puede evaluar cuáles representan un riesgo para la inocuidad del plátano y aplicar las medidas de control pertinentes.
-              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-1.order-lg-2.mb-0.mb-md-3
+              .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3.order-1.order-lg-2.mb-3.mb-lg-0
                 img(src="@/assets/curso/temas/tema3/img_4.svg", alt="Imagen de unos platanos" class="img-fluid")
           .row.justify-content-center.align-items-center.mb-3
             .col-lg-6
@@ -54,7 +54,7 @@
                   .col-lg-6.order-2.order-lg-1
                     h4.mb-2 Peligros químicos
                     p.mb-0 Están relacionados con los compuestos químicos nocivos provenientes de los insumos para la elaboración de productos, restos de detergentes y desinfectantes utilizados para la limpieza, plaguicidas y metales pesados.
-                  .col-2.col-sm-2.col-md-2.col-lg-3.col-xl-3.col-xxl-3.order-1.order-lg-2.mb-0.mb-md-3
+                  .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3.order-1.order-lg-2.mb-3.mb-lg-0
                     img(src="@/assets/curso/temas/tema3/img_5.svg", alt="Imagen de unos platanos" class="img-fluid")
             .col-lg-6
               .tarjeta_bg-05.p-5.mb-2
@@ -62,7 +62,7 @@
                   .col-lg-6.order-2.order-lg-1
                     h4.mb-2 Peligros físicos
                     p.mb-0 Estos están asociados a los daños físicos que se le pueden ocasionar al producto por una mala manipulación en la cosecha y la poscosecha.
-                  .col-2.col-sm-2.col-md-2.col-lg-3.col-xl-3.col-xxl-3.order-1.order-lg-2.mb-0.mb-md-3
+                  .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3.order-1.order-lg-2.mb-3.mb-lg-0
                     img(src="@/assets/curso/temas/tema3/img_6.svg", alt="Imagen de unos platanos" class="img-fluid")
           p.mb-5 Para evaluar y gestionar los peligros en la unidad productiva, se deben considerar los siguientes aspectos:
           .mt-5.mb-5.custom-slider
@@ -88,7 +88,7 @@
             .row.mb-3.justify-content-center.align-items-center
               .col-lg-11.order-2.order-lg-1
                 p.mb-0 El saneamiento en el cultivo requiere que todos los empleados conozcan y apliquen el plan de limpieza y desinfección en las áreas donde se manipulan los alimentos. Este proceso es fundamental para garantizar la inocuidad del plátano y prevenir la contaminación en cualquier etapa de su manejo.
-              .col-2.col-sm-2.col-md-2.col-lg-1.col-xl-1.col-xxl-1.order-1.order-lg-2.mb-0.mb-md-3
+              .col-3.col-sm-3.col-md-3.col-lg-1.col-xl-1.col-xxl-1.order-1.order-lg-2.mb-3.mb-md-0
                 img(src="@/assets/curso/temas/tema3/img_12.svg", alt="Imagen de unos platanos" class="img-fluid")
           p.mb-2 Es necesario que las instalaciones, equipos y superficies utilizadas en la adecuación y almacenamiento del plátano sean sometidas a protocolos de limpieza regulares. Esto incluye la eliminación de residuos orgánicos, la desinfección con productos adecuados y la implementación de medidas para evitar la proliferación de microorganismos que puedan comprometer la calidad del producto.
   
@@ -100,7 +100,7 @@
       h3(data-aos='zoom-in-right').mb-3
         span.label-title.label-title--1 Herramientas y utensilios
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-3
+        .col-lg-3.mb-3.mb-md-0
           img(src="@/assets/curso/temas/tema3/img_13.png", alt="Imagen de unos platanos" class="img-fluid")
         .col-lg-9
           p.mb-2 Es indispensable el buen uso y cuidado de las herramientas con las que se realizan todas las prácticas culturales y de poscosecha del cultivo, porque se puede generar contaminación cruzada del equipo al fruto, es indispensable después de cada labor realizar limpieza y desinfección.
@@ -112,11 +112,11 @@
         table
           thead
             tr
-              th.col-2 Factor de control
-              th.col-3 Frecuencia
-              th.col-3 Procedimiento
-              th.col-3 Imagen
-              th.col-2 Instrumentos
+              th.col-3.col-sm-3.col-md-3.col-lg-2.col-xl-2.col-xxl-2 Factor de control
+              th.col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3 Frecuencia
+              th.col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3 Procedimiento
+              th.col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3 Imagen
+              th.col-3.col-sm-3.col-md-3.col-lg-2.col-xl-2.col-xxl-2 Instrumentos
           tbody
             tr
               td Indumentaria de trabajo (guantes de algodón, botas, overol)
@@ -185,14 +185,14 @@
               li.mb-2 Una vez desinfectados, los tanques deben enjuagarse adecuadamente y llenarse con agua limpia para reiniciar el proceso.
         .col-lg-3
           img(src="@/assets/curso/temas/tema3/img_17.png", alt="Imagen de unos platanos" class="img-fluid")
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-10
+      .row.justify-content-center.align-items-center.mb-3
+        .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-3
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Pisos 
-          .row.justify-content-center.align-items-center.mb-5
-            .col-lg-3
+          .row.justify-content-center.align-items-center.mb-3
+            .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-0
               img(src="@/assets/curso/temas/tema3/img_18.png", alt="Imagen de unos platanos" class="img-fluid")
-            .col-lg-9
+            .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.mb-3.mb-lg-0
               p.mb-2 Los pisos del área de adecuación y de los espacios donde se encuentran los tanques deben mantenerse en óptimas condiciones de higiene. Para ello, se recomienda:
               ul.p-0
                 li.border-bottom
@@ -211,10 +211,10 @@
           img.mb-3(src="@/assets/curso/temas/tema3/img_19.svg", alt="Control de plagas en las instalaciones" class="img-fluid")
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Control de plagas en las instalaciones
-          .row.justify-content-center.align-items-center.mb-5
-            .col-lg-3
+          .row.justify-content-center.align-items-center.mb-3
+            .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-0
               img(src="@/assets/curso/temas/tema3/img_20.svg", alt="Control de plagas en las instalaciones" class="img-fluid")
-            .col-lg-9
+            .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.mb-3.mb-lg-0
               p.mb-2 Las plagas representan un riesgo significativo para la inocuidad del producto, ya que son vectores de enfermedades que pueden contaminar los alimentos y poner en peligro la salud del consumidor. Por esta razón, se requiere implementar un plan riguroso de control de plagas y roedores en todas las instalaciones donde se manipulan los alimentos.
               h6.mb-2 Los principales patógenos y enfermedades que pueden transmitir las plagas incluyen:
           .titulo-sexto.bg-11.mb-4
@@ -223,12 +223,12 @@
           img(src="@/assets/curso/temas/tema3/img_23.png", alt="Control de plagas en las instalaciones" class="img-fluid")
           figcaption.mb-5 Nota.  SENA (2024).
           .tarjeta_bg-08
-            .row.d-flex 
-              .col-9.col-sm-9.col-md-9.col-lg-9.col-xl-9.col-xxl-9.mb-4.p-3 
+            .row.d-flex.mb-5
+              .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.p-5 
                 p.text-small Las plagas y los roedores comparten los mismos requerimientos básicos que los seres humanos, ya que necesitan agua, alimento y un refugio para sobrevivir. Por esta razón, se debe eliminar cualquier factor que favorezca su reproducción y permanencia en el entorno.
                 p.text-small Para prevenir su presencia, se deben mantener los establecimientos y sus alrededores libres de residuos de alimentos y acumulaciones de agua que puedan atraerlas. A continuación, se presentan algunas recomendaciones importantes para evitar la contaminación de los alimentos:
-              .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3
-                img(src="@/assets/curso/temas/tema3/cucaracha.png", alt="Trazabilidad o rastreabilidad" style="display: flex")
+              .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
+                img(src="@/assets/curso/temas/tema3/cucaracha.png", alt="Plagas" style="display: flex; transform: translateY(-30px);")
           SlyderA(tipo="b").custom-slider-a-b.rounded-4
             .row.align-items-center.custom-slider-a-b__item
               .col-lg-6

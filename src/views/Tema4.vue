@@ -366,7 +366,7 @@
                   i.fa-solid.fa-circle-check(style="color: #416B24; font-size: 15px").mb-0
                   |  Peso neto, tamaño, cantidad y clase.
             .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
-              img(src="@/assets/curso/temas/tema4/carpetas-azules.png", alt="Trazabilidad o rastreabilidad" style="display: flex; transform: translateY(-30px);")
+              img(src="@/assets/curso/temas/tema4/carpetas-azules.png", alt="Ejemplo de etiquetas:" style="display: flex; transform: translateY(-30px);")
         h3(data-aos='zoom-in-right').mb-4
           span.label-title.label-title--1 Trazabilidad o rastreabilidad
         p.mb-3 La trazabilidad es un aspecto muy importante dentro de la unidad productiva, ya que permite realizar un seguimiento detallado del producto a lo largo de toda la cadena de producción. Implementar un sistema documental adecuado facilita el registro de información relevante sobre cada lote, permitiendo analizar y solucionar de manera efectiva cualquier problema de seguridad alimentaria.

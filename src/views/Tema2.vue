@@ -287,10 +287,10 @@
                 li.mb-0 • Frutos dañados por pájaros o insectos
                 li.mb-0 • Ablandamientos
                 li.mb-0 • Manchas, mordeduras, cicatrices o mordiscos ovalados en la cáscara, trips
-            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
+            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5.mb-4.mb-md-0
               figure
                 img(src="@/assets/curso/temas/tema2/img_26.png", alt="Secado o escurrido" class="img-fluid")
-            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
+            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-md-0
               .tarjeta_bg-06.p-4.mb-2
                 ul
                   li.mb-0 • Percepción visual
@@ -310,10 +310,10 @@
                 li.mb-0 • Antracnosis o lesiones de color café oscuro o negro
                 li.mb-0 Para disminuir las enfermedades en la corona se deben realizar los cortes con las herramientas desinfectadas y, después de lavado, secar bien los frutos.
             .row.justify-content-center.align-items-center
-              .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
+              .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5.mb-4.mb-md-0
                 figure
                   img(src="@/assets/curso/temas/tema2/img_27.png", alt="Enfermedades por hongos" class="img-fluid")
-              .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
+              .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-md-0
                 .tarjeta_bg-06.p-4.mb-2
                   ul
                     li.mb-0 • Percepción visual
@@ -329,10 +329,10 @@
                 li.mb-0 • Frutos con manchas de sol
                 li.mb-0 • Frutos con manchas de latex
                 li.mb-0 Clasificar los frutos, según lo demande el mercado de comercialización, teniendo en cuenta las características de calidad que se indican en la NTC 1190:
-            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
+            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5.mb-4.mb-md-0
               figure
                 img(src="@/assets/curso/temas/tema2/img_28.png", alt="Daño mecánico" class="img-fluid")
-            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
+            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-md-0
               .tarjeta_bg-06.p-4.mb-2
                 ul
                   li.mb-0 • Percepción visual
@@ -343,7 +343,7 @@
             .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
               p.mb-3 Los plátanos deben estar enteros y duros, exteriormente secos, Limpios, sin manchas ni grietas, no deben presentar indicios de pudrición ni magulladuras o heridas no cicatrizadas, ni tener el cuello roto.
               p.mb-3 Adicionalmente, tenga en cuenta los requisitos de calidad por categoría Extra, Primera y segunda.
-            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
+            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5.mb-4.mb-md-0
               p.mb-0
                 b Extra:
                 |   Bien formados, 3/4 de lleno, con color uniforme y pedúnculo bien cortado.
@@ -353,14 +353,14 @@
               p.mb-0 
                 b Segunda: 
                 |   Puede presentar daños superficiales y 1/3 de manchas en las aristas.
-            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
+            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-md-0
               .tarjeta_bg-06.p-4.mb-2
                 ul
                   li.mb-0 • Calibrador
                   li.mb-0 • Canastilla para producto dañado
                   li.mb-0 • Empaque para comercialización
           .row(titulo="Color").justify-content-center.align-items-center
-            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5
+            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5.mb-4.mb-md-0
               p.mb-3 Seleccionar y clasificar los frutos de acuerdo con el estado de maduración y el mercado de comercialización:
               p.mb-0 
                 b Plátano verde: 
@@ -368,7 +368,7 @@
               p.mb-0
                 b Plátano pintón: 
                 |   Frutos bien desarrollados "pintones" con pérdida en la intensidad del verde y grado de maduración dos (GM 2)
-            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4
+            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-md-0
               .tarjeta_bg-06.p-4.mb-2
                 ul
                   li.mb-0 • Paleta de color
@@ -456,7 +456,7 @@
               .row.mb-3.justify-content-center.align-items-center
                 .col-3.col-sm-3.col-md-3.col-lg-2.col-xl-1.col-xxl-1.mb-3.mb-lg-3
                   img(src="@/assets/curso/temas/tema2/img_37.svg", alt="Imagen de unos platanos" class="img-fluid")
-                .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-11.col-xxl-11
+                .col-13.col-sm-13.col-md-13.col-lg-10.col-xl-11.col-xxl-11
                   ul.p-0 
                     li.mb-0 1. Las gurbias deben estar bien afiliadas para que haya un buen corte y así evitar el rasgado en el cuello de la fruta.
                     li.mb-0 2. Hacer el desleche utilizando los tanques.
@@ -521,10 +521,10 @@
         caption Nota.    Este estudio, Con base en Moreno, Candanoaza, & Olarte, 2009; Sena, 2004.
         thead.color-acento-contenido
           tr
-            th.bg-table-GM-th-b.col-2 Operación postcosecha
-            th.bg-table-GM-th.col-4 Detalle
-            th.bg-table-GM-th.col-6 Imagen
-            th.bg-table-GM-th.col-3 Instrumento
+            th.bg-table-GM-th-b.col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2 Operación postcosecha
+            th.bg-table-GM-th.col-5.col-sm-5.col-md-5.col-lg-4.col-xl-4.col-xxl-4 Detalle
+            th.bg-table-GM-th.col-5.col-sm-5.col-md-5.col-lg-5.col-xl-5.col-xxl-5 Imagen
+            th.bg-table-GM-th.col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3 Instrumento
         tbody
           tr
             td Empaque intra-finca

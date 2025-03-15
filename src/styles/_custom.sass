@@ -575,7 +575,25 @@ figcaption
     justify-content: center
     background: transparent 
     grid-column: 1 / 2 
+.tarjeta_bg-08
+  background-image: url("../assets/curso/fondos/fondo-verde2.png")
+  background-size: contain
+  background-position: center
+  background-repeat: no-repeat
+  width: 100%
+  min-height: 200px
+  grid-template-columns: 10fr 2fr 
+  padding: 20px
 
+  .contenido
+    display: flex
+    align-self: start
+    padding-left: 10px
+    padding-top: 30px
+    flex-direction: column
+    justify-content: center
+    background: transparent 
+    grid-column: 1 / 2 
 .text-gris
   .lista-ul--color li > i:first-of-type
     color: #748578 !important
@@ -1217,7 +1235,7 @@ td p
 ul
   text-align: left
   padding-left: 20px
-  
+
 .bg-table-01
   background-color: #E3EADA
   color: #111e61
@@ -1230,50 +1248,7 @@ ul
   background-color: #CDDDD0
   color: #111e61  
 
-// Tabla a1
-.tabla-a1 thead
-  border: 2px #3E4E7D solid
-  color: #12263F
-  background-color: #7D9FFB
-
-.tabla-a1 th 
-  border: 2px #3E4E7D  solid
-
-.tabla-a1 td 
-  border: 2px #3E4E7D  solid
-
-.bg-table-GM
-  background-color: #E4EBFE
-  color: #111e61
-.bg-table-GM-th
-  background-color: #7D9FFB
-  color: #FFF
-.bg-table-GM-th-b
-  background-color: #7D9FFB
-  color: #000
-.bg-table-02
-  background-color: #7D9FFB
-  color: #111e61
-
-.bg-table-03
-  background-color: #7D9FFB
-  color: #111e61 
-// tabla a2
-.tabla-a2
-  thead
-    border: 2px #166340 solid
-    color: #12263F
-    background-color: #D4F989
-
-  th, td
-    border: 2px #166340 solid
-    text-align: center
-    vertical-align: middle
-
-  td p
-    text-align: justify
-
-.tabla-a2
+.td-a2
   width: 100%
   border-collapse: collapse
   td.imagen
@@ -1289,7 +1264,7 @@ ul
     display: flex
     flex-direction: column
   figcaption
-    background-color: #7D9FFB
+    background-color:  #7D9FFB
     color: #12263F
     font-weight: bold
     text-align: center
@@ -1307,22 +1282,8 @@ ul
     font-size: 12px
     color: white
     background: none
-// tabla a3
-.tabla-a3
-  thead
-    border: 2px #12263F solid
-    color: #12263F
-    background-color: #7D9FFB
 
-  th, td
-    border: 2px #12263F solid
-    text-align: center
-    vertical-align: middle
-
-  td p
-    text-align: justify
-
-.tabla-a3
+.td-a3
   width: 100%
   border-collapse: collapse
   td.imagen
@@ -1356,6 +1317,9 @@ ul
     font-size: 12px
     color: white
     background: none
+
+
+
 ///////// -------
 .card-custom
   border-radius: 0
@@ -1491,3 +1455,21 @@ ul
   .col-xxl-5
     flex: 0 0 auto
     width: 51%
+
+// time line info
+.time-line-info
+  .tarjeta
+    background-color: #FFF
+    position: relative
+
+    p 
+      margin-bottom: 0
+
+  &__number
+    position: absolute
+    bottom: 10px
+    right: 10px
+    color: $color-secundario
+    font-size: 37px
+    font-weight: bold
+

@@ -161,8 +161,8 @@
         .d-none.d-xl-block.col-xl-5
           figure
             img(src='@/assets/curso/temas/tema1/img_19.png', alt="Amarre")(data-aos="fade-up")
-        .col-xl-7.bg-platanos-image.p-4.rounded-3
-          SlyderF().bg-white.p-3.rounded-3
+        .col-xl-7.bg-platanos-image.p-3.rounded-3
+          SlyderF().p-3.rounded-3
             .tarjeta.p-3.rounded-3.d-flex
               .row.align-items-center
                 .col-3.d-none.d-md-block

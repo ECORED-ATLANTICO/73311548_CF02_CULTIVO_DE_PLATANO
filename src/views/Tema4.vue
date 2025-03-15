@@ -340,10 +340,10 @@
           span.label-title.label-title--1 Trazabilidad o rastreabilidad
         p.mb-3 La trazabilidad es un aspecto muy importante dentro de la unidad productiva, ya que permite realizar un seguimiento detallado del producto a lo largo de toda la cadena de producción. Implementar un sistema documental adecuado facilita el registro de información relevante sobre cada lote, permitiendo analizar y solucionar de manera efectiva cualquier problema de seguridad alimentaria.
         h5.mb-3 Algunos parámetros fundamentales para la identificación y trazabilidad del producto incluyen:
-        .row.justify-content-center.align-items-center.mb-4
+        .row.justify-content-center.align-items-center.mb-4.custom-slider
           .col-lg-4.mb-3.mb-lg-0.justify-content-center.align-items-center
             img(src="@/assets/curso/temas/tema4/img_14.png", alt="Trazabilidad o rastreabilidad" class="img-fluid")
-          .col-xl-7.bg-platanos-image.p-4.rounded-3.mt-5.mb-5.custom-slider
+          .col-xl-7.bg-platanos-image.p-4.rounded-3.mt-5.mb-5
             SlyderF().bg-white.p-3.rounded-3
               .tarjeta.p-3.rounded-3.d-flex
                 .row.align-items-center
@@ -406,12 +406,9 @@
 <script>
 export default {
   name: 'Tema4',
-  data() {
-    return {
-      figura9: require('@/assets/curso/figuras/figura9.svg'),
-      ejemplo_etiquetas: require('@/assets/curso/ejemplo_etiquetas.svg'),
-    }
-  },
+  data: () => ({
+    // variables de vue
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

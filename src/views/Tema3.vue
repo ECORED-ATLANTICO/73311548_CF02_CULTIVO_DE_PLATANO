@@ -15,7 +15,7 @@
       .mb-3 
       .row.justify-content-center.align-items-center.mb-5
         .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-0.mb-md-3
-          img(src="@/assets/curso/temas/tema3/img_1.svg", alt="Plan de saneamiento" class="img-fluid")
+          img(src="@/assets/curso/temas/tema3/img_1.png", alt="Plan de saneamiento" class="img-fluid")
         .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.mb-0.mb-md-3
           p.mb-2 El establecimiento de normas de higiene y su cumplimiento en la unidad productiva contribuyen a fomentar una cultura de sanidad, permitiendo una producción inocua y de calidad con potencial de comercialización en mercados nacionales e internacionales.
           p.mb-3 Para garantizar el cumplimiento de los parámetros higiénicos, es fundamental contar con un diseño sanitario adecuado, acompañado de una dotación eficiente de elementos de protección personal y demás implementos necesarios para las labores en el campo y la poscosecha. Además, el plan de saneamiento debe incluir una capacitación básica que facilite la implementación de Buenas Prácticas Agrícolas en el cultivo de plátano.
@@ -101,67 +101,69 @@
         span.label-title.label-title--1 Herramientas y utensilios
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-3
-          img(src="@/assets/curso/temas/tema3/img_13.svg", alt="Imagen de unos platanos" class="img-fluid")
+          img(src="@/assets/curso/temas/tema3/img_13.png", alt="Imagen de unos platanos" class="img-fluid")
         .col-lg-9
           p.mb-2 Es indispensable el buen uso y cuidado de las herramientas con las que se realizan todas las prácticas culturales y de poscosecha del cultivo, porque se puede generar contaminación cruzada del equipo al fruto, es indispensable después de cada labor realizar limpieza y desinfección.
           h6.mb-2 Para sacar la suciedad más difícil en equipos y herramientas tenga en cuenta lo siguiente:
       .titulo-sexto.bg-11.mb-4
         h5 Tabla 7: 
         span.text-dark Guía para limpieza y desinfección de herramientas
-      .tabla-a2.mb-5 
+      .tabla-a.mb-5 
         table
           thead
             tr
-              th(style="width: 13%") Factor de control
-              th(style="width: 13%") Frecuencia
-              th(style="width: 18%") Procedimiento
-              th(style="width: 40%") Imagen
-              th(style="width: 18%") Instrumentos
+              th.col-2 Factor de control
+              th.col-3 Frecuencia
+              th.col-3 Procedimiento
+              th.col-3 Imagen
+              th.col-2 Instrumentos
           tbody
             tr
               td Indumentaria de trabajo (guantes de algodón, botas, overol)
               td Al finalizar actividades y operaciones poscosecha
               td(rowspan="4")
-                h6.p-2 Limpieza:
-                p.p-2 Realizar limpieza con una toalla o cepillo humedecido con jabón y,  posteriormente, enjuagar con  abundante agua.
-                h6.p-2 Desinfección:
-                p.p-2 Desinfectar con hipoclorito de sodio diluido en agua (agregar 4ml por cada litro de agua) en un tiempo  de acción de 5-10 minutos.
-                h6.p-2 Secado:
-                p.p-2 Secar todos los implementos para evitar crecimiento de hongos y oxidación.
-              td.imagen
-                .img-container
-                  figure
-                    figcaption Pediluvio
-                    img(src="@/assets/curso/temas/tema3/img_14.png", alt="Pediluvio")
-                    p.etiqueta www.agricultura.gob.ec
+                p
+                  b Limpieza:
+                  |   Realizar limpieza con una toalla o cepillo humedecido con jabón y,  posteriormente, enjuagar con  abundante agua.
+                p
+                  b Desinfección:
+                  |    Desinfectar con hipoclorito de sodio diluido en agua (agregar 4ml por cada litro de agua) en un tiempo  de acción de 5-10 minutos.
+                p
+                  b Secado:
+                  |    Secar todos los implementos para evitar crecimiento de hongos y oxidación.
+              td.p-0.td-a2
+                figure
+                  figcaption Pediluvio
+                  img(src="@/assets/curso/temas/tema3/img_14.png", alt="Pediluvio")
+                  p.etiqueta www.agricultura.gob.ec
               td(rowspan="4")
-                h6.p-2 Instrumentos para limpieza y desinfección:
-                p.p-2 • Toalla
-                p.p-2 • Cepillo
-                p.p-2 • Jabón
-                p.p-2 • Hipoclorito
-                p.p-2 • Balde
-                p.p-2 • Aspersores
-                p.p-2 • *Pediluvio
-                p.p-2 (*Antes de entrar al lote y a la zona de acopio temporal, realizar desinfección de botas con cal)
+                h6 Instrumentos para limpieza y desinfección:
+                ul.p-0
+                  li • Toalla
+                  li  • Cepillo
+                  li  • Jabón
+                  li  • Hipoclorito
+                  li  • Balde
+                  li  • Aspersores
+                  li  • *Pediluvio
+                p (*Antes de entrar al lote y a la zona de acopio temporal, realizar desinfección de botas con cal)
             tr
               td Herramientas de corte (Machete, demanadora)
               td
-                p.p-2 Al menos tres (3) veces al dia: 
-                p.p-2 -Al iniciar la recolección
-                p.p-2 -Al medio día
-                p.p-2 -Tras finalizar la jornada
-              td.imagen
-                .img-container
-                  figure
-                    figcaption Desinfección de herramienta para corte de racimo
-                    img(src="@/assets/curso/temas/tema3/img_15.svg", alt="Desinfección de herramienta para corte de racimo")
-                    p.etiqueta www.agricultura.gob.ec
+                p Al menos tres (3) veces al dia: 
+                ul.p-0
+                  li - Al iniciar la recolección
+                  li - Al medio día
+                  li - Tras finalizar la jornada
+              td.p-0.td-a2
+                figure
+                  figcaption Desinfección de herramienta para corte de racimo
+                  img(src="@/assets/curso/temas/tema3/img_15.svg", alt="Desinfección de herramienta para corte de racimo")
+                  p.etiqueta www.agricultura.gob.ec
             tr
               td Recipientes de recolección (bolsas o canastillas)
               td Antes de la recolección
-              td(rowspan="2").imagen
-                .img-container
+              td(rowspan="2").p-0.td-a2
                   figure
                     figcaption Desinfección de canastilla
                     img(src="@/assets/curso/temas/tema3/img_16.png", alt="Desinfección de canastilla")
@@ -182,14 +184,14 @@
               li.mb-2 Añadir una solución desinfectante, como cloro diluido, para eliminar microorganismos potencialmente dañinos.
               li.mb-2 Una vez desinfectados, los tanques deben enjuagarse adecuadamente y llenarse con agua limpia para reiniciar el proceso.
         .col-lg-3
-          img(src="@/assets/curso/temas/tema3/img_17.svg", alt="Imagen de unos platanos" class="img-fluid")
+          img(src="@/assets/curso/temas/tema3/img_17.png", alt="Imagen de unos platanos" class="img-fluid")
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Pisos 
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-3
-              img(src="@/assets/curso/temas/tema3/img_18.svg", alt="Imagen de unos platanos" class="img-fluid")
+              img(src="@/assets/curso/temas/tema3/img_18.png", alt="Imagen de unos platanos" class="img-fluid")
             .col-lg-9
               p.mb-2 Los pisos del área de adecuación y de los espacios donde se encuentran los tanques deben mantenerse en óptimas condiciones de higiene. Para ello, se recomienda:
               ul.p-0
@@ -204,38 +206,41 @@
                   |  Enjuagar bien las superficies y dejarlas secar completamente antes de retomar las actividades.
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Mesones para adecuación de materia prima
-          p.mb-2 Los mesones donde se manipula el plátano deben contar con superficies lisas, no porosas y de fácil limpieza y desinfección, evitando la acumulación de suciedad y microorganismos patógenos.
-          p.mb-4 Después de cada uso, es fundamental:
-          object(type="image/svg+xml" data="/assets/tema3_img_19.svg" class="img-fluid").mb-3
+          p.mb-3 Los mesones donde se manipula el plátano deben contar con superficies lisas, no porosas y de fácil limpieza y desinfección, evitando la acumulación de suciedad y microorganismos patógenos.
+          p.mb-3 Después de cada uso, es fundamental:
+          img.mb-3(src="@/assets/curso/temas/tema3/img_19.svg", alt="Control de plagas en las instalaciones" class="img-fluid")
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Control de plagas en las instalaciones
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-3
-              img(src="@/assets/curso/temas/tema3/img_22.svg", alt="Control de plagas en las instalaciones" class="img-fluid")
+              img(src="@/assets/curso/temas/tema3/img_20.svg", alt="Control de plagas en las instalaciones" class="img-fluid")
             .col-lg-9
               p.mb-2 Las plagas representan un riesgo significativo para la inocuidad del producto, ya que son vectores de enfermedades que pueden contaminar los alimentos y poner en peligro la salud del consumidor. Por esta razón, se requiere implementar un plan riguroso de control de plagas y roedores en todas las instalaciones donde se manipulan los alimentos.
               h6.mb-2 Los principales patógenos y enfermedades que pueden transmitir las plagas incluyen:
           .titulo-sexto.bg-11.mb-4
             h5 Figura 7: 
             span.text-dark Plagas
-          object(type="image/svg+xml" data="/assets/figuras/figura7.svg" class="img-fluid").mb-3
-          figcaption Nota.  SENA (2024).
-          object(type="image/svg+xml" data="/assets/plagas.svg" class="img-fluid").mb-3
+          img(src="@/assets/curso/temas/tema3/img_23.png", alt="Control de plagas en las instalaciones" class="img-fluid")
+          figcaption.mb-5 Nota.  SENA (2024).
+          .tarjeta_bg-08
+            .row.d-flex 
+              .col-9.col-sm-9.col-md-9.col-lg-9.col-xl-9.col-xxl-9.mb-4.p-3 
+                p.text-small Las plagas y los roedores comparten los mismos requerimientos básicos que los seres humanos, ya que necesitan agua, alimento y un refugio para sobrevivir. Por esta razón, se debe eliminar cualquier factor que favorezca su reproducción y permanencia en el entorno.
+                p.text-small Para prevenir su presencia, se deben mantener los establecimientos y sus alrededores libres de residuos de alimentos y acumulaciones de agua que puedan atraerlas. A continuación, se presentan algunas recomendaciones importantes para evitar la contaminación de los alimentos:
+              .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3
+                img(src="@/assets/curso/temas/tema3/cucaracha.png", alt="Trazabilidad o rastreabilidad" style="display: flex")
           SlyderA(tipo="b").custom-slider-a-b.rounded-4
             .row.align-items-center.custom-slider-a-b__item
               .col-lg-6
                 h5 Manejo de residuos y desechos
                 p Evitar la acumulación de residuos sólidos de cualquier tipo y mantener las canecas de basura siempre tapadas para prevenir la proliferación de plagas. Las cañerías y desagües deben permanecer cerrados y protegidos con sus respectivas rejillas.
-
               .d-none.d-lg-block.col-lg-6
                 figure
                   img(src='@/assets/curso/temas/tema3/img_25.png', alt='gajo de plátanos')
-
             .row.align-items-center.custom-slider-a-b__item
               .col-lg-6
                 h5 Limpieza y desinfección
                 p Garantizar la limpieza y desinfección de todas las áreas, desde la recepción de materias primas hasta el almacenamiento. Almacenar los insumos en anaqueles limpios, con una altura mínima de 15 cm del piso, para facilitar su mantenimiento.
-
               .d-none.d-lg-block.col-lg-6
                 figure
                   img(src='@/assets/curso/temas/tema3/img_26.png', alt='female-botanist-examining-plant-sample-quality-control-inspection-greenhouse')

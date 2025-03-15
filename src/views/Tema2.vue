@@ -136,18 +136,18 @@
                 td El fruto es totalmente amarillo.
               tr
                 td Imagen
-                td: img(src="@/assets/curso/temas/tema2/img_8.png", alt="GM1")
-                td: img(src="@/assets/curso/temas/tema2/img_9.png", alt="GM2")
-                td: img(src="@/assets/curso/temas/tema2/img_10.png", alt="GM3") 
-                td: img(src="@/assets/curso/temas/tema2/img_11.png", alt="GM4") 
-                td: img(src="@/assets/curso/temas/tema2/img_12.png", alt="GM5")
+                td.p-0: img(src="@/assets/curso/temas/tema2/img_8.png", alt="GM1")
+                td.p-0: img(src="@/assets/curso/temas/tema2/img_9.png", alt="GM2")
+                td.p-0: img(src="@/assets/curso/temas/tema2/img_10.png", alt="GM3") 
+                td.p-0: img(src="@/assets/curso/temas/tema2/img_11.png", alt="GM4") 
+                td.p-0: img(src="@/assets/curso/temas/tema2/img_12.png", alt="GM5")
               tr
                 td Color de referencia
-                td: img(src="@/assets/curso/temas/tema2/img_13.png", alt="GM1")
-                td: img(src="@/assets/curso/temas/tema2/img_14.png", alt="GM2")
-                td: img(src="@/assets/curso/temas/tema2/img_15.png", alt="GM3")
-                td: img(src="@/assets/curso/temas/tema2/img_16.png", alt="GM4")
-                td: img(src="@/assets/curso/temas/tema2/img_17.png", alt="GM5")
+                td.p-0: img(src="@/assets/curso/temas/tema2/img_13.png", alt="GM1")
+                td.p-0: img(src="@/assets/curso/temas/tema2/img_14.png", alt="GM2")
+                td.p-0: img(src="@/assets/curso/temas/tema2/img_15.png", alt="GM3")
+                td.p-0: img(src="@/assets/curso/temas/tema2/img_16.png", alt="GM4")
+                td.p-0: img(src="@/assets/curso/temas/tema2/img_17.png", alt="GM5")
 
     separador
 
@@ -240,11 +240,11 @@
       table
         thead
           tr
-            th Factor de control
-            th Frecuencia
-            th Procedimiento
-            th Imagen
-            th Instrumentos
+            th.col-2 Factor de control
+            th.col-2 Frecuencia
+            th.col-5 Procedimiento
+            th.col-6 Imagen
+            th.col-3 Instrumentos
         tbody
           tr
             td(rowspan="3") Frutos
@@ -378,18 +378,18 @@
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-5
         h3(data-aos='zoom-in-right').mb-4
           span.label-title.label-title--1 Preparación para la poscosecha 
-        p.mb-5 A continuación, algunas condiciones de la poscosecha:
+        p.mb-0 A continuación, algunas condiciones de la poscosecha:
       .row.justify-content-center.align-items-center
-        .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-4.col-xxl-4.mb-5
+        .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-4.col-xxl-4.mb-5.mt-5
           .tarjeta.tarjeta--color-terciario-claro.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--1
             p.text-center.mt-2.p-5 Realice a la planta procesadora limpieza y desinfección de tanques, mesas, bandejas y alrededores. Esta operación debe realizarse una vez por semana; además dentro de la limpieza también se deben eliminar aguas usadas en el proceso y los residuos de la cosecha como vástagos, coronas y flores.
-        .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-2.col-xxl-2.mb-5
+        .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-2.col-xxl-2.mb-5.mt-5
           .tarjeta.tarjeta--color-terciario-claro.p-3.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--2
             p.text-center.mt-4.p-1 Se debe alistar con antelación los insumos utilizados en el proceso como: alumbre (piedralumbre), chuchillos para el desdede (gurbias), báscula y empaque.
-        .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-2.col-xxl-2.mb-5
+        .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-2.col-xxl-2.mb-5.mt-5
           .tarjeta.tarjeta--color-terciario-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--3
             p.text-center.mt-4.p-1 La solución de agua más alumbre se debe preparar un día antes del embarque en una relación de un 1 kg por 100 L de agua.
-        .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-2.col-xxl-2.mb-5
+        .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-2.col-xxl-2.mb-5.mt-5
           .tarjeta.tarjeta--color-terciario-claro.p-5.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--4
             p.text-center.p-2 Afilar las herramientas como las gurbias que son utilizadas en desdede.
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
@@ -471,30 +471,26 @@
           template(v-slot:imagen)
             figure
               img.mb-4(src='@/assets/curso/temas/tema2/img_38.png', alt='Imagen de ayuda')
-          .tarjeta.p-4(x="26.5%" y="38%" numero="")
+          .tarjeta.p-4(x="27.5%" y="44.5%" numero="")
             p <strong>Definición de objetivos y recolección de datos:</strong> se debe definir el propósito del mapeo (planificación de siembra, drenaje, riego) y recopilar información básica como dimensiones del terreno, coordenadas, tipo de suelo y uso previo.
             .time-line-info__number
               span 01
-          .tarjeta.p-4(x="52%" y="38%" numero="")
+          .tarjeta.p-4(x="53%" y="44.5%" numero="")
             p <strong>Delimitación de la finca:</strong> se realiza un recorrido por el perímetro utilizando GPS o cinta métrica para marcar linderos, accesos, fuentes de agua y otros puntos clave que definirán el área de cultivo.
             .time-line-info__number
               span 02
-          .tarjeta.p-4(x="77.5%" y="38%" numero="")
+          .tarjeta.p-4(x="78.5%" y="44.5%" numero="")
             p <strong>Levantamiento topográfico:</strong> se miden las pendientes, la altitud y las características del terreno para identificar zonas con riesgo de erosión o problemas de drenaje, fundamentales para el diseño agronómico.
             .time-line-info__number
               span 03
-          .tarjeta.p-4(x="26.5%" y="87%" numero="")
-            p <strong>Identificación de recursos y uso actual del suelo:</strong> se localizan las fuentes de agua, caminos, infraestructuras existentes y la vegetación actual, permitiendo planificar el riego, el manejo del suelo y la distribución de los cultivos.
-            .time-line-info__number
-              span 06
-          .tarjeta.p-4(x="52%" y="87%" numero="")
-            p <strong>Diseño del plano base y zonificación:</strong> con la información recolectada, se elabora un plano que muestra los límites de la finca, las pendientes, las fuentes de agua y los accesos, dividiendo el terreno en zonas específicas.
-            .time-line-info__number
-              span 05
-          .tarjeta.p-4(x="77.5%" y="87%" numero="")
+          .tarjeta.p-4(x="70%" y="84%" numero="")
             p <strong>Verificación en campo y documentación final:</strong> se verifica en terreno que el plano coincida con la realidad, se ajustan detalles si es necesario y se elabora el mapa definitivo, incluyendo leyenda, escala y coordenadas para su uso técnico.
             .time-line-info__number
               span 04
+          .tarjeta.p-4(x="40.3%" y="82%" numero="")
+            p <strong>Diseño del plano base y zonificación:</strong> con la información recolectada, se elabora un plano que muestra los límites de la finca, las pendientes, las fuentes de agua y los accesos, dividiendo el terreno en zonas específicas.
+            .time-line-info__number
+              span 05
         figcaption.mb-3 Nota.  SENA
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Presentación de los dedos
@@ -509,7 +505,14 @@
         figcaption Nota.  SENA
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Empacado:
-    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-3.col-xxl-3.mb-3.mb-lg-3
+        figure
+          img(src="@/assets/curso/temas/tema2/img_40.svg", alt="Imagen de unos platanos" class="img-fluid")
+      .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-9.col-xxl-9.mb-3.mb-lg-3
+        p El empacado se hace posterior al lavado y al escurrido, se realiza en cajas y requiere de mucho cuidado, las cajas de exportación deben empacarse en dos hileras, de tal manera que las coronas queden contra las paredes de la caja y las puntas tocando las hileras de las otras. Los dedos se deben etiquetar según las exigencias de la empresa exportadora, algunas exigen etiquetar sólo las dos últimas líneas, luego se cubre con un plástico para luego ponerle la tapa. 
+        p Las cajas más usadas por algunas exportadoras en Colombia son de cartón y tienen una dimensión de 50 centímetros de ancho por 24 centímetros de alto. Se debe tener cuidado y buen criterio para no empacar plátanos pintones, defectuosos o que no reúnan las condiciones de calibre.
+        p Cada caja debe llevar un número correspondiente a la fecha y el código del exportador.  
     .titulo-sexto.bg-11.mb-4
       h5 Tabla 6:
       span.text-dark Guía de operación para lavado de plátano
@@ -518,10 +521,10 @@
         caption Nota.    Este estudio, Con base en Moreno, Candanoaza, & Olarte, 2009; Sena, 2004.
         thead.color-acento-contenido
           tr
-            th.bg-table-GM-th-b(style="width: 15%") Operación postcosecha
-            th.bg-table-GM-th(style="width: 30%; color: white;") Detalle
-            th.bg-table-GM-th(style="width: 40%; color: white;") Imagen
-            th.bg-table-GM-th(style="width: 20%; color: white;") Instrumento
+            th.bg-table-GM-th-b.col-2 Operación postcosecha
+            th.bg-table-GM-th.col-4 Detalle
+            th.bg-table-GM-th.col-6 Imagen
+            th.bg-table-GM-th.col-3 Instrumento
         tbody
           tr
             td Empaque intra-finca
@@ -529,7 +532,7 @@
               p Para el traslado intra-finca de los racimos se recomienda transportar en el hombro, guaduas, carretillas, cable aéreo u otro medio, evitando maltrato entre ellos o que sufran daños o golpes.
             td.p-0
               figure
-                img(src="@/assets/curso/temas/tema2/img_45.svg", alt="Traslado en carretilla")
+                img(src="@/assets/curso/temas/tema2/img_41.svg", alt="Traslado en carretilla")
             td 
               ul
                 li.mb-3 • Hombro
@@ -546,7 +549,7 @@
               p.mb-3 En ambos casos, para evitar los daños por roce, los dedos grandes se colocan en la parte inferior los rectos en la parte de arriba (aproximadamente 55 a 60 dedos por caja) y llenas de una capicidad de 80% del empaque para evitar daños por compresión.        
             td.p-0
               figure
-                img(src="@/assets/curso/temas/tema2/img_46.svg", alt="Canastillas")
+                img(src="@/assets/curso/temas/tema2/img_42.svg", alt="Canastillas")
             td(rowspan="3")  
               ul
                 li.mb-3 • Empaque de acuerdo con la comercialización.
@@ -554,11 +557,11 @@
           tr
             td.p-0
               figure
-                img(src="@/assets/curso/temas/tema2/img_47.svg", alt="Cajas de cartón y envase en atmósfera modificada (EAM)")
+                img(src="@/assets/curso/temas/tema2/img_43.svg", alt="Cajas de cartón y envase en atmósfera modificada (EAM)")
           tr
             td.p-0
               figure 
-                img(src="@/assets/curso/temas/tema2/img_48.svg", alt="Bolsa")
+                img(src="@/assets/curso/temas/tema2/img_44.svg", alt="Bolsa")
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Transporte:
     p.mb-2 El traslado desde la finca a la bodega o centro de acopio se hace en vehículos convencionales; mientras el traslado del centro de acopio al puerto se hace en camiones con refrigeración a una temperatura de 8 °C a 9 °C.

@@ -240,11 +240,11 @@
       table
         thead
           tr
-            th.col-2 Factor de control
-            th.col-2 Frecuencia
-            th.col-5 Procedimiento
-            th.col-6 Imagen
-            th.col-3 Instrumentos
+            th.col-3.col-sm-3.col-md-3.col-lg-2.col-xl-2.col-xxl-2 Factor de control
+            th.col-3.col-sm-3.col-md-3.col-lg-2.col-xl-2.col-xxl-2 Frecuencia
+            th.col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3 Procedimiento
+            th.col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3 Imagen
+            th.col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2 Instrumentos
         tbody
           tr
             td(rowspan="3") Frutos
@@ -472,23 +472,23 @@
             figure
               img.mb-4(src='@/assets/curso/temas/tema2/img_38.png', alt='Imagen de ayuda')
           .tarjeta.p-4(x="27.5%" y="44.5%" numero="")
-            p <strong>Definición de objetivos y recolección de datos:</strong> se debe definir el propósito del mapeo (planificación de siembra, drenaje, riego) y recopilar información básica como dimensiones del terreno, coordenadas, tipo de suelo y uso previo.
+            p.mb-5 Llevar los racimos cosechados al tanque con la solución de alumbre. 
             .time-line-info__number
               span 01
           .tarjeta.p-4(x="53%" y="44.5%" numero="")
-            p <strong>Delimitación de la finca:</strong> se realiza un recorrido por el perímetro utilizando GPS o cinta métrica para marcar linderos, accesos, fuentes de agua y otros puntos clave que definirán el área de cultivo.
+            p.mb-5 Separar los dedos de cada mano de los racimos.
             .time-line-info__number
               span 02
           .tarjeta.p-4(x="78.5%" y="44.5%" numero="")
-            p <strong>Levantamiento topográfico:</strong> se miden las pendientes, la altitud y las características del terreno para identificar zonas con riesgo de erosión o problemas de drenaje, fundamentales para el diseño agronómico.
+            p.mb-5 Si después del corte los dedos no quedaron separados o presentan cortes defectuosos, corregir en otro repaso.
             .time-line-info__number
               span 03
           .tarjeta.p-4(x="70%" y="84%" numero="")
-            p <strong>Verificación en campo y documentación final:</strong> se verifica en terreno que el plano coincida con la realidad, se ajustan detalles si es necesario y se elabora el mapa definitivo, incluyendo leyenda, escala y coordenadas para su uso técnico.
+            p.mb-5 Luego del desdede la fruta debe permanecer en el tanque 10 minutos para garantizar el adecuado desleche.
             .time-line-info__number
               span 04
           .tarjeta.p-4(x="40.3%" y="82%" numero="")
-            p <strong>Diseño del plano base y zonificación:</strong> con la información recolectada, se elabora un plano que muestra los límites de la finca, las pendientes, las fuentes de agua y los accesos, dividiendo el terreno en zonas específicas.
+            p.mb-5 La zona de empacado debe contar con dos tanques con el fin de asegurar la calidad de desleche y clasificación de la fruta.
             .time-line-info__number
               span 05
         figcaption.mb-3 Nota.  SENA

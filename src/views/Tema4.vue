@@ -72,7 +72,7 @@
         p.mb-3 Es responsabilidad de cada trabajador informar sobre su estado de salud para evitar la contaminación del producto y proteger a sus compañeros.
         p.mb-0 Además, es de gran importancia que todos los empleados que tienen contacto directo con los alimentos reciban capacitación sobre manipulación adecuada y concienciación acerca del riesgo de transmisión de enfermedades de origen humano a los alimentos, que pueden ser ocasionadas por una higiene deficiente.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.mb-4
+      .col-lg-10.mb-0
         h5.mb-4 Microorganismos patógenos transmitidos a los alimentos por operarios infectados:
         .titulo-sexto.bg-11.mb-4
           h5 Tabla 8:
@@ -122,17 +122,48 @@
         .titulo-sexto.bg-11.mb-3
           h5 Figura 8:
           span.text-dark Higiene personal
-        img.mb-5(src="@/assets/curso/temas/tema4/figura8.png", alt="Aspectos higiénicos en la poscosecha" class="img-fluid")
+        ImagenInfografica.time-line-info
+          template(v-slot:imagen)
+            figure
+              img.mb-4(src='@/assets/curso/temas/tema4/figura8.png', alt='Imagen de ayuda')
+          .tarjeta.p-4(x="17%" y="21%" numero="")
+            p.mb-5 El operario debe portar overol y delantal en perfectas condiciones higiénicas antes de iniciar cualquier tarea. Los uniformes deben ser de colores claros y, preferiblemente, contar con cierres de cremallera para evitar la acumulación de contaminantes.
+            .time-line-info__number
+              span 01
+          .tarjeta.p-4(x="10%" y="38%" numero="")
+            p.mb-5 Los operarios deben utilizar calzado cerrado, fabricado con materiales resistentes y de fácil limpieza, como botas plásticas.
+            .time-line-info__number
+              span 02
+          .tarjeta.p-4(x="8%" y="56.5%" numero="")
+            p.mb-5 En actividades específicas de cultivo o adecuación de plantas, se deben emplear guantes limpios, sin roturas y adecuados al tipo de labor.
+            .time-line-info__number
+              span 03
+          .tarjeta.p-4(x="12%" y="73.6%" numero="")
+            p.mb-5 Los manipuladores de alimentos deben lavarse las manos con agua y jabón antes de comenzar cualquier actividad y después de usar el baño, para evitar la contaminación cruzada.
+            .time-line-info__number
+              span 04
+          .tarjeta.p-4(x="73.3%" y="29%" numero="")
+            p.mb-5  Para evitar posibles focos de contaminación, es indispensable que los operarios no lleven uñas largas ni pintadas.
+            .time-line-info__number
+              span 05
+          .tarjeta.p-4(x="71.9%" y="54.5%" numero="")
+            p.mb-5 Durante la manipulación de alimentos, está prohibido el uso de anillos, cadenas, aretes u otros accesorios. Además, en el caso de las mujeres, no deben usar maquillaje que pueda desprender partículas y contaminar los producto
+            .time-line-info__number
+              span 06
+          .tarjeta.p-4(x="70.3%" y="89%" numero="")
+            p.mb-5 En las áreas de procesamiento no se permite comer, masticar chicle, fumar ni ingerir bebidas, ya que estas acciones pueden comprometer la higiene del entorno de trabajo.
+            .time-line-info__number
+              span 07
         .titulo-sexto.bg-11.mb-3
           h5 Figura 9:
           span.text-dark Recomendaciones del lavado.
-        img.mb-5(src="@/assets/curso/temas/tema4/figura9.png", alt="Aspectos higiénicos en la poscosecha" class="img-fluid")
+        img.mb-5(src="@/assets/curso/temas/tema4/figura9.png", alt="Recomendaciones del lavado." class="img-fluid")
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Prácticas higiénico-sanitarias
         p.mb-3 El cumplimiento de normas de higiene dentro de la producción de plátano es de gran importancia para garantizar la inocuidad del producto y la seguridad de los trabajadores. La implementación de buenas prácticas higiénico-sanitarias contribuye a la prevención de contaminaciones que pueden afectar la calidad del cultivo y la salud de los consumidores.
         p.mb-3 Dentro de las más importantes a considerar, están las siguientes:
         .row.justify-content-center.align-items-center.mb-4
-          .col-lg-6.justify-content-center.align-items-center
+          .col-lg-6.justify-content-center.align-items-center.mb-3
             .tarjeta_bg-05.p-4.mb-0
               h5.mb-4 Prácticas higiénicas sanitarias:
               ul.p-0
@@ -151,7 +182,7 @@
                 li
                     i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
                     |  Lavarse las manos utilizando los métodos adecuados para garantizar la inocuidad de las frutas.
-          .col-lg-6.justify-content-center.align-items-center
+          .col-lg-6.justify-content-center.align-items-center.mb-3
             .tarjeta_bg-06.p-4.mb-0
               h5.mb-5 Aspectos higiénicos para considerar en la poscosecha:
               ul.p-0
@@ -175,7 +206,7 @@
         p.mb-3 La etapa de poscosecha es determinante en la calidad del plátano destinado al consumo. Durante este proceso, la aplicación de medidas higiénicas rigurosas reduce el riesgo de contaminación y preserva la seguridad del producto.
         p.mb-3 Las acciones requeridas incluyen:
         .row.justify-content-center.align-items-center.mb-4
-          .col-lg-7.justify-content-center.align-items-center
+          .col-lg-7.justify-content-center.align-items-center.mb-3
             .tarjeta_bg-05.p-4.mb-0
               ul
                 li
@@ -203,15 +234,15 @@
                   i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
                   |   Capacitación sobre el manejo integral de plagas (MIP).
           .col-lg-5.justify-content-center.align-items-center
-            img(src="@/assets/curso/temas/tema4/img_7.png", alt="Aspectos higiénicos en la poscosecha" class="img-fluid")
+            img(src="@/assets/curso/temas/tema4/img_7.png", alt="" class="img-fluid")
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Manejo de sustancias agroquímicas
     p.mb-3 El uso de agroquímicos en la producción de plátano debe realizarse bajo estrictos controles que minimicen su impacto en la salud humana y el medio ambiente. Para ello, se requiere  la aplicación protocolos adecuados y capacitar al personal en su manejo seguro.
     p.mb-3 Dentro de los aspectos fundamentales se destacan:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3.justify-content-center.align-items-center
+      .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-3
         img(src="@/assets/curso/temas/tema4/img_8.png", alt="Manejo de sustancias agroquímicas" class="img-fluid")
-      .col-lg-8.justify-content-center.align-items-center
+      .col-12.col-sm-12.col-md-12.col-lg-7.col-xl-7.col-xxl-7.mb-0
         ul.p-0
           li.border-bottom
             i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-3
@@ -260,12 +291,12 @@
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Manejo de registro
         .row.justify-content-center.align-items-center.mb-0
-          .col-lg-3.justify-content-center.align-items-center
+          .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-3
             img(src="@/assets/curso/temas/tema4/img_13.png", alt="Manejo de registro" class="img-fluid")
-          .col-lg-4.justify-content-center.align-items-center
+          .col-12.col-sm-12.col-md-12.col-lg-4.col-xl-4.col-xxl-4.mb-3.mb-lg-3
             p.mb-2 Los registros dentro de las Buenas Prácticas Agrícolas en el cultivo de plátano son muy importantes, porque permiten plasmar los resultados de casi todos los procesos para después controlar de manera sistemática cómo se realizan todas las labores de la unidad productiva.
             h5.mb-0 Los registros deben tener los siguientes datos:
-          .col-lg-5.justify-content-center.align-items-center
+          .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5.mb-3.mb-lg-3
             .tarjeta_bg-05.p-4.mb-0
               ul.p-0
                 li
@@ -298,11 +329,11 @@
     p.mb-3 Garantizar la correcta identificación y trazabilidad de los productos permite dar cumplimiento a los estándares internacionales de calidad, facilitar su seguimiento en la cadena de suministro y responder de manera eficiente ante posibles incidentes de seguridad alimentaria
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Identificación
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-6.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-6.justify-content-center.align-items-center.mb-3
         p.mb-3 La identificación de los productos es un requisito indispensable en los mercados internacionales, ya que permite conocer información clave sobre su origen y procesamiento. A través de las etiquetas, se especifican detalles como la fecha de elaboración y empaque, el número de lote y otros datos relevantes.
         p.mb-3 Las etiquetas de frutas y hortalizas deben cumplir con estándares de calidad y contener la siguiente información:
-      .col-lg-6.justify-content-center.align-items-center
+      .col-lg-6.justify-content-center.align-items-center.mb-5
         .tarjeta_bg-06.p-4.mb-0
           h6 País de origen.
           ul
@@ -318,10 +349,10 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-4
         .tarjeta_bg-07
-          .row.d-flex 
-            .col-9.col-sm-9.col-md-9.col-lg-9.col-xl-9.col-xxl-9.mb-4
-              h6.p-3 Ejemplo de etiquetas:
-              ul.mb-0
+          .row.d-flex.mb-5
+            .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8
+              h6.text-small.p-3 Ejemplo de etiquetas:
+              ul.text-small.mb-0
                 li
                   i.fa-solid.fa-circle-check(style="color: #416B24; font-size: 15px").mb-0
                   |  Nombre y dirección de la empresa y/o despachador, logotipo o identificación comercial.
@@ -334,17 +365,17 @@
                 li
                   i.fa-solid.fa-circle-check(style="color: #416B24; font-size: 15px").mb-0
                   |  Peso neto, tamaño, cantidad y clase.
-            .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3
-              img(src="@/assets/curso/temas/tema4/carpetas-azules.png", alt="Trazabilidad o rastreabilidad" style="display: flex")
+            .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
+              img(src="@/assets/curso/temas/tema4/carpetas-azules.png", alt="Trazabilidad o rastreabilidad" style="display: flex; transform: translateY(-30px);")
         h3(data-aos='zoom-in-right').mb-4
           span.label-title.label-title--1 Trazabilidad o rastreabilidad
         p.mb-3 La trazabilidad es un aspecto muy importante dentro de la unidad productiva, ya que permite realizar un seguimiento detallado del producto a lo largo de toda la cadena de producción. Implementar un sistema documental adecuado facilita el registro de información relevante sobre cada lote, permitiendo analizar y solucionar de manera efectiva cualquier problema de seguridad alimentaria.
         h5.mb-3 Algunos parámetros fundamentales para la identificación y trazabilidad del producto incluyen:
-        .row.justify-content-center.align-items-center.mb-4.custom-slider
-          .col-lg-4.mb-3.mb-lg-0.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mb-4.mb-lg-5.factores-slider
+          .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-3
             img(src="@/assets/curso/temas/tema4/img_14.png", alt="Trazabilidad o rastreabilidad" class="img-fluid")
-          .col-xl-7.bg-platanos-image.p-4.rounded-3.mt-5.mb-5
-            SlyderF().bg-white.p-3.rounded-3
+          .col-10.col-sm-10.col-md-10.col-lg-9.col-xl-9.col-xxl-9.mb-3.mb-lg-3.bg-platanos-image.p-3.rounded-3
+            SlyderF().p-3.rounded-3
               .tarjeta.p-3.rounded-3.d-flex
                 .row.align-items-center
                   .col-3.d-none.d-md-block

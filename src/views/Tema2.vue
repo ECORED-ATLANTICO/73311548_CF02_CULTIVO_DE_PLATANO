@@ -26,7 +26,7 @@
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Descargar diagrama de operaciones para poscosecha de plátano.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
+                  a.boton.downloads-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -38,13 +38,13 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-9.col-xxl-9
         p.mb-2 La cosecha del plátano es un proceso que exige precisión y cuidado para garantizar la calidad del producto final. La madurez óptima se alcanza entre las 9 y 13 semanas posteriores a la floración, aunque en sistemas de riego tecnificado puede lograrse a los nueve meses de la siembra. Su determinación se basa en diversos métodos, como el uso de cintas o tablas de colores que indican el grado de madurez según el color y el contenido de azúcar del fruto. Este último puede medirse con un refractómetro, complementando el análisis con el registro de los días transcurridos desde la floración y la observación del llenado del fruto. Durante esta evaluación, se descartan racimos con daños por plagas, enfermedades o golpes, asegurando la calidad y uniformidad del producto.
-        .tarjeta_bg-06.p-3.mb-2
+        .tarjeta_bg-06.p-3.mb-3
           .row.justify-content-center.align-items-center.mb-0
             .col-3.col-sm-2.col-md-2.col-lg-2.col-xl-1.col-xxl-1.p-2.mb-2.mb-lg-0
               img(src="@/assets/curso/temas/tema2/img_3.svg", alt="Cosecha" class="img-fluid")
             .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-11.col-xxl-11.p-2.mb-0.mb-lg-0
               p.mb-0 Una vez seleccionado el racimo, el corte debe realizarse con precisión para evitar daños. Se practica un corte parcial en forma de cruz, aproximadamente a dos tercios de la altura del pseudotallo, lo que minimiza cualquier impacto negativo en la integridad del racimo. En esta fase, es esencial un manejo delicado para evitar golpes que puedan afectar la calidad del fruto.
-        p.mb-2 El transporte hasta el área de procesamiento es determinante para preservar la calidad del racimo. Para minimizar golpes y rozaduras, se emplean distintos métodos según la distancia y las condiciones del terreno, como:
+        p.mb-3 El transporte hasta el área de procesamiento es determinante para preservar la calidad del racimo. Para minimizar golpes y rozaduras, se emplean distintos métodos según la distancia y las condiciones del terreno, como:
       .col-11.col-sm-11.col-md-11.col-lg-4.col-xl-3.col-xxl-3
         img(src="@/assets/curso/temas/tema2/img_4.png", alt="Cosecha")(data-aos="fade-right")
     .row.justify-content-center.align-items-center.mb-0
@@ -143,11 +143,11 @@
                 td.p-0: img(src="@/assets/curso/temas/tema2/img_12.png", alt="GM5")
               tr
                 td Color de referencia
-                td.p-0: img(src="@/assets/curso/temas/tema2/img_13.png", alt="GM1")
-                td.p-0: img(src="@/assets/curso/temas/tema2/img_14.png", alt="GM2")
-                td.p-0: img(src="@/assets/curso/temas/tema2/img_15.png", alt="GM3")
-                td.p-0: img(src="@/assets/curso/temas/tema2/img_16.png", alt="GM4")
-                td.p-0: img(src="@/assets/curso/temas/tema2/img_17.png", alt="GM5")
+                td: img(src="@/assets/curso/temas/tema2/img_13.png", alt="GM1")
+                td: img(src="@/assets/curso/temas/tema2/img_14.png", alt="GM2")
+                td: img(src="@/assets/curso/temas/tema2/img_15.png", alt="GM3")
+                td: img(src="@/assets/curso/temas/tema2/img_16.png", alt="GM4")
+                td: img(src="@/assets/curso/temas/tema2/img_17.png", alt="GM5")
 
     separador
 
@@ -240,11 +240,11 @@
       table
         thead
           tr
-            th.col-3.col-sm-3.col-md-3.col-lg-2.col-xl-2.col-xxl-2 Factor de control
-            th.col-3.col-sm-3.col-md-3.col-lg-2.col-xl-2.col-xxl-2 Frecuencia
-            th.col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3 Procedimiento
-            th.col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3 Imagen
-            th.col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2 Instrumentos
+            th(style="width: 118px;") Factor de control
+            th(style="width: 150px;") Frecuencia
+            th(style="width: 350px;") Procedimiento
+            th(style="width: 400px;") Imagen
+            th(style="width: 200px;") Instrumentos
         tbody
           tr
             td(rowspan="3") Frutos
@@ -454,15 +454,25 @@
           .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-9.col-xxl-9.mb-3.mb-lg-3
             .tarjeta_bg-06.p-4.mb-2
               .row.mb-3.justify-content-center.align-items-center
-                .col-3.col-sm-3.col-md-3.col-lg-2.col-xl-1.col-xxl-1.mb-3.mb-lg-3
-                  img(src="@/assets/curso/temas/tema2/img_37.svg", alt="Imagen de unos platanos" class="img-fluid")
-                .col-13.col-sm-13.col-md-13.col-lg-10.col-xl-11.col-xxl-11
-                  ul.p-0 
-                    li.mb-0 1. Las gurbias deben estar bien afiliadas para que haya un buen corte y así evitar el rasgado en el cuello de la fruta.
-                    li.mb-0 2. Hacer el desleche utilizando los tanques.
-                    li.mb-0 3. Realizar el desleche por 10 minutos para no tener problemas posteriores como el manchado de la fruta.
-                    li.mb-0 4. Corregir cortes defectuosos de dedos y coronas.
-                    li.mb-0 5. El personal debe estar capacitado en el manejo de la gurbia.
+                .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-2.col-xxl-1.mb-3.mb-lg-0
+                  img.width-110(src="@/assets/curso/temas/tema2/img_37.svg", alt="Imagen de unos platanos" class="img-fluid")
+                .col-13.col-sm-13.col-md-13.col-lg-9.col-xl-10.col-xxl-10
+                  ol.p-0
+                    li.mb-0 
+                      strong 1. 
+                      | Las gurbias deben estar bien afiliadas para que haya un buen corte y así evitar el rasgado en el cuello de la fruta.
+                    li.mb-0 
+                      strong 2. 
+                      | Hacer el desleche utilizando los tanques.
+                    li.mb-0 
+                      strong 3. 
+                      | Realizar el desleche por 10 minutos para no tener problemas posteriores como el manchado de la fruta.
+                    li.mb-0 
+                      strong 4. 
+                      |  Corregir cortes defectuosos de dedos y coronas.
+                    li.mb-0 
+                      strong 5. 
+                      | El personal debe estar capacitado en el manejo de la gurbia.
       .col-lg-10.mb-4
         .titulo-sexto.bg-11.mb-4
           h5 Figura 5: 

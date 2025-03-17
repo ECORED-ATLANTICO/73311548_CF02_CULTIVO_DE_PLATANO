@@ -344,10 +344,10 @@
               caption Nota.  SENA (2024).
               thead
                 tr
-                  th Plaga
-                  th Agente causal
-                  th Síntomas Principales
-                  th Manejo Integrado
+                  th.bg-th Plaga
+                  th.bg-th Agente causal
+                  th.bg-th Síntomas Principales
+                  th.bg-th Manejo Integrado
               tbody
                 tr
                   td Picudo Negro

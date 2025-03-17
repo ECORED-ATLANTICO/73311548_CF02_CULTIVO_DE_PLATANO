@@ -36,7 +36,7 @@
       .h2(data-aos="fade-right") 2.1 Cosecha
     .mb-3
     .row.justify-content-center.align-items-center.mb-5.ordenar_tarjeta_lg
-      .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-9.col-xxl-9
+      .col-md-12.col-lg-8.col-xl-9.order-2.order-lg-1
         p.mb-2 La cosecha del plátano es un proceso que exige precisión y cuidado para garantizar la calidad del producto final. La madurez óptima se alcanza entre las 9 y 13 semanas posteriores a la floración, aunque en sistemas de riego tecnificado puede lograrse a los nueve meses de la siembra. Su determinación se basa en diversos métodos, como el uso de cintas o tablas de colores que indican el grado de madurez según el color y el contenido de azúcar del fruto. Este último puede medirse con un refractómetro, complementando el análisis con el registro de los días transcurridos desde la floración y la observación del llenado del fruto. Durante esta evaluación, se descartan racimos con daños por plagas, enfermedades o golpes, asegurando la calidad y uniformidad del producto.
         .tarjeta_bg-06.p-3.mb-3
           .row.justify-content-center.align-items-center.mb-0
@@ -45,7 +45,7 @@
             .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-11.col-xxl-11.p-2.mb-0.mb-lg-0
               p.mb-0 Una vez seleccionado el racimo, el corte debe realizarse con precisión para evitar daños. Se practica un corte parcial en forma de cruz, aproximadamente a dos tercios de la altura del pseudotallo, lo que minimiza cualquier impacto negativo en la integridad del racimo. En esta fase, es esencial un manejo delicado para evitar golpes que puedan afectar la calidad del fruto.
         p.mb-3 El transporte hasta el área de procesamiento es determinante para preservar la calidad del racimo. Para minimizar golpes y rozaduras, se emplean distintos métodos según la distancia y las condiciones del terreno, como:
-      .col-11.col-sm-8.col-md-8.col-lg-4.col-xl-3.col-xxl-3.pos_2
+      .col-11.col-sm-8.col-md-8.col-lg-4.col-xl-3.col-xxl-3.order-1.order-lg-2
         img(src="@/assets/curso/temas/tema2/img_4.png", alt="Cosecha")(data-aos="fade-right")
 
     .row.justify-content-center.align-items-center.mb-0
@@ -277,22 +277,22 @@
     h3(data-aos='zoom-in-right').mb-5
       span.label-title.label-title--2 Guía para selección y clasificación del plátano
     .row.justify-content-center.align-items-center
-      .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-0
+      .col-md-8.col-lg-3.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/temas/tema2/img_25.png", alt="Guía para selección y clasificación del plátano")(data-aos='zoom-in-right')
-      .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.mb-3.mb-lg-0
+      .col-md-12.col-lg-9.mb-3.mb-lg-0
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
           .row(titulo="Daño por plagas").justify-content-center.align-items-center
-            .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.mb-3.mb-lg-0
+            .col-md-12.col-lg-10.mb-3.mb-lg-0
               p.mb-0 Después del secado, seleccione para la comercialización los frutos que se encuentren libres de: 
               ul.p-0
                 li.mb-0 • Frutos dañados por pájaros o insectos
                 li.mb-0 • Ablandamientos
                 li.mb-0 • Manchas, mordeduras, cicatrices o mordiscos ovalados en la cáscara, trips
-            .col-12.col-sm-12.col-md-12.col-lg-7.col-xl-5.col-xxl-5.mb-3.mb-lg-0
+            .col-md-12.col-lg-7.col-xl-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/temas/tema2/img_26.png", alt="Secado o escurrido" class="img-fluid")
-            .col-12.col-sm-12.col-md-12.col-lg-5.col-xl-4.col-xxl-4.mb-3.mb-lg-0
+            .col-md-12.col-lg-5.col-xl-4.mb-3.mb-lg-0
               .tarjeta_bg-06.p-4.mb-3
                 ul
                   li.mb-0 • Percepción visual
@@ -301,7 +301,7 @@
                   li.mb-0 • Canastilla para comercialización
               p https://oggisioggino.wordpress.com/
           .row(titulo="Enfermedades por hongos").justify-content-center.align-items-center
-            .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
+            .col-md-12.col-lg-10.mb-3.mb-lg-0
               p.mb-0 También, seleccione para comercialización los frutos que se encuentren libres de:
               ul.p-0
                 li.mb-0 • Mal del cigarro
@@ -312,10 +312,10 @@
                 li.mb-0 • Antracnosis o lesiones de color café oscuro o negro
                 li.mb-0 Para disminuir las enfermedades en la corona se deben realizar los cortes con las herramientas desinfectadas y, después de lavado, secar bien los frutos.
             .row.justify-content-center.align-items-center
-              .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5.mb-4.mb-md-0
+              .col-md-12.col-lg-7.col-xl-5.mb-3.mb-lg-0
                 figure
                   img(src="@/assets/curso/temas/tema2/img_27.png", alt="Enfermedades por hongos" class="img-fluid")
-              .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-md-0
+              .col-md-12.col-lg-5.col-xl-4.mb-3.mb-lg-0
                 .tarjeta_bg-06.p-4.mb-2
                   ul
                     li.mb-0 • Percepción visual
@@ -324,17 +324,17 @@
                     li.mb-0 • Canastilla para comercialización
                 p https://oggisioggino.wordpress.com/
           .row(titulo="Daño mecánico").justify-content-center.align-items-center
-            .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
+            .col-md-12.col-lg-10.mb-3.mb-lg-0
               p.mb-0 Seleccione para terceras o realice unas adecuada disposición final en los frutos que presenten daños, como:
               ul.p-0
                 li.mb-0 • Frutos partidos, con golpes, cicatrices frescas, rajados, cuello roto y magulladuras
                 li.mb-0 • Frutos con manchas de sol
                 li.mb-0 • Frutos con manchas de latex
                 li.mb-0 Clasificar los frutos, según lo demande el mercado de comercialización, teniendo en cuenta las características de calidad que se indican en la NTC 1190:
-            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5.mb-4.mb-md-0
+            .col-md-12.col-lg-7.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/temas/tema2/img_28.png", alt="Daño mecánico" class="img-fluid")
-            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-md-0
+            .col-md-12.col-lg-5.mb-3.mb-lg-0
               .tarjeta_bg-06.p-4.mb-2
                 ul
                   li.mb-0 • Percepción visual
@@ -342,10 +342,10 @@
                   li.mb-0 • Canastilla para comercialización
               p https://oggisioggino.wordpress.com/
           .row(titulo="Categorías de calidad").justify-content-center.align-items-center
-            .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
+            .col-md-12.col-lg-10.mb-3.mb-lg-0
               p.mb-3 Los plátanos deben estar enteros y duros, exteriormente secos, Limpios, sin manchas ni grietas, no deben presentar indicios de pudrición ni magulladuras o heridas no cicatrizadas, ni tener el cuello roto.
               p.mb-3 Adicionalmente, tenga en cuenta los requisitos de calidad por categoría Extra, Primera y segunda.
-            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5.mb-4.mb-md-0
+            .col-md-12.col-lg-5.mb-3.mb-lg-0
               p.mb-0
                 b Extra:
                 |   Bien formados, 3/4 de lleno, con color uniforme y pedúnculo bien cortado.
@@ -355,14 +355,14 @@
               p.mb-0 
                 b Segunda: 
                 |   Puede presentar daños superficiales y 1/3 de manchas en las aristas.
-            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-md-0
+            .col-md-12.col-lg-5.col-xl-4.mb-3.mb-lg-0
               .tarjeta_bg-06.p-4.mb-2
                 ul
                   li.mb-0 • Calibrador
                   li.mb-0 • Canastilla para producto dañado
                   li.mb-0 • Empaque para comercialización
           .row(titulo="Color").justify-content-center.align-items-center
-            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5.mb-4.mb-md-0
+            .col-md-12.col-lg-6.mb-3.mb-lg-0
               p.mb-3 Seleccionar y clasificar los frutos de acuerdo con el estado de maduración y el mercado de comercialización:
               p.mb-0 
                 b Plátano verde: 
@@ -370,7 +370,7 @@
               p.mb-0
                 b Plátano pintón: 
                 |   Frutos bien desarrollados "pintones" con pérdida en la intensidad del verde y grado de maduración dos (GM 2)
-            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-md-0
+            .col-md-12.col-lg-4.mb-3.mb-lg-0
               .tarjeta_bg-06.p-4.mb-2
                 ul
                   li.mb-0 • Paleta de color

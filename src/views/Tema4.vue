@@ -246,31 +246,38 @@
         img(src="@/assets/curso/temas/tema4/img_8.png", alt="Manejo de sustancias agroquímicas" class="img-fluid")
       .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.mb-0
         ul.p-0
-          li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
+          li
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
             |  Identificación de los tipos de productos químicos permitidos y prohibidos en el cultivo del plátano.
-          li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
+          .border-bottom.mb-3
+          li
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
             |  Aplicación de dosis recomendadas según las necesidades del cultivo y los estándares de seguridad.
-          li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
+          .border-bottom.mb-3
+          li
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
             |  Calibración de equipos para una aplicación eficiente y precisa.
-          li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
+          .border-bottom.mb-3
+          li
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
             |  Selección y uso adecuado de boquillas en los sistemas de aspersión.
-          li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
+          .border-bottom.mb-3
+          li
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
             |  Evaluación del grado de toxicidad de cada sustancia empleada.
-          li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
+          .border-bottom.mb-3
+          li
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
             |  Análisis de la residualidad de los agroquímicos para evitar la acumulación de sustancias nocivas en el producto final.
-          li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
+          .border-bottom.mb-3
+          li
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
             |  Capacitación específica para conductores y operarios responsables del manejo y transporte de productos químicos.
-          li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
+          .border-bottom.mb-3
+          li
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
             |  Formación en estrategias de Manejo Integrado de Plagas (MIP), promoviendo alternativas sostenibles y reduciendo la dependencia de agroquímicos.
-    
+          .border-bottom
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Aspectos técnico
     p.mb-3 Para optimizar la producción de plátano y garantizar su calidad, es necesario que los agricultores y operarios reciban capacitación en aspectos clave del cultivo y manejo poscosecha. A continuación, se presentan los puntos más importantes a considerar:
@@ -356,9 +363,9 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-4
-        .tarjeta_bg-07
-          .row.d-flex.mb-5
-            .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8
+        .tarjeta_bg-07.mb-5
+          .row.justify-content-center.align-items-center.d-flex
+            .col-md-12.col-lg-8.order-2.order-xl-1
               h6.p-3 Ejemplo de etiquetas:
               ul.mb-0
                 li
@@ -373,7 +380,7 @@
                 li
                   i.fa-solid.fa-circle-check(style="color: #416B24; font-size: 15px").mb-0
                   |  Peso neto, tamaño, cantidad y clase.
-            .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
+            .col-md-4.col-lg-4.order-1.order-xl-2
               img(src="@/assets/curso/temas/tema4/carpetas-azules.png", alt="Ejemplo de etiquetas:" style="display: flex; transform: translateY(-30px); width: 70% !important; margin: 0px auto;")
         
         h3(data-aos='zoom-in-right').mb-4

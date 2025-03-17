@@ -45,31 +45,31 @@
             .row.mb-3.justify-content-center.align-items-center
               .col-lg-9.order-2.order-lg-1
                 p.mb-0 Este plan permite identificar los puntos de control críticos, así como las condiciones que los generan. Con esta información, el equipo encargado puede evaluar cuáles representan un riesgo para la inocuidad del plátano y aplicar las medidas de control pertinentes.
-              .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3.order-1.order-lg-2.mb-3.mb-lg-0
+              .col-md-4.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0
                 img(src="@/assets/curso/temas/tema3/img_4.svg", alt="Imagen de unos platanos" class="img-fluid")
 
           .row.justify-content-center.mb-3
             .col-lg-6.mb-3
               .tarjeta_bg-04.mb-2.height-100
-                .row.ordenar_tarjeta_lg.p-5.align-items-center
-                  .col-md-12.col-lg-12.col-xl-9
+                .row.ordenar_tarjeta_lg.p-5.justify-content-center.align-items-center
+                  .col-md-12.col-lg-12.col-xl-9.order-2.order-xl-1
                     h4.mb-2 Peligros químicos
                     p.mb-0 Están relacionados con los compuestos químicos nocivos provenientes de los insumos para la elaboración de productos, restos de detergentes y desinfectantes utilizados para la limpieza, plaguicidas y metales pesados.
-                  .col-sm-3.col-md-3.col-lg-4.col-xl-3.col-xxl-3.pos_2.img-center
+                  .col-md-3.col-lg-4.col-xl-3.order-1.order-xl-2.mb-3.mb-xl-0
                     img(src="@/assets/curso/temas/tema3/img_5.svg", alt="Imagen de unos platanos" class="img-fluid")
 
             .col-lg-6.mb-3
               .tarjeta_bg-05.mb-2.height-100
-                .row.ordenar_tarjeta_lg.p-5.align-items-center
-                  .col-md-12.col-lg-12.col-xl-9
+                .row.ordenar_tarjeta_lg.p-5.justify-content-center.align-items-center
+                  .col-md-12.col-lg-12.col-xl-9.order-2.order-xl-1
                     h4.mb-2 Peligros físicos
                     p.mb-0 Estos están asociados a los daños físicos que se le pueden ocasionar al producto por una mala manipulación en la cosecha y la poscosecha.
-                  .col-sm-3.col-md-3.col-lg-4.col-xl-3.col-xxl-3.pos_2.img-center
+                  .col-md-3.col-lg-4.col-xl-3.order-1.order-xl-2.mb-3.mb-xl-0
                     img(src="@/assets/curso/temas/tema3/img_6.svg", alt="Imagen de unos platanos" class="img-fluid")
 
           p.mb-5 Para evaluar y gestionar los peligros en la unidad productiva, se deben considerar los siguientes aspectos:
           .mt-5.mb-5.custom-slider
-            SlyderF(columnas="col-md-4 col-lg-4 col-xl-4")
+            SlyderF(columnas="col-md-6 col-lg-6 col-xl-4")
               .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--5
                 h3.text-center.mt-5 Identificación de peligros
                 p.mb-0.text-center Evaluar la posibilidad de que surjan riesgos con efectos perjudiciales para la salud.
@@ -91,12 +91,12 @@
             .row.mb-3.justify-content-center.align-items-center
               .col-lg-11.order-2.order-lg-1
                 p.mb-0 El saneamiento en el cultivo requiere que todos los empleados conozcan y apliquen el plan de limpieza y desinfección en las áreas donde se manipulan los alimentos. Este proceso es fundamental para garantizar la inocuidad del plátano y prevenir la contaminación en cualquier etapa de su manejo.
-              .col-3.col-sm-3.col-md-3.col-lg-1.col-xl-1.col-xxl-1.order-1.order-lg-2.mb-3.mb-md-0
+              .col-md-3.col-lg-1.order-1.order-lg-2.mb-3.mb-lg-0
                 img(src="@/assets/curso/temas/tema3/img_12.svg", alt="Imagen de unos platanos" class="img-fluid")
           p.mb-2 Es necesario que las instalaciones, equipos y superficies utilizadas en la adecuación y almacenamiento del plátano sean sometidas a protocolos de limpieza regulares. Esto incluye la eliminación de residuos orgánicos, la desinfección con productos adecuados y la implementación de medidas para evitar la proliferación de microorganismos que puedan comprometer la calidad del producto.
-  
+
       separador
-  
+
       #t_3_2.titulo-segundo
         .h2(data-aos="fade-right") 3.2	 Plan de limpieza y desinfección
       .mb-3 
@@ -115,40 +115,38 @@
         table
           thead
             tr
-              th.col-3.col-sm-3.col-md-3.col-lg-2.col-xl-2.col-xxl-2 Factor de control
-              th.col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3 Frecuencia
-              th.col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3 Procedimiento
-              th.col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3 Imagen
-              th.col-3.col-sm-3.col-md-3.col-lg-2.col-xl-2.col-xxl-2 Instrumentos
+              th(style="width: 180px;") Factor de control
+              th(style="width: 180px;") Frecuencia
+              th(style="width: 300px;") Procedimiento
+              th(style="width: 350px;") Imagen
+              th(style="width: 200px;") Instrumentos
           tbody
             tr
               td Indumentaria de trabajo (guantes de algodón, botas, overol)
               td Al finalizar actividades y operaciones poscosecha
               td(rowspan="4")
-                p
+                p.mb-3
                   b Limpieza:
-                  |   Realizar limpieza con una toalla o cepillo humedecido con jabón y,  posteriormente, enjuagar con  abundante agua.
-                p
+                p.mb-5 Realizar limpieza con una toalla o cepillo humedecido con jabón y,  posteriormente, enjuagar con  abundante agua.
+                p.mb-3
                   b Desinfección:
-                  |    Desinfectar con hipoclorito de sodio diluido en agua (agregar 4ml por cada litro de agua) en un tiempo  de acción de 5-10 minutos.
+                p.mb-5 Desinfectar con hipoclorito de sodio diluido en agua (agregar 4ml por cada litro de agua) en un tiempo  de acción de 5-10 minutos.
                 p
                   b Secado:
-                  |    Secar todos los implementos para evitar crecimiento de hongos y oxidación.
+                p.mb-5 Secar todos los implementos para evitar crecimiento de hongos y oxidación.
               td.p-0.td-a2
                 figure
-                  figcaption Pediluvio
                   img(src="@/assets/curso/temas/tema3/img_14.png", alt="Pediluvio")
-                  p.etiqueta www.agricultura.gob.ec
               td(rowspan="4")
-                h6 Instrumentos para limpieza y desinfección:
+                h6.mb-5 Instrumentos para limpieza y desinfección:
                 ul.p-0
-                  li • Toalla
-                  li  • Cepillo
-                  li  • Jabón
-                  li  • Hipoclorito
-                  li  • Balde
-                  li  • Aspersores
-                  li  • *Pediluvio
+                  li.mb-3  • Toalla
+                  li.mb-3  • Cepillo
+                  li.mb-3  • Jabón
+                  li.mb-3  • Hipoclorito
+                  li.mb-3  • Balde
+                  li.mb-3  • Aspersores
+                  li.mb-5  • *Pediluvio
                 p (*Antes de entrar al lote y a la zona de acopio temporal, realizar desinfección de botas con cal)
             tr
               td Herramientas de corte (Machete, demanadora)
@@ -160,17 +158,13 @@
                   li - Tras finalizar la jornada
               td.p-0.td-a2
                 figure
-                  figcaption Desinfección de herramienta para corte de racimo
-                  img(src="@/assets/curso/temas/tema3/img_15.svg", alt="Desinfección de herramienta para corte de racimo")
-                  p.etiqueta www.agricultura.gob.ec
+                  img(src="@/assets/curso/temas/tema3/img_15.png", alt="Desinfección de herramienta para corte de racimo")
             tr
               td Recipientes de recolección (bolsas o canastillas)
               td Antes de la recolección
               td(rowspan="2").p-0.td-a2
-                  figure
-                    figcaption Desinfección de canastilla
-                    img(src="@/assets/curso/temas/tema3/img_16.png", alt="Desinfección de canastilla")
-                    p.etiqueta www.agricultura.gob.ec
+                figure
+                  img(src="@/assets/curso/temas/tema3/img_16.png", alt="Desinfección de canastilla")
             tr
               td Empaque final (Canastillas)
               td Antes de la comercialización
@@ -198,15 +192,18 @@
             .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.mb-3.mb-lg-0
               p.mb-2 Los pisos del área de adecuación y de los espacios donde se encuentran los tanques deben mantenerse en óptimas condiciones de higiene. Para ello, se recomienda:
               ul.p-0
-                li.border-bottom
-                  i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-3
+                li.mb-0
+                  i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px")
                   |  Lavarlos a fondo con cepillo y jabón, asegurando la eliminación de residuos y suciedad adherida.
-                li.border-bottom
-                  i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-3
+                .border-bottom.mb-3
+                li
+                  i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px")
                   |  Aplicar una solución desinfectante de agua y cloro, dejándola actuar durante aproximadamente 10 minutos para garantizar su efectividad.
-                li.border-bottom
-                  i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-3
+                .border-bottom.mb-3
+                li
+                  i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px")
                   |  Enjuagar bien las superficies y dejarlas secar completamente antes de retomar las actividades.
+                .border-bottom
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Mesones para adecuación de materia prima
           p.mb-3 Los mesones donde se manipula el plátano deben contar con superficies lisas, no porosas y de fácil limpieza y desinfección, evitando la acumulación de suciedad y microorganismos patógenos.
@@ -215,9 +212,9 @@
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Control de plagas en las instalaciones
           .row.justify-content-center.align-items-center.mb-3
-            .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-0
+            .col-md-8.col-lg-3.mb-3.mb-lg-0
               img(src="@/assets/curso/temas/tema3/img_20.svg", alt="Control de plagas en las instalaciones" class="img-fluid")
-            .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.mb-3.mb-lg-0
+            .col-md-12.col-lg-9mb-3.mb-lg-0
               p.mb-2 Las plagas representan un riesgo significativo para la inocuidad del producto, ya que son vectores de enfermedades que pueden contaminar los alimentos y poner en peligro la salud del consumidor. Por esta razón, se requiere implementar un plan riguroso de control de plagas y roedores en todas las instalaciones donde se manipulan los alimentos.
               h6.mb-2 Los principales patógenos y enfermedades que pueden transmitir las plagas incluyen:
           .titulo-sexto.bg-11.mb-4
@@ -225,13 +222,13 @@
             span.text-dark Plagas
           img(src="@/assets/curso/temas/tema3/img_23.png", alt="Control de plagas en las instalaciones" class="img-fluid")
           figcaption.mb-5 Nota.  SENA (2024).
-          .tarjeta_bg-08
-            .row.d-flex.mb-5
-              .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.p-5 
-                p.text-small Las plagas y los roedores comparten los mismos requerimientos básicos que los seres humanos, ya que necesitan agua, alimento y un refugio para sobrevivir. Por esta razón, se debe eliminar cualquier factor que favorezca su reproducción y permanencia en el entorno.
-                p.text-small.mb-0 Para prevenir su presencia, se deben mantener los establecimientos y sus alrededores libres de residuos de alimentos y acumulaciones de agua que puedan atraerlas. A continuación, se presentan algunas recomendaciones importantes para evitar la contaminación de los alimentos:
-              .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
-                img(src="@/assets/curso/temas/tema3/cucaracha.png", alt="Plagas" style="display: flex; transform: translateY(-30px); width: 70% !important;")
+          .tarjeta_bg-08.mb-5
+            .row.justify-content-center.align-items-center.d-flex
+              .col-lg-12.col-xl-9.order-2.order-xl-1
+                p Las plagas y los roedores comparten los mismos requerimientos básicos que los seres humanos, ya que necesitan agua, alimento y un refugio para sobrevivir. Por esta razón, se debe eliminar cualquier factor que favorezca su reproducción y permanencia en el entorno.
+                p.mb-0 Para prevenir su presencia, se deben mantener los establecimientos y sus alrededores libres de residuos de alimentos y acumulaciones de agua que puedan atraerlas. A continuación, se presentan algunas recomendaciones importantes para evitar la contaminación de los alimentos:
+              .col-md-4.col-lg-4.col-xl-3.order-1.order-xl-2
+                img(src="@/assets/curso/temas/tema3/cucaracha.png", alt="Plagas" style="display: flex; transform: translateY(-70px); width: 100% !important;")
           SlyderA(tipo="b").custom-slider-a-b.rounded-4
             .row.align-items-center.custom-slider-a-b__item
               .col-lg-6

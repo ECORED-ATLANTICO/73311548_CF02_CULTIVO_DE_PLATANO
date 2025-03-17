@@ -111,6 +111,7 @@
         span.label-title.label-title--1 Desmanche o regulación de la población
       p.mb-3 El desmanche es una técnica fundamental en el cultivo de plátano, cuyo propósito es eliminar los colinos que emergen alrededor de la planta madre. Estos brotes generan competencia por luz, agua y nutrientes, afectando el desarrollo del cultivo. La aplicación adecuada de esta práctica permite establecer una descendencia equilibrada, compuesta por madre, hijo y nieto, optimizando la producción y garantizando una densidad adecuada de plantas por hectárea.
       p.mb-5 A continuación, se describen algunos métodos de eliminación de colinos:
+      
       .row.justify-content-center.align-items-center.mb-3
         .col-10.col-sm-10.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-5
           .crd_hover_txt
@@ -118,24 +119,24 @@
               figure
                 img(src="@/assets/curso/temas/tema1/img_14.png", alt="Arranque de colino" class="img-fluid")
             .crd_hover_txt--body
-              h4.mb-3.text-center Arranque de colino
-              p.mb-0 Consiste en separar el brote de la planta madre utilizando herramientas como barretón o palín.
+              h5.mb-3.text-center Arranque de colino
+              p.mb-0.text-small Consiste en separar el brote de la planta madre utilizando herramientas como barretón o palín.
         .col-10.col-sm-10.col-md-8.col-lg-4.col-xl-4.col-xxl-4.mb-5
           .crd_hover_txt
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema1/img_15.png", alt="Muerte de la yema apical" class="img-fluid")
             .crd_hover_txt--body
-              h4.mb-3.text-center Muerte de la yema apical
-              p.mb-0 Se realiza un corte basal al colino y, posteriormente, se elimina su punto de crecimiento mediante una incisión en forma de cruz. Para este procedimiento se emplean machetes o rulas.
+              h5.mb-3.text-center Muerte de la yema apical
+              p.mb-0.text-small Se realiza un corte basal al colino y, posteriormente, se elimina su punto de crecimiento mediante una incisión en forma de cruz. Para este procedimiento se emplean machetes o rulas.
         .col-10.col-sm-10.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-5
           .crd_hover_txt
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema1/img_16.png", alt="Extracción del punto de crecimiento" class="img-fluid")
             .crd_hover_txt--body
-              h4.mb-3.text-center Extracción del punto de crecimiento        
-              p.mb-0 Mediante un sacabocados, se retira la yema sin afectar el sistema radicular de la planta madre ni de los colinos restantes.
+              h5.mb-3.text-center Extracción del punto de crecimiento        
+              p.mb-0.text-small Mediante un sacabocados, se retira la yema sin afectar el sistema radicular de la planta madre ni de los colinos restantes.
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-0
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Desguasque

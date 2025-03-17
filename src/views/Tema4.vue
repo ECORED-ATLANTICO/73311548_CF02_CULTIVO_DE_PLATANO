@@ -235,46 +235,48 @@
                   |   Capacitación sobre el manejo integral de plagas (MIP).
           .col-lg-5.justify-content-center.align-items-center
             img(src="@/assets/curso/temas/tema4/img_7.png", alt="" class="img-fluid")
+
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Manejo de sustancias agroquímicas
     p.mb-3 El uso de agroquímicos en la producción de plátano debe realizarse bajo estrictos controles que minimicen su impacto en la salud humana y el medio ambiente. Para ello, se requiere  la aplicación protocolos adecuados y capacitar al personal en su manejo seguro.
     p.mb-3 Dentro de los aspectos fundamentales se destacan:
+   
     .row.justify-content-center.align-items-center.mb-4
       .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-3
         img(src="@/assets/curso/temas/tema4/img_8.png", alt="Manejo de sustancias agroquímicas" class="img-fluid")
-      .col-12.col-sm-12.col-md-12.col-lg-7.col-xl-7.col-xxl-7.mb-0
+      .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.mb-0
         ul.p-0
           li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-3
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
             |  Identificación de los tipos de productos químicos permitidos y prohibidos en el cultivo del plátano.
           li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-3
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
             |  Aplicación de dosis recomendadas según las necesidades del cultivo y los estándares de seguridad.
           li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-3
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
             |  Calibración de equipos para una aplicación eficiente y precisa.
           li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-3
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
             |  Selección y uso adecuado de boquillas en los sistemas de aspersión.
           li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-3
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
             |  Evaluación del grado de toxicidad de cada sustancia empleada.
           li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-3
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
             |  Análisis de la residualidad de los agroquímicos para evitar la acumulación de sustancias nocivas en el producto final.
           li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-3
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
             |  Capacitación específica para conductores y operarios responsables del manejo y transporte de productos químicos.
           li.border-bottom
-            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-3
+            i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-4
             |  Formación en estrategias de Manejo Integrado de Plagas (MIP), promoviendo alternativas sostenibles y reduciendo la dependencia de agroquímicos.
+    
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Aspectos técnico
     p.mb-3 Para optimizar la producción de plátano y garantizar su calidad, es necesario que los agricultores y operarios reciban capacitación en aspectos clave del cultivo y manejo poscosecha. A continuación, se presentan los puntos más importantes a considerar:
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-10.mb-0
-        p.mb-3 Es fundamental que los programas de capacitación incluyan mecanismos de retroalimentación con los empleados para evaluar su efectividad y, de ser necesario, implementar medidas correctivas que fortalezcan una cultura de higiene entre los operarios.
-        .mt-5.mb-5.custom-slider
+        .mb-5.custom-slider
           SlyderF(columnas="col-md-6 col-lg-4 col-xl-4")
             .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--10
               h3.text-center.mt-5 Distancias de siembra	
@@ -288,15 +290,20 @@
             .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--13
               h3.text-center.mt-5 Agroquímicos
               p.mb-0.text-center Capacitación en el manejo seguro y adecuado de agroquímicos como la gallinaza, destacando su función en la producción del plátano y su impacto en el suelo y el ambiente.
+        p.mb-4 Es fundamental que los programas de capacitación incluyan mecanismos de retroalimentación con los empleados para evaluar su efectividad y, de ser necesario, implementar medidas correctivas que fortalezcan una cultura de higiene entre los operarios.
+        
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Manejo de registro
+        
         .row.justify-content-center.align-items-center.mb-0
-          .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-3
+          .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-4.mb-3
             img(src="@/assets/curso/temas/tema4/img_13.png", alt="Manejo de registro" class="img-fluid")
-          .col-12.col-sm-12.col-md-12.col-lg-4.col-xl-4.col-xxl-4.mb-3.mb-lg-3
+
+          .col-12.col-sm-12.col-md-12.col-lg-4.col-xl-4.col-xxl-4.mb-3
             p.mb-2 Los registros dentro de las Buenas Prácticas Agrícolas en el cultivo de plátano son muy importantes, porque permiten plasmar los resultados de casi todos los procesos para después controlar de manera sistemática cómo se realizan todas las labores de la unidad productiva.
             h5.mb-0 Los registros deben tener los siguientes datos:
-          .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5.mb-3.mb-lg-3
+
+          .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-4.mb-3
             .tarjeta_bg-05.p-4.mb-0
               ul.p-0
                 li
@@ -346,13 +353,14 @@
             li
               i.fa-solid.fa-circle-check(style="color: #7D9FFB; font-size: 15px").mb-0
               |   Visibilidad: toda la información debe estar impresa en un mismo lado del empaque, asegurando su fácil lectura.
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-4
         .tarjeta_bg-07
           .row.d-flex.mb-5
             .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8
-              h6.text-small.p-3 Ejemplo de etiquetas:
-              ul.text-small.mb-0
+              h6.p-3 Ejemplo de etiquetas:
+              ul.mb-0
                 li
                   i.fa-solid.fa-circle-check(style="color: #416B24; font-size: 15px").mb-0
                   |  Nombre y dirección de la empresa y/o despachador, logotipo o identificación comercial.
@@ -366,15 +374,17 @@
                   i.fa-solid.fa-circle-check(style="color: #416B24; font-size: 15px").mb-0
                   |  Peso neto, tamaño, cantidad y clase.
             .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
-              img(src="@/assets/curso/temas/tema4/carpetas-azules.png", alt="Ejemplo de etiquetas:" style="display: flex; transform: translateY(-30px);")
+              img(src="@/assets/curso/temas/tema4/carpetas-azules.png", alt="Ejemplo de etiquetas:" style="display: flex; transform: translateY(-30px); width: 70% !important; margin: 0px auto;")
+        
         h3(data-aos='zoom-in-right').mb-4
           span.label-title.label-title--1 Trazabilidad o rastreabilidad
         p.mb-3 La trazabilidad es un aspecto muy importante dentro de la unidad productiva, ya que permite realizar un seguimiento detallado del producto a lo largo de toda la cadena de producción. Implementar un sistema documental adecuado facilita el registro de información relevante sobre cada lote, permitiendo analizar y solucionar de manera efectiva cualquier problema de seguridad alimentaria.
         h5.mb-3 Algunos parámetros fundamentales para la identificación y trazabilidad del producto incluyen:
-        .row.justify-content-center.align-items-center.mb-4.mb-lg-5.factores-slider
-          .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-3
-            img(src="@/assets/curso/temas/tema4/img_14.png", alt="Trazabilidad o rastreabilidad" class="img-fluid")
-          .col-10.col-sm-10.col-md-10.col-lg-9.col-xl-9.col-xxl-9.mb-3.mb-lg-3.bg-platanos-image.p-3.rounded-3
+        
+        .row.justify-content-center.align-items-center.mb-4.factores-slider
+          .col-sm-8.col-md-8.col-lg-5.col-xl-5.mb-3
+            img(src="@/assets/curso/temas/tema4/img_14.png", alt="Trazabilidad o rastreabilidad" class="img-fluid w-80")
+          .col-sm-10.col-md-10.col-lg-7.col-xl-7.col-xxl-7.mb-3.bg-platanos-image.p-3
             SlyderF().p-3.rounded-3
               .tarjeta.p-3.rounded-3.d-flex
                 .row.align-items-center
@@ -382,56 +392,56 @@
                     figure
                       img.width-110(src='@/assets/curso/temas/tema4/img_15.svg', alt='01')(data-aos="fade-up")
                   .col-md-9
-                    h3 Registro de insumos y proveedores
-                    p.mb-0 Es necesario documentar los insumos utilizados durante el proceso productivo, así como los proveedores de cada uno, asegurando un control riguroso sobre su calidad y origen.
+                    h4 Registro de insumos y proveedores
+                    p.mb-0.text-small Es necesario documentar los insumos utilizados durante el proceso productivo, así como los proveedores de cada uno, asegurando un control riguroso sobre su calidad y origen.
               .tarjeta.p-3.rounded-3.d-flex
                 .row.align-items-center
                   .col-3.d-none.d-md-block
                     figure
                       img.width-110(src='@/assets/curso/temas/tema4/img_16.svg', alt='02')(data-aos="fade-up")
                   .col-md-9
-                    h3 Información del área de cultivo	
-                    p.mb-0 Se debe contar con un registro detallado de las condiciones del terreno donde se estableció el cultivo, incluyendo sus características y manejo agronómico.
+                    h4 Información del área de cultivo	
+                    p.mb-0.text-small Se debe contar con un registro detallado de las condiciones del terreno donde se estableció el cultivo, incluyendo sus características y manejo agronómico.
               .tarjeta.p-3.rounded-3.d-flex  
                 .row.align-items-center
                   .col-3.d-none.d-md-block
                     figure
                       img.width-110(src='@/assets/curso/temas/tema4/img_17.svg', alt='Ilustración decorativa')(data-aos="fade-up")
                   .col-md-9
-                    h3 Fuentes de agua	
-                    p.mb-0 Se deben identificar y documentar las fuentes de suministro de agua utilizadas en el proceso (ríos, arroyos, depósitos, entre otros), para evaluar la calidad del recurso y su impacto en el cultivo.
+                    h4 Fuentes de agua	
+                    p.mb-0.text-small Se deben identificar y documentar las fuentes de suministro de agua utilizadas en el proceso (ríos, arroyos, depósitos, entre otros), para evaluar la calidad del recurso y su impacto en el cultivo.
               .tarjeta.p-3.rounded-3.d-flex  
                 .row.align-items-center
                   .col-3.d-none.d-md-block
                     figure
                       img.width-110()
                   .col-md-9
-                    h3 Acción correctiva ante problemas en lotes	
-                    p.mb-0 En caso de incidentes con un lote específico, el sistema de trazabilidad permite identificar su destino y retirar del mercado aquellos productos que compartan el mismo código, evitando riesgos para el consumidor.	
+                    h4 Acción correctiva ante problemas en lotes	
+                    p.mb-0.text-small En caso de incidentes con un lote específico, el sistema de trazabilidad permite identificar su destino y retirar del mercado aquellos productos que compartan el mismo código, evitando riesgos para el consumidor.	
               .tarjeta.p-3.rounded-3.d-flex  
                 .row.align-items-center
                   .col-3.d-none.d-md-block
                     figure
                       img.width-110(src='@/assets/curso/temas/tema4/img_18.svg', alt='Ilustración decorativa')(data-aos="fade-up")
                   .col-md-9
-                    h3 Sistemas de identificación del producto	
-                    p.mb-0 Se requiere disponer de documentos que registren el origen del producto y el mecanismo utilizado para su marcación o identificación, facilitando su rastreo a lo largo de la cadena de suministro.	
+                    h4 Sistemas de identificación del producto	
+                    p.mb-0.text-small Se requiere disponer de documentos que registren el origen del producto y el mecanismo utilizado para su marcación o identificación, facilitando su rastreo a lo largo de la cadena de suministro.	
               .tarjeta.p-3.rounded-3.d-flex  
                 .row.align-items-center
                   .col-3.d-none.d-md-block
                     figure
                       img.width-110(src='@/assets/curso/temas/tema4/img_19.svg', alt='Ilustración decorativa')(data-aos="fade-up")
                   .col-md-9
-                    h3 Condiciones de procesamiento	
-                    p.mb-0 Se deben especificar las condiciones en las que fue procesado cada lote, así como las características de las materias primas empleadas. Esta información resulta necesaria para evaluar posibles fallas en caso de reclamaciones y determinar si el problema se originó durante la producción o por un mal manejo posterior.
+                    h4 Condiciones de procesamiento	
+                    p.mb-0.text-small Se deben especificar las condiciones en las que fue procesado cada lote, así como las características de las materias primas empleadas. Esta información resulta necesaria para evaluar posibles fallas en caso de reclamaciones y determinar si el problema se originó durante la producción o por un mal manejo posterior.
               .tarjeta.p-3.rounded-3.d-flex  
                 .row.align-items-center
                   .col-3.d-none.d-md-block
                     figure
                       img.width-110(src='@/assets/curso/temas/tema4/img_20.svg', alt='Ilustración decorativa')(data-aos="fade-up")
                   .col-md-9
-                    h3 Plan de retiro de productos	
-                    p.mb-0 La central de poscosecha debe contar con un plan eficiente para retirar productos en mal estado. Además, es importante que los productores mantengan comunicación directa con distribuidores y comercializadores de plátano, con el fin de monitorear las condiciones en las que llega el producto al mercado y corregir cualquier deficiencia de manera rápida y efectiva.
+                    h4 Plan de retiro de productos	
+                    p.mb-0.text-small La central de poscosecha debe contar con un plan eficiente para retirar productos en mal estado. Además, es importante que los productores mantengan comunicación directa con distribuidores y comercializadores de plátano, con el fin de monitorear las condiciones en las que llega el producto al mercado y corregir cualquier deficiencia de manera rápida y efectiva.
 </template>
 
 <script>

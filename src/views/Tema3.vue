@@ -226,9 +226,9 @@
             .row.d-flex.mb-5
               .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.p-5 
                 p.text-small Las plagas y los roedores comparten los mismos requerimientos básicos que los seres humanos, ya que necesitan agua, alimento y un refugio para sobrevivir. Por esta razón, se debe eliminar cualquier factor que favorezca su reproducción y permanencia en el entorno.
-                p.text-small Para prevenir su presencia, se deben mantener los establecimientos y sus alrededores libres de residuos de alimentos y acumulaciones de agua que puedan atraerlas. A continuación, se presentan algunas recomendaciones importantes para evitar la contaminación de los alimentos:
+                p.text-small.mb-0 Para prevenir su presencia, se deben mantener los establecimientos y sus alrededores libres de residuos de alimentos y acumulaciones de agua que puedan atraerlas. A continuación, se presentan algunas recomendaciones importantes para evitar la contaminación de los alimentos:
               .col-4.col-sm-4.col-md-4.col-lg-4.col-xl-4.col-xxl-4
-                img(src="@/assets/curso/temas/tema3/cucaracha.png", alt="Plagas" style="display: flex; transform: translateY(-30px);")
+                img(src="@/assets/curso/temas/tema3/cucaracha.png", alt="Plagas" style="display: flex; transform: translateY(-30px); width: 70% !important;")
           SlyderA(tipo="b").custom-slider-a-b.rounded-4
             .row.align-items-center.custom-slider-a-b__item
               .col-lg-6

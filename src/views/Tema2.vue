@@ -26,7 +26,7 @@
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Descargar diagrama de operaciones para poscosecha de plátano.
                 .col-sm-auto
-                  a.boton.downloads-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -188,6 +188,7 @@
                 img(src='@/assets/curso/temas/tema2/img_21.svg', alt='Empaque' class="img-fluid")
           h3.text-center.mb-2 Empaque
           p.text-small.text-center  Protección de los frutos para evitar daños durante el transporte.
+
     .row.justify-content-center.align-items-center.mb-4.mb-4
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-2
         .cajon.bg-4.g_18.mb-5
@@ -197,37 +198,37 @@
       h3(data-aos='zoom-in-right').mb-3
         span.label-title.label-title--1 Proceso de poscosecha
       p.mb-5 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
-      .row.justify-content-center.align-items-center
+      .row.justify-content-center
         .col-10.col-sm-10.col-md-5.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-contenido
+          .tarjeta-numerada.color-acento-contenido.height-100
             .tarjeta-numerada__numero
               .h3 1
             p.text-center 
               b Recepción de materia prima: 
               | inspección y preparación del producto.
         .col-10.col-sm-10.col-md-5.col-lg-4.col-xl-2.col-xxl-2.mb-4.mb-xl-0
-          .tarjeta-numerada.color-primario
+          .tarjeta-numerada.color-primario.height-100
             .tarjeta-numerada__numero
               .h3 2
             p.text-center 
               b Adecuación del fruto: 
               | retiro de la bolsa protectora y separación de los racimos.
         .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
-          .tarjeta-numerada.color-secundario
+          .tarjeta-numerada.color-secundario.height-100
             .tarjeta-numerada__numero
               .h3 3
             p.text-center 
               b Selección y clasificación: 
               | evaluación de calidad según parámetros comerciales.
         .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
-          .tarjeta-numerada.color-terciario
+          .tarjeta-numerada.color-terciario.height-100
             .tarjeta-numerada__numero
               .h3 4
             p.text-center
               b Lavado: 
             p eliminación de impurezas y posibles residuos de plaguicidas.
         .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-botones
+          .tarjeta-numerada.color-acento-botones.height-100
             .tarjeta-numerada__numero
               .h3 5
             p.text-center
@@ -454,7 +455,7 @@
           .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-9.col-xxl-9.mb-3.mb-lg-3
             .tarjeta_bg-06.p-4.mb-2
               .row.mb-3.justify-content-center.align-items-center
-                .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-2.col-xxl-1.mb-3.mb-lg-0
+                .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-3.mb-lg-0
                   img.width-110(src="@/assets/curso/temas/tema2/img_37.svg", alt="Imagen de unos platanos" class="img-fluid")
                 .col-13.col-sm-13.col-md-13.col-lg-9.col-xl-10.col-xxl-10
                   ol.p-0

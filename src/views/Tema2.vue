@@ -112,27 +112,27 @@
                 td Contenido de azúcar
                 td El contenido de azúcar está entre 6 - 11 Brix.
                 td Refractómetro
-        .titulo-sexto.bg-11.mb-4
+        .titulo-sexto.bg-11.mb-3
           h5 Tabla 4:
           span.text-dark Tabla de color según grado de madurez.
-        .tabla-a.mb-1 
+        .tabla-a.bg-thead 
           table
             caption Nota.   Este estudio, con base en Mejía, 2013, Sena, 2004; NTC 1190. 
             thead
               tr
-                th.bg-table-GM-th Grado de madurez (GM)
-                th.bg-table-GM-th GM 1
-                th.bg-table-GM-th GM 2
-                th.bg-table-GM-th GM 3
-                th.bg-table-GM-th GM 4
-                th.bg-table-GM-th GM 5
+                th.bg-th Grado de madurez (GM)
+                th.bg-th GM 1
+                th.bg-th GM 2
+                th.bg-th GM 3
+                th.bg-th GM 4
+                th.bg-th GM 5
             tbody
               tr
                 td Detalle
                 td Fruto bien desarrollado de color verde oscuro.
-                td.bg-table-GM El color verde pierde intensidad.
+                td.bg-td El color verde pierde intensidad.
                 td Aparecen unas leves tonalidades amarillas.
-                td.bg-table-GM El color amarillo se acentúa y el pedúnculo sigue verde.
+                td.bg-td El color amarillo se acentúa y el pedúnculo sigue verde.
                 td El fruto es totalmente amarillo.
               tr
                 td Imagen
@@ -275,23 +275,23 @@
     h3(data-aos='zoom-in-right').mb-5
       span.label-title.label-title--2 Guía para selección y clasificación del plátano
     .row.justify-content-center.align-items-center
-      .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-3
+      .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/temas/tema2/img_25.png", alt="Guía para selección y clasificación del plátano")(data-aos='zoom-in-right')
-      .col-10.col-sm-10.col-md-10.col-lg-9.col-xl-9.col-xxl-9.mb-4.mb-3
+      .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.mb-3.mb-lg-0
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
           .row(titulo="Daño por plagas").justify-content-center.align-items-center
-            .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4.mb-md-0
+            .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.mb-3.mb-lg-0
               p.mb-0 Después del secado, seleccione para la comercialización los frutos que se encuentren libres de: 
               ul.p-0
                 li.mb-0 • Frutos dañados por pájaros o insectos
                 li.mb-0 • Ablandamientos
                 li.mb-0 • Manchas, mordeduras, cicatrices o mordiscos ovalados en la cáscara, trips
-            .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-5.mb-4.mb-md-0
+            .col-12.col-sm-12.col-md-12.col-lg-7.col-xl-5.col-xxl-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/temas/tema2/img_26.png", alt="Secado o escurrido" class="img-fluid")
-            .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-md-0
-              .tarjeta_bg-06.p-4.mb-2
+            .col-12.col-sm-12.col-md-12.col-lg-5.col-xl-4.col-xxl-4.mb-3.mb-lg-0
+              .tarjeta_bg-06.p-4.mb-3
                 ul
                   li.mb-0 • Percepción visual
                   li.mb-0 • Recipiente colector
@@ -518,7 +518,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-3.col-xxl-3.mb-3.mb-lg-3
         figure
-          img(src="@/assets/curso/temas/tema2/img_40.svg", alt="Imagen de unos platanos" class="img-fluid")
+          img(src="@/assets/curso/temas/tema2/img_40.png", alt="Imagen de unos platanos" class="img-fluid")
       .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-9.col-xxl-9.mb-3.mb-lg-3
         p El empacado se hace posterior al lavado y al escurrido, se realiza en cajas y requiere de mucho cuidado, las cajas de exportación deben empacarse en dos hileras, de tal manera que las coronas queden contra las paredes de la caja y las puntas tocando las hileras de las otras. Los dedos se deben etiquetar según las exigencias de la empresa exportadora, algunas exigen etiquetar sólo las dos últimas líneas, luego se cubre con un plástico para luego ponerle la tapa. 
         p Las cajas más usadas por algunas exportadoras en Colombia son de cartón y tienen una dimensión de 50 centímetros de ancho por 24 centímetros de alto. Se debe tener cuidado y buen criterio para no empacar plátanos pintones, defectuosos o que no reúnan las condiciones de calibre.
@@ -526,24 +526,24 @@
     .titulo-sexto.bg-11.mb-4
       h5 Tabla 6:
       span.text-dark Guía de operación para lavado de plátano
-    .tabla-a.mb-5 
+    .tabla-a.bg-thead-2.mb-5 
       table
         caption Nota.    Este estudio, Con base en Moreno, Candanoaza, & Olarte, 2009; Sena, 2004.
-        thead.color-acento-contenido
+        thead
           tr
-            th.bg-table-GM-th-b.col-4.col-sm-4.col-md-4.col-lg-2.col-xl-2.col-xxl-2 Operación postcosecha
-            th.bg-table-GM-th.col-5.col-sm-5.col-md-5.col-lg-4.col-xl-4.col-xxl-4 Detalle
-            th.bg-table-GM-th.col-5.col-sm-5.col-md-5.col-lg-5.col-xl-5.col-xxl-5 Imagen
-            th.bg-table-GM-th.col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3 Instrumento
+            th.text-dark(style="width: 146px;") Operación postcosecha
+            th(style="width: 340px;") Detalle
+            th(style="width: 380px;") Imagen
+            th(style="width: 217px;") Instrumento
         tbody
           tr
-            td Empaque intra-finca
-            td 
-              p Para el traslado intra-finca de los racimos se recomienda transportar en el hombro, guaduas, carretillas, cable aéreo u otro medio, evitando maltrato entre ellos o que sufran daños o golpes.
+            td Empaque<br>intra-finca
+            td.align-top 
+              p.text-wrap Para el traslado intra-finca de los racimos se recomienda transportar en el hombro, guaduas, carretillas, cable aéreo u otro medio, evitando maltrato entre ellos o que sufran daños o golpes.
             td.p-0
               figure
-                img(src="@/assets/curso/temas/tema2/img_41.svg", alt="Traslado en carretilla")
-            td 
+                img(src="@/assets/curso/temas/tema2/img_41.png", alt="Traslado en carretilla")
+            td.align-top 
               ul
                 li.mb-3 • Hombro
                 li.mb-3 • Guadua
@@ -551,27 +551,27 @@
                 li.mb-3 • Cable aéreo
           tr
             td(rowspan="3")  Empaque para comercialización
-            td(rowspan="3") 
-              p.mb-4 Empacar los frutos de acuerdo con las especificaciones del mercado:
+            td(rowspan="3").align-top.text-wrap 
+              p.mb-3 Empacar los frutos de acuerdo con las especificaciones del mercado:
               ul.p-0
                 li.mb-3 • Para el mercado nacional, el empaque más utilizado es la canastilla plástica, con capicidad de 18 a 22 kg, resistente al trasporte, reutilizable, lavable y permite el estibamiento del producto. También se utilizan las bolsas con perforaciones.
                 li.mb-3 • Para el mercado de exportación, se utilizan cajas de cartón rígidas y perforadas, con envolturas de polietileno con envolturas de polietileno con huecos de ventilación de 0.05 milésimas de pulgada y el uso de bolsas de polietileno microperforada que permite un envasado en atmósferas modificadas (EAM) y aumenta el tiempo de vida del producto.
-              p.mb-3 En ambos casos, para evitar los daños por roce, los dedos grandes se colocan en la parte inferior los rectos en la parte de arriba (aproximadamente 55 a 60 dedos por caja) y llenas de una capicidad de 80% del empaque para evitar daños por compresión.        
+              p En ambos casos, para evitar los daños por roce, los dedos grandes se colocan en la parte inferior los rectos en la parte de arriba (aproximadamente 55 a 60 dedos por caja) y llenas de una capicidad de 80% del empaque para evitar daños por compresión.        
             td.p-0
               figure
-                img(src="@/assets/curso/temas/tema2/img_42.svg", alt="Canastillas")
-            td(rowspan="3")  
+                img(src="@/assets/curso/temas/tema2/img_42.png", alt="Canastillas")
+            td(rowspan="3").align-top  
               ul
                 li.mb-3 • Empaque de acuerdo con la comercialización.
                 li.mb-3 • Es importante que el contenido de cada empaque sea homogéneo y contenga únicamente plátanos de la misma variedad, grado de madurez, calidad, color y calibre.
           tr
             td.p-0
               figure
-                img(src="@/assets/curso/temas/tema2/img_43.svg", alt="Cajas de cartón y envase en atmósfera modificada (EAM)")
+                img(src="@/assets/curso/temas/tema2/img_43.png", alt="Cajas de cartón y envase en atmósfera modificada (EAM)")
           tr
             td.p-0
               figure 
-                img(src="@/assets/curso/temas/tema2/img_44.svg", alt="Bolsa")
+                img(src="@/assets/curso/temas/tema2/img_44.png", alt="Bolsa")
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Transporte:
     p.mb-2 El traslado desde la finca a la bodega o centro de acopio se hace en vehículos convencionales; mientras el traslado del centro de acopio al puerto se hace en camiones con refrigeración a una temperatura de 8 °C a 9 °C.

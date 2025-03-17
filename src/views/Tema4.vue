@@ -77,11 +77,11 @@
         .titulo-sexto.bg-11.mb-4
           h5 Tabla 8:
           span.text-dark Gérmenes.
-        .tabla-a.mb-5
+        .tabla-a.bg-thead.mb-5
           table
             thead
               tr
-                th.bg-table-GM-th-b(colspan="4") Gérmenes
+                th.text-dark(colspan="4") Gérmenes
             tbody
               tr
                 td

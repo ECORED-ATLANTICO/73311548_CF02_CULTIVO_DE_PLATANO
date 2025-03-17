@@ -47,23 +47,26 @@
                 p.mb-0 Este plan permite identificar los puntos de control críticos, así como las condiciones que los generan. Con esta información, el equipo encargado puede evaluar cuáles representan un riesgo para la inocuidad del plátano y aplicar las medidas de control pertinentes.
               .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3.order-1.order-lg-2.mb-3.mb-lg-0
                 img(src="@/assets/curso/temas/tema3/img_4.svg", alt="Imagen de unos platanos" class="img-fluid")
+
           .row.justify-content-center.align-items-center.mb-3
             .col-lg-6
               .tarjeta_bg-04.p-3.mb-2
-                .row.mb-3.justify-content-center.align-items-center
+                .row.mb-3.justify-content-center.align-items-center.ordenar_tarjeta_lg
                   .col-lg-6.order-2.order-lg-1
                     h4.mb-2 Peligros químicos
                     p.mb-0 Están relacionados con los compuestos químicos nocivos provenientes de los insumos para la elaboración de productos, restos de detergentes y desinfectantes utilizados para la limpieza, plaguicidas y metales pesados.
-                  .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3.order-1.order-lg-2.mb-3.mb-lg-0
-                    img(src="@/assets/curso/temas/tema3/img_5.svg", alt="Imagen de unos platanos" class="img-fluid")
+                  .col-4.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.order-1.order-lg-2.mb-3.mb-lg-0
+                    img(src="@/assets/curso/temas/tema3/img_5.svg", alt="Imagen de unos platanos" class="img-fluid").pos_2
+
             .col-lg-6
               .tarjeta_bg-05.p-5.mb-2
-                .row.justify-content-center.align-items-center.mb-3
+                .row.justify-content-center.align-items-center.mb-3.ordenar_tarjeta_lg
                   .col-lg-6.order-2.order-lg-1
                     h4.mb-2 Peligros físicos
                     p.mb-0 Estos están asociados a los daños físicos que se le pueden ocasionar al producto por una mala manipulación en la cosecha y la poscosecha.
-                  .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3.order-1.order-lg-2.mb-3.mb-lg-0
+                  .col-4.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.order-1.order-lg-2.mb-3.mb-lg-0.pos_2
                     img(src="@/assets/curso/temas/tema3/img_6.svg", alt="Imagen de unos platanos" class="img-fluid")
+
           p.mb-5 Para evaluar y gestionar los peligros en la unidad productiva, se deben considerar los siguientes aspectos:
           .mt-5.mb-5.custom-slider
             SlyderF(columnas="col-md-4 col-lg-4 col-xl-4")

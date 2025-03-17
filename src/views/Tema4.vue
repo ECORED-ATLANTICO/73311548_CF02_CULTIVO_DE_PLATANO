@@ -162,9 +162,9 @@
           span.label-title.label-title--1 Prácticas higiénico-sanitarias
         p.mb-3 El cumplimiento de normas de higiene dentro de la producción de plátano es de gran importancia para garantizar la inocuidad del producto y la seguridad de los trabajadores. La implementación de buenas prácticas higiénico-sanitarias contribuye a la prevención de contaminaciones que pueden afectar la calidad del cultivo y la salud de los consumidores.
         p.mb-3 Dentro de las más importantes a considerar, están las siguientes:
-        .row.justify-content-center.align-items-center.mb-4
+        .row.justify-content-center.mb-4
           .col-lg-6.justify-content-center.align-items-center.mb-3
-            .tarjeta_bg-05.p-4.mb-0
+            .tarjeta_bg-05.p-4.mb-0.height-100
               h5.mb-4 Prácticas higiénicas sanitarias:
               ul.p-0
                 li
@@ -183,7 +183,7 @@
                     i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
                     |  Lavarse las manos utilizando los métodos adecuados para garantizar la inocuidad de las frutas.
           .col-lg-6.justify-content-center.align-items-center.mb-3
-            .tarjeta_bg-06.p-4.mb-0
+            .tarjeta_bg-06.p-4.mb-0.height-100
               h5.mb-5 Aspectos higiénicos para considerar en la poscosecha:
               ul.p-0
                 li
@@ -414,7 +414,7 @@
                 .row.align-items-center
                   .col-3.d-none.d-md-block
                     figure
-                      img.width-110()
+                      img.width-110(src='@/assets/curso/temas/tema4/img_21.png', alt='Ilustración decorativa')(data-aos="fade-up")
                   .col-md-9
                     h4 Acción correctiva ante problemas en lotes	
                     p.mb-0.text-small En caso de incidentes con un lote específico, el sistema de trazabilidad permite identificar su destino y retirar del mercado aquellos productos que compartan el mismo código, evitando riesgos para el consumidor.	

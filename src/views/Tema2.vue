@@ -35,7 +35,7 @@
     #t_2_1.titulo-segundo
       .h2(data-aos="fade-right") 2.1 Cosecha
     .mb-3
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5.ordenar_tarjeta_lg
       .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-9.col-xxl-9
         p.mb-2 La cosecha del plátano es un proceso que exige precisión y cuidado para garantizar la calidad del producto final. La madurez óptima se alcanza entre las 9 y 13 semanas posteriores a la floración, aunque en sistemas de riego tecnificado puede lograrse a los nueve meses de la siembra. Su determinación se basa en diversos métodos, como el uso de cintas o tablas de colores que indican el grado de madurez según el color y el contenido de azúcar del fruto. Este último puede medirse con un refractómetro, complementando el análisis con el registro de los días transcurridos desde la floración y la observación del llenado del fruto. Durante esta evaluación, se descartan racimos con daños por plagas, enfermedades o golpes, asegurando la calidad y uniformidad del producto.
         .tarjeta_bg-06.p-3.mb-3
@@ -45,8 +45,9 @@
             .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-11.col-xxl-11.p-2.mb-0.mb-lg-0
               p.mb-0 Una vez seleccionado el racimo, el corte debe realizarse con precisión para evitar daños. Se practica un corte parcial en forma de cruz, aproximadamente a dos tercios de la altura del pseudotallo, lo que minimiza cualquier impacto negativo en la integridad del racimo. En esta fase, es esencial un manejo delicado para evitar golpes que puedan afectar la calidad del fruto.
         p.mb-3 El transporte hasta el área de procesamiento es determinante para preservar la calidad del racimo. Para minimizar golpes y rozaduras, se emplean distintos métodos según la distancia y las condiciones del terreno, como:
-      .col-11.col-sm-11.col-md-11.col-lg-4.col-xl-3.col-xxl-3
+      .col-11.col-sm-8.col-md-8.col-lg-4.col-xl-3.col-xxl-3.pos_2
         img(src="@/assets/curso/temas/tema2/img_4.png", alt="Cosecha")(data-aos="fade-right")
+
     .row.justify-content-center.align-items-center.mb-0
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10
         .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5.g-0
@@ -380,18 +381,22 @@
         h3(data-aos='zoom-in-right').mb-4
           span.label-title.label-title--1 Preparación para la poscosecha 
         p.mb-0 A continuación, algunas condiciones de la poscosecha:
-      .row.justify-content-center.align-items-center
+      .row.justify-content-center
+        
         .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-4.col-xxl-4.mb-5.mt-5
-          .tarjeta.tarjeta--color-terciario-claro.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--1
-            p.text-center.mt-2.p-5 Realice a la planta procesadora limpieza y desinfección de tanques, mesas, bandejas y alrededores. Esta operación debe realizarse una vez por semana; además dentro de la limpieza también se deben eliminar aguas usadas en el proceso y los residuos de la cosecha como vástagos, coronas y flores.
+          .tarjeta.tarjeta--color-terciario-claro.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--1.height-100
+            p.text-center.mt-0.p-5 Realice a la planta procesadora limpieza y desinfección de tanques, mesas, bandejas y alrededores. Esta operación debe realizarse una vez por semana; además dentro de la limpieza también se deben eliminar aguas usadas en el proceso y los residuos de la cosecha como vástagos, coronas y flores.
+        
         .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-2.col-xxl-2.mb-5.mt-5
-          .tarjeta.tarjeta--color-terciario-claro.p-3.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--2
+          .tarjeta.tarjeta--color-terciario-claro.p-3.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--2.height-100
             p.text-center.mt-4.p-1 Se debe alistar con antelación los insumos utilizados en el proceso como: alumbre (piedralumbre), chuchillos para el desdede (gurbias), báscula y empaque.
+        
         .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-2.col-xxl-2.mb-5.mt-5
-          .tarjeta.tarjeta--color-terciario-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--3
+          .tarjeta.tarjeta--color-terciario-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--3.height-100
             p.text-center.mt-4.p-1 La solución de agua más alumbre se debe preparar un día antes del embarque en una relación de un 1 kg por 100 L de agua.
+        
         .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-2.col-xxl-2.mb-5.mt-5
-          .tarjeta.tarjeta--color-terciario-claro.p-5.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--4
+          .tarjeta.tarjeta--color-terciario-claro.p-5.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--4.height-100
             p.text-center.p-2 Afilar las herramientas como las gurbias que son utilizadas en desdede.
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
         h3(data-aos='zoom-in-right').mb-3

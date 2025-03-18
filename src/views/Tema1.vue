@@ -372,51 +372,51 @@
         span.label-title.label-title--1 Manejo fitosanitario
       p.mb-5 La implementación de estrategias de control biológico y mecánico contribuye a la prevención de plagas y reduce la necesidad de plaguicidas químicos, minimizando así el impacto ambiental y los riesgos para la salud humana. A continuación, se presentan las principales prácticas recomendadas:
       .row.justify-content-center.align-items-center
-        .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.order-2.order-lg-1.mb-0.mb-lg-3
+        .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.order-2.order-lg-1.mb-3.mb-lg-0
           LineaTiempoD.color-terciario
             .row(numero="1" titulo="Control de plagas y malezas").justify-content-center.align-items-center
-              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-3.mb-lg-0
                 p.text-small La correcta ejecución de prácticas como el control de malezas, deshoje, destronque y fertilización es esencial en el manejo integrado de plagas. El uso adecuado de trampas y la recolección manual de plagas caídas ayuda a disminuir la aplicación de plaguicidas y a mantener un equilibrio natural en el cultivo.
-              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-lg-1.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img_36.png', alt='Control de plagas y malezas' class="img-fluid")
             .row(numero="2" titulo="Protección del producto").justify-content-center.align-items-center
-              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-3.mb-lg-0
                 p.text-small Es recomendable utilizar mallas protectoras para evitar el ataque de pájaros y murciélagos, ya que estos pueden ser vectores de microorganismos que afectan la calidad del fruto y representan un riesgo para el consumidor final.
-              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-lg-1.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img_37.png', alt='Protección del producto' class="img-fluid")
             .row(numero="3" titulo="Uso responsable de plaguicidas").justify-content-center.align-items-center
-              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-3.mb-lg-0
                 p.text-small La aplicación de plaguicidas debe realizarse en las cantidades estrictamente necesarias, asegurando un manejo adecuado para evitar contaminación ambiental y toxicidad. Además, necesario considerar las condiciones climáticas, como la velocidad del viento y la temperatura, para evitar riesgos tanto para el cultivo como para los trabajadores.
-              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-lg-1.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img_38.png', alt='Uso responsable de plaguicidas' class="img-fluid")
             .row(numero="4" titulo="Calibración de equipos").justify-content-center.align-items-center
-              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-3.mb-lg-0
                 p.text-small Los equipos de aplicación deben estar correctamente calibrados para garantizar una dosificación precisa y evitar el uso excesivo de productos químicos. Asimismo, se debe evitar la reutilización de envases de plaguicidas para almacenar alimentos u otros insumos.
-              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-lg-1.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img_39.png', alt='Calibración de equipos' class="img-fluid")
             .row(numero="5" titulo="Capacitación del personal").justify-content-center.align-items-center
               .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
                 p.text-small Brindar formación continua a los trabajadores sobre el manejo de plagas, enfermedades y la correcta aplicación de plaguicidas y abonos orgánicos contribuye a reducir los riesgos de contaminación e intoxicación, mejorando la eficiencia de las prácticas agrícolas.	 
-              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-lg-1.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img_40.png', alt='Capacitación del personal' class="img-fluid")
             .row(numero="6" titulo="Supervisión y cumplimiento normativo").justify-content-center.align-items-center
-              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-3.mb-lg-0
                 p.text-small Es necesario revisar periódicamente que los productos utilizados para el control de plagas y enfermedades cumplan con las normativas nacionales e internacionales, garantizando así su eficacia y seguridad.	 
-              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-lg-1.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img_41.png', alt='Supervisión y cumplimiento normativo' class="img-fluid")
             .row(numero="7" titulo="Sistema de rotación de plaguicidas").justify-content-center.align-items-center
-              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-0.mb-lg-3
+              .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.order-2.order-lg-1.mb-3.mb-lg-0
                 p.text-small Implementar un sistema de rotación de plaguicidas en la finca permite evitar la resistencia de las plagas y asegurar la efectividad de los tratamientos aplicados. Además, se debe verificar que los productos estén en buen estado y se utilicen conforme a las regulaciones vigentes.	 
-              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-md-1.mb-0.mb-md-3
+              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-lg-1.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img_42.png', alt='Sistema de rotación de plaguicidas' class="img-fluid")
-        .col-6.col-sm-6.col-md-6.col-lg-3.col-xl-3.col-xxl-3.order-2.order-md-1.mb-0.mb-md-3
+        .col-6.col-sm-6.col-md-6.col-lg-3.col-xl-3.col-xxl-3.order-2.order-lg-1.mb-3.mb-lg-0
           figure
             img.width-110(src="@/assets/curso/temas/tema1/img_43.png", alt="Manejo fitosanitario")(data-aos="fade-up")
 </template>

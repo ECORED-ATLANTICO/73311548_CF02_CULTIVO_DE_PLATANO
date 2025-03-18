@@ -238,7 +238,7 @@
     .titulo-sexto.bg-11.mb-4
       h5 Tabla 5:
       span.text-dark Guía de operación para lavado de plátano
-    .tabla-a.mb-5 
+    .tabla-a.bg-thead.mb-5 
       table
         thead
           tr
@@ -532,7 +532,7 @@
     .titulo-sexto.bg-11.mb-4
       h5 Tabla 6:
       span.text-dark Guía de operación para lavado de plátano
-    .tabla-a.bg-table-03.mb-5 
+    .tabla-a.bg-thead-2.mb-5 
       table
         caption Nota.    Este estudio, Con base en Moreno, Candanoaza, & Olarte, 2009; Sena, 2004.
         thead

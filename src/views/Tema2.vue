@@ -238,7 +238,7 @@
     .titulo-sexto.bg-11.mb-4
       h5 Tabla 5:
       span.text-dark Guía de operación para lavado de plátano
-    .tabla-a.bg-thead.mb-5 
+    .tabla-a.mb-5 
       table
         thead
           tr

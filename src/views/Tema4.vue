@@ -94,17 +94,17 @@
                 td 
                   h5.mb-0 Síntomas
               tr
-                td Salmonella
+                td <em>Salmonella</em>
                 td Fiebre, dolor, estupor y diarrea
                 td Hepatitis A y E
                 td Gastrointeritis, fiebre e ictericia
               tr
-                td Shiguella s.p
+                td <em>Shiguella s.p</em>
                 td Diarrea, fiebre y vómito
                 td Norwalk
                 td Diarrea, fiebre y vómito
               tr
-                td Staphylococcus aureus
+                td <em>Staphylococcus aureus</em>
                 td Diarrea y vómito
                 td Rotavirus
                 td Diarreas 

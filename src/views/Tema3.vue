@@ -6,10 +6,10 @@
         .titulo-principal__numero
           span 3
         h1 Bienestar laboral y seguridad de los trabajadores
-      p.mb-0 Dentro de los aspectos que representan gran relevancia para garantizar la calidad en las prácticas agrícolas, se encuentran la salud y seguridad de los trabajadores, el plan de saneamiento, los programas de higiene personal, el control de plagas, la trazabilidad y la rastreabilidad, que se abordarán a continuación.
-  
+      p.mb-0 Esta actividad de aprendizaje está enfocada en explicar la salud y seguridad de los trabajadores, el plan de saneamiento, los programas de higiene personal, el control de plagas, la trazabilidad y la rastreabilidad.
+
       separador
-  
+
       #t_3_1.titulo-segundo
         .h2(data-aos="fade-right") 3.1	Plan de saneamiento
       .mb-3 
@@ -17,15 +17,15 @@
         .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-0.mb-md-3
           img(src="@/assets/curso/temas/tema3/img_1.png", alt="Plan de saneamiento" class="img-fluid")
         .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-9.col-xxl-9.mb-0.mb-md-3
-          p.mb-2 El establecimiento de normas de higiene y su cumplimiento en la unidad productiva contribuyen a fomentar una cultura de sanidad, permitiendo una producción inocua y de calidad con potencial de comercialización en mercados nacionales e internacionales.
-          p.mb-3 Para garantizar el cumplimiento de los parámetros higiénicos, es fundamental contar con un diseño sanitario adecuado, acompañado de una dotación eficiente de elementos de protección personal y demás implementos necesarios para las labores en el campo y la poscosecha. Además, el plan de saneamiento debe incluir una capacitación básica que facilite la implementación de Buenas Prácticas Agrícolas en el cultivo de plátano.
+          p.mb-2 Si en la unidad productiva se establecen normas de higiene y se realiza el control pertinente para su cumplimiento, se puede generar una cultura de sanidad que facilite una producción inocua y de calidad, que podrá ser comercializada en mercados nacionales e internacionales.
+          p.mb-3 Es esencial para hacer cumplir todos los parámetros higiénicos se debe contar con un buen diseño sanitario acompañado de una adecuada dotación de los elementos de protección personal y de los demás implementos para la realización de las labores en el campo y la poscosecha, adicional a esto en el plan de saneamiento debe estar inmersa una capacitación básica que permita realizar todas las funciones de Buenas Prácticas Agrícolas en plátano.
           .tarjeta_bg-06.p-4.mb-2
             .row.justify-content-center.align-items-center.mb-3
               .col-2.col-sm-2.col-md-2.col-lg-1.col-xl-1.col-xxl-1.mb-3.mb-md-0
                 img(src="@/assets/curso/temas/tema3/img_2.svg", alt="Libreta de notas" class="img-fluid")
               .col-lg-11
-                p.mb-0 Este plan permite identificar los puntos de control críticos, así como las condiciones que los generan. Con esta información, el equipo encargado puede evaluar cuáles representan un riesgo para la inocuidad del plátano y aplicar las medidas de control pertinentes.
-          p.mb-2 Los peligros presentes en la cosecha y poscosecha pueden clasificarse en tres categorías principales: biológicos, químicos y físicos.
+                p.mb-0 En el plan de saneamiento se determinan los puntos de control críticos y se establecen las condiciones que los generan, para que el grupo encargado del plan determine cuáles ponen en peligro la inocuidad del alimento (plátano) y se les pueda realizar el control requerido.
+          p.mb-2 Los peligros que se generan durante el proceso de cosecha y poscosecha se pueden clasificar en biológicos, físicos o químicos.
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-10
           h3(data-aos='zoom-in-right').mb-3
@@ -34,20 +34,20 @@
             .col-6.col-sm-6.col-md-6.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-md-0
               img(src="@/assets/curso/temas/tema3/img_3.svg", alt="Imagen de unos platanos" class="img-fluid")
             .col-lg-9
-              p.mb-2 Son aquellos relacionados con la presencia de organismos vivos en los alimentos. Los microorganismos, que solo pueden observarse a través de un microscopio, incluyen bacterias, levaduras, hongos, parásitos y virus. Estos pueden encontrarse en cualquier parte del medio ambiente y representar un riesgo para la inocuidad del producto.
+              p.mb-3 Son los asociados a la presencia de organismos vivos en el alimento; los microorganismos son organismos pequeños que sólo pueden ser observados a través del microscopio, muchos de estos constan de una única célula y pueden encontrarse en cualquier parte del medio ambiente, entre estos hay diferentes categorías como: bacterias, levaduras, hongos, parásitos y virus.
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Peligros químicos
-          p.mb-4 Provienen de la contaminación con compuestos químicos nocivos, tales como residuos de insumos agrícolas, restos de detergentes y desinfectantes empleados en la limpieza, plaguicidas y metales pesados.
+          p.mb-3 Están relacionados con los compuestos químicos nocivos provenientes de los insumos para la elaboración de productos, restos de detergentes y desinfectantes utilizados para la limpieza, plaguicidas y metales pesados.
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Peligros físicos
-          p.mb-4 Están asociados a daños en el producto debido a una manipulación inadecuada durante la cosecha y la poscosecha, lo que puede afectar su calidad y aptitud para el consumo.
+          p.mb-3 Están asociados a daños en el producto debido a una manipulación inadecuada durante la cosecha y la poscosecha, lo que puede afectar su calidad y aptitud para el consumo.
           .tarjeta_bg-06.p-3.mb-5
             .row.mb-3.justify-content-center.align-items-center
               .col-lg-9.order-2.order-lg-1
-                p.mb-0 Este plan permite identificar los puntos de control críticos, así como las condiciones que los generan. Con esta información, el equipo encargado puede evaluar cuáles representan un riesgo para la inocuidad del plátano y aplicar las medidas de control pertinentes.
+                h4.mb-2 Peligros biológicos
+                p.mb-0 Son los asociados a la presencia de organismos vivos en el alimento; los microorganismos son organismos pequeños que sólo pueden ser observados a través del microscopio, muchos de estos constan de una única célula y pueden encontrarse en cualquier parte del medio ambiente, entre estos hay diferentes categorías como: bacterias, levaduras, hongos, parásitos y virus.
               .col-md-4.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0
                 img(src="@/assets/curso/temas/tema3/img_4.svg", alt="Imagen de unos platanos" class="img-fluid")
-
           .row.justify-content-center.mb-3
             .col-lg-6.mb-3
               .tarjeta_bg-04.mb-2.height-100
@@ -57,7 +57,6 @@
                     p.mb-0 Están relacionados con los compuestos químicos nocivos provenientes de los insumos para la elaboración de productos, restos de detergentes y desinfectantes utilizados para la limpieza, plaguicidas y metales pesados.
                   .col-md-3.col-lg-4.col-xl-3.order-1.order-xl-2.mb-3.mb-xl-0
                     img(src="@/assets/curso/temas/tema3/img_5.svg", alt="Imagen de unos platanos" class="img-fluid")
-
             .col-lg-6.mb-3
               .tarjeta_bg-05.mb-2.height-100
                 .row.ordenar_tarjeta_lg.p-5.justify-content-center.align-items-center
@@ -66,7 +65,6 @@
                     p.mb-0 Estos están asociados a los daños físicos que se le pueden ocasionar al producto por una mala manipulación en la cosecha y la poscosecha.
                   .col-md-3.col-lg-4.col-xl-3.order-1.order-xl-2.mb-3.mb-xl-0
                     img(src="@/assets/curso/temas/tema3/img_6.svg", alt="Imagen de unos platanos" class="img-fluid")
-
           p.mb-5 Para evaluar y gestionar los peligros en la unidad productiva, se deben considerar los siguientes aspectos:
           .mt-5.mb-5.custom-slider
             SlyderF(columnas="col-md-6 col-lg-6 col-xl-4")

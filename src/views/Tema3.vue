@@ -109,7 +109,8 @@
           p.mb-2 Es indispensable el buen uso y cuidado de las herramientas con las que se realizan todas las prácticas culturales y de poscosecha del cultivo, porque se puede generar contaminación cruzada del equipo al fruto, es indispensable después de cada labor realizar limpieza y desinfección.
           h6.mb-2 Para sacar la suciedad más difícil en equipos y herramientas tenga en cuenta lo siguiente:
       .titulo-sexto.bg-11.mb-4
-        h5 Tabla 7: 
+        h5 
+          em Tabla 7: 
         span.text-dark Guía para limpieza y desinfección de herramientas
       .tabla-a.mb-5 
         table
@@ -218,10 +219,13 @@
               p.mb-2 Las plagas representan un riesgo significativo para la inocuidad del producto, ya que son vectores de enfermedades que pueden contaminar los alimentos y poner en peligro la salud del consumidor. Por esta razón, se requiere implementar un plan riguroso de control de plagas y roedores en todas las instalaciones donde se manipulan los alimentos.
               h6.mb-2 Los principales patógenos y enfermedades que pueden transmitir las plagas incluyen:
           .titulo-sexto.bg-11.mb-4
-            h5 Figura 7: 
+            h5 
+              em Figura 7: 
             span.text-dark Plagas
           img(src="@/assets/curso/temas/tema3/img_23.png", alt="Control de plagas en las instalaciones" class="img-fluid")
-          figcaption.mb-5 Nota.  SENA (2024).
+          figcaption.mb-5 
+            em Nota.  
+            | SENA (2024).
           .tarjeta_bg-08.mb-5
             .row.justify-content-center.align-items-center.d-flex
               .col-lg-12.col-xl-9.order-2.order-xl-1

@@ -224,24 +224,20 @@ export default {
     },
     {
       referencia: 'Freepik.es. (2024). ',
-      link:
-        'Flor púrpura de la margarita del osteospermum | Foto Gratis (freepik.es)',
+      link: '',
     },
     {
       referencia: 'Freepik.es. (2024). ',
-      link:
-        'Pareja adulta en un jardín de verano. Tema de Coromavirus. Personas con máscara médica. Senior guapo con una camisa blanca. | Foto Gratis (freepik.es)',
+      link: '',
     },
     {
       referencia: 'Freepik.es (2024). ',
-      link:
-        'Dos granjeros con máscara de protección con tableta en el campo Tecnología agrícola modernaAgricultura inteligente | Foto Premium (freepik.es)',
+      link: '',
     },
     {
       referencia:
         'Gobernación del Tolima, Universidad de Ibagué, Universidad del Tolima, & Sena Regional Tolima. (2017). Buenas prácticas poscosecha de plátano (Musa paradisiaca L.). ISBN digital: 978-958-754-248-6. ',
-      link:
-        'https://es.studenta.com/content/135651667/protocolo-poscosecha-platano',
+      link: '',
     },
     {
       referencia:

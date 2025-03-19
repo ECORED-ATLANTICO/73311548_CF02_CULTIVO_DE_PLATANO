@@ -87,7 +87,6 @@
               .col
                 h5 Control biológico	
                 p.p-2 Emplea organismos como insectos, hongos y bacterias para regular poblaciones de plagas y enfermedades, reduciendo la necesidad de agroquímicos.
-                span Conservar del recurso anterior
           .crd.crd--avatarHorizontal.crd--last.py-4
             .row.align-items-center
               .col-auto.position-relative
@@ -102,11 +101,14 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-2
           .titulo-sexto.bg-11.mb-2
-            h5 Figura 3: 
+            h5 
+              em Figura 3: 
             span.text-dark Plateo
           figure
             img.img100(src="@/assets/curso/temas/tema1/img_13.png", alt="Control manual" class="img-fluid")
-          figcaption Nota.  SENA
+          figcaption 
+            em Nota.  
+            | SENA (2024).
       h3(data-aos='zoom-in-right').mb-4
         span.label-title.label-title--1 Desmanche o regulación de la población
       p.mb-3 El desmanche es una técnica fundamental en el cultivo de plátano, cuyo propósito es eliminar los colinos que emergen alrededor de la planta madre. Estos brotes generan competencia por luz, agua y nutrientes, afectando el desarrollo del cultivo. La aplicación adecuada de esta práctica permite establecer una descendencia equilibrada, compuesta por madre, hijo y nieto, optimizando la producción y garantizando una densidad adecuada de plantas por hectárea.
@@ -150,7 +152,7 @@
             span.label-title.label-title--1 Deshoje
         .row.justify-content-center.align-items-center.mb-4
           .col-12.col-sm-12.col-md-12.col-lg-7.col-xl-7.col-xxl-7.mb-3.mb-lg-0
-            p.mb-3 Implica la eliminación de hojas secas, dobladas o ubicadas en la parte inferior de la planta, con el propósito de mejorar la circulación del aire y la penetración de la luz solar, reduciendo así el riesgo de plagas y enfermedades. Se recomienda retirar también hojas con manchas o con tejidos verdes afectados, siempre asegurando que al menos el 50% del área foliar permanezca intacta para no comprometer la fotosíntesis. Esta práctica es clave en el manejo de la Sigatoca negra.
+            p.mb-3 Implica la eliminación de hojas secas, dobladas o ubicadas en la parte inferior de la planta, con el propósito de mejorar la circulación del aire y la penetración de la luz solar, reduciendo así el riesgo de plagas y enfermedades. Se recomienda retirar también hojas con manchas o con tejidos verdes afectados, siempre asegurando que al menos el 50 % del área foliar permanezca intacta para no comprometer la fotosíntesis. Esta práctica es clave en el manejo de la Sigatoca negra.
             p.mb-0 El corte de las hojas debe realizarse a una altura de 20 a 30 cm del pecíolo y puede efectuarse en cualquier momento del día, según lo requiera el cultivo.
           .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-0
             img(src="@/assets/curso/temas/tema1/img_18.png", alt="Deshoje" class="img-fluid")
@@ -304,11 +306,14 @@
       .row.justify-content-center.align-items-center.mb-3
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
           .titulo-sexto.bg-11.mb-4
-            h5 Tabla 1: 
+            h5 
+              em Tabla 1: 
             span.text-dark Enfermedades del Plátano
           .tabla-a.mb-5
             table
-              caption Nota.  SENA (2024).
+              caption 
+                em Nota.  
+                | SENA (2024).
               thead
                 tr
                   th Enfermedad
@@ -318,30 +323,33 @@
               tbody
                 tr
                   td Moko o Madurebiche
-                  td Ralstonia solanacearum
+                  td <em>Ralstonia solanacearum</em>
                   td Marchitamiento, amarillamiento, necrosis vascular, pudrición interna en cormos y racimos.
                   td Erradicación de plantas enfermas, desinfección de herramientas, control biológico (hongos antagonistas), control químico (si es necesario).
                 tr
                   td Pudrición Acuosa del Pseudotallo
-                  td Dickeya chrysanthemi
+                  td <em>Dickeya chrysanthemi</em>
                   td Manchas acuosas y translúcidas en pseudotallo, olor fétido, debilitamiento de la planta, caída de hojas.
                   td Desinfección de herramientas, control de vectores (insectos), control químico (si es necesario), manejo de la humedad del suelo.
                 tr
                   td Mal de Panamá
-                  td Fusarium oxysporum f. sp. cubense
+                  td <em>Fusarium oxysporum</em> f. sp. <em>cubense</em>
                   td Amarillamiento y marchitamiento, necrosis vascular, pudrición de raíces y cormos.
                   td Resistencia varietal, manejo del suelo (drenaje, pH), rotación de cultivos, eliminación de plantas enfermas.
                 tr
                   td Sigatoka Negra
-                  td Mycosphaerella fijiensis var. difformis
+                  td <em>Mycosphaerella fijiensis</em> var. <em>difformis</em>
                   td Estrías y manchas necróticas en hojas, desde el envés hasta el haz, defoliación, reducción de rendimiento.
                   td Fungicidas, manejo de la humedad, deshoje de hojas afectadas, variedades resistentes.
           .titulo-sexto.bg-11.mb-4
-            h5 Tabla 2: 
+            h5 
+              em Tabla 2: 
             span.text-dark Principales plagas del plátano
           .tabla-a.mb-5 
             table
-              caption Nota.  SENA (2024).
+              caption 
+                em Nota.  
+                | SENA (2024).
               thead
                 tr
                   th.bg-th Plaga
@@ -351,12 +359,12 @@
               tbody
                 tr
                   td Picudo Negro
-                  td Cosmopolites sordidus
+                  td <em>Cosmopolites sordidus</em>
                   td Túneles en cormos y pseudotallos, debilitamiento de la planta
                   td Trampeo, control biológico (hongos entomopatógenos, depredadores naturales), control químico (si es necesario), selección de material sano.
                 tr
                   td Picudo Rayado y Picudo Amarillo
-                  td Metamasius hemipterus, M. hebetatus
+                  td <em>Metamasius hemipterus</em>, <em>M. hebetatus</em>
                   td Daños en pseudotallos y cormos, debilitamiento y caída de hojas, reducción de rendimiento.
                   td Trampeo, control químico (si es necesario), manejo de la nutrición (potasio, boro), eliminación de residuos de cosecha.
                 tr

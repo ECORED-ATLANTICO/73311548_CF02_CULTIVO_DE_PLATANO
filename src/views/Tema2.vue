@@ -10,9 +10,9 @@
       .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-3.col-xxl-3.mb-3.mb-lg-0
         img(src="@/assets/curso/temas/tema2/img_1.png", alt="Cosecha y poscosecha")(data-aos="fade-up")
       .col-12.col-sm-12.col-md-12.col-lg-7.col-xl-9.col-xxl-9.mb-3.mb-lg-0
-        p.mb-2 El desguasque se encuentra dentro de las prácticas culturales recomendadas para favorecer la sanidad y vigor de las plantas. Esta labor consiste en eliminar la guasca seca que hay en el pseudotallo, se puede realizar cada vez que lo requiera el cultivo, procurando no hacer daño a la planta; el no realizar esta labor en la platanera puede generar plagas como el Picudo, el Rayado, la Palomilla y algunas enfermedades como el virus en el pseudotallo.
-        p.mb-4 Cuando los frutos alcanzan su punto de madurez, inicia la etapa de cosecha, en la cual los racimos son recolectados con cuidado para evitar daños mecánicos. Posteriormente, el proceso de poscosecha se encarga de preservar la calidad del producto mediante actividades como limpieza, clasificación y embalaje, asegurando su adecuada presentación y conservación para la distribución.
-        .tarjeta_bg-05.p-4.mb-2
+        p.mb-3 El cultivo de plátano es un proceso integral que abarca desde la siembra hasta la comercialización de los frutos. Tras una adecuada preparación del terreno y el establecimiento de las plantas, las prácticas culturales, como el riego, la fertilización y el manejo fitosanitario, garantizan un desarrollo óptimo del cultivo.
+        p.mb-3 Cuando los frutos alcanzan su punto de madurez, inicia la etapa de cosecha, en la cual los racimos son recolectados con cuidado para evitar daños mecánicos. Posteriormente, el proceso de poscosecha se encarga de preservar la calidad del producto mediante actividades como limpieza, clasificación y embalaje, asegurando su adecuada presentación y conservación para la distribución.
+        .tarjeta_bg-05.p-4.mb-3
           p.mb-2 Estas dos etapas finales son determinantes para mantener la integridad del fruto y optimizar su valor en el mercado, cerrando así el ciclo productivo del plátano con estándares de calidad que favorecen su competitividad comercial.
           p.mb-0 Le invitamos a consultar el siguiente recurso, que describe a través de un diagrama, el proceso de operaciones para la poscosecha de plátano:
     .row.justify-content-center.align-items-center.mb-0
@@ -75,11 +75,14 @@
         p.mb-2 La elección del sistema debe priorizar siempre la integridad del producto, asegurando que llegue en óptimas condiciones a la siguiente etapa del proceso.
         p.mb-4 A continuación, se presenta una guía para la selección del fruto en su momento óptimo. 
         .titulo-sexto.bg-11.mb-4
-          h5 Tabla 3:
+          h5 
+            em Tabla 3:
           span.text-dark Indicadores de recolección.
         .tabla-a.mb-3
           table
-            caption.mb-4 Nota. Este estudio, con base en Flores, 2013, Torres et al, 2013, Londoño, 2011, Martinez, 1998, Sena, 2004, NTC 1190.
+            caption.mb-4 
+              em Nota.  
+              | Este estudio, con base en Flores, (2013), Torres et al, (2013), Londoño, (2011), Martinez, (1998), Sena, (2004), NTC (1190).
             thead
               tr
                 th Factores
@@ -114,11 +117,14 @@
                 td El contenido de azúcar está entre 6 - 11 Brix.
                 td Refractómetro
         .titulo-sexto.bg-11.mb-3
-          h5 Tabla 4:
+          h5 
+            em Tabla 4:
           span.text-dark Tabla de color según grado de madurez.
         .tabla-a.bg-thead 
           table
-            caption Nota.   Este estudio, con base en Mejía, 2013, Sena, 2004; NTC 1190. 
+            caption 
+              em Nota.  
+              | Este estudio, con base en Mejía, (2013), Sena, (2004); NTC (1190). 
             thead
               tr
                 th.bg-th Grado de madurez (GM)
@@ -236,7 +242,8 @@
               b Empaque:
             p organización y protección del producto para su distribución.
     .titulo-sexto.bg-11.mb-4
-      h5 Tabla 5:
+      h5 
+        em Tabla 5:
       span.text-dark Guía de operación para lavado de plátano
     .tabla-a.mb-5 
       table
@@ -299,7 +306,7 @@
                   li.mb-0 • Recipiente colector
                   li.mb-0 • Canastilla para producto dañado
                   li.mb-0 • Canastilla para comercialización
-              p https://oggisioggino.wordpress.com/
+              a(href="https://oggisioggino.wordpress.com/" target="_blank") oggisioggino.wordpress.com
           .row(titulo="Enfermedades por hongos").justify-content-center.align-items-center
             .col-md-12.col-lg-10.mb-3.mb-lg-0
               p.mb-0 También, seleccione para comercialización los frutos que se encuentren libres de:
@@ -322,7 +329,7 @@
                     li.mb-0 • Recipiente colector
                     li.mb-0 • Canastilla para producto dañado
                     li.mb-0 • Canastilla para comercialización
-                p https://oggisioggino.wordpress.com/
+                a(href="https://oggisioggino.wordpress.com/" target="_blank") oggisioggino.wordpress.com
           .row(titulo="Daño mecánico").justify-content-center.align-items-center
             .col-md-12.col-lg-10.mb-3.mb-lg-0
               p.mb-0 Seleccione para terceras o realice unas adecuada disposición final en los frutos que presenten daños, como:
@@ -331,16 +338,16 @@
                 li.mb-0 • Frutos con manchas de sol
                 li.mb-0 • Frutos con manchas de latex
                 li.mb-0 Clasificar los frutos, según lo demande el mercado de comercialización, teniendo en cuenta las características de calidad que se indican en la NTC 1190:
-            .col-md-12.col-lg-7.mb-3.mb-lg-0
+            .col-md-12.col-lg-7.col-xl-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/temas/tema2/img_28.png", alt="Daño mecánico" class="img-fluid")
-            .col-md-12.col-lg-5.mb-3.mb-lg-0
+            .col-md-12.col-lg-5.col-xl-4.mb-3.mb-lg-0
               .tarjeta_bg-06.p-4.mb-2
                 ul
                   li.mb-0 • Percepción visual
                   li.mb-0 • Canastilla para producto dañado
                   li.mb-0 • Canastilla para comercialización
-              p https://oggisioggino.wordpress.com/
+              a(href="https://oggisioggino.wordpress.com/" target="_blank") oggisioggino.wordpress.com
           .row(titulo="Categorías de calidad").justify-content-center.align-items-center
             .col-md-12.col-lg-10.mb-3.mb-lg-0
               p.mb-3 Los plátanos deben estar enteros y duros, exteriormente secos, Limpios, sin manchas ni grietas, no deben presentar indicios de pudrición ni magulladuras o heridas no cicatrizadas, ni tener el cuello roto.
@@ -348,13 +355,13 @@
             .col-md-12.col-lg-5.mb-3.mb-lg-0
               p.mb-0
                 b Extra:
-                |   Bien formados, 3/4 de lleno, con color uniforme y pedúnculo bien cortado.
+                |   bien formados, 3/4 de lleno, con color uniforme y pedúnculo bien cortado.
               p.mb-0 
                 b Primera: 
-                |   A diferencia del Extra, pueden presentar daños superficiales sin manchas en las aristas.
+                |   a diferencia del Extra, pueden presentar daños superficiales sin manchas en las aristas.
               p.mb-0 
                 b Segunda: 
-                |   Puede presentar daños superficiales y 1/3 de manchas en las aristas.
+                |   puede presentar daños superficiales y 1/3 de manchas en las aristas.
             .col-md-12.col-lg-5.col-xl-4.mb-3.mb-lg-0
               .tarjeta_bg-06.p-4.mb-2
                 ul
@@ -366,10 +373,10 @@
               p.mb-3 Seleccionar y clasificar los frutos de acuerdo con el estado de maduración y el mercado de comercialización:
               p.mb-0 
                 b Plátano verde: 
-                |   Frutos bien desarrollados de color verde en grado de maduración uno (GM 1)
+                |   frutos bien desarrollados de color verde en grado de maduración uno (GM 1)
               p.mb-0
                 b Plátano pintón: 
-                |   Frutos bien desarrollados "pintones" con pérdida en la intensidad del verde y grado de maduración dos (GM 2)
+                |   frutos bien desarrollados "pintones" con pérdida en la intensidad del verde y grado de maduración dos (GM 2)
             .col-md-12.col-lg-4.mb-3.mb-lg-0
               .tarjeta_bg-06.p-4.mb-2
                 ul
@@ -481,7 +488,8 @@
                       | El personal debe estar capacitado en el manejo de la gurbia.
       .col-lg-10.mb-4
         .titulo-sexto.bg-11.mb-4
-          h5 Figura 5: 
+          h5 
+            em Figura 5: 
           span.text-dark Procedimiento
         ImagenInfografica.time-line-info
           template(v-slot:imagen)
@@ -507,18 +515,23 @@
             p.mb-5 La zona de empacado debe contar con dos tanques con el fin de asegurar la calidad de desleche y clasificación de la fruta.
             .time-line-info__number
               span 05
-        figcaption.mb-3 Nota.  SENA
+        figcaption.mb-3 
+          em Nota.  
+          | SENA (2024).
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Presentación de los dedos
         p.mb-5 El dedo (plátano) de exportación no debe presentar defectos, sólo se admiten 5 defectos por caja, estos deben tener un calibre mínimo de 22 y máximo 28 (1/16 pulgadas).
         h3(data-aos='zoom-in-right').mb-5
           span.label-title.label-title--1 Defectos del plátano más comunes
         .titulo-sexto.bg-11.mb-3
-          h5 Figura 6:
+          h5 
+            em Figura 6:
           span.text-dark Defectos del plátano más comunes:
         figure
           img.mb-4(src='@/assets/curso/temas/tema2/img_39.png', alt='Imagen de ayuda')
-        figcaption Nota.  SENA
+        figcaption 
+          em Nota.  
+          | SENA (2024).
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Empacado:
     .row.justify-content-center.align-items-center.mb-3
@@ -530,11 +543,14 @@
         p Las cajas más usadas por algunas exportadoras en Colombia son de cartón y tienen una dimensión de 50 centímetros de ancho por 24 centímetros de alto. Se debe tener cuidado y buen criterio para no empacar plátanos pintones, defectuosos o que no reúnan las condiciones de calibre.
         p Cada caja debe llevar un número correspondiente a la fecha y el código del exportador.  
     .titulo-sexto.bg-11.mb-4
-      h5 Tabla 6:
+      h5 
+        em Tabla 6:
       span.text-dark Guía de operación para lavado de plátano
     .tabla-a.bg-thead-2.mb-5 
       table
-        caption Nota.    Este estudio, Con base en Moreno, Candanoaza, & Olarte, 2009; Sena, 2004.
+        caption 
+          em Nota.  
+          | Este estudio, Con base en Moreno, Candanoaza, & Olarte, (2009); Sena, (2004).
         thead
           tr
             th.text-dark(style="width: 146px;") Operación postcosecha

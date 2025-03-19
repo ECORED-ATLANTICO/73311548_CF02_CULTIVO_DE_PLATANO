@@ -75,7 +75,8 @@
       .col-lg-10.mb-0
         h5.mb-4 Microorganismos patógenos transmitidos a los alimentos por operarios infectados:
         .titulo-sexto.bg-11.mb-4
-          h5 Tabla 8:
+          h5 
+            em Tabla 8:
           span.text-dark Gérmenes.
         .tabla-a.bg-thead.mb-5
           table
@@ -120,7 +121,8 @@
         p.mb-3 Los manipuladores de alimentos desempeñan un papel fundamental que permite garantizar la inocuidad del producto, ya que están en contacto con el cultivo, los procesos de alistamiento de materia prima y la calidad final de los alimentos. Para garantizar la seguridad alimentaria, es necesario que cumplan con estrictas normas de higiene personal y prácticas adecuadas en todas sus labores.
         p.mb-3 Algunas de las medidas más importantes incluyen:
         .titulo-sexto.bg-11.mb-3
-          h5 Figura 8:
+          h5 
+            em Figura 8:
           span.text-dark Higiene personal
         ImagenInfografica.time-line-info
           template(v-slot:imagen)
@@ -155,7 +157,8 @@
             .time-line-info__number
               span 07
         .titulo-sexto.bg-11.mb-3
-          h5 Figura 9:
+          h5 
+            em Figura 9:
           span.text-dark Recomendaciones del lavado.
         img.mb-5(src="@/assets/curso/temas/tema4/figura9.png", alt="Recomendaciones del lavado." class="img-fluid")
         h3(data-aos='zoom-in-right').mb-3

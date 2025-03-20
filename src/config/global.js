@@ -223,25 +223,25 @@ export default {
         'BUENAS PRÁCTICAS AGRÍCOLAS –BPA EN LA PRODUCCIÓN DE TOMATE BAJO CONDICIONES PROTEGIDAS (fao.org)',
     },
     {
-      referencia: 'Freepik.es. (2024). ',
-      link: '',
-    },
-    {
-      referencia: 'Freepik.es. (2024). ',
-      link: '',
-    },
-    {
-      referencia: 'Freepik.es (2024). ',
-      link: '',
-    },
-    {
       referencia:
-        'Gobernación del Tolima, Universidad de Ibagué, Universidad del Tolima, & Sena Regional Tolima. (2017). Buenas prácticas poscosecha de plátano (Musa paradisiaca L.). ISBN digital: 978-958-754-248-6. ',
+        'Gobernación del Tolima, Universidad de Ibagué, Universidad del Tolima, & Sena Regional Tolima. (2017). Buenas prácticas poscosecha de plátano (Musa paradisiaca L.). ISBN digital: 978-958-754-248-6.',
       link: '',
     },
     {
       referencia:
         'Moreno, J., Candanoza, J. y Olarte, F. (2009). Buenas Prácticas Agrícolas en el de cultivo de plátano exportación en la región de Urabá. Medellín, Colombia: Comunicaciones Augura.',
+      link: '',
+    },
+    {
+      referencia: ' ',
+      link: '',
+    },
+    {
+      referencia: '',
+      link: '',
+    },
+    {
+      referencia: '',
       link: '',
     },
   ],
@@ -310,12 +310,22 @@ export default {
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
+        {
+          nombre: 'Jairo Luis Valencia Ebratt	Validador y vinculador de recursos digitales 	Centro de Comercio y Servicios – Regional Atlántico',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adie Villafañe',
+          cargo: 'Validador y vinculador de recursos digitaless',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
       ],
     },
   ],
   creditosAdicionales: {
     imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/foto-gratis/pareja-adulta-jardin-verano-tema-coromavirus-personas-mascara-medica-senior-guapo-camisa-blanca_10884320.htm" target="_blank">Freepik.es. (2024).</a>, <a href="https://www.freepik.es/fotos-premium/dos-granjeros-mascara-proteccion-tableta-campo-tecnologia-agricola-modernaagricultura-inteligente_40554979.htm" target="_blank">Freepik.es. (2024).</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },

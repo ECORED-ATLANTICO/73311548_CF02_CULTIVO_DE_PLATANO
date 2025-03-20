@@ -311,7 +311,8 @@ export default {
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Jairo Luis Valencia Ebratt	Validador y vinculador de recursos digitales 	Centro de Comercio y Servicios – Regional Atlántico',
+          nombre:
+            'Jairo Luis Valencia Ebratt	Validador y vinculador de recursos digitales 	Centro de Comercio y Servicios – Regional Atlántico',
           cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },

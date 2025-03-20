@@ -219,8 +219,7 @@ export default {
     {
       referencia:
         'FAO. (2008). Buenas Prácticas Agrícolas en la Producción de Tomate bajo condiciones protegidas. ',
-      link:
-        'BUENAS PRÁCTICAS AGRÍCOLAS –BPA EN LA PRODUCCIÓN DE TOMATE BAJO CONDICIONES PROTEGIDAS (fao.org)',
+      link: 'https://www.fao.org/4/a1374s/a1374s00.htm',
     },
     {
       referencia:
@@ -311,8 +310,7 @@ export default {
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre:
-            'Jairo Luis Valencia Ebratt',
+          nombre: 'Jairo Luis Valencia Ebratt',
           cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },

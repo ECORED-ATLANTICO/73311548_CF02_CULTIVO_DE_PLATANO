@@ -205,7 +205,7 @@
       h3(data-aos='zoom-in-right').mb-3
         span.label-title.label-title--1 Proceso de poscosecha
       p.mb-5 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
-      .row.justify-content-center
+      .row.justify-content-center.md-3
         .col-10.col-sm-10.col-md-5.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
           .tarjeta-numerada.color-acento-contenido.height-100
             .tarjeta-numerada__numero
@@ -242,14 +242,19 @@
               b Empaque:
             p organización y protección del producto para su distribución.
       p.md-5 Se invita a consultar el documento “Protocolo de buenas prácticas para poscosecha del plátano” pp. 7-9
-      .row.justify-content-between.align-items-center
-        .col.mb-3.mb-sm-0
-          h4.mb-3 Protocolo de buenas prácticas para poscosecha del plátano pp. 7-9. 
-          p Para profundizar en el procedimiento que se debe llevar a cabo para la operación de lavado de plátano, y para los procesos de selección y clasificación del plátano. 
-        .col-sm-auto
-          a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
-            span Descargar
-            i.fas.fa-file-download
+      .div.tarjeta.color-acento-A10.p-3
+        .row.justify-content-around.align-items-center
+          .col-auto
+            img.img65(src="@/assets/curso/temas/tema2/img_2.png")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-3 Protocolo de buenas prácticas para poscosecha del plátano pp. 7-9. 
+                p Para profundizar en el procedimiento que se debe llevar a cabo para la operación de lavado de plátano, y para los procesos de selección y clasificación del plátano. 
+              .col-sm-auto
+                a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
+                  span Descargar
+                  i.fas.fa-file-download
     .titulo-sexto.bg-11.mb-4
       h5 
         em Tabla 5:
@@ -552,34 +557,36 @@
         p Las cajas más usadas por algunas exportadoras en Colombia son de cartón y tienen una dimensión de 50 centímetros de ancho por 24 centímetros de alto. Se debe tener cuidado y buen criterio para no empacar plátanos pintones, defectuosos o que no reúnan las condiciones de calibre.
         p Cada caja debe llevar un número correspondiente a la fecha y el código del exportador. 
       .row.justify-content-center.mb-3
-        .col-lg-6.mb-3
-          .tarjeta_bg-04.mb-3
+        .col-lg-4.mb-3
+          .tarjeta_bg-04.mb-3.p-4
             p.mb-0 Es momento de escuchar el pódcast en el que Don Campos, Azusena y Don Plátano, explicarán los tipos de empaques y embalajes utilizados en el proceso de poscosecha del plátano. En este episodio se abordará la importancia de hacer uso adecuado de los empaques, que finalmente son los que permiten que el producto se conserve en óptimas condiciones de calidad para su disposición final
-        .col-lg-6.mb-3
+        .col-lg-8.mb-3
           .row.ordenar_tarjeta_lg.p-5.justify-content-center.align-items-center
-            .col-lg-6.mb-3
+            .col-lg-12.mb-3
               TarjetaAudio.color-primario.mb-3(
                 texto="Tipos de empaques y embalajes  "
-                :audio="require('../../assets/curso/audios/podcast1.mp3')"
+                :audio="require('@/assets/curso/audios/podcast1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              TarjetaAudio.color-secundario.mb-3(
-                texto="Tipos de empaques y embalajes <br> Tipos de empaques y embalajes "
-                :audio="require('../../assets/curso/audios/podcast1.mp3')"
-              )
-            .col-lg-6.mb-3
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-3 Tipos de empaques y embalajes
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+            .col-lg-12.mb-3
+              .div.tarjeta.color-acento-A10.p-3
+                .row.justify-content-around.align-items-center
+                  .col-auto
+                    img.img65(src="@/assets/curso/temas/tema2/img_2.png")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h4.mb-3 Protocolo de buenas prácticas para poscosecha del plátano pp. 7-9. 
+                        p Para profundizar en el procedimiento que se debe llevar a cabo para la operación de lavado de plátano, y para los procesos de selección y clasificación del plátano. 
+                      .col-sm-auto
+                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
+                          span Descargar
+                          i.fas.fa-file-download
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Transporte:
     p.mb-3 El traslado desde la finca a la bodega o centro de acopio se hace en vehículos convencionales; mientras el traslado del centro de acopio al puerto se hace en camiones con refrigeración a una temperatura de 8 °C a 9 °C.
-    .tarjeta_bg-04.mb-3
+    .tarjeta_bg-04.mb-3.p-4
       .row.justify-content-center.mb-3
         .col-lg-4.mb-3
           figure
@@ -591,14 +598,11 @@
             .col-lg-8.mb-3
               TarjetaAudio.color-primario.mb-3(
                 texto="Tipos de empaques y embalajes  "
-                :audio="require('../../assets/curso/audios/podcast1.mp3')"
+                :audio="require('@/assets/curso/audios/podcast1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              TarjetaAudio.color-secundario.mb-3(
-                texto="Tipos de empaques y embalajes <br> Tipos de empaques y embalajes "
-                :audio="require('../../assets/curso/audios/podcast1.mp3')"
-              )
+              
 </template>
 
 <script>

@@ -35,50 +35,50 @@
                 p.mb-0 Son los asociados a la presencia de organismos vivos en el alimento; los microorganismos son organismos pequeños que sólo pueden ser observados a través del microscopio, muchos de estos constan de una única célula y pueden encontrarse en cualquier parte del medio ambiente, entre estos hay diferentes categorías como: bacterias, levaduras, hongos, parásitos y virus.
               .col-md-4.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0
                 img(src="@/assets/curso/temas/tema3/img_4.svg", alt="Imagen de unos platanos" class="img-fluid")
-          .row.justify-content-center.mb-3
-            .col-lg-6.mb-3
-              .tarjeta_bg-04.mb-2.height-100
-                .row.ordenar_tarjeta_lg.p-5.justify-content-center.align-items-center
-                  .col-md-12.col-lg-12.col-xl-9.order-2.order-xl-1
-                    h4.mb-2 Peligros químicos
-                    p.mb-0 Están relacionados con los compuestos químicos nocivos provenientes de los insumos para la elaboración de productos, restos de detergentes y desinfectantes utilizados para la limpieza, plaguicidas y metales pesados.
-                  .col-md-3.col-lg-4.col-xl-3.order-1.order-xl-2.mb-3.mb-xl-0
-                    img(src="@/assets/curso/temas/tema3/img_5.svg", alt="Imagen de unos platanos" class="img-fluid")
-            .col-lg-6.mb-3
-              .tarjeta_bg-05.mb-2.height-100
-                .row.ordenar_tarjeta_lg.p-5.justify-content-center.align-items-center
-                  .col-md-12.col-lg-12.col-xl-9.order-2.order-xl-1
-                    h4.mb-2 Peligros físicos
-                    p.mb-0 Estos están asociados a los daños físicos que se le pueden ocasionar al producto por una mala manipulación en la cosecha y la poscosecha.
-                  .col-md-3.col-lg-4.col-xl-3.order-1.order-xl-2.mb-3.mb-xl-0
-                    img(src="@/assets/curso/temas/tema3/img_6.svg", alt="Imagen de unos platanos" class="img-fluid")
-          p.mb-5 Para evaluar y gestionar los peligros en la unidad productiva, se deben considerar los siguientes aspectos:
-          .mt-5.mb-5.custom-slider
-            SlyderF(columnas="col-md-6 col-lg-6 col-xl-4")
-              .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--5
-                h3.text-center.mt-5 Identificación de peligros
-                p.mb-0.text-center Evaluar la posibilidad de que surjan riesgos con efectos perjudiciales para la salud.
-              .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--6
-                h3.text-center.mt-5 Evaluación cualitativa y cuantitativa
-                p.mb-0.text-center la presencia y nivel de peligros en el proceso productivo.
-              .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--7
-                h3.text-center.mt-5 Resistencia y proliferación de microorganismos
-                p.mb-0.text-center el comportamiento de agentes biológicos que puedan comprometer la inocuidad del plátano.
-              .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--8
-                h3.text-center.mt-5 Persistencia de toxinas y sustancias nocivas
-                p.mb-0.text-center Evaluar la acumulación de compuestos químicos o físicos que representen un riesgo para el consumidor.
-              .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--9
-                h3.text-center.mt-5 Gestión de múltiples peligros
-                p.mb-0.text-center En caso de que se presenten varios riesgos simultáneamente, implementar medidas que minimicen su impacto y garanticen la calidad del producto.
-          h3(data-aos='zoom-in-right').mb-3
-            span.label-title.label-title--1 Prácticas en los procesos de limpieza y desinfección
-          .tarjeta_bg-05.p-4.mb-2
-            .row.mb-3.justify-content-center.align-items-center
-              .col-lg-11.order-2.order-lg-1
-                p.mb-0 El saneamiento en el cultivo requiere que todos los empleados conozcan y apliquen el plan de limpieza y desinfección en las áreas donde se manipulan los alimentos. Este proceso es fundamental para garantizar la inocuidad del plátano y prevenir la contaminación en cualquier etapa de su manejo.
-              .col-md-3.col-lg-1.order-1.order-lg-2.mb-3.mb-lg-0
-                img(src="@/assets/curso/temas/tema3/img_12.svg", alt="Imagen de unos platanos" class="img-fluid")
-          p.mb-2 Es necesario que las instalaciones, equipos y superficies utilizadas en la adecuación y almacenamiento del plátano sean sometidas a protocolos de limpieza regulares. Esto incluye la eliminación de residuos orgánicos, la desinfección con productos adecuados y la implementación de medidas para evitar la proliferación de microorganismos que puedan comprometer la calidad del producto.
+            .row.justify-content-center.mb-3
+              .col-lg-6.mb-3
+                .tarjeta_bg-04.mb-2.height-100
+                  .row.ordenar_tarjeta_lg.p-5.justify-content-center.align-items-center
+                    .col-md-12.col-lg-12.col-xl-9.order-2.order-xl-1
+                      h4.mb-2 Peligros químicos
+                      p.mb-0 Están relacionados con los compuestos químicos nocivos provenientes de los insumos para la elaboración de productos, restos de detergentes y desinfectantes utilizados para la limpieza, plaguicidas y metales pesados.
+                    .col-md-3.col-lg-4.col-xl-3.order-1.order-xl-2.mb-3.mb-xl-0
+                      img(src="@/assets/curso/temas/tema3/img_5.svg", alt="Imagen de unos platanos" class="img-fluid")
+              .col-lg-6.mb-3
+                .tarjeta_bg-05.mb-2.height-100
+                  .row.ordenar_tarjeta_lg.p-5.justify-content-center.align-items-center
+                    .col-md-12.col-lg-12.col-xl-9.order-2.order-xl-1
+                      h4.mb-2 Peligros físicos
+                      p.mb-0 Estos están asociados a los daños físicos que se le pueden ocasionar al producto por una mala manipulación en la cosecha y la poscosecha.
+                    .col-md-3.col-lg-4.col-xl-3.order-1.order-xl-2.mb-3.mb-xl-0
+                      img(src="@/assets/curso/temas/tema3/img_6.svg", alt="Imagen de unos platanos" class="img-fluid")
+            p.mb-5 Para evaluar y gestionar los peligros en la unidad productiva, se deben considerar los siguientes aspectos:
+            .mt-5.mb-5.custom-slider
+              SlyderF(columnas="col-md-6 col-lg-6 col-xl-4")
+                .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--5
+                  h3.text-center.mt-5 Identificación de peligros
+                  p.mb-0.text-center Evaluar la posibilidad de que surjan riesgos con efectos perjudiciales para la salud.
+                .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--6
+                  h3.text-center.mt-5 Evaluación cualitativa y cuantitativa
+                  p.mb-0.text-center la presencia y nivel de peligros en el proceso productivo.
+                .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--7
+                  h3.text-center.mt-5 Resistencia y proliferación de microorganismos
+                  p.mb-0.text-center el comportamiento de agentes biológicos que puedan comprometer la inocuidad del plátano.
+                .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--8
+                  h3.text-center.mt-5 Persistencia de toxinas y sustancias nocivas
+                  p.mb-0.text-center Evaluar la acumulación de compuestos químicos o físicos que representen un riesgo para el consumidor.
+                .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--9
+                  h3.text-center.mt-5 Gestión de múltiples peligros
+                  p.mb-0.text-center En caso de que se presenten varios riesgos simultáneamente, implementar medidas que minimicen su impacto y garanticen la calidad del producto.
+            h3(data-aos='zoom-in-right').mb-3
+              span.label-title.label-title--1 Prácticas en los procesos de limpieza y desinfección
+            .tarjeta_bg-05.p-4.mb-2
+              .row.mb-3.justify-content-center.align-items-center
+                .col-lg-11.order-2.order-lg-1
+                  p.mb-0 El saneamiento en el cultivo requiere que todos los empleados conozcan y apliquen el plan de limpieza y desinfección en las áreas donde se manipulan los alimentos. Este proceso es fundamental para garantizar la inocuidad del plátano y prevenir la contaminación en cualquier etapa de su manejo.
+                .col-md-3.col-lg-1.order-1.order-lg-2.mb-3.mb-lg-0
+                  img(src="@/assets/curso/temas/tema3/img_12.svg", alt="Imagen de unos platanos" class="img-fluid")
+            p.mb-2 Es necesario que las instalaciones, equipos y superficies utilizadas en la adecuación y almacenamiento del plátano sean sometidas a protocolos de limpieza regulares. Esto incluye la eliminación de residuos orgánicos, la desinfección con productos adecuados y la implementación de medidas para evitar la proliferación de microorganismos que puedan comprometer la calidad del producto.
 
       separador
 

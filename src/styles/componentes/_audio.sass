@@ -38,6 +38,13 @@
         background-color: darken($color-terciario,10%)
     .spinner-border
       border-color: $color-terciario
+  &.color-terciario-T10
+    .audio__btn
+      background-color: $color-terciario-T10
+      &:hover
+        background-color: darken($color-terciario-T10,10%)
+    .spinner-border
+      border-color: $color-terciario-T10    
   &.color-acento-contenido
     .audio__btn
       background-color: $color-acento-contenido
@@ -151,7 +158,23 @@
           background-image: linear-gradient($color-terciario, $color-terciario)
     .tarjeta-audio__tiempo
       color: $color-terciario
-
+  
+  &.color-terciario-T10
+    border-color: $color-terciario-T10
+    .tarjeta-audio__texto
+      color: $color-terciario-T10
+    .tarjeta-audio__input
+      input[type=range]
+        background: rgba($color-terciario-T10, 0.2)
+        &::-webkit-slider-runnable-track
+          background: rgba($color-terciario-T10, 0.2)
+        &::-webkit-slider-thumb
+          background-color: $color-terciario-T10
+        &::-moz-range-thumb
+          background-color: $color-terciario-T10
+          background-image: linear-gradient($color-terciario-T10, $color-terciario-T10)
+    .tarjeta-audio__tiempo
+      color: $color-terciario-T10
   &.color-acento-contenido
     border-color: $color-acento-contenido
     .tarjeta-audio__texto

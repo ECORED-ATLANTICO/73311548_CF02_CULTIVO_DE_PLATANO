@@ -52,21 +52,21 @@
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10
         .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5.g-0
           .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-lg-0
-            .tarjeta-con-image-header.bg-color-terciario-claro.h-100.left-corner(data-aos='zoom-out-up')
+            .tarjeta-con-image-header.bg-terciario.h-100.left-corner(data-aos='zoom-out-up')
               .tarjeta-con-image-header__header
                 figure
                   img.img-fluid(src="@/assets/curso/temas/tema2/img_5.png", alt="Transporte sobre el hombro")
               .tarjeta-con-image-header__contenido
                 h4.text-center El transporte sobre el hombro.
           .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-lg-0
-            .tarjeta-con-image-header.bg-21.h-100(data-aos='zoom-out-up')
+            .tarjeta-con-image-header.bg-secundario.h-100(data-aos='zoom-out-up')
               .tarjeta-con-image-header__header
                 figure
                   img.img-fluid(src="@/assets/curso/temas/tema2/img_6.png", alt="Uso de carretillas")
               .tarjeta-con-image-header__contenido
                 h4.text-center El uso de carretillas.
           .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-4.mb-lg-0
-            .tarjeta-con-image-header.bg-color-terciario-claro.h-100.right-corner(data-aos='zoom-out-up')
+            .tarjeta-con-image-header.bg-acento-contenido.h-100.right-corner(data-aos='zoom-out-up')
               .tarjeta-con-image-header__header
                 figure
                   img.img-fluid(src="@/assets/curso/temas/tema2/img_7.png", alt="Sistema de cable aéreo")
@@ -197,110 +197,73 @@
           p.text-small.text-center  Protección de los frutos para evitar daños durante el transporte.
 
     .row.justify-content-center.align-items-center.mb-4.mb-4
-      .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-2
+      .col-md-10.col-lg-10.mb-3
         .cajon.bg-4.g_18.mb-5
           .row.justify-content-center.align-items-center
             .col-lg-12.p-4.ps-5 
               p Durante esta etapa, los plátanos experimentan cambios en su composición físico-química: aumenta la acidez titulable y los grados Brix (indicadores de dulzura), mientras que el pH disminuye. Un manejo adecuado en la poscosecha garantiza la conservación de la frescura, presentación y valor comercial del producto, cumpliendo con las expectativas del consumidor y reduciendo pérdidas a lo largo de la cadena de distribución.
-      h3(data-aos='zoom-in-right').mb-3
-        span.label-title.label-title--1 Proceso de poscosecha
-      p.mb-5 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
-      .row.justify-content-center.md-3
-        .col-10.col-sm-10.col-md-5.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+        h3(data-aos='zoom-in-right').mb-3
+          span.label-title.label-title--1 Proceso de poscosecha
+        p.mb-3 La coordinación eficiente entre la cosecha y la poscosecha es fundamental para optimizar los resultados y ofrecer un producto de alta calidad. Este proceso incluye las siguientes etapas:
+      .row.justify-content-center
+        .col-sm-10.col-md-5.col-lg-3.col-xl-2.mb-3.mb-xl-0
           .tarjeta-numerada.color-acento-contenido.height-100
             .tarjeta-numerada__numero
               .h3 1
             p.text-center 
               b Recepción de materia prima: 
               | inspección y preparación del producto.
-        .col-10.col-sm-10.col-md-5.col-lg-4.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+        .col-sm-10.col-md-5.col-lg-4.col-xl-2.mb-3.mb-xl-0
           .tarjeta-numerada.color-primario.height-100
             .tarjeta-numerada__numero
               .h3 2
             p.text-center 
               b Adecuación del fruto: 
               | retiro de la bolsa protectora y separación de los racimos.
-        .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+        .col-sm-10.col-md-4.col-lg-3.col-xl-2.mb-3.mb-xl-0
           .tarjeta-numerada.color-secundario.height-100
             .tarjeta-numerada__numero
               .h3 3
             p.text-center 
               b Selección y clasificación: 
               | evaluación de calidad según parámetros comerciales.
-        .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+        .col-sm-10.col-md-4.col-lg-3.col-xl-2.mb-3.mb-xl-0
           .tarjeta-numerada.color-terciario.height-100
             .tarjeta-numerada__numero
               .h3 4
             p.text-center
               b Lavado: 
             p eliminación de impurezas y posibles residuos de plaguicidas.
-        .col-10.col-sm-10.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+        .col-sm-10.col-md-4.col-lg-3.col-xl-2.mb-3.mb-xl-0
           .tarjeta-numerada.color-acento-botones.height-100
             .tarjeta-numerada__numero
               .h3 5
             p.text-center
               b Empaque:
             p organización y protección del producto para su distribución.
-      p.md-5 Se invita a consultar el documento “Protocolo de buenas prácticas para poscosecha del plátano” pp. 7-9
-      .div.tarjeta.color-acento-A10.p-3
-        .row.justify-content-around.align-items-center
-          .col-auto
-            img.img65(src="@/assets/curso/temas/tema2/img_2.png")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                h4.mb-3 Protocolo de buenas prácticas para poscosecha del plátano pp. 7-9. 
-                p Para profundizar en el procedimiento que se debe llevar a cabo para la operación de lavado de plátano, y para los procesos de selección y clasificación del plátano. 
-              .col-sm-auto
-                a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
-                  span Descargar
-                  i.fas.fa-file-download
-    .titulo-sexto.bg-11.mb-4
-      h5 
-        em Tabla 5:
-      span.text-dark Guía de operación para lavado de plátano
-    .tabla-a.mb-5 
-      table
-        thead
-          tr
-            th(style="width: 118px;") Factor de control
-            th(style="width: 150px;") Frecuencia
-            th(style="width: 350px;") Procedimiento
-            th(style="width: 400px;") Imagen
-            th(style="width: 200px;") Instrumentos
-        tbody
-          tr
-            td(rowspan="3") Frutos
-            td(rowspan="3") Después del desmane y desde
-            td(rowspan="3")
-              p.p-2 Realizar lavado superficial de los frutos para remover suciedad (residuos de tierra, agroquímicos y otros) y patógenos.
-              p.p-2 Se debe usar una mezcla de agua con alumbre en una proporción de 100 g por cada 10 litros de agua o utilizar jabones industriales para ayudar a remover el látex y destruir microorganismos, como hongos, que atacan el pedúnculo y la corona de los dedos. Los frutos se dejan 5 a 10 minutos en el tanque. Esta solución también sirve como cicatrizante en las zonas de la corona donde se han hecho cortes.
-              p.p-2 Finalmente, realizar secado o escurrido de los frutos para evitar el crecimiento de hongos.
-            td.p-0
-              figure
-                img(src="@/assets/curso/temas/tema2/img_22.png", alt="Desde" class="img-fluid")
-            td(rowspan="3").p-2
-              ul
-                li.mb-4 • Toalla
-                li.mb-4 • Cepillo
-                li.mb-4 • Jabón
-                li.mb-4 • Alumbre como cicatrizante (100 g/100Lt)
-                li.mb-4 • Balde
-                li.mb-4 • Aspersores
-          tr
-            td.p-0
-              figure
-                img(src="@/assets/curso/temas/tema2/img_23.png", alt="Lavado y desinfección" class="img-fluid")
-            tr
-              td.p-0
-                figure
-                  img(src="@/assets/curso/temas/tema2/img_24.png", alt="Secado o escurrido" class="img-fluid")
+      .col-md-10.col-lg-10.mb-3.mt-5
+        p Se invita a consultar el documento “Protocolo de buenas prácticas para poscosecha del plátano” pp. 7-9
+        .div.tarjeta.color-acento-A10.p-3.mt-5
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img.img65(src="@/assets/curso/temas/tema2/img_2.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-0 
+                    | Protocolo de buenas prácticas para poscosecha del plátano 
+                    span.fw-normal pp. 7-9.
+                  p.text-small Para profundizar en el procedimiento que se debe llevar a cabo para la operación de lavado de plátano, y para los procesos de selección y clasificación del plátano. 
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
     h3(data-aos='zoom-in-right').mb-5
       span.label-title.label-title--2 Guía para selección y clasificación del plátano
     .row.justify-content-center.align-items-center
-      .col-md-8.col-lg-3.mb-3.mb-lg-0
+      .col-md-8.col-lg-3.mb-3.mb-lg-0.height-100
         figure
-          img(src="@/assets/curso/temas/tema2/img_25.png", alt="Guía para selección y clasificación del plátano")(data-aos='zoom-in-right')
+          img(src="@/assets/curso/temas/tema2/img_22.png", alt="Guía para selección y clasificación del plátano")(data-aos='zoom-in-right')
       .col-md-12.col-lg-9.mb-3.mb-lg-0
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
           .row(titulo="Daño por plagas").justify-content-center.align-items-center
@@ -312,7 +275,7 @@
                 li.mb-0 • Manchas, mordeduras, cicatrices o mordiscos ovalados en la cáscara, trips
             .col-md-12.col-lg-7.col-xl-5.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema2/img_26.png", alt="Secado o escurrido" class="img-fluid")
+                img(src="@/assets/curso/temas/tema2/img_23.png", alt="Secado o escurrido" class="img-fluid")
             .col-md-12.col-lg-5.col-xl-4.mb-3.mb-lg-0
               .tarjeta_bg-06.p-4.mb-3
                 ul
@@ -335,7 +298,7 @@
             .row.justify-content-center.align-items-center
               .col-md-12.col-lg-7.col-xl-5.mb-3.mb-lg-0
                 figure
-                  img(src="@/assets/curso/temas/tema2/img_27.png", alt="Enfermedades por hongos" class="img-fluid")
+                  img(src="@/assets/curso/temas/tema2/img_24.png", alt="Enfermedades por hongos" class="img-fluid")
               .col-md-12.col-lg-5.col-xl-4.mb-3.mb-lg-0
                 .tarjeta_bg-06.p-4.mb-2
                   ul
@@ -354,7 +317,7 @@
                 li.mb-0 Clasificar los frutos, según lo demande el mercado de comercialización, teniendo en cuenta las características de calidad que se indican en la NTC 1190:
             .col-md-12.col-lg-7.col-xl-5.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema2/img_28.png", alt="Daño mecánico" class="img-fluid")
+                img(src="@/assets/curso/temas/tema2/img_25.png", alt="Daño mecánico" class="img-fluid")
             .col-md-12.col-lg-5.col-xl-4.mb-3.mb-lg-0
               .tarjeta_bg-06.p-4.mb-2
                 ul
@@ -403,29 +366,26 @@
           span.label-title.label-title--1 Preparación para la poscosecha 
         p.mb-0 A continuación, algunas condiciones de la poscosecha:
       .row.justify-content-center
-        
         .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-4.col-xxl-4.mb-5.mt-5
-          .tarjeta.tarjeta--color-terciario-claro.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--1.height-100
+          .tarjeta.tarjeta--color-acento-A10.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--1.height-100
             p.text-center.mt-0.p-5 Realice a la planta procesadora limpieza y desinfección de tanques, mesas, bandejas y alrededores. Esta operación debe realizarse una vez por semana; además dentro de la limpieza también se deben eliminar aguas usadas en el proceso y los residuos de la cosecha como vástagos, coronas y flores.
-        
         .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-2.col-xxl-2.mb-5.mt-5
-          .tarjeta.tarjeta--color-terciario-claro.p-3.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--2.height-100
+          .tarjeta.tarjeta--color-acento-A10.p-3.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--2.height-100
             p.text-center.mt-4.p-1 Se debe alistar con antelación los insumos utilizados en el proceso como: alumbre (piedralumbre), chuchillos para el desdede (gurbias), báscula y empaque.
-        
         .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-2.col-xxl-2.mb-5.mt-5
-          .tarjeta.tarjeta--color-terciario-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--3.height-100
+          .tarjeta.tarjeta--color-acento-A10.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--3.height-100
             p.text-center.mt-4.p-1 La solución de agua más alumbre se debe preparar un día antes del embarque en una relación de un 1 kg por 100 L de agua.
-        
         .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-2.col-xxl-2.mb-5.mt-5
-          .tarjeta.tarjeta--color-terciario-claro.p-5.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--4.height-100
+          .tarjeta.tarjeta--color-acento-A10.p-5.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--4.height-100
             p.text-center.p-2 Afilar las herramientas como las gurbias que son utilizadas en desdede.
-      .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
-        h3(data-aos='zoom-in-right').mb-3
+      .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-5
+        h3(data-aos='zoom-in-right').mb-0
         span.label-title.label-title--2 Herramientas e insumos
-      .col-10.col-sm-10.col-md-10.col-lg-4.col-xl-4.col-xxl-4.mb-lg-5.mb-4.mb-lg-0
-        img(src="@/assets/curso/temas/tema2/img_33.png", alt="Imagen de montacargas")(data-aos='zoom-in-right')
-      .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-lg-5.mb-4.mb-lg-0
-        .tarjeta_bg-06.p-3.mb-0.overflow-auto(data-aos='zoom-in-right')
+      .col-md-10.col-lg-4.mb-5.height-100
+        figure
+          img(src="@/assets/curso/temas/tema2/img_30.png", alt="Imagen de montacargas")(data-aos='zoom-in-right')
+      .col-md-10.col-lg-3.mb-5
+        .tarjeta_bg-acento-A5.mb-0.overflow-auto(data-aos='zoom-in-right').height-100
           ul
             li
               i.fa-solid.fa-circle-check(style="color: #7D9FFB; font-size: 15px").mb-3
@@ -446,13 +406,14 @@
               i.fa-solid.fa-circle-check(style="color: #7D9FFB; font-size: 15px").mb-3
               |   Baldes.
             li
-              i.fa-solid.fa-circle-check(style="color: #7D9FFB; font-size: 15px").mb-3
+              i.fa-solid.fa-circle-check(style="color: #7D9FFB; font-size: 15px").mb-2
               |   Mesa de escurrido.
             li
               i.fa-solid.fa-circle-check(style="color: #7D9FFB; font-size: 15px").mb-0
               |   Mesa de empaque.
-      .col-8.col-sm-8.col-md-8.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-0
-        img(src="@/assets/curso/temas/tema2/img_34.png", alt="Imagen de balde o cubeta")(data-aos='zoom-in-right')
+      .col-md-8.col-lg-3.mb-5.height-100
+        figure
+          img(src="@/assets/curso/temas/tema2/img_31.png", alt="Imagen de balde o cubeta")(data-aos='zoom-in-right')
       .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
         .tarjeta_bg-05.p-4
           .row.justify-content-center.align-items-center
@@ -469,20 +430,22 @@
                   b 3. 
                   |   Establecer la capacidad volumétrica de los tanques para así garantizar la dosificación adecuada de alumbre y agua.
             .col-3.col-sm-3.col-md-3.col-lg-1.col-xl-1.col-xxl-1.mb-3.mb-lg-0
-              img(src="@/assets/curso/temas/tema2/img_35.svg", alt="Recomendaciones" class="img-fluid")
+              figure
+                img(src="@/assets/curso/temas/tema2/img_32.svg", alt="Recomendaciones" class="img-fluid")
       .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-10.col-xxl-10.mb-5
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Desdede y desleche
         p.mb-2 Una vez realizado el desdede con la gurbia o el cuchillo, los dedos (plátanos) se sumergen en una solución de agua y alumbre al 1%, es decir 10 gr de alumbre por cada litro de agua, los dedos deben permanecer sumergidos por 10 minutos.
-      .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4 
-        .row.justify-content-center.align-items-center.mb-3
-          .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-3.col-xxl-3.mb-3.mb-lg-3
-            img(src="@/assets/curso/temas/tema2/img_36.png", alt="Imagen de unos platanos" class="img-fluid")
-          .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-9.col-xxl-9.mb-3.mb-lg-3
-            .tarjeta_bg-06.p-4.mb-2
-              .row.mb-3.justify-content-center.align-items-center
+      .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-5
+        .row.justify-content-center.align-items-center.mb-0
+          .col-md-8.col-lg-8.col-xl-3.mb-3.mb-lg-0.height-100
+            figure
+              img(src="@/assets/curso/temas/tema2/img_33.png", alt="Imagen de unos platanos")
+          .col-md-12.col-lg-12.col-xl-9
+            .tarjeta_bg-06.mb-0.height-100
+              .row.mb-0.justify-content-center.align-items-center
                 .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-3.mb-lg-0
-                  img.width-110(src="@/assets/curso/temas/tema2/img_37.svg", alt="Imagen de unos platanos" class="img-fluid")
+                  img(src="@/assets/curso/temas/tema2/img_34.svg", alt="Imagen de unos platanos" class="img-fluid")
                 .col-13.col-sm-13.col-md-13.col-lg-9.col-xl-10.col-xxl-10
                   ol.p-0
                     li.mb-0 
@@ -508,7 +471,7 @@
         ImagenInfografica.time-line-info
           template(v-slot:imagen)
             figure
-              img.mb-4(src='@/assets/curso/temas/tema2/img_38.png', alt='Imagen de ayuda')
+              img.mb-4(src='@/assets/curso/temas/tema2/img_35.png', alt='Imagen de ayuda')
           .tarjeta.p-4(x="27.5%" y="44.5%" numero="")
             p.mb-5 Llevar los racimos cosechados al tanque con la solución de alumbre. 
             .time-line-info__number
@@ -542,7 +505,7 @@
             em Figura 6:
           span.text-dark Defectos del plátano más comunes:
         figure
-          img.mb-4(src='@/assets/curso/temas/tema2/img_39.png', alt='Imagen de ayuda')
+          img.mb-4(src='@/assets/curso/temas/tema2/img_36.png', alt='Imagen de ayuda')
         figcaption 
           em Nota.  
           | SENA (2024).
@@ -551,25 +514,25 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-3.col-xxl-3.mb-3.mb-lg-3
         figure
-          img(src="@/assets/curso/temas/tema2/img_40.png", alt="Imagen de unos platanos" class="img-fluid")
+          img(src="@/assets/curso/temas/tema2/img_37.png", alt="Imagen de unos platanos" class="img-fluid")
       .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-9.col-xxl-9.mb-3.mb-lg-3
         p El empacado se hace posterior al lavado y al escurrido, se realiza en cajas y requiere de mucho cuidado, las cajas de exportación deben empacarse en dos hileras, de tal manera que las coronas queden contra las paredes de la caja y las puntas tocando las hileras de las otras. Los dedos se deben etiquetar según las exigencias de la empresa exportadora, algunas exigen etiquetar sólo las dos últimas líneas, luego se cubre con un plástico para luego ponerle la tapa. 
         p Las cajas más usadas por algunas exportadoras en Colombia son de cartón y tienen una dimensión de 50 centímetros de ancho por 24 centímetros de alto. Se debe tener cuidado y buen criterio para no empacar plátanos pintones, defectuosos o que no reúnan las condiciones de calibre.
         p Cada caja debe llevar un número correspondiente a la fecha y el código del exportador. 
-      .row.justify-content-center.mb-3
-        .col-lg-4.mb-3
-          .tarjeta_bg-04.mb-3.p-4
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-6.mb-3.md-lg-0
+          .tarjeta_bg-terciario-T10.mb-0.height-100
             p.mb-0 Es momento de escuchar el pódcast en el que Don Campos, Azusena y Don Plátano, explicarán los tipos de empaques y embalajes utilizados en el proceso de poscosecha del plátano. En este episodio se abordará la importancia de hacer uso adecuado de los empaques, que finalmente son los que permiten que el producto se conserve en óptimas condiciones de calidad para su disposición final
-        .col-lg-8.mb-3
-          .row.ordenar_tarjeta_lg.p-5.justify-content-center.align-items-center
+        .col-lg-6.mb-3
+          .row.ordenar_tarjeta_lg.justify-content-center.align-items-center
             .col-lg-12.mb-3
-              TarjetaAudio.color-primario.mb-3(
-                texto="Tipos de empaques y embalajes  "
+              TarjetaAudio.color-terciario-T10.mb-3(
+                texto="<strong class='text-dark'>Tipos de empaques y embalajes</strong>"
                 :audio="require('@/assets/curso/audios/podcast1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            .col-lg-12.mb-3
+            .col-lg-12
               .div.tarjeta.color-acento-A10.p-3
                 .row.justify-content-around.align-items-center
                   .col-auto
@@ -577,8 +540,7 @@
                   .col
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        h4.mb-3 Protocolo de buenas prácticas para poscosecha del plátano pp. 7-9. 
-                        p Para profundizar en el procedimiento que se debe llevar a cabo para la operación de lavado de plátano, y para los procesos de selección y clasificación del plátano. 
+                        h4.mb-0 Tipos de empaques y embalajes
                       .col-sm-auto
                         a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
                           span Descargar
@@ -586,18 +548,18 @@
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Transporte:
     p.mb-3 El traslado desde la finca a la bodega o centro de acopio se hace en vehículos convencionales; mientras el traslado del centro de acopio al puerto se hace en camiones con refrigeración a una temperatura de 8 °C a 9 °C.
-    .tarjeta_bg-04.mb-3.p-4
-      .row.justify-content-center.mb-3
-        .col-lg-4.mb-3
+    .tarjeta_bg-09.mb-0
+      .row.justify-content-center.align-items-center
+        .col-6.col-lg-4.mb-3.mb-lg-0
           figure
-            img(src="@/assets/curso/temas/tema2/img_40.png", alt="Imagen de unos platanos" class="img-fluid")
-        .col-lg-8.mb-3
-          .row.justify-content-center.mb-3
-            .col-lg-8.mb-3
+            img(src="@/assets/curso/temas/tema2/img_38.png", alt="Transporte y almacenamiento del plátano" class="img-fluid")
+        .col-lg-8.mb-0
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-12.mb-3
               p.mb-3 Los invitamos a escuchar el siguiente episodio presentado por Don Campos, Azusena y Don Plátano, quienes se unen en esta oportunidad para explicar las generalidades e importancia del transporte y almacenamiento del plátano, y los aspectos más relevantes en cada uno de estos procesos que permiten garantizar la calidad y conservación del producto final. ¡No se lo pierdan!
-            .col-lg-8
-              TarjetaAudio.color-primario.mb-3(
-                texto="Tipos de empaques y embalajes  "
+            .col-lg-12
+              TarjetaAudio.color-secundario.mb-0(
+                texto="<strong class='text-dark'>Transporte y almacenamiento del plátano</strong>"
                 :audio="require('@/assets/curso/audios/podcast1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )

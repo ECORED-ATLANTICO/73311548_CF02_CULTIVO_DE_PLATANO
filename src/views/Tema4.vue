@@ -8,7 +8,7 @@
       h1 Seguridad y bienestar social
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-up")
       .col-lg-12.mb-5
-        .bloque-texto-g.bloque-texto-g--inverso.bg-21.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.bloque-texto-g--inverso.bg-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img_1.png')})`}"
           )
@@ -47,8 +47,8 @@
     p.mb-3 La salud de los operarios en la unidad productiva es un aspecto crítico, ya que su contacto directo con los alimentos puede generar riesgos de contaminación por agentes patógenos como bacterias, virus y hongos.
     p.mb-5 Para prevenir esta situación, se recomienda que los trabajadores con enfermedades gastrointestinales, diarreas, infecciones por hongos, gripe o heridas expuestas no tengan contacto directo con los alimentos ni participen en los procesos de cosecha o poscosecha.
     .row.mb-4.justify-content-center.align-items-center
-      .col-12.col-sm-12.col-md-12.col-lg-5.col-xl-3.col-xxl-3.mb-3.mb-xl-0
-        .tarjeta_bg-05.p-4.mb-0
+      .col-md-12.col-lg-5.col-xl-3.mb-3.mb-xl-0
+        .tarjeta_bg-05.p-4.mb-0.height-100
           p.mb-4 Los síntomas más comunes que pueden afectar a un manipulador de alimentos incluyen:
           ul.p-0
             li
@@ -66,9 +66,9 @@
             li
               i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
               |  Hepatitis o ictericia.
-      .col-12.col-sm-12.col-md-12.col-lg-4.col-xl-4.col-xxl-4.mb-3.mb-xl-0
+      .col-md-12.col-lg-4.col-xl-4.col-xxl-4.mb-3.mb-xl-0.height-100
         img(src="@/assets/curso/temas/tema4/img_5.png", alt="Imagen de montacargas" class="img-fluid").p-0
-      .col-12.col-sm-12.col-md-12.col-lg-10.col-xl-4.col-xxl-4.mb-3.mb-lg-0
+      .col-md-12.col-lg-10.col-xl-4.col-xxl-4.mb-3.mb-lg-0.height-100
         p.mb-3 Es responsabilidad de cada trabajador informar sobre su estado de salud para evitar la contaminación del producto y proteger a sus compañeros.
         p.mb-0 Además, es de gran importancia que todos los empleados que tienen contacto directo con los alimentos reciban capacitación sobre manipulación adecuada y concienciación acerca del riesgo de transmisión de enfermedades de origen humano a los alimentos, que pueden ser ocasionadas por una higiene deficiente.
     .row.justify-content-center.align-items-center.mb-5
@@ -167,7 +167,7 @@
         p.mb-3 Dentro de las más importantes a considerar, están las siguientes:
         .row.justify-content-center.mb-4
           .col-lg-6.justify-content-center.align-items-center.mb-3
-            .tarjeta_bg-05.p-4.mb-0.height-100
+            .tarjeta_bg-terciario-T20.p-4.mb-0.height-100
               h5.mb-4 Prácticas higiénicas sanitarias:
               ul.p-0
                 li
@@ -186,7 +186,7 @@
                     i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
                     |  Lavarse las manos utilizando los métodos adecuados para garantizar la inocuidad de las frutas.
           .col-lg-6.justify-content-center.align-items-center.mb-3
-            .tarjeta_bg-06.p-4.mb-0.height-100
+            .tarjeta_bg-acento-A5.p-4.mb-0.height-100
               h5.mb-5 Aspectos higiénicos para considerar en la poscosecha:
               ul.p-0
                 li
@@ -210,7 +210,7 @@
         p.mb-3 Las acciones requeridas incluyen:
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-7.justify-content-center.align-items-center.mb-3
-            .tarjeta_bg-05.p-4.mb-0
+            .tarjeta_bg-terciario-T10.p-4.mb-0
               ul
                 li
                   i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
@@ -314,7 +314,7 @@
             h5.mb-0 Los registros deben tener los siguientes datos:
 
           .col-10.col-sm-10.col-md-10.col-lg-5.col-xl-5.col-xxl-4.mb-3
-            .tarjeta_bg-05.p-4.mb-0
+            .tarjeta_bg-terciario-T20.p-4.mb-0
               ul.p-0
                 li
                   i.fa-solid.fa-circle-check(style="color: #98E465; font-size: 15px").mb-0
@@ -366,22 +366,22 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-4
-        .tarjeta_bg-07.mb-5
+        .tarjeta_bg-08.mb-5
           .row.justify-content-center.align-items-center.d-flex
             .col-md-12.col-lg-8.order-2.order-xl-1
-              h6.p-3 Ejemplo de etiquetas:
-              ul.mb-0
+              h6.text-white.p-3 Ejemplo de etiquetas:
+              ul.text-white.mb-0
                 li
-                  i.fa-solid.fa-circle-check(style="color: #416B24; font-size: 15px").mb-0
+                  i.fa-solid.fa-circle-check(style="font-size: 15px").mb-0
                   |  Nombre y dirección de la empresa y/o despachador, logotipo o identificación comercial.
                 li
-                  i.fa-solid.fa-circle-check(style="color: #416B24; font-size: 15px").mb-0
+                  i.fa-solid.fa-circle-check(style="font-size: 15px").mb-0
                   |  País de origen y nombre de la ciudad, pueblo y vereda. 
                 li
-                  i.fa-solid.fa-circle-check(style="color: #416B24; font-size: 15px").mb-0
+                  i.fa-solid.fa-circle-check(style="font-size: 15px").mb-0
                   |  Naturaleza del producto; si el contenido no es visible.
                 li
-                  i.fa-solid.fa-circle-check(style="color: #416B24; font-size: 15px").mb-0
+                  i.fa-solid.fa-circle-check(style="font-size: 15px").mb-0
                   |  Peso neto, tamaño, cantidad y clase.
             .col-md-4.col-lg-4.order-1.order-xl-2
               img(src="@/assets/curso/temas/tema4/carpetas-azules.png", alt="Ejemplo de etiquetas:" style="display: flex; transform: translateY(-30px); width: 70% !important; margin: 0px auto;")

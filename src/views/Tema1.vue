@@ -8,7 +8,7 @@
       h1 Manejo del cultivo
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-up")
       .col-lg-12
-        .bloque-texto-g.bloque-texto-g--inverso.bg-21.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.bloque-texto-g--inverso.bg-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img_1.png')})`}"
           )
@@ -142,9 +142,9 @@
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-0
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Desguasque
-        .row.justify-content-center.align-items-center.mb-4
+        .row.justify-content-center.align-items-center.mb-3
           .col-10.col-sm-10.col-md-10.col-lg-2.col-xl-2.col-xxl-2.mb-3.mb-lg-0
-            img(src="@/assets/curso/temas/tema1/img_17.png", alt="Desguasque" class="img-fluid")
+            img(src="@/assets/curso/temas/tema1/img_17.png", alt="Desguasque")
           .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.col-xxl-8.mb-3.mb-lg-0
             p.mb-3 El desguasque se encuentra dentro de las prácticas culturales recomendadas para favorecer la sanidad y vigor de las plantas. Esta labor consiste en eliminar la guasca seca que hay en el pseudotallo, se puede realizar cada vez que lo requiera el cultivo, procurando no hacer daño a la planta; el no realizar esta labor en la platanera puede generar plagas como el Picudo, el Rayado, la Palomilla y algunas enfermedades como el virus en el pseudotallo.
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-0
@@ -154,7 +154,7 @@
           .col-12.col-sm-12.col-md-12.col-lg-7.col-xl-7.col-xxl-7.mb-3.mb-lg-0
             p.mb-3 Implica la eliminación de hojas secas, dobladas o ubicadas en la parte inferior de la planta, con el propósito de mejorar la circulación del aire y la penetración de la luz solar, reduciendo así el riesgo de plagas y enfermedades. Se recomienda retirar también hojas con manchas o con tejidos verdes afectados, siempre asegurando que al menos el 50 % del área foliar permanezca intacta para no comprometer la fotosíntesis. Esta práctica es clave en el manejo de la Sigatoca negra.
             p.mb-0 El corte de las hojas debe realizarse a una altura de 20 a 30 cm del pecíolo y puede efectuarse en cualquier momento del día, según lo requiera el cultivo.
-          .col-10.col-sm-10.col-md-10.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-lg-0
+          .col-md-10.col-lg-3.mb-3.mb-lg-0.height-100
             img(src="@/assets/curso/temas/tema1/img_18.png", alt="Deshoje" class="img-fluid")
       h3(data-aos='zoom-in-right').mb-4
         span.label-title.label-title--1 Amarre
@@ -228,34 +228,34 @@
         span.label-title.label-title--1 Embolse y encinte
       .bg_img_3
         .row.align-items-center.mb-4.mb-lg-5
-          .d-none.d-lg-block.col-lg-3
-            img.width-110(src="@/assets/curso/temas/tema1/img_27.png", alt="Embolse y encinte")(data-aos="fade-up")
+          .d-none.d-lg-block.col-lg-3.height-100
+            img(src="@/assets/curso/temas/tema1/img_27.png", alt="Embolse y encinte")(data-aos="fade-up")
           .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
             p.mb-3 El embolse y el encinte son prácticas esenciales para garantizar la calidad del fruto en el cultivo de plátano. El embolse favorece el crecimiento de los racimos al reducir el tiempo entre su aparición y la cosecha, además de mantener una temperatura adecuada que optimiza su desarrollo. También protege los frutos contra plagas y daños durante su crecimiento y recolección, mejorando su presentación y calidad.
             p.mb-3 Por su parte, el encinte complementa el embolse y permite identificar la edad de los racimos, facilitando el control de la cosecha y el registro de la producción disponible.
             TabsA.mb-5.banana-tabs-a.color-secundario
-              .tarjeta.bg-color-terciario.p-4.h-100.banana-tabs-a__tarjeta(titulo="Tratamiento de bolsas")
+              .tarjeta.bg-terciario-claro.p-4.h-100.banana-tabs-a__tarjeta(titulo="Tratamiento de bolsas")
                 .row.justify-content-center.align-items-center.mb-0
                   .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                     p Las bolsas utilizadas deben estar impregnadas con agroquímicos permitidos para garantizar su efectividad.
                   .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                     figure
                       img(src='@/assets/curso/temas/tema1/img_28.png', alt='Procedimiento de embolse')(data-aos="fade-up")
-              .tarjeta.bg-color-terciario.p-4.h-100.banana-tabs-a__tarjeta(titulo="Tanques de lavado")
+              .tarjeta.bg-terciario-claro.p-4.h-100.banana-tabs-a__tarjeta(titulo="Tanques de lavado")
                 .row.justify-content-center.align-items-center.mb-0
                   .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                     p Se debe realizar con la indumentaria y vestuario de trabajo adecuado, y la protección necesaria.
                   .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                     figure
                       img(src='@/assets/curso/temas/tema1/img_29.png', alt='Tanques de lavado')
-              .tarjeta.bg-color-terciario.p-4.h-100.banana-tabs-a__tarjeta(titulo="Zona de secado")
+              .tarjeta.bg-terciario-claro.p-4.h-100.banana-tabs-a__tarjeta(titulo="Zona de secado")
                 .row.justify-content-center.align-items-center.mb-0
                   .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                     p Se recomienda el uso de bolsas lechosas tratadas con clorpirifós al 1%. En condiciones de alta radiación solar, este tipo de bolsa ofrece protección adicional contra plagas.
                   .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                     figure
                       img(src='@/assets/curso/temas/tema1/img_30.png', alt='Manejo de residuos')
-              .tarjeta.bg-color-terciario.p-4.h-100.banana-tabs-a__tarjeta(titulo="Almacenamiento")
+              .tarjeta.bg-terciario-claro.p-4.h-100.banana-tabs-a__tarjeta(titulo="Almacenamiento")
                 .row.justify-content-center.align-items-center.mb-0
                   .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                     p Es fundamental recoger y gestionar correctamente las bolsas utilizadas para evitar impactos ambientales negativos.
@@ -267,7 +267,7 @@
         p.mb-5 Estas prácticas agrícolas en el cultivo de plátano, contribuyen a optimizar el desarrollo del racimo, favoreciendo su crecimiento y calidad. Su aplicación adecuada permite una mejor distribución de nutrientes y reduce la incidencia de plagas y enfermedades.
         .row.justify-content-center.align-items-stretch.mb-0
           .col-10.col-sm-10.col-md-5.col-lg-5.col-xl-3.col-xxl-3.mb-4.mb-xl-0
-            .square-card.bg-color-terciario-claro
+            .square-card.bg-terciario-claro
               .square-card__img
                   figure
                     img(src='@/assets/curso/temas/tema1/img_32.png', alt='Desflore'  class="img-fluid")
@@ -275,7 +275,7 @@
                 h3.text-center Desflore
                 p.text-small Consiste en la eliminación de las flores de los racimos para mejorar la calidad del fruto y reducir el riesgo de enfermedades que pueden afectar su desarrollo.
           .col-10.col-sm-10.col-md-5.col-lg-5.col-xl-3.col-xxl-3.mb-4.mb-xl-0
-            .square-card.bg-color-terciario-claro
+            .square-card.bg-terciario-claro
               .square-card__img
                   figure
                     img(src='@/assets/curso/temas/tema1/img_33.png', alt='Desdede' class="img-fluid")
@@ -283,7 +283,7 @@
                 h3.text-center Desdede
                 p.text-small Se eliminan dos o más dedos de la última mano del racimo para garantizar una mejor distribución de nutrientes, lo que favorece el crecimiento y el peso del resto del fruto.
           .col-10.col-sm-10.col-md-6.col-lg-6.col-xl-4.col-xxl-4.mb-0
-            .square-card.bg-color-terciario-claro
+            .square-card.bg-terciario-claro
               .square-card__img
                   figure
                     img(src='@/assets/curso/temas/tema1/img_34.png', alt='Desbacote' class="img-fluid")
@@ -424,9 +424,9 @@
               .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.order-2.order-lg-1.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img_42.png', alt='Sistema de rotación de plaguicidas' class="img-fluid")
-        .col-6.col-sm-6.col-md-6.col-lg-3.col-xl-3.col-xxl-3.order-2.order-lg-1.mb-3.mb-lg-0
+        .col-6.col-sm-6.col-md-6.col-lg-3.col-xl-3.col-xxl-3.order-2.order-lg-1.mb-3.mb-lg-0.height-100
           figure
-            img.width-110(src="@/assets/curso/temas/tema1/img_43.png", alt="Manejo fitosanitario")(data-aos="fade-up")
+            img(src="@/assets/curso/temas/tema1/img_43.png", alt="Manejo fitosanitario")(data-aos="fade-up")
 </template>
 
 <script>

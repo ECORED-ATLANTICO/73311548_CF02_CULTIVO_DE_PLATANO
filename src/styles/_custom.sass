@@ -44,7 +44,7 @@ figcaption
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: #fff
 .titulo-sexto
-  color: #7D9FFB !important
+  color: $color-acento-contenido !important
 //tarjeta-con-image-header
 .tarjeta-con-image-header
   border-radius: 0 
@@ -70,15 +70,15 @@ figcaption
 
 ///// Custom acordeon A tipo A -------------------------------------- 
 .tarjeta.acordeonA
-  background-color: #F7FEE7
+  background-color: $color-terciario-T10
 
 .acordion__accion__btn--a
-  background-color: #D4F989 !important
+  background-color: $color-terciario !important
 
 .acordion__activo
   background-color: #FAFEF2 !important
 .tarjeta.acordeonA figcaption
-  background-color: #D4F989
+  background-color: $color-terciario
   color: #12263F
   font-weight: bold
   text-align: center
@@ -167,11 +167,17 @@ figcaption
   font-weight: bold
   text-align: center
 
-.bg-21
-  background-color: #98E465 !important
+.bg-secundario
+  background-color: $color-secundario !important
 
-.bg-color-terciario-claro
+.bg-terciario
+  background-color: $color-terciario
+
+.bg-terciario-claro
   background-color: $color-terciario-claro
+
+.bg-acento-contenido
+  background-color: $color-acento-contenido
 
 .bg-transparente
   background-color: transparent
@@ -204,12 +210,12 @@ figcaption
   .slyder-a__bullets__item
     display: none
   .slyder-a__btn--atrs
-    background-color: #D4F989
-    border-color: #D4F989
+    background-color: $color-terciario
+    border-color: $color-terciario
     color: #12263F
   .slyder-a__btn--sigt
-    background-color: #D4F989
-    border-color: #D4F989
+    background-color: $color-terciario
+    border-color: $color-terciario
     color: #12263F
   .tarjeta--blanca
     border-radius: 25px
@@ -226,12 +232,12 @@ figcaption
   .slyder-a__bullets__item
     display: none
   .slyder-a__btn--atrs
-    background-color: #D4F989
-    border-color: #D4F989
+    background-color: $color-terciario
+    border-color: $color-terciario
     color: #12263F
   .slyder-a__btn--sigt
-    background-color: #D4F989
-    border-color: #D4F989
+    background-color: $color-terciario
+    border-color: $color-terciario
     color: #12263F
   .tarjeta--blanca
     border-radius: 25px
@@ -243,7 +249,7 @@ figcaption
   background-size: cover
 
 .bg-platanos-image
-  border: 12px #E4EBFE solid
+  border: 12px $color-acento-A10 solid
   border-radius: 20px
 
 .banana-tabs-a
@@ -452,14 +458,14 @@ figcaption
 // Colores de cajones
 
 .cajon.bg-1
-  background-color: #E4EBFE
+  background-color: $color-acento-A10
   p
     margin-bottom: 0
 .cajon.bg-1::before
   background-color: $color-acento-contenido
 
 .cajon.bg-2
-  background-color: #E4EBFE
+  background-color: $color-acento-A10
   p
     margin-bottom: 0
 
@@ -485,15 +491,15 @@ figcaption
 ///////// Linea tiempo --------------------------------------
 .linea-tiempo-d__item--selected, .linea-tiempo-d__item--selected
   .linea-tiempo-d__item__content,.tarjeta,.tarjeta--gris
-    background-color: #F7FEE7 !important
+    background-color: $color-terciario-T10 !important
   .linea-tiempo-d__item__number
-    background-color: #D4F989 !important
+    background-color: $color-terciario !important
   .linea-tiempo-d__item__dots:after
-    border-left: 5px dotted #F6F6F6 !important
+    border-left: 5px dotted $color-sistema-h !important
 .linea-tiempo-d__item__content__title
   height: 55px
 .tarjeta--gris
-    background-color: #F6F6F6
+    background-color: $color-sistema-h
 
 // Tarjeta enumeradas
 .tarjeta-numerada.bg-01
@@ -517,7 +523,7 @@ figcaption
   color: #ffffff
 
 .titulo-segundo:after
-  border-left-color: #7D9FFB !important
+  border-left-color: $color-acento-contenido !important
 
 .tarjeta-numerada.bg-08
   border-color: #115B77
@@ -563,23 +569,28 @@ figcaption
   background-color: #FFF5E4
 
 .tarjeta_bg-04
-  background-color: #E6F8DB
+  background-color: $color-secundario-S10
   border-radius: 20px
 .tarjeta_bg-05
   background-color: #F7FEE7
   border-radius: 20px
+
 .tarjeta_bg-06
   background-color: $color-acento-A10
   border-radius: 20px
+  padding: 20px
+
 .tarjeta_bg-07
-  background-image: url('../assets/curso/fondos/fondo-verde.png')
+  background-image: url('../assets/curso/fondos/fondo_img_02.png')
   background-repeat: no-repeat
   background-position: center
   background-size: cover
   border-top-left-radius: 20px
   border-bottom-right-radius: 20px
+  padding: 30px
+  
 .tarjeta_bg-08
-  background-image: url('../assets/curso/fondos/fondo-verde2.png')
+  background-image: url('../assets/curso/fondos/fondo_img_04.png')
   background-repeat: no-repeat
   background-position: center
   background-size: cover
@@ -596,12 +607,36 @@ figcaption
     justify-content: center
     background: transparent 
     grid-column: 1 / 2 
+
+.tarjeta_bg-09
+  background-image: url('../assets/curso/fondos/fondo_img_01.png')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  border-radius: 20px
+  padding: 30px
+
 .text-gris
   .lista-ul--color li > i:first-of-type
     color: #748578 !important
 .lista-ul--color li > i:first-of-type
   color: #748578 !important
-    
+
+.tarjeta_bg-acento-A5
+  background-color: $color-acento-A5
+  border-radius: 5px
+  padding: 10px
+
+.tarjeta_bg-terciario-T10
+  background-color: $color-terciario-T10
+  border-radius: 20px
+  padding: 30px
+
+.tarjeta_bg-terciario-T20
+  background-color: $color-terciario-T20
+  border-radius: 5px
+  padding: 10px
+
 // .tarjeta-numerada.mt-22
 //   p
 //     margin-top: -22px !important
@@ -679,25 +714,25 @@ figcaption
     overflow: visible
     &--1::before
       position: absolute
-      content: url('../assets/curso/temas/tema2/img_29.svg')
+      content: url('../assets/curso/temas/tema2/img_26.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--2::before
       position: absolute
-      content: url('../assets/curso/temas/tema2/img_30.svg')
+      content: url('../assets/curso/temas/tema2/img_27.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--3::before
       position: absolute
-      content: url('../assets/curso/temas/tema2/img_31.svg')
+      content: url('../assets/curso/temas/tema2/img_28.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
     &--4::before
       position: absolute
-      content: url('../assets/curso/temas/tema2/img_32.svg')
+      content: url('../assets/curso/temas/tema2/img_29.svg')
       top: -80px
       left: 50%
       transform: translateX(-50%)
@@ -765,7 +800,7 @@ figcaption
       width: 84%
 
 .custom-slider-a-b
-  background-image: url('../assets/curso/fondos/slider-a-b.svg')
+  background-image: url('../assets/curso/fondos/fondo_img_03.png')
   background-repeat: no-repeat
   background-position: center
   background-size: cover
@@ -1063,7 +1098,7 @@ figcaption
   &.crd--grayGrad
     padding: 2rem
     height: 100%
-    background-color: #F6F6F6
+    background-color: $color-sistema-h
     border-radius: 15px
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
     &:hover
@@ -1112,7 +1147,7 @@ figcaption
     right: 5vw
     width: calc(100% - 4rem)
     height: 100%
-    background-color: #F6F6F6
+    background-color: $color-sistema-h
   .col-auto
     position: relative
     width: clamp(60px, 8vw, 90px)
@@ -1142,7 +1177,7 @@ figcaption
 
 .crd--first,.crd--middle, .crd--last
   &::before
-    background-color: #EEFDD0 !important
+    background-color: $color-terciario-T10 !important
 
 .crd--first
   &::before
@@ -1216,15 +1251,15 @@ figcaption
 
 // Tabla a 
 .tabla-a thead
-  border: 2px #166340 solid
-  color: #12263F
-  background-color: #D4F989
+  border: 2px $color-primario solid
+  color: $color-sistema-texto
+  background-color: $color-terciario
 
 .tabla-a th 
-  border: 2px #166340  solid
+  border: 2px $color-primario  solid
 
 .tabla-a td 
-  border: 2px #166340  solid
+  border: 2px $color-primario  solid
 td p 
     text-align: justify
     margin: 5px 0
@@ -1238,45 +1273,45 @@ ul
   padding-left: 20px
 
 .bg-table-01
-  background-color: #E3EADA
-  color: #111e61
+  background-color: $color-primario
+  color: $color-sistema-a
 
 .bg-table-02
   background-color: #C7D5B6
-  color: #111e61
+  color: $color-sistema-a
 
 .bg-table-03
   background-color: #CDDDD0
-  color: #111e61  
+  color: $color-sistema-a  
 
 .bg-th
-  background-color: #98E465 
+  background-color: $color-secundario 
 
 .bg-td
-  background-color: #E4EBFE 
+  background-color: $color-acento-A10 
   color: black !important
-  border: 2px #12263F  solid 
+  border: 2px $color-sistema-texto solid 
 
 .bg-thead
   thead
     border: 2px #3E4E7D solid
     color: #FFFFFF
-    background-color: #7D9FFB !important
+    background-color: $color-acento-contenido !important
   th    
     border: 2px #3E4E7D solid 
-    background-color: #7D9FFB
+    background-color: $color-acento-contenido
   td 
     border: 2px #3E4E7D solid 
 
 .bg-thead-2
   thead
-    border: 2px #12263F solid
+    border: 2px $color-sistema-texto solid
     color: #FFFFFF 
-    background-color: #7D9FFB 
+    background-color: $color-acento-contenido 
   th 
-    border: 2px #12263F solid 
+    border: 2px $color-sistema-texto solid 
   td 
-    border: 2px #12263F solid
+    border: 2px $color-sistema-texto solid
   
 ///////// -------
 .card-custom
@@ -1306,15 +1341,15 @@ ul
     text-align: center
 
   &.bg-left
-    background-color: #D4F989
+    background-color: $color-terciario
     border-top-left-radius: 20px
     border-bottom-left-radius: 20px
 
   &.bg-center
-    background-color: #98E465
+    background-color: $color-secundario
 
   &.bg-right
-    background-color: #D4F989
+    background-color: $color-terciario
     border-top-right-radius: 20px
     border-bottom-right-radius: 20px
 
@@ -1339,7 +1374,7 @@ ul
     width: 100%
     padding: 0.5rem
     bottom: 0    
-    background-color: #E4EBFE
+    background-color: $color-acento-A10
     border-radius: 0 0 15px 15px
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc(100% - 3.85rem)) // Ajuste para mostrar completo el h4 en una o dos líneas
@@ -1433,7 +1468,8 @@ ul
 
 .height-100
   height: 100% !important
-
+.height-150
+  height: 150% !important
   /* Media Query específico para pantallas de 1024px o menos */
 @media (max-width: 1024px)
   .ordenar_tarjeta_lg

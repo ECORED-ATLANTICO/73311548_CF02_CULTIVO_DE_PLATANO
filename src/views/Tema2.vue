@@ -241,6 +241,15 @@
             p.text-center
               b Empaque:
             p organización y protección del producto para su distribución.
+      p.md-5 Se invita a consultar el documento “Protocolo de buenas prácticas para poscosecha del plátano” pp. 7-9
+      .row.justify-content-between.align-items-center
+        .col.mb-3.mb-sm-0
+          h4.mb-3 Protocolo de buenas prácticas para poscosecha del plátano pp. 7-9. 
+          p Para profundizar en el procedimiento que se debe llevar a cabo para la operación de lavado de plátano, y para los procesos de selección y clasificación del plátano. 
+        .col-sm-auto
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
+            span Descargar
+            i.fas.fa-file-download
     .titulo-sexto.bg-11.mb-4
       h5 
         em Tabla 5:
@@ -541,69 +550,62 @@
       .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-9.col-xxl-9.mb-3.mb-lg-3
         p El empacado se hace posterior al lavado y al escurrido, se realiza en cajas y requiere de mucho cuidado, las cajas de exportación deben empacarse en dos hileras, de tal manera que las coronas queden contra las paredes de la caja y las puntas tocando las hileras de las otras. Los dedos se deben etiquetar según las exigencias de la empresa exportadora, algunas exigen etiquetar sólo las dos últimas líneas, luego se cubre con un plástico para luego ponerle la tapa. 
         p Las cajas más usadas por algunas exportadoras en Colombia son de cartón y tienen una dimensión de 50 centímetros de ancho por 24 centímetros de alto. Se debe tener cuidado y buen criterio para no empacar plátanos pintones, defectuosos o que no reúnan las condiciones de calibre.
-        p Cada caja debe llevar un número correspondiente a la fecha y el código del exportador.  
-    .titulo-sexto.bg-11.mb-4
-      h5 
-        em Tabla 6:
-      span.text-dark Guía de operación para lavado de plátano
-    .tabla-a.bg-thead-2.mb-5 
-      table
-        caption 
-          em Nota.  
-          | Este estudio, Con base en Moreno, Candanoaza, & Olarte, (2009); Sena, (2004).
-        thead
-          tr
-            th.text-dark(style="width: 146px;") Operación postcosecha
-            th(style="width: 340px;") Detalle
-            th(style="width: 380px;") Imagen
-            th(style="width: 217px;") Instrumento
-        tbody
-          tr
-            td Empaque<br>intra-finca
-            td.align-top 
-              p.text-wrap Para el traslado intra-finca de los racimos se recomienda transportar en el hombro, guaduas, carretillas, cable aéreo u otro medio, evitando maltrato entre ellos o que sufran daños o golpes.
-            td.p-0
-              figure
-                img(src="@/assets/curso/temas/tema2/img_41.png", alt="Traslado en carretilla")
-            td.align-top 
-              ul
-                li.mb-3 • Hombro
-                li.mb-3 • Guadua
-                li.mb-3 • Carretilla
-                li.mb-3 • Cable aéreo
-          tr
-            td(rowspan="3")  Empaque para comercialización
-            td(rowspan="3").align-top.text-wrap 
-              p.mb-3 Empacar los frutos de acuerdo con las especificaciones del mercado:
-              ul.p-0
-                li.mb-3 • Para el mercado nacional, el empaque más utilizado es la canastilla plástica, con capicidad de 18 a 22 kg, resistente al trasporte, reutilizable, lavable y permite el estibamiento del producto. También se utilizan las bolsas con perforaciones.
-                li.mb-3 • Para el mercado de exportación, se utilizan cajas de cartón rígidas y perforadas, con envolturas de polietileno con envolturas de polietileno con huecos de ventilación de 0.05 milésimas de pulgada y el uso de bolsas de polietileno microperforada que permite un envasado en atmósferas modificadas (EAM) y aumenta el tiempo de vida del producto.
-              p En ambos casos, para evitar los daños por roce, los dedos grandes se colocan en la parte inferior los rectos en la parte de arriba (aproximadamente 55 a 60 dedos por caja) y llenas de una capicidad de 80% del empaque para evitar daños por compresión.        
-            td.p-0
-              figure
-                img(src="@/assets/curso/temas/tema2/img_42.png", alt="Canastillas")
-            td(rowspan="3").align-top  
-              ul
-                li.mb-3 • Empaque de acuerdo con la comercialización.
-                li.mb-3 • Es importante que el contenido de cada empaque sea homogéneo y contenga únicamente plátanos de la misma variedad, grado de madurez, calidad, color y calibre.
-          tr
-            td.p-0
-              figure
-                img(src="@/assets/curso/temas/tema2/img_43.png", alt="Cajas de cartón y envase en atmósfera modificada (EAM)")
-          tr
-            td.p-0
-              figure 
-                img(src="@/assets/curso/temas/tema2/img_44.png", alt="Bolsa")
+        p Cada caja debe llevar un número correspondiente a la fecha y el código del exportador. 
+      .row.justify-content-center.mb-3
+        .col-lg-6.mb-3
+          .tarjeta_bg-04.mb-3
+            p.mb-0 Es momento de escuchar el pódcast en el que Don Campos, Azusena y Don Plátano, explicarán los tipos de empaques y embalajes utilizados en el proceso de poscosecha del plátano. En este episodio se abordará la importancia de hacer uso adecuado de los empaques, que finalmente son los que permiten que el producto se conserve en óptimas condiciones de calidad para su disposición final
+        .col-lg-6.mb-3
+          .row.ordenar_tarjeta_lg.p-5.justify-content-center.align-items-center
+            .col-lg-6.mb-3
+              TarjetaAudio.color-primario.mb-3(
+                texto="Tipos de empaques y embalajes  "
+                :audio="require('../../assets/curso/audios/podcast1.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = false"
+              )
+                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              TarjetaAudio.color-secundario.mb-3(
+                texto="Tipos de empaques y embalajes <br> Tipos de empaques y embalajes "
+                :audio="require('../../assets/curso/audios/podcast1.mp3')"
+              )
+            .col-lg-6.mb-3
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-3 Tipos de empaques y embalajes
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Transporte:
-    p.mb-2 El traslado desde la finca a la bodega o centro de acopio se hace en vehículos convencionales; mientras el traslado del centro de acopio al puerto se hace en camiones con refrigeración a una temperatura de 8 °C a 9 °C.
+    p.mb-3 El traslado desde la finca a la bodega o centro de acopio se hace en vehículos convencionales; mientras el traslado del centro de acopio al puerto se hace en camiones con refrigeración a una temperatura de 8 °C a 9 °C.
+    .tarjeta_bg-04.mb-3
+      .row.justify-content-center.mb-3
+        .col-lg-4.mb-3
+          figure
+            img(src="@/assets/curso/temas/tema2/img_40.png", alt="Imagen de unos platanos" class="img-fluid")
+        .col-lg-8.mb-3
+          .row.justify-content-center.mb-3
+            .col-lg-8.mb-3
+              p.mb-3 Los invitamos a escuchar el siguiente episodio presentado por Don Campos, Azusena y Don Plátano, quienes se unen en esta oportunidad para explicar las generalidades e importancia del transporte y almacenamiento del plátano, y los aspectos más relevantes en cada uno de estos procesos que permiten garantizar la calidad y conservación del producto final. ¡No se lo pierdan!
+            .col-lg-8.mb-3
+              TarjetaAudio.color-primario.mb-3(
+                texto="Tipos de empaques y embalajes  "
+                :audio="require('../../assets/curso/audios/podcast1.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = false"
+              )
+                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              TarjetaAudio.color-secundario.mb-3(
+                texto="Tipos de empaques y embalajes <br> Tipos de empaques y embalajes "
+                :audio="require('../../assets/curso/audios/podcast1.mp3')"
+              )
 </template>
 
 <script>
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
     this.$nextTick(() => {

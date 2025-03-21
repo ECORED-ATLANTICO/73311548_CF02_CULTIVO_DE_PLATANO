@@ -28,20 +28,7 @@
           p.mb-2 Los peligros que se generan durante el proceso de cosecha y poscosecha se pueden clasificar en biológicos, físicos o químicos.
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-10
-          h3(data-aos='zoom-in-right').mb-3
-            span.label-title.label-title--1 Peligros biológicos
-          .row.justify-content-center.align-items-center.mb-5
-            .col-6.col-sm-6.col-md-6.col-lg-3.col-xl-3.col-xxl-3.mb-3.mb-md-0
-              img(src="@/assets/curso/temas/tema3/img_3.svg", alt="Imagen de unos platanos" class="img-fluid")
-            .col-lg-9
-              p.mb-3 Son los asociados a la presencia de organismos vivos en el alimento; los microorganismos son organismos pequeños que sólo pueden ser observados a través del microscopio, muchos de estos constan de una única célula y pueden encontrarse en cualquier parte del medio ambiente, entre estos hay diferentes categorías como: bacterias, levaduras, hongos, parásitos y virus.
-          h3(data-aos='zoom-in-right').mb-3
-            span.label-title.label-title--1 Peligros químicos
-          p.mb-3 Están relacionados con los compuestos químicos nocivos provenientes de los insumos para la elaboración de productos, restos de detergentes y desinfectantes utilizados para la limpieza, plaguicidas y metales pesados.
-          h3(data-aos='zoom-in-right').mb-3
-            span.label-title.label-title--1 Peligros físicos
-          p.mb-3 Están asociados a daños en el producto debido a una manipulación inadecuada durante la cosecha y la poscosecha, lo que puede afectar su calidad y aptitud para el consumo.
-          .tarjeta_bg-06.p-3.mb-5
+         .tarjeta_bg-06.p-3.mb-5
             .row.mb-3.justify-content-center.align-items-center
               .col-lg-9.order-2.order-lg-1
                 h4.mb-2 Peligros biológicos

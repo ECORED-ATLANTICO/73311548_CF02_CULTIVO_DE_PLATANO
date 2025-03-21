@@ -637,6 +637,53 @@ figcaption
   border-radius: 5px
   padding: 10px
 
+// pasos-proceso
+.pasos-proceso
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 0px // Quitar espacio extra entre los elementos
+
+  .paso
+    padding: 15px
+    border-radius: 10px
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+  .paso:first-child
+    flex: 0.9
+    min-width: 250px
+
+  .paso:last-child
+    flex: 1.5
+
+  .paso-flecha
+    width: 80px 
+    height: auto
+    position: relative
+    z-index: 10 
+    margin-left: -25px 
+    margin-right: -25px
+
+  @media (max-width: 768px)
+    flex-direction: column
+
+    .paso:first-child
+      flex: 0.9
+      width: 70% 
+     
+
+    .paso:last-child
+      flex: 1.5
+      width: 100%
+      
+    .paso-flecha
+      transform: rotate(90deg)
+      width: 70px 
+      height: auto
+      margin: -15px 0
+
 // .tarjeta-numerada.mt-22
 //   p
 //     margin-top: -22px !important

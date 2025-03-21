@@ -15,9 +15,9 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Tipos de forrajes',
+      tema: 'Buenas prácticas agrícolas para el cultivo del plátano.',
       titulo:
-        'Identificar los principales elementos de los forrajes y la planificación ganadera.',
+        'Analizar las buenas prácticas agrícolas en el cultivo del plátano, enfocándose en el manejo sostenible del suelo, el agua y las instalaciones del predio, con el fin de mejorar la competitividad productiva en los mercados nacionales e internacionales.',
       introduccion:
         'Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda.',
       barajarPreguntas: true,
@@ -25,8 +25,8 @@ export default {
         {
           id: 1,
           texto:
-            'La planificación ganadera es importante para la gestión ganadera',
-          imagen: require('@//assets/actividad/imagen1.svg'),
+            'El plateo en el cultivo de plátano consiste en mantener libre de malezas la base de la planta, facilitando la fertilización y el manejo de plagas y enfermedades.',
+          imagen: require('@//assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -41,14 +41,15 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+            'Excelente trabajo. Tiene un claro entendimiento de buenas prácticas agrícolas para el cultivo del plátano.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto: 'Maximizar la producción no es clave para los ganaderos',
-          imagen: require('@//assets/actividad/imagen2.svg'),
+          texto:
+            'El amarre en el cultivo de plátano no es necesario para evitar la caída de los pseudotallos.',
+          imagen: require('@//assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -63,38 +64,38 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+            'Excelente trabajo. Tiene un claro entendimiento de buenas prácticas agrícolas para el cultivo del plátano.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
           texto:
-            'El tapizado de los bovinos se realiza para extraer los cuernos de los bovinos',
-          imagen: require('@/assets/actividad/imagen3.svg'),
+            'Para transportar el racimo de plátano cosechado se requiere de montacargas adecuado para tal fin.',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+            'Excelente trabajo. Tiene un claro entendimiento de buenas prácticas agrícolas para el cultivo del plátano.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            'La ganadería en colombia trata el concepto del bienestar animal',
-          imagen: require('@/assets/actividad/imagen4.svg'),
+            'La postcosecha busca preservar la calidad e integridad de los plátanos para su comercialización',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -109,144 +110,145 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+            'Excelente trabajo. Tiene un claro entendimiento de buenas prácticas agrícolas para el cultivo del plátano.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: 'Los forrajes son parte fundamental de la aviación ',
-          imagen: require('@/assets/actividad/imagen5.svg'),
+          texto:
+            'El empacado del plátano se realiza después del lavado y escurrido',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+            'Excelente trabajo. Tiene un claro entendimiento de buenas prácticas agrícolas para el cultivo del plátano.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
           texto:
-            'Los forrajes que están producidos en el banco son cortados y luego son suministrados a los bovinos.',
-          imagen: require('@/assets/actividad/imagen1.svg'),
+            'Los peligros químicos son aquellos relacionados con la presencia de organismos vivos en los alimentos.',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+            'Excelente trabajo. Tiene un claro entendimiento de buenas prácticas agrícolas para el cultivo del plátano.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
           texto:
-            'La correcta gestión de forrajes es crucial para asegurar la salud y productividad de los animales.',
-          imagen: require('@/assets/actividad/imagen2.svg'),
+            'El saneamiento en el cultivo es innecesario para garantizar la inocuidad del plátano.',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+            'Excelente trabajo. Tiene un claro entendimiento de buenas prácticas agrícolas para el cultivo del plátano.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
           texto:
-            'El tipo de cerca viva multiestrato No la técnica más usada, pues al combinarse diferentes especies arbóreas garantiza la variedad de productos para el consumo',
-          imagen: require('@/assets/actividad/imagen3.svg'),
+            'Es clave eliminar fuentes de agua, alimento y refugio para prevenir la presencia de plagas y roedores.',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+            'Excelente trabajo. Tiene un claro entendimiento de buenas prácticas agrícolas para el cultivo del plátano.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
           texto:
-            'Las barreras vivas son cultivos que se siembran en las laderas para evitar la erosión.',
-          imagen: require('@/assets/actividad/imagen4.svg'),
+            'La normatividad que rige la seguridad y el bienestar social en el proceso del cultivo se basa en los lineamientos de las Buenas Prácticas de Manufactura (BPM).',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+            'Excelente trabajo. Tiene un claro entendimiento de buenas prácticas agrícolas para el cultivo del plátano.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
           texto:
-            'Se les dice bancos proteicos cuando los forrajes cultivados tienen un contenido de proteína mayor a un 15%',
-          imagen: require('@/assets/actividad/imagen5.svg'),
+            'Si un operario presenta síntomas como vómitos, diarrea puede continuar manipulando alimentos siempre que mantenga una adecuada higiene personal.',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+            'Excelente trabajo. Tiene un claro entendimiento de buenas prácticas agrícolas para el cultivo del plátano.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },

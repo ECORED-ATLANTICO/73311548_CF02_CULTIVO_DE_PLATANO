@@ -206,13 +206,18 @@
             span.label-title.label-title--1 Mesones para adecuación de materia prima
           p.mb-3 Los mesones donde se manipula el plátano deben contar con superficies lisas, no porosas y de fácil limpieza y desinfección, evitando la acumulación de suciedad y microorganismos patógenos.
           p.mb-3 Después de cada uso, es fundamental:
-          img.mb-3(src="@/assets/curso/temas/tema3/img_16.png", alt="Control de plagas en las instalaciones" class="img-fluid")
+          .pasos-proceso.mb-3
+            .paso
+              img(src="@/assets/curso/temas/tema3/img_16.1.png" alt="Lavado")
+            img.paso-flecha(src="@/assets/curso/temas/tema3/img_16.2.png" alt="Flecha")
+            .paso
+              img(src="@/assets/curso/temas/tema3/img_16.3.png" alt="Desinfección")
           h3(data-aos='zoom-in-right').mb-3
             span.label-title.label-title--1 Control de plagas en las instalaciones
           .row.justify-content-center.align-items-center.mb-3
             .col-md-8.col-lg-3.mb-3.mb-lg-0
               img(src="@/assets/curso/temas/tema3/img_17.png", alt="Control de plagas en las instalaciones" class="img-fluid")
-            .col-md-12.col-lg-9mb-3.mb-lg-0
+            .col-md-12.col-lg-9.mb-3.mb-lg-0
               p.mb-2 Las plagas representan un riesgo significativo para la inocuidad del producto, ya que son vectores de enfermedades que pueden contaminar los alimentos y poner en peligro la salud del consumidor. Por esta razón, se requiere implementar un plan riguroso de control de plagas y roedores en todas las instalaciones donde se manipulan los alimentos.
               h6.mb-2 Los principales patógenos y enfermedades que pueden transmitir las plagas incluyen:
           .titulo-sexto.bg-11.mb-4

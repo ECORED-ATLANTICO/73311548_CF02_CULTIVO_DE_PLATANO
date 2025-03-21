@@ -26,7 +26,7 @@
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Descargar diagrama de operaciones para poscosecha de plátano.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/DI_DIAGRAMA_OPERACIONES__CF02_7331548.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -528,23 +528,11 @@
             .col-lg-12.mb-3
               TarjetaAudio.color-terciario-T10.mb-3(
                 texto="<strong class='text-dark'>Tipos de empaques y embalajes</strong>"
-                :audio="require('@/assets/curso/audios/podcast1.mp3')"
+                :audio="require('@/assets/curso/audios/Podcast1__CF04_T1_P1_Tipos_de_empaques_y_embalajes- 73311576_01.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            .col-lg-12
-              .div.tarjeta.color-acento-A10.p-3
-                .row.justify-content-around.align-items-center
-                  .col-auto
-                    img.img65(src="@/assets/curso/temas/tema2/img_2.png")
-                  .col
-                    .row.justify-content-between.align-items-center
-                      .col.mb-3.mb-sm-0
-                        h4.mb-0 Tipos de empaques y embalajes
-                      .col-sm-auto
-                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/ProtocoloPoscosecha_Pltano.pdf')" target="_blank")
-                          span Descargar
-                          i.fas.fa-file-download
+            
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Transporte:
     p.mb-3 El traslado desde la finca a la bodega o centro de acopio se hace en vehículos convencionales; mientras el traslado del centro de acopio al puerto se hace en camiones con refrigeración a una temperatura de 8 °C a 9 °C.
@@ -560,7 +548,7 @@
             .col-lg-12
               TarjetaAudio.color-secundario.mb-0(
                 texto="<strong class='text-dark'>Transporte y almacenamiento del plátano</strong>"
-                :audio="require('@/assets/curso/audios/podcast1.mp3')"
+                :audio="require('@/assets/curso/audios/Podcast2_CF04_T2_P1_Transporte_y_almacenamiento- 73311576.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

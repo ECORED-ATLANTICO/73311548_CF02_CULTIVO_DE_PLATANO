@@ -595,7 +595,7 @@
           .row.justify-content-center.mb-3
             .col-lg-8.mb-3
               p.mb-3 Los invitamos a escuchar el siguiente episodio presentado por Don Campos, Azusena y Don Plátano, quienes se unen en esta oportunidad para explicar las generalidades e importancia del transporte y almacenamiento del plátano, y los aspectos más relevantes en cada uno de estos procesos que permiten garantizar la calidad y conservación del producto final. ¡No se lo pierdan!
-            .col-lg-8.mb-3
+            .col-lg-8
               TarjetaAudio.color-primario.mb-3(
                 texto="Tipos de empaques y embalajes  "
                 :audio="require('@/assets/curso/audios/podcast1.mp3')"

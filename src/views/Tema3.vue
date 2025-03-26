@@ -94,7 +94,7 @@
           p.mb-2 Es indispensable el buen uso y cuidado de las herramientas con las que se realizan todas las prácticas culturales y de poscosecha del cultivo, porque se puede generar contaminación cruzada del equipo al fruto, es indispensable después de cada labor realizar limpieza y desinfección.
           h6.mb-2 Para sacar la suciedad más difícil en equipos y herramientas tenga en cuenta lo siguiente:
       .titulo-sexto.bg-11.mb-4
-        h5 Tabla 7: 
+        h5 Tabla 7. 
         span.text-dark
           em Guía para limpieza y desinfección de herramientas
       .tabla-a.mb-5 

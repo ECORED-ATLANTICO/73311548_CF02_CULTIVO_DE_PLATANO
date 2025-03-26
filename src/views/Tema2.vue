@@ -76,7 +76,7 @@
         p.mb-4 A continuación, se presenta una guía para la selección del fruto en su momento óptimo. 
         .titulo-sexto.bg-11.mb-4
           h5 
-            em Tabla 3:
+            em Tabla 3.
           span.text-dark Indicadores de recolección.
         .tabla-a.mb-3
           table
@@ -117,7 +117,7 @@
                 td El contenido de azúcar está entre 6 - 11 Brix.
                 td Refractómetro
         .titulo-sexto.bg-11.mb-3
-          h5 Tabla 4:
+          h5 Tabla 4.
           span.text-dark
             em Tabla de color según grado de madurez.
         .tabla-a.bg-thead 

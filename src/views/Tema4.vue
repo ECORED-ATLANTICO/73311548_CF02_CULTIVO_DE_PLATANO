@@ -75,9 +75,9 @@
       .col-lg-10.mb-0
         h5.mb-4 Microorganismos patógenos transmitidos a los alimentos por operarios infectados:
         .titulo-sexto.bg-11.mb-4
-          h5 
-            em Tabla 8:
-          span.text-dark Gérmenes.
+          h5 Tabla 8:
+          span.text-dark
+            em Gérmenes.
         .tabla-a.bg-thead.mb-5
           table
             thead

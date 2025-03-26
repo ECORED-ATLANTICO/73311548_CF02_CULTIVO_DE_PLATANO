@@ -117,9 +117,9 @@
                 td El contenido de azúcar está entre 6 - 11 Brix.
                 td Refractómetro
         .titulo-sexto.bg-11.mb-3
-          h5 
-            em Tabla 4:
-          span.text-dark Tabla de color según grado de madurez.
+          h5 Tabla 4:
+          span.text-dark
+            em Tabla de color según grado de madurez.
         .tabla-a.bg-thead 
           table
             caption 

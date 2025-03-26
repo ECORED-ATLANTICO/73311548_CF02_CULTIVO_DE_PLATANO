@@ -101,9 +101,9 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-2
           .titulo-sexto.bg-11.mb-2
-            h5 
-              em Figura 3: 
-            span.text-dark Plateo
+            h5 Figura 3. 
+            span.text-dark 
+              em Plateo
           figure
             img.img100(src="@/assets/curso/temas/tema1/img_13.png", alt="Control manual" class="img-fluid")
           figcaption 

@@ -465,9 +465,9 @@
                       | El personal debe estar capacitado en el manejo de la gurbia.
       .col-lg-10.mb-4
         .titulo-sexto.bg-11.mb-4
-          h5 
-            em Figura 5: 
-          span.text-dark Procedimiento
+          h5 Figura 5.
+          span.text-dark 
+            em Procedimiento
         ImagenInfografica.time-line-info
           template(v-slot:imagen)
             figure
@@ -501,9 +501,9 @@
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Defectos del plátano más comunes
         .titulo-sexto.bg-11.mb-3
-          h5 
-            em Figura 6:
-          span.text-dark Defectos del plátano más comunes:
+          h5 Figura 6.
+          span.text-dark 
+            em Defectos del plátano más comunes:
         figure
           img.mb-4(src='@/assets/curso/temas/tema2/img_36.png', alt='Imagen de ayuda')
         figcaption 

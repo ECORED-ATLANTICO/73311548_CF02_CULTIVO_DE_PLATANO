@@ -221,9 +221,9 @@
               p.mb-2 Las plagas representan un riesgo significativo para la inocuidad del producto, ya que son vectores de enfermedades que pueden contaminar los alimentos y poner en peligro la salud del consumidor. Por esta razón, se requiere implementar un plan riguroso de control de plagas y roedores en todas las instalaciones donde se manipulan los alimentos.
               h6.mb-2 Los principales patógenos y enfermedades que pueden transmitir las plagas incluyen:
           .titulo-sexto.bg-11.mb-4
-            h5 
-              em Figura 7: 
-            span.text-dark Plagas
+            h5 Figura 7.
+            span.text-dark 
+              em Plagas
           img(src="@/assets/curso/temas/tema3/img_18.png", alt="Control de plagas en las instalaciones" class="img-fluid")
           figcaption.mb-5 
             em Nota.  

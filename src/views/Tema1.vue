@@ -100,7 +100,7 @@
       p.mb-5 El plateo es una técnica esencial en el cultivo de plátano que consiste en mantener libre de malezas la base de la planta. Su correcta aplicación facilita la fertilización y el manejo de plagas y enfermedades, favoreciendo así un desarrollo óptimo del cultivo y aumentando su productividad. Se recomienda realizar esta labor de forma manual para evitar daños a la planta y mejorar la eficacia del control de arvenses.
       .row.justify-content-center.align-items-center.mb-5
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-2
-          .titulo-sexto.bg-11.mb-2
+          .titulo-sexto
             h5 Figura 3. 
             span.text-italic Plateo
           figure

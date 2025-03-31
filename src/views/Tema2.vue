@@ -80,7 +80,7 @@
         .tabla-a.mb-3
           table
             caption.mb-4 
-              I Nota.  
+              I(style="font-weight: normal;") Nota.  
               | Este estudio, con base en Flores, (2013), Torres et al, (2013), Londoño, (2011), Martinez, (1998), Sena, (2004), NTC (1190).
             thead
               tr
@@ -121,7 +121,7 @@
         .tabla-a.bg-thead 
           table
             caption 
-              I Nota.  
+              I(style="font-weight: normal;") Nota.  
               | Este estudio, con base en Mejía, (2013), Sena, (2004); NTC (1190). 
             thead
               tr
@@ -490,7 +490,7 @@
             .time-line-info__number
               span 05
         figcaption.mb-3 
-          I Nota.  
+          I(style="font-weight: normal;") Nota.  
           | SENA (2024).
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Presentación de los dedos
@@ -503,7 +503,7 @@
         figure
           img.mb-4(src='@/assets/curso/temas/tema2/img_36.png', alt='Imagen de ayuda')
         figcaption 
-          I Nota.  
+          I(style="font-weight: normal;") Nota.  
           | SENA (2024).
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Empacado:

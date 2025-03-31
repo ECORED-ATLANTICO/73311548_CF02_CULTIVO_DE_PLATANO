@@ -224,7 +224,7 @@
             I(style="font-weight: normal;") Plagas
           img(src="@/assets/curso/temas/tema3/img_18.png", alt="Control de plagas en las instalaciones" class="img-fluid")
           figcaption.mb-5 
-            I Nota.  
+            I(style="font-weight: normal;") Nota.  
             | SENA (2024).
           .tarjeta_bg-07.mb-5
             .row.justify-content-center.align-items-center.d-flex

@@ -1,15 +1,12 @@
 const titulo = require('./src/config/titulo')
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/73311548_CF02_CULTIVO_DE_PLATANO/'
-    : '/',
+  publicPath: '',
   css: {
     loaderOptions: {
       sass: {
-        implementation: require('sass'),
-        additionalData: `@import "@/styles/_styles.sass";`
-      }
-    }
+        prependData: `@import "@/styles/_variables.sass"`,
+      },
+    },
   },
   chainWebpack: config => {
     config.plugin('html').tap(args => {

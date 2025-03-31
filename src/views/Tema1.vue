@@ -106,7 +106,7 @@
           figure
             img.img100(src="@/assets/curso/temas/tema1/img_13.png", alt="Control manual" class="img-fluid")
           figcaption 
-            I Nota.  
+            I(style="font-weight: normal;") Nota.  
             | SENA (2024).
       h3(data-aos='zoom-in-right').mb-4
         span.label-title.label-title--1 Desmanche o regulación de la población
@@ -310,7 +310,7 @@
           .tabla-a.mb-5
             table
               caption 
-                I Nota.  
+                I(style="font-weight: normal;") Nota.  
                 | SENA (2024).
               thead
                 tr
@@ -321,22 +321,22 @@
               tbody
                 tr
                   td Moko o Madurebiche
-                  td <I>Ralstonia solanacearum</I>
+                  td <I class="font-weight: normal">Ralstonia solanacearum</I>
                   td Marchitamiento, amarillamiento, necrosis vascular, pudrición interna en cormos y racimos.
                   td Erradicación de plantas enfermas, desinfección de herramientas, control biológico (hongos antagonistas), control químico (si es necesario).
                 tr
                   td Pudrición Acuosa del Pseudotallo
-                  td <I>Dickeya chrysanthemi</I>
+                  td <I class="font-weight: normal">Dickeya chrysanthemi</I>
                   td Manchas acuosas y translúcidas en pseudotallo, olor fétido, debilitamiento de la planta, caída de hojas.
                   td Desinfección de herramientas, control de vectores (insectos), control químico (si es necesario), manejo de la humedad del suelo.
                 tr
                   td Mal de Panamá
-                  td <I>Fusarium oxysporum</I> f. sp. <I>cubense</I>
+                  td <I class="font-weight: normal">Fusarium oxysporum</I> f. sp. <I class="font-weight: normal">cubense</I>
                   td Amarillamiento y marchitamiento, necrosis vascular, pudrición de raíces y cormos.
                   td Resistencia varietal, manejo del suelo (drenaje, pH), rotación de cultivos, eliminación de plantas enfermas.
                 tr
                   td Sigatoka Negra
-                  td <I>Mycosphaerella fijiensis</I> var. <I>difformis</I>
+                  td <I class="font-weight: normal">Mycosphaerella fijiensis</I> var. <I class="font-weight: normal">difformis</I>
                   td Estrías y manchas necróticas en hojas, desde el envés hasta el haz, defoliación, reducción de rendimiento.
                   td Fungicidas, manejo de la humedad, deshoje de hojas afectadas, variedades resistentes.
           .titulo-sexto.color-acento-contenido
@@ -345,7 +345,7 @@
           .tabla-a.mb-5 
             table
               caption 
-                I Nota.  
+                I(style="font-weight: normal;") Nota.  
                 | SENA (2024).
               thead
                 tr
@@ -356,12 +356,12 @@
               tbody
                 tr
                   td Picudo Negro
-                  td <I>Cosmopolites sordidus</I>
+                  td <I class="font-weight: normal">Cosmopolites sordidus</I>
                   td Túneles en cormos y pseudotallos, debilitamiento de la planta
                   td Trampeo, control biológico (hongos entomopatógenos, depredadores naturales), control químico (si es necesario), selección de material sano.
                 tr
                   td Picudo Rayado y Picudo Amarillo
-                  td <I>Metamasius hemipterus</I>, <I>M. hebetatus</I>
+                  td <I class="font-weight: normal">Metamasius hemipterus</I>, <I class="font-weight: normal">M. hebetatus</I>
                   td Daños en pseudotallos y cormos, debilitamiento y caída de hojas, reducción de rendimiento.
                   td Trampeo, control químico (si es necesario), manejo de la nutrición (potasio, boro), eliminación de residuos de cosecha.
                 tr
@@ -430,28 +430,8 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    fuentes: {
-      regular: 'Roboto',
-      bold: 'Roboto Bold',
-    },
-    estilosFuentes: {
-      regular: {
-        fontFamily: 'Roboto',
-        fontWeight: 400,
-        fontStyle: 'normal',
-      },
-      bold: {
-        fontFamily: 'Roboto',
-        fontWeight: 700,
-        fontStyle: 'normal',
-      },
-    },
+    // variables de vue
   }),
-  methods: {
-    fuenteEstilo(tipo) {
-      return this.estilosFuentes[tipo] || this.estilosFuentes.regular
-    },
-  },
 }
 </script>
 

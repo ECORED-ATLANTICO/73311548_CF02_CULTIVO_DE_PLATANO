@@ -434,7 +434,6 @@ export default {
       regular: 'Roboto',
       bold: 'Roboto Bold',
     },
-    // Estilos predefinidos
     estilosFuentes: {
       regular: {
         fontFamily: 'Roboto',

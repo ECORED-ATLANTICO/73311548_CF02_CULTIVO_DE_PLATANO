@@ -74,9 +74,9 @@
                 h4.text-center Sistemas de cable aéreo.
         p.mb-2 La elección del sistema debe priorizar siempre la integridad del producto, asegurando que llegue en óptimas condiciones a la siguiente etapa del proceso.
         p.mb-4 A continuación, se presenta una guía para la selección del fruto en su momento óptimo. 
-        .titulo-sexto.bg-11.mb-4
+        .titulo-sexto
           h5 Tabla 3.
-          span.text-italic Indicadores de recolección.
+          I.text-dark Indicadores de recolección.
         .tabla-a.mb-3
           table
             caption.mb-4 
@@ -115,9 +115,9 @@
                 td Contenido de azúcar
                 td El contenido de azúcar está entre 6 - 11 Brix.
                 td Refractómetro
-        .titulo-sexto.bg-11.mb-3
+        .titulo-sexto
           h5 Tabla 4.
-          span.text-italic Tabla de color según grado de madurez.
+          I.text-dark Tabla de color según grado de madurez.
         .tabla-a.bg-thead 
           table
             caption 
@@ -462,9 +462,9 @@
                       strong 5. 
                       | El personal debe estar capacitado en el manejo de la gurbia.
       .col-lg-10.mb-4
-        .titulo-sexto.bg-11.mb-4
+        .titulo-sexto
           h5 Figura 5.
-          span.text-italic Procedimiento
+          I.text-dark Procedimiento
         ImagenInfografica.time-line-info
           template(v-slot:imagen)
             figure
@@ -497,9 +497,9 @@
         p.mb-5 El dedo (plátano) de exportación no debe presentar defectos, sólo se admiten 5 defectos por caja, estos deben tener un calibre mínimo de 22 y máximo 28 (1/16 pulgadas).
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Defectos del plátano más comunes
-        .titulo-sexto.bg-11.mb-3
+        .titulo-sexto
           h5 Figura 6.
-          span.text-italic Defectos del plátano más comunes:
+          I.text-dark Defectos del plátano más comunes:
         figure
           img.mb-4(src='@/assets/curso/temas/tema2/img_36.png', alt='Imagen de ayuda')
         figcaption 

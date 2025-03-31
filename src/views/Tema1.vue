@@ -102,7 +102,7 @@
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-2
           .titulo-sexto
             h5 Figura 3. 
-            span.text-italic Plateo
+            I.text-dark Plateo
           figure
             img.img100(src="@/assets/curso/temas/tema1/img_13.png", alt="Control manual" class="img-fluid")
           figcaption 
@@ -304,9 +304,9 @@
               img.mb-5(src="@/assets/curso/temas/tema1/img_35.png", alt="Plagas y enfermedades")(data-aos="fade-up")
       .row.justify-content-center.align-items-center.mb-3
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
-          .titulo-sexto.bg-11.mb-4
+          .titulo-sexto
             h5 Tabla 1.
-            span.text-italic Enfermedades del Plátano
+            I.text-dark Enfermedades del Plátano
           .tabla-a.mb-5
             table
               caption 
@@ -339,9 +339,9 @@
                   td <em>Mycosphaerella fijiensis</em> var. <em>difformis</em>
                   td Estrías y manchas necróticas en hojas, desde el envés hasta el haz, defoliación, reducción de rendimiento.
                   td Fungicidas, manejo de la humedad, deshoje de hojas afectadas, variedades resistentes.
-          .titulo-sexto.bg-11.mb-4
+          .titulo-sexto
             h5 Tabla 2. 
-            span.text-italic Principales plagas del plátano
+            I.text-dark Principales plagas del plátano
           .tabla-a.mb-5 
             table
               caption 

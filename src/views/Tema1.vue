@@ -430,8 +430,29 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    // variables de vue
+    fuentes: {
+      regular: 'Roboto',
+      bold: 'Roboto Bold',
+    },
+    // Estilos predefinidos
+    estilosFuentes: {
+      regular: {
+        fontFamily: 'Roboto',
+        fontWeight: 400,
+        fontStyle: 'normal',
+      },
+      bold: {
+        fontFamily: 'Roboto',
+        fontWeight: 700,
+        fontStyle: 'normal',
+      },
+    },
   }),
+  methods: {
+    fuenteEstilo(tipo) {
+      return this.estilosFuentes[tipo] || this.estilosFuentes.regular
+    },
+  },
 }
 </script>
 

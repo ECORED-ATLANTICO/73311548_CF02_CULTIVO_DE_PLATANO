@@ -76,8 +76,7 @@
         h5.mb-4 Microorganismos patógenos transmitidos a los alimentos por operarios infectados:
         .titulo-sexto.bg-11.mb-4
           h5 Tabla 8.
-          span.text-dark
-            em Gérmenes.
+          span.text-italic Gérmenes.
         .tabla-a.bg-thead.mb-5
           table
             thead
@@ -122,8 +121,7 @@
         p.mb-3 Algunas de las medidas más importantes incluyen:
         .titulo-sexto.bg-11.mb-3
           h5 Figura 8.
-          span.text-dark 
-            em Higiene personal
+          span.text-italic Higiene personal
         ImagenInfografica.time-line-info
           template(v-slot:imagen)
             figure
@@ -158,8 +156,7 @@
               span 07
         .titulo-sexto.bg-11.mb-3
           h5 Figura 9.
-          span.text-dark 
-            em Recomendaciones del lavado.
+          span.text-italic Recomendaciones del lavado.
         img.mb-5(src="@/assets/curso/temas/tema4/figura9.png", alt="Recomendaciones del lavado." class="img-fluid")
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Prácticas higiénico-sanitarias

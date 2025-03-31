@@ -75,9 +75,8 @@
         p.mb-2 La elección del sistema debe priorizar siempre la integridad del producto, asegurando que llegue en óptimas condiciones a la siguiente etapa del proceso.
         p.mb-4 A continuación, se presenta una guía para la selección del fruto en su momento óptimo. 
         .titulo-sexto.bg-11.mb-4
-          h5 
-            em Tabla 3.
-          span.text-dark Indicadores de recolección.
+          h5 Tabla 3.
+          span.text-italic Indicadores de recolección.
         .tabla-a.mb-3
           table
             caption.mb-4 
@@ -118,8 +117,7 @@
                 td Refractómetro
         .titulo-sexto.bg-11.mb-3
           h5 Tabla 4.
-          span.text-dark
-            em Tabla de color según grado de madurez.
+          span.text-italic Tabla de color según grado de madurez.
         .tabla-a.bg-thead 
           table
             caption 
@@ -466,8 +464,7 @@
       .col-lg-10.mb-4
         .titulo-sexto.bg-11.mb-4
           h5 Figura 5.
-          span.text-dark 
-            em Procedimiento
+          span.text-italic Procedimiento
         ImagenInfografica.time-line-info
           template(v-slot:imagen)
             figure
@@ -502,8 +499,7 @@
           span.label-title.label-title--1 Defectos del plátano más comunes
         .titulo-sexto.bg-11.mb-3
           h5 Figura 6.
-          span.text-dark 
-            em Defectos del plátano más comunes:
+          span.text-italic Defectos del plátano más comunes:
         figure
           img.mb-4(src='@/assets/curso/temas/tema2/img_36.png', alt='Imagen de ayuda')
         figcaption 

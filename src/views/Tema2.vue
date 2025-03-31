@@ -74,7 +74,7 @@
                 h4.text-center Sistemas de cable aéreo.
         p.mb-2 La elección del sistema debe priorizar siempre la integridad del producto, asegurando que llegue en óptimas condiciones a la siguiente etapa del proceso.
         p.mb-4 A continuación, se presenta una guía para la selección del fruto en su momento óptimo. 
-        .titulo-sexto
+        .titulo-sexto.color-acento-contenido
           h5 Tabla 3.
           I.text-dark Indicadores de recolección.
         .tabla-a.mb-3
@@ -115,7 +115,7 @@
                 td Contenido de azúcar
                 td El contenido de azúcar está entre 6 - 11 Brix.
                 td Refractómetro
-        .titulo-sexto
+        .titulo-sexto.color-acento-contenido
           h5 Tabla 4.
           I.text-dark Tabla de color según grado de madurez.
         .tabla-a.bg-thead 
@@ -462,7 +462,7 @@
                       strong 5. 
                       | El personal debe estar capacitado en el manejo de la gurbia.
       .col-lg-10.mb-4
-        .titulo-sexto
+        .titulo-sexto.color-acento-contenido
           h5 Figura 5.
           I.text-dark Procedimiento
         ImagenInfografica.time-line-info
@@ -497,7 +497,7 @@
         p.mb-5 El dedo (plátano) de exportación no debe presentar defectos, sólo se admiten 5 defectos por caja, estos deben tener un calibre mínimo de 22 y máximo 28 (1/16 pulgadas).
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Defectos del plátano más comunes
-        .titulo-sexto
+        .titulo-sexto.color-acento-contenido
           h5 Figura 6.
           I.text-dark Defectos del plátano más comunes:
         figure

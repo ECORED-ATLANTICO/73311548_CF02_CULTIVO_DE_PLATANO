@@ -102,7 +102,7 @@
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-2
           .titulo-sexto.color-acento-contenido
             h5 Figura 3. 
-            span Plateo
+            I(style="font-weight: normal;") Plateo
           figure
             img.img100(src="@/assets/curso/temas/tema1/img_13.png", alt="Control manual" class="img-fluid")
           figcaption 
@@ -306,8 +306,7 @@
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
           .titulo-sexto.color-acento-contenido
             h5 Tabla 1.
-            span.text-dark 
-              em Enfermedades del Plátano
+            span Enfermedades del Plátano
           .tabla-a.mb-5
             table
               caption 
@@ -342,8 +341,7 @@
                   td Fungicidas, manejo de la humedad, deshoje de hojas afectadas, variedades resistentes.
           .titulo-sexto.color-acento-contenido
             h5 Tabla 2. 
-            span.text-dark 
-              em Principales plagas del plátano
+            span Principales plagas del plátano
           .tabla-a.mb-5 
             table
               caption 

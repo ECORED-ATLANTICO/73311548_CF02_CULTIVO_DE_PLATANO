@@ -76,7 +76,7 @@
         h5.mb-4 Microorganismos patógenos transmitidos a los alimentos por operarios infectados:
         .titulo-sexto.color-acento-contenido
           h5 Tabla 8.
-          I.text-dark Gérmenes.
+          I(style="font-weight: normal;") Gérmenes.
         .tabla-a.bg-thead.mb-5
           table
             thead
@@ -93,17 +93,17 @@
                 td 
                   h5.mb-0 Síntomas
               tr
-                td <em>Salmonella</em>
+                td <I>Salmonella</I>
                 td Fiebre, dolor, estupor y diarrea
                 td Hepatitis A y E
                 td Gastrointeritis, fiebre e ictericia
               tr
-                td <em>Shiguella s.p</em>
+                td <I>Shiguella s.p</I>
                 td Diarrea, fiebre y vómito
                 td Norwalk
                 td Diarrea, fiebre y vómito
               tr
-                td <em>Staphylococcus aureus</em>
+                td <I>Staphylococcus aureus</I>
                 td Diarrea y vómito
                 td Rotavirus
                 td Diarreas 
@@ -121,7 +121,7 @@
         p.mb-3 Algunas de las medidas más importantes incluyen:
         .titulo-sexto.color-acento-contenido
           h5 Figura 8.
-          I.text-dark Higiene personal
+          I(style="font-weight: normal;") Higiene personal
         ImagenInfografica.time-line-info
           template(v-slot:imagen)
             figure
@@ -156,7 +156,7 @@
               span 07
         .titulo-sexto.color-acento-contenido
           h5 Figura 9.
-          I.text-dark Recomendaciones del lavado.
+          I(style="font-weight: normal;") Recomendaciones del lavado.
         img.mb-5(src="@/assets/curso/temas/tema4/figura9.png", alt="Recomendaciones del lavado." class="img-fluid")
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Prácticas higiénico-sanitarias

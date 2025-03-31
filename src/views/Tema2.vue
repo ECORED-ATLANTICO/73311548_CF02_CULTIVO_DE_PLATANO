@@ -76,11 +76,11 @@
         p.mb-4 A continuación, se presenta una guía para la selección del fruto en su momento óptimo. 
         .titulo-sexto.color-acento-contenido
           h5 Tabla 3.
-          I.text-dark Indicadores de recolección.
+          I(style="font-weight: normal;") Indicadores de recolección.
         .tabla-a.mb-3
           table
             caption.mb-4 
-              em Nota.  
+              I Nota.  
               | Este estudio, con base en Flores, (2013), Torres et al, (2013), Londoño, (2011), Martinez, (1998), Sena, (2004), NTC (1190).
             thead
               tr
@@ -117,11 +117,11 @@
                 td Refractómetro
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4.
-          I.text-dark Tabla de color según grado de madurez.
+          I(style="font-weight: normal;") Tabla de color según grado de madurez.
         .tabla-a.bg-thead 
           table
             caption 
-              em Nota.  
+              I Nota.  
               | Este estudio, con base en Mejía, (2013), Sena, (2004); NTC (1190). 
             thead
               tr
@@ -464,7 +464,7 @@
       .col-lg-10.mb-4
         .titulo-sexto.color-acento-contenido
           h5 Figura 5.
-          I.text-dark Procedimiento
+          I(style="font-weight: normal;") Procedimiento
         ImagenInfografica.time-line-info
           template(v-slot:imagen)
             figure
@@ -490,7 +490,7 @@
             .time-line-info__number
               span 05
         figcaption.mb-3 
-          em Nota.  
+          I Nota.  
           | SENA (2024).
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Presentación de los dedos
@@ -499,11 +499,11 @@
           span.label-title.label-title--1 Defectos del plátano más comunes
         .titulo-sexto.color-acento-contenido
           h5 Figura 6.
-          I.text-dark Defectos del plátano más comunes:
+          I(style="font-weight: normal;") Defectos del plátano más comunes:
         figure
           img.mb-4(src='@/assets/curso/temas/tema2/img_36.png', alt='Imagen de ayuda')
         figcaption 
-          em Nota.  
+          I Nota.  
           | SENA (2024).
     h3(data-aos='zoom-in-right').mb-3
       span.label-title.label-title--1 Empacado:

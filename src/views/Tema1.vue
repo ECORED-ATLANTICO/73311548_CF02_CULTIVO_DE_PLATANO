@@ -106,7 +106,7 @@
           figure
             img.img100(src="@/assets/curso/temas/tema1/img_13.png", alt="Control manual" class="img-fluid")
           figcaption 
-            em Nota.  
+            I Nota.  
             | SENA (2024).
       h3(data-aos='zoom-in-right').mb-4
         span.label-title.label-title--1 Desmanche o regulación de la población
@@ -306,11 +306,11 @@
         .col-10.col-sm-10.col-md-10.col-lg-10.col-xl-10.col-xxl-10.mb-4
           .titulo-sexto.color-acento-contenido
             h5 Tabla 1.
-            span Enfermedades del Plátano
+            I(style="font-weight: normal;") Enfermedades del Plátano
           .tabla-a.mb-5
             table
               caption 
-                em Nota.  
+                I Nota.  
                 | SENA (2024).
               thead
                 tr
@@ -321,31 +321,31 @@
               tbody
                 tr
                   td Moko o Madurebiche
-                  td <em>Ralstonia solanacearum</em>
+                  td <I>Ralstonia solanacearum</I>
                   td Marchitamiento, amarillamiento, necrosis vascular, pudrición interna en cormos y racimos.
                   td Erradicación de plantas enfermas, desinfección de herramientas, control biológico (hongos antagonistas), control químico (si es necesario).
                 tr
                   td Pudrición Acuosa del Pseudotallo
-                  td <em>Dickeya chrysanthemi</em>
+                  td <I>Dickeya chrysanthemi</I>
                   td Manchas acuosas y translúcidas en pseudotallo, olor fétido, debilitamiento de la planta, caída de hojas.
                   td Desinfección de herramientas, control de vectores (insectos), control químico (si es necesario), manejo de la humedad del suelo.
                 tr
                   td Mal de Panamá
-                  td <em>Fusarium oxysporum</em> f. sp. <em>cubense</em>
+                  td <I>Fusarium oxysporum</I> f. sp. <I>cubense</I>
                   td Amarillamiento y marchitamiento, necrosis vascular, pudrición de raíces y cormos.
                   td Resistencia varietal, manejo del suelo (drenaje, pH), rotación de cultivos, eliminación de plantas enfermas.
                 tr
                   td Sigatoka Negra
-                  td <em>Mycosphaerella fijiensis</em> var. <em>difformis</em>
+                  td <I>Mycosphaerella fijiensis</I> var. <I>difformis</I>
                   td Estrías y manchas necróticas en hojas, desde el envés hasta el haz, defoliación, reducción de rendimiento.
                   td Fungicidas, manejo de la humedad, deshoje de hojas afectadas, variedades resistentes.
           .titulo-sexto.color-acento-contenido
             h5 Tabla 2. 
-            span Principales plagas del plátano
+            I(style="font-weight: normal;") Principales plagas del plátano
           .tabla-a.mb-5 
             table
               caption 
-                em Nota.  
+                I Nota.  
                 | SENA (2024).
               thead
                 tr
@@ -356,12 +356,12 @@
               tbody
                 tr
                   td Picudo Negro
-                  td <em>Cosmopolites sordidus</em>
+                  td <I>Cosmopolites sordidus</I>
                   td Túneles en cormos y pseudotallos, debilitamiento de la planta
                   td Trampeo, control biológico (hongos entomopatógenos, depredadores naturales), control químico (si es necesario), selección de material sano.
                 tr
                   td Picudo Rayado y Picudo Amarillo
-                  td <em>Metamasius hemipterus</em>, <em>M. hebetatus</em>
+                  td <I>Metamasius hemipterus</I>, <I>M. hebetatus</I>
                   td Daños en pseudotallos y cormos, debilitamiento y caída de hojas, reducción de rendimiento.
                   td Trampeo, control químico (si es necesario), manejo de la nutrición (potasio, boro), eliminación de residuos de cosecha.
                 tr

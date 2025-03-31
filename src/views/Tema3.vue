@@ -95,7 +95,7 @@
           h6.mb-2 Para sacar la suciedad más difícil en equipos y herramientas tenga en cuenta lo siguiente:
       .titulo-sexto.color-acento-contenido
         h5 Tabla 7. 
-        I.text-dark Guía para limpieza y desinfección de herramientas
+        I(style="font-weight: normal;") Guía para limpieza y desinfección de herramientas
       .tabla-a.mb-5 
         table
           thead
@@ -221,10 +221,10 @@
               h6.mb-2 Los principales patógenos y enfermedades que pueden transmitir las plagas incluyen:
           .titulo-sexto.color-acento-contenido
             h5 Figura 7.
-            I.text-dark Plagas
+            I(style="font-weight: normal;") Plagas
           img(src="@/assets/curso/temas/tema3/img_18.png", alt="Control de plagas en las instalaciones" class="img-fluid")
           figcaption.mb-5 
-            em Nota.  
+            I Nota.  
             | SENA (2024).
           .tarjeta_bg-07.mb-5
             .row.justify-content-center.align-items-center.d-flex

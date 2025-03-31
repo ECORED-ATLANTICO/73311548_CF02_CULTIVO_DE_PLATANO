@@ -1,25 +1,30 @@
 const titulo = require('./src/config/titulo')
 
 module.exports = {
-  publicPath: '/73311548_CF02_CULTIVO_DE_PLATANO/', // Nombre exacto de tu repositorio
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/73311548_CF02_CULTIVO_DE_PLATANO/'
+    : '/',
+    
   css: {
     loaderOptions: {
       sass: {
-        additionalData: `@import "@/styles/_styles.sass";` // Asegúrate de importar tu archivo de fuentes
+        additionalData: `@import "@/styles/_styles.sass";`
       }
     }
   },
+  
   chainWebpack: config => {
     config.plugin('html').tap(args => {
       args[0].title = titulo
       return args
     })
   },
+  
   configureWebpack: {
     performance: {
       hints: false,
-      maxAssetSize: 1048576, // 1 MiB (ajusta según necesites)
-      maxEntrypointSize: 1048576
+      maxAssetSize: 1048576 * 5, // 5MB
+      maxEntrypointSize: 1048576 * 5
     }
   }
 }

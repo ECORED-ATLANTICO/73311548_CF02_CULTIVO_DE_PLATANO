@@ -321,22 +321,22 @@
               tbody
                 tr
                   td Moko o Madurebiche
-                  td <I class="font-weight: normal">Ralstonia solanacearum</I>
+                  td Ralstonia solanacearum
                   td Marchitamiento, amarillamiento, necrosis vascular, pudrición interna en cormos y racimos.
                   td Erradicación de plantas enfermas, desinfección de herramientas, control biológico (hongos antagonistas), control químico (si es necesario).
                 tr
                   td Pudrición Acuosa del Pseudotallo
-                  td <I class="font-weight: normal">Dickeya chrysanthemi</I>
+                  td Dickeya chrysanthemi
                   td Manchas acuosas y translúcidas en pseudotallo, olor fétido, debilitamiento de la planta, caída de hojas.
                   td Desinfección de herramientas, control de vectores (insectos), control químico (si es necesario), manejo de la humedad del suelo.
                 tr
                   td Mal de Panamá
-                  td <I class="font-weight: normal">Fusarium oxysporum</I> f. sp. <I class="font-weight: normal">cubense</I>
+                  td Fusarium oxysporum f. sp. cubense
                   td Amarillamiento y marchitamiento, necrosis vascular, pudrición de raíces y cormos.
                   td Resistencia varietal, manejo del suelo (drenaje, pH), rotación de cultivos, eliminación de plantas enfermas.
                 tr
                   td Sigatoka Negra
-                  td <I class="font-weight: normal">Mycosphaerella fijiensis</I> var. <I class="font-weight: normal">difformis</I>
+                  td Mycosphaerella fijiensis var. difformis
                   td Estrías y manchas necróticas en hojas, desde el envés hasta el haz, defoliación, reducción de rendimiento.
                   td Fungicidas, manejo de la humedad, deshoje de hojas afectadas, variedades resistentes.
           .titulo-sexto.color-acento-contenido
@@ -366,7 +366,7 @@
                   td Trampeo, control químico (si es necesario), manejo de la nutrición (potasio, boro), eliminación de residuos de cosecha.
                 tr
                   td Nematodos
-                  td Varios géneros<I class="font-weight: normal">Dickeya </I>
+                  td Varios géneros
                   td Daños en raíces, reducción del vigor, amarillamiento, reducción de rendimiento.
                   td Análisis de suelo, rotación de cultivos, uso de material vegetativo sano, control químico (nematicidas, si es necesario).
           .cajon.bg-1.g_18.color-acento-contenido.mb-3

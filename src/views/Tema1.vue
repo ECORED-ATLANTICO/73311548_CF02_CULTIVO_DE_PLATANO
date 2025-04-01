@@ -366,7 +366,7 @@
                   td Trampeo, control químico (si es necesario), manejo de la nutrición (potasio, boro), eliminación de residuos de cosecha.
                 tr
                   td Nematodos
-                  td Varios géneros
+                  td Varios géneros<I class="font-weight: normal">Dickeya </I>
                   td Daños en raíces, reducción del vigor, amarillamiento, reducción de rendimiento.
                   td Análisis de suelo, rotación de cultivos, uso de material vegetativo sano, control químico (nematicidas, si es necesario).
           .cajon.bg-1.g_18.color-acento-contenido.mb-3

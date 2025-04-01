@@ -356,12 +356,12 @@
               tbody
                 tr
                   td Picudo Negro
-                  td <I class="font-weight: normal">Cosmopolites sordidus</I>
+                  td Cosmopolites sordidus
                   td Túneles en cormos y pseudotallos, debilitamiento de la planta
                   td Trampeo, control biológico (hongos entomopatógenos, depredadores naturales), control químico (si es necesario), selección de material sano.
                 tr
                   td Picudo Rayado y Picudo Amarillo
-                  td <I class="font-weight: normal">Metamasius hemipterus</I>, <I class="font-weight: normal">M. hebetatus</I>
+                  td Metamasius hemipterus, M. hebetatus
                   td Daños en pseudotallos y cormos, debilitamiento y caída de hojas, reducción de rendimiento.
                   td Trampeo, control químico (si es necesario), manejo de la nutrición (potasio, boro), eliminación de residuos de cosecha.
                 tr

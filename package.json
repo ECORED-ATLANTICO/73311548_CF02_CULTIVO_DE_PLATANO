@@ -13,7 +13,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.3.2",
     "bootstrap-vue": "^2.23.1",
-    "ecored-pkg-fliz": "0.0.4",
+    "ecored-pkg-fliz": "0.0.5",
     "font-awesome": "^4.7.0",
     "vue": "^2.7.14",
     "vue-router": "^3.6.5",

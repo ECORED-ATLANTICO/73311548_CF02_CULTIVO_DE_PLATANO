@@ -76,7 +76,7 @@
         p.mb-4 A continuación, se presenta una guía para la selección del fruto en su momento óptimo. 
         .titulo-sexto.color-acento-contenido
           h5 Tabla 3.
-          I(style="font-weight: normal;") Indicadores de recolección.
+          I(style="font-weight: normal;") Indicadores de recolección
         .tabla-a.mb-3
           table
             caption.mb-4 
@@ -117,7 +117,7 @@
                 td Refractómetro
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4.
-          I(style="font-weight: normal;") Tabla de color según grado de madurez.
+          I(style="font-weight: normal;") Tabla de color según grado de madurez
         .tabla-a.bg-thead 
           table
             caption 
@@ -393,6 +393,9 @@
               |   Alumbre.
             li
               i.fa-solid.fa-circle-check(style="color: #7D9FFB; font-size: 15px").mb-3
+              |   Gurbia.
+            li
+              i.fa-solid.fa-circle-check(style="color: #7D9FFB; font-size: 15px").mb-3
               |   Estibas.
             li
               i.fa-solid.fa-circle-check(style="color: #7D9FFB; font-size: 15px").mb-3
@@ -417,6 +420,7 @@
           .row.justify-content-center.align-items-center
             .col-12.col-sm-12.col-md-12.col-lg-11.col-xl-11.col-xxl-11.mb-3.mb-lg-0
               h6 Recomendaciones
+              p Así mismo, se sugieren las siguientes recomendaciones, que aportan a los requerimientos de manejo del plátano para asegurar un producto de calidad:
               ul.p-0 
                 li.mb-1 
                   b 1. 
@@ -445,22 +449,23 @@
                 .col-4.col-sm-4.col-md-4.col-lg-3.col-xl-2.col-xxl-2.mb-3.mb-lg-0
                   img(src="@/assets/curso/temas/tema2/img_34.svg", alt="Imagen de unos platanos" class="img-fluid")
                 .col-13.col-sm-13.col-md-13.col-lg-9.col-xl-10.col-xxl-10
+                  h6 Recomendaciones
                   ol.p-0
                     li.mb-0 
                       strong 1. 
-                      | Las gurbias deben estar bien afiliadas para que haya un buen corte y así evitar el rasgado en el cuello de la fruta.
+                      | Asegurar que las gurbias estén bien afiladas para lograr un corte preciso y evitar el rasgado en el cuello de la fruta.
                     li.mb-0 
                       strong 2. 
-                      | Hacer el desleche utilizando los tanques.
+                      | Utilizar los tanques adecuados para llevar a cabo el desleche.
                     li.mb-0 
                       strong 3. 
-                      | Realizar el desleche por 10 minutos para no tener problemas posteriores como el manchado de la fruta.
+                      | Mantener los dedos en la solución de desleche durante 10 minutos para prevenir manchas en la fruta
                     li.mb-0 
                       strong 4. 
-                      |  Corregir cortes defectuosos de dedos y coronas.
+                      | Corregir cualquier corte defectuoso en los dedos y coronas.
                     li.mb-0 
                       strong 5. 
-                      | El personal debe estar capacitado en el manejo de la gurbia.
+                      | Capacitar al personal en el uso correcto de la gurbia para minimizar daños en el producto.
       .col-lg-10.mb-4
         .titulo-sexto.color-acento-contenido
           h5 Figura 5.

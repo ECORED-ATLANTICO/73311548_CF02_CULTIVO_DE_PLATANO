@@ -21,7 +21,7 @@ export default {
       introduccion:
         'Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda.',
       barajarPreguntas: true,
-      titulo_aprobado: '',
+      titulo_aprobado: 'Buen trabajo',
       titulo_reprobado: 'Vuelva a intentarlo',
       preguntas: [
         {

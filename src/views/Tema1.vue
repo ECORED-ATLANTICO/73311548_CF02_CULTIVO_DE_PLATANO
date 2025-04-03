@@ -91,10 +91,10 @@
             .row.align-items-center
               .col-auto.position-relative
                 figure
-                  img.img100(src="@/assets/curso/temas/tema1/img_12.svg", alt="Control manual" class="img-fluid")
+                  img.img100(src="@/assets/curso/temas/tema1/img_12.svg", alt="Control biocultural" class="img-fluid")
               .col
-                h5 Control manual	
-                p.p-2 Se realiza mediante el plateo con machete o manualmente. Este último es el método más recomendado para evitar daños a la planta.
+                h5 Control biocultural	
+                p.p-2 Consiste en asociar cultivos de pancoger, como el fríjol, con el plátano, evitando que las malezas ocupen el espacio disponible y favoreciendo un equilibrio natural en la plantación.
       h3(data-aos='zoom-in-right').mb-4
         span.label-title.label-title--1 Plateo
       p.mb-5 El plateo es una técnica esencial en el cultivo de plátano que consiste en mantener libre de malezas la base de la planta. Su correcta aplicación facilita la fertilización y el manejo de plagas y enfermedades, favoreciendo así un desarrollo óptimo del cultivo y aumentando su productividad. Se recomienda realizar esta labor de forma manual para evitar daños a la planta y mejorar la eficacia del control de arvenses.
@@ -106,7 +106,7 @@
           figure
             img.img100(src="@/assets/curso/temas/tema1/img_13.png", alt="Control manual" class="img-fluid")
           figcaption 
-            I(style="font-weight: normal;") Nota.  
+            I(style="font-weight: normal;") Fuente.  
             | SENA (2024).
       h3(data-aos='zoom-in-right').mb-4
         span.label-title.label-title--1 Desmanche o regulación de la población
@@ -239,28 +239,28 @@
                     p Las bolsas utilizadas deben estar impregnadas con agroquímicos permitidos para garantizar su efectividad.
                   .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                     figure
-                      img(src='@/assets/curso/temas/tema1/img_28.png', alt='Procedimiento de embolse')(data-aos="fade-up")
-              .tarjeta.bg-terciario-claro.p-4.h-100.banana-tabs-a__tarjeta(titulo="Tanques de lavado")
+                      img(src='@/assets/curso/temas/tema1/img_28.png', alt='Tratamiento de bolsas')(data-aos="fade-up")
+              .tarjeta.bg-terciario-claro.p-4.h-100.banana-tabs-a__tarjeta(titulo="Procedimiento de embolse")
                 .row.justify-content-center.align-items-center.mb-0
                   .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                     p Se debe realizar con la indumentaria y vestuario de trabajo adecuado, y la protección necesaria.
                   .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                     figure
-                      img(src='@/assets/curso/temas/tema1/img_29.png', alt='Tanques de lavado')
-              .tarjeta.bg-terciario-claro.p-4.h-100.banana-tabs-a__tarjeta(titulo="Zona de secado")
-                .row.justify-content-center.align-items-center.mb-0
-                  .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
-                    p Se recomienda el uso de bolsas lechosas tratadas con clorpirifós al 1%. En condiciones de alta radiación solar, este tipo de bolsa ofrece protección adicional contra plagas.
-                  .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
-                    figure
-                      img(src='@/assets/curso/temas/tema1/img_30.png', alt='Manejo de residuos')
-              .tarjeta.bg-terciario-claro.p-4.h-100.banana-tabs-a__tarjeta(titulo="Almacenamiento")
+                      img(src='@/assets/curso/temas/tema1/img_29.png', alt='rocedimiento de embolse')
+              .tarjeta.bg-terciario-claro.p-4.h-100.banana-tabs-a__tarjeta(titulo="Manejo de residuos")
                 .row.justify-content-center.align-items-center.mb-0
                   .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                     p Es fundamental recoger y gestionar correctamente las bolsas utilizadas para evitar impactos ambientales negativos.
                   .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                     figure
-                      img(src='@/assets/curso/temas/tema1/img_31.png', alt='Almacenamiento')
+                      img(src='@/assets/curso/temas/tema1/img_30.png', alt='Manejo de residuos')
+              .tarjeta.bg-terciario-claro.p-4.h-100.banana-tabs-a__tarjeta(titulo="Selección de bolsa")
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
+                    p Se recomienda el uso de bolsas lechosas tratadas con clorpirifós al 1%. En condiciones de alta radiación solar, este tipo de bolsa ofrece protección adicional contra plagas.
+                  .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
+                    figure
+                      img(src='@/assets/curso/temas/tema1/img_31.png', alt='Selección de bolsa')
         h3(data-aos='zoom-in-right').mb-3
           span.label-title.label-title--1 Desflore, desdede y desbacote
         p.mb-5 Estas prácticas agrícolas en el cultivo de plátano, contribuyen a optimizar el desarrollo del racimo, favoreciendo su crecimiento y calidad. Su aplicación adecuada permite una mejor distribución de nutrientes y reduce la incidencia de plagas y enfermedades.
@@ -310,7 +310,7 @@
           .tabla-a.mb-5
             table
               caption 
-                I(style="font-weight: normal;") Nota.  
+                I(style="font-weight: normal;") Fuente.  
                 | SENA (2024).
               thead
                 tr
@@ -345,7 +345,7 @@
           .tabla-a.mb-5 
             table
               caption 
-                I(style="font-weight: normal;") Nota.  
+                I(style="font-weight: normal;") Fuente.  
                 | SENA (2024).
               thead
                 tr

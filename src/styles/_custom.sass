@@ -974,7 +974,7 @@ figcaption
 
 .crd--avatarHorizontal
   position: relative
-  padding-right: clamp(2rem, 9vw, 10rem)
+  padding-right: 10rem
   min-width: 260px
   & > *
     position: relative
@@ -986,13 +986,13 @@ figcaption
     position: absolute
     content: ''
     top: 0
-    right: 5vw
+    right: 3vw
     width: calc(100% - 4rem)
     height: 100%
     background-color: $color-sistema-h
   .col-auto
     position: relative
-    width: clamp(60px, 8vw, 90px)
+    width: clamp(30px, 8vw, 90px)
     height: auto
   .col-auto figure img
     position: absolute
@@ -1001,21 +1001,33 @@ figcaption
     max-width: 90px
     transform: translateY(-50%)
   @media (max-width: 2560px)
+    &::before
+      right: 2vw
     .col-auto figure img
-      left: -6rem
+      left: -2rem
   @media (max-width: 1440px)
     .col-auto figure img
-      left: -2.5rem
+      left: -0.3rem
   @media (max-width: 1024px)
     padding-right: 3rem
+    &::before
+      right: 3vw
     .col-auto
       width: 70px
     .col-auto figure img
-      left: -0.5rem
+      left: 0.2rem
   @media (max-width: 768px)
     padding-right: 3rem
+    &::before
+      right: 5vw
     .col-auto figure img
       left: 0.2rem
+  @media (max-width: 425px)
+    padding-right: 3rem
+    &::before
+      right: 7vw
+    .col-auto figure img
+      left: 0.3rem
 
 .crd--first,.crd--middle, .crd--last
   &::before
@@ -1031,10 +1043,10 @@ figcaption
 .avatar
   position: absolute
   bottom: 0
-  right: -4rem
+  right: -8rem
   z-index: 1
   img
-    width: clamp(150px, 20vw, 275px)
+    width: clamp(150px, 22.3vw, 303px)
     height: auto
   @media (max-width: 1024px)
     display: none
@@ -1336,6 +1348,3 @@ ul
 
 .img-center
   margin: 0px auto !important
-
-body
-  font-family: 'Roboto', sans-serif

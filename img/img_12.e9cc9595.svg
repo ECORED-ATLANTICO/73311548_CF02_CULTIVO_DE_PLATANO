@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="38.362" viewBox="0 0 100 38.362">
+  <g id="agua-fria" transform="translate(-38.449 -345.086)">
+    <rect id="Rectángulo_405629" data-name="Rectángulo 405629" width="89.655" height="6.464" transform="translate(43.622 346.379)" fill="#fff"/>
+    <path id="Trazado_909503" data-name="Trazado 909503" d="M154.663,377.4l-3.448,28.879H71.9l-3.448-29.31" transform="translate(-23.11 -24.555)" fill="#ff5e1f"/>
+    <g id="Grupo_1112694" data-name="Grupo 1112694" transform="translate(44.484 352.414)">
+      <path id="Trazado_909504" data-name="Trazado 909504" d="M396.892,376.969l-3.448,29.31H383.53l3.442-29.26Z" transform="translate(-310.254 -376.969)" fill="#ff7e4c"/>
+      <path id="Trazado_909505" data-name="Trazado 909505" d="M351.924,376.969l-3.448,29.31h-4.3l3.442-29.26Z" transform="translate(-279.942 -376.969)" fill="#ff7e4c"/>
+      <path id="Trazado_909506" data-name="Trazado 909506" d="M323.492,376.969l-3.448,29.31h-2.155l3.443-29.26Z" transform="translate(-259.7 -376.969)" fill="#ff7e4c"/>
+      <path id="Trazado_909507" data-name="Trazado 909507" d="M64.706,376.969l3.448,29.31h9.914l-3.442-29.26Z" transform="translate(-64.706 -376.969)" fill="#ff7e4c"/>
+      <path id="Trazado_909508" data-name="Trazado 909508" d="M128.47,376.969l3.448,29.31h4.3l-3.442-29.26Z" transform="translate(-113.815 -376.969)" fill="#ff7e4c"/>
+      <path id="Trazado_909509" data-name="Trazado 909509" d="M164.1,376.969l3.448,29.31h2.155l-3.442-29.26Z" transform="translate(-141.259 -376.969)" fill="#ff7e4c"/>
+    </g>
+    <rect id="Rectángulo_405630" data-name="Rectángulo 405630" width="81.034" height="5.085" transform="translate(47.932 377.069)" fill="#fff"/>
+    <rect id="Rectángulo_405631" data-name="Rectángulo 405631" width="6.897" height="3.448" transform="translate(91.897 350.259)"/>
+    <path id="Trazado_909510" data-name="Trazado 909510" d="M138.449,345.086h-100v3.448H41.9v5.172h1.864l3.5,29.742h82.374l3.551-29.741H135v-5.172h3.448Zm-6.9,5.172h-29.31v3.448h27.471L126.574,380H50.327l-3.093-26.293H88.449v-3.448h-43.1v-1.724h86.207v1.724Z"/>
+    <rect id="Rectángulo_405632" data-name="Rectángulo 405632" width="72.414" height="3.448" transform="translate(52.242 375.259)"/>
+  </g>
+</svg>
